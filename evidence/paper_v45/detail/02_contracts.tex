@@ -1,0 +1,93 @@
+\section{Evaluation Targets and Instrument}
+\label{sec:contracts}
+\paragraph{Common task conditions.}
+For physical-step index $t$, let $Q_t$ denote the source-specific task
+conditions, and let $G$ contain unchanged episode-level eligibility conditions.
+Allegro retains its existing native outcome, settling boundary, lift threshold,
+thumb and opposing-region contact requirements, and prohibition on assistance
+or post-reset target-state edits. Its $10^{-4}$\,N threshold means a specified
+region has a nonzero normal contact above a numerical floor; it does \emph{not}
+prove that this contact carries the object's weight. Other sources have
+different, explicitly declared $Q$ (Table~\ref{tab:design}). We do not pool these
+tasks into a robot capability ranking.
+
+\paragraph{Literal no-contact.}
+Let $n_t^E$ count target--environment contact records, including inactive
+records created by contact margins. With $T=15$\,s and a continuous interval
+$I$, the recorded contract is
+\begin{equation}
+ \NC = G\ \wedge\ \exists I:\ |I|\ge T,\quad
+ \forall t\in I,\ Q_t\wedge(n_t^E=0).
+\end{equation}
+This is a legitimate representation-level requirement. Calling a rejection a
+false negative is meaningful only relative to a \emph{different declared target}.
+
+\paragraph{Realized no-external-load.}
+Each contact supplies a local force $f_i$, torque $\tau_i$, frame $R_i$, point
+$p_i$, and direction sign $s_i$ chosen so the world wrench acts on the target.
+For target center of mass $c$, we compute
+\begin{equation}
+ F_i=s_iR_i^\top f_i,\qquad
+ M_i=s_iR_i^\top\tau_i+(p_i-c)\times F_i,
+\end{equation}
+and normalize the sum of individual magnitudes:
+\begin{equation}
+ r_F(t)=\frac{\sum_{i\in E_t}\|F_i\|+d_F(t)}{mg},\qquad
+ r_M(t)=\frac{\sum_{i\in E_t}\|M_i\|+d_M(t)}{mgL}.
+\label{eq:load}
+\end{equation}
+Here $L$ is the target half-diagonal, using a declared enclosing compound box
+for the mesh source. The damping terms $d_F,d_M$ meter known target free-joint
+damping; they are not assumed zero. The model's gravity is retained but is not
+itself classified as external support. Net-wrench cancellation is deliberately
+not used to establish absence of individual loads.
+
+The frozen lower/upper bounds are $10^{-4}$ and $10^{-2}$ for both ratios.
+Below the lower bounds, a step is definitely unloaded only when relevant paths
+are accounted for and contact/geometry ambiguity is resolved. At or above
+either upper bound, it is definitely loaded. Intermediate loads, unexplained
+passive forces, and unresolved active-zero-load constraints remain unknown.
+Geometry uses a $10^{-5}$\,m penetration tolerance; the Fetch adapter uses
+conservative enclosing geometry rather than claiming exact mesh distance.
+Known free-joint damping is evaluated at both the solve state and implicit
+endpoint, taking the larger magnitude. Equality, spring, fluid, friction-loss,
+or other unsupported paths do not silently pass.
+
+Let $I^-$ be the longest continuous definitely-unloaded $Q$ interval and $I^+$
+the longest possibly-unloaded $Q$ interval. The no-load contract returns
+\begin{equation}
+ \NL=\begin{cases}
+ \Pass,&G\text{ holds and }|I^-|\ge T,\\
+ \Fail,&G\text{ fails or }|I^+|<T,\\
+ \Unk,&\text{otherwise.}
+ \end{cases}
+\end{equation}
+Telemetry validity is a separate field. Missing steps or inconsistent clocks
+are invalid data, not a physical failure. Returned intervals and reasons allow
+the decision to be inspected without relying on a selected frame.
+
+\paragraph{Intervention-conditioned dependence.}
+At a predeclared time $t_0$, a full integration-state snapshot initializes two
+branches. The sham $B_s$ preserves the model; $B_e$ removes only permitted
+target--environment contact pairs. Both replay the same controls and mocap tape
+for $H=3$\,s. The endpoint $Y$ requires all-sample displacement $\le0.03$\,m,
+rotation $\le0.35$\,rad, and speed $\le0.2$\,m/s relative to the initial
+palm-relative pose (world frame for the pad apparatus). We retain all four
+$(Y_s,Y_e)$ cells: both retain, dependent $(1,0)$, removal rescue $(0,1)$, and
+both fail. In particular,
+\begin{equation}
+ \CF=1\quad\Longleftrightarrow\quad Y_s=1\ \wedge\ Y_e=0
+\end{equation}
+is conditional on that state, horizon, removal, and open-loop continuation.
+It is neither the historical no-load label nor proof of 15-second autonomous
+capability. The sham must match the original target position and velocity
+trace bit-for-bit. Unreachable or invalid branches remain in the registry.
+
+\paragraph{Nonintrusive observation and reference.}
+The observer reads each physical contact solve without adding a forward solve
+to the live trajectory. State restoration includes the complete
+\texttt{mjSTATE\_INTEGRATION} state, not only position and velocity. Independent
+code reconstructs world wrenches from raw local records, geometry from saved
+transforms or primitive vertices, and continuous intervals with a separate
+loop. This detects implementation inconsistency, but shares MuJoCo and the
+task specification: it is not independent physical truth or human annotation.

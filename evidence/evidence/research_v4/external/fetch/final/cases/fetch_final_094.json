@@ -1,0 +1,715 @@
+{
+  "case": {
+    "case_id": "fetch_final_094",
+    "seed": 1990528,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  "metadata": {
+    "observer_version": "merged-v4-contact-solve-3",
+    "mujoco_version": "3.8.0",
+    "target_body": 32,
+    "target_qadr": 15,
+    "target_vadr": 15,
+    "step_columns": [
+      "step",
+      "solve_time",
+      "dt",
+      "com_x",
+      "com_y",
+      "com_z",
+      "quat_w",
+      "quat_x",
+      "quat_y",
+      "quat_z",
+      "free_qvel_0",
+      "free_qvel_1",
+      "free_qvel_2",
+      "free_qvel_3",
+      "free_qvel_4",
+      "free_qvel_5",
+      "env_count",
+      "env_constraint_count",
+      "env_force_threshold_count",
+      "env_normal_n",
+      "env_abs_force_n",
+      "env_abs_torque_nm",
+      "env_net_force_x",
+      "env_net_force_y",
+      "env_net_force_z",
+      "env_net_torque_x",
+      "env_net_torque_y",
+      "env_net_torque_z",
+      "env_min_dist",
+      "env_dist_present",
+      "env_active_min_dist",
+      "env_active_dist_present",
+      "applied_any",
+      "target_applied_norm",
+      "target_qpos_write",
+      "target_qvel_write",
+      "geometry_clock_error",
+      "contact_start",
+      "contact_end",
+      "target_damping_force_n",
+      "target_damping_torque_nm",
+      "target_damping_post_force_n",
+      "target_damping_post_torque_nm",
+      "passive_meter_residual"
+    ],
+    "contact_columns": [
+      "step",
+      "geom1",
+      "geom2",
+      "body1",
+      "body2",
+      "role",
+      "efc_address",
+      "dim",
+      "dist",
+      "point_x",
+      "point_y",
+      "point_z",
+      "frame_0",
+      "frame_1",
+      "frame_2",
+      "frame_3",
+      "frame_4",
+      "frame_5",
+      "frame_6",
+      "frame_7",
+      "frame_8",
+      "local_fn",
+      "local_ft1",
+      "local_ft2",
+      "local_tn",
+      "local_tt1",
+      "local_tt2",
+      "target_force_x",
+      "target_force_y",
+      "target_force_z",
+      "target_com_torque_x",
+      "target_com_torque_y",
+      "target_com_torque_z"
+    ],
+    "body_roles": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "mass_kg": 2.0,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "support_paths": {
+      "complete_for_declared_model": true,
+      "reason_codes": [],
+      "metered_paths": [
+        "TARGET_FREE_JOINT_DAMPING"
+      ],
+      "requires_passive_meter": true,
+      "scope": "Single free world-child target; direct equality/tendon/actuator/passive paths and applied arrays. Free-joint damping is measured at the solve state and implicit velocity endpoint. No claim to detect malicious plugins or opaque external callbacks."
+    },
+    "applicable": true,
+    "target_damping_coefficients": [
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "target_body_ipos": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "model_disableflags": 0,
+    "integrator": 0,
+    "damping_enabled": true,
+    "implicit_joint_damping": true,
+    "passive_meter": "Maximum solve-state and implicit-endpoint free-joint damping wrench magnitude; rotational generalized force transformed to world COM. Other passive paths stay unknown.",
+    "snapshot": {
+      "step": 8000,
+      "flag": 16383,
+      "time": 16.40000000000179
+    },
+    "sample_convention": "pre-integration solve state with separately named post states",
+    "force_convention": "contact-frame force/torque acts on geom2; world wrench about target COM",
+    "geometry_clock_max_error": 0.0,
+    "source": "Pinned public Fetch privileged-state expert; unchanged weights and state machine",
+    "seed": 1990528,
+    "start_time_s": 0.4000000000000003,
+    "planned_steps": 10000,
+    "terminal_reason": "controller_schedule_completed",
+    "global_common": true,
+    "reference_body_id": 19,
+    "branch_prefix_ok": true,
+    "length_scale_m": 0.04330127018922194,
+    "geometry": {
+      "target_half_size": [
+        0.025,
+        0.025,
+        0.025
+      ],
+      "environment_box_geoms": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        19,
+        20,
+        21,
+        22
+      ],
+      "environment_box_halves": [
+        [
+          0.18955069780349731,
+          0.2641602158546448,
+          0.2915959358215332
+        ],
+        [
+          0.18447814136743546,
+          0.1711108684539795,
+          0.2941064387559891
+        ],
+        [
+          0.05898592807352543,
+          0.14301563799381256,
+          0.16207411885261536
+        ],
+        [
+          0.05499454587697983,
+          0.06460143439471722,
+          0.10500029474496841
+        ],
+        [
+          0.057162582874298096,
+          0.07654247805476189,
+          0.13404350727796555
+        ],
+        [
+          0.056210074573755264,
+          0.0596713125705719,
+          0.1241963729262352
+        ],
+        [
+          0.05592924356460571,
+          0.052000001072883606,
+          0.12498457357287407
+        ],
+        [
+          0.05683657340705395,
+          0.052000001072883606,
+          0.11823711544275284
+        ],
+        [
+          0.05495818145573139,
+          0.05200016498565674,
+          0.12140731140971184
+        ],
+        [
+          0.052004581317305565,
+          0.06415301561355591,
+          0.08803602680563927
+        ],
+        [
+          0.021250000223517418,
+          0.05194687098264694,
+          0.05196351185441017
+        ],
+        [
+          0.01598663255572319,
+          0.0159918749704957,
+          0.021796472370624542
+        ],
+        [
+          0.018812777940183878,
+          0.03694294346496463,
+          0.019558330066502094
+        ],
+        [
+          0.06811129674315453,
+          0.155349999666214,
+          0.23093754798173904
+        ],
+        [
+          0.25,
+          0.35,
+          0.2
+        ]
+      ],
+      "environment_plane_geoms": [
+        0
+      ],
+      "raw_layout": "target_center(3), target_rotation(9), box_centers(3N), box_rotations(9N), plane_origins(3P), plane_normals(3P)",
+      "semantics": "Positive SAT gap certifies separation of enclosing boxes; overlap can be conservative for non-box shapes and yields uncertainty rather than asserted mesh penetration."
+    },
+    "initial_object_height_m": 0.42489222470145815,
+    "initial_hand_contact": false,
+    "native_horizon_actions": 50,
+    "native_success_at_50": true,
+    "native_terminal_actions": 50,
+    "native_success": true,
+    "native_terminal_rule": "First expert DONE, else the standard 50-action TimeLimit; extended continuation is separate",
+    "native_success_ever_first50": true,
+    "extended_final_goal_success": true,
+    "native_goal_unchanged": true,
+    "raised_goal_m": null,
+    "native_goal": [
+      1.3419892813410295,
+      0.6985320830140533,
+      0.47803105169729787
+    ],
+    "controller_final_state": {
+      "phase": "LIFT",
+      "step_count": 474
+    },
+    "task_contract": "Extended 500-action public controller on natural native reset/goal; 15s continuous lift >=4mm, both opposing finger records and each normal force >1e-4N; final extended goal success and no initial hand contact. Not an anatomical Allegro contract.",
+    "endpoint_scope": "Native 50-action completion reported separately from the added 500-action retention task",
+    "elapsed_s": 8.521063200023491
+  },
+  "methods": {
+    "B5": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "INDETERMINATE",
+      "no_contact_result": "PASS",
+      "definite_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "possible_interval": {
+        "start_step": 552,
+        "end_step_exclusive": 10000,
+        "duration_s": 18.896
+      },
+      "reason_codes": [
+        "NUMERICAL_OR_EVIDENCE_UNCERTAINTY"
+      ],
+      "no_contact_interval": {
+        "start_step": 552,
+        "end_step_exclusive": 10000,
+        "duration_s": 18.896
+      },
+      "unknown_sample_count": 9448,
+      "max_environment_force_ratio": 57.85423769102265,
+      "max_environment_torque_ratio": 44.292834810859844,
+      "max_external_force_ratio": 57.85431202225099,
+      "max_external_torque_ratio": 44.297205123350935,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "merged-v4-frozen-nominal-20261001"
+      }
+    },
+    "B4": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "INDETERMINATE",
+      "no_contact_result": "PASS",
+      "definite_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "possible_interval": {
+        "start_step": 552,
+        "end_step_exclusive": 10000,
+        "duration_s": 18.896
+      },
+      "reason_codes": [
+        "NUMERICAL_OR_EVIDENCE_UNCERTAINTY"
+      ],
+      "no_contact_interval": {
+        "start_step": 552,
+        "end_step_exclusive": 10000,
+        "duration_s": 18.896
+      },
+      "unknown_sample_count": 9448,
+      "max_environment_force_ratio": 57.85423769102265,
+      "max_environment_torque_ratio": 44.292834810859844,
+      "max_external_force_ratio": 57.85431202225099,
+      "max_external_torque_ratio": 44.297205123350935,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "merged-v4-frozen-nominal-20261001"
+      }
+    },
+    "A_no_geometry": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "INDETERMINATE",
+      "no_contact_result": "PASS",
+      "definite_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "possible_interval": {
+        "start_step": 552,
+        "end_step_exclusive": 10000,
+        "duration_s": 18.896
+      },
+      "reason_codes": [
+        "NUMERICAL_OR_EVIDENCE_UNCERTAINTY"
+      ],
+      "no_contact_interval": {
+        "start_step": 552,
+        "end_step_exclusive": 10000,
+        "duration_s": 18.896
+      },
+      "unknown_sample_count": 9448,
+      "max_environment_force_ratio": 57.85423769102265,
+      "max_environment_torque_ratio": 44.292834810859844,
+      "max_external_force_ratio": 57.85431202225099,
+      "max_external_torque_ratio": 44.297205123350935,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "merged-v4-frozen-nominal-20261001"
+      }
+    },
+    "A_no_torque": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "PASS",
+      "no_contact_result": "PASS",
+      "definite_interval": {
+        "start_step": 633,
+        "end_step_exclusive": 10000,
+        "duration_s": 18.734
+      },
+      "possible_interval": {
+        "start_step": 552,
+        "end_step_exclusive": 10000,
+        "duration_s": 18.896
+      },
+      "reason_codes": [],
+      "no_contact_interval": {
+        "start_step": 552,
+        "end_step_exclusive": 10000,
+        "duration_s": 18.896
+      },
+      "unknown_sample_count": 78,
+      "max_environment_force_ratio": 57.85423769102265,
+      "max_environment_torque_ratio": 44.292834810859844,
+      "max_external_force_ratio": 57.85431202225099,
+      "max_external_torque_ratio": 44.297205123350935,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "merged-v4-frozen-nominal-20261001"
+      }
+    },
+    "A_binary_unknown_fail": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "FAIL",
+      "no_contact_result": "PASS",
+      "definite_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "possible_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "reason_codes": [
+        "NO_QUALIFYING_CONTINUOUS_INTERVAL"
+      ],
+      "no_contact_interval": {
+        "start_step": 552,
+        "end_step_exclusive": 10000,
+        "duration_s": 18.896
+      },
+      "unknown_sample_count": 0,
+      "max_environment_force_ratio": 57.85423769102265,
+      "max_environment_torque_ratio": 44.292834810859844,
+      "max_external_force_ratio": 57.85431202225099,
+      "max_external_torque_ratio": 44.297205123350935,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "merged-v4-frozen-nominal-20261001"
+      }
+    },
+    "A_accumulated": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "INDETERMINATE",
+      "no_contact_result": "PASS",
+      "definite_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "possible_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 18.896
+      },
+      "reason_codes": [
+        "NUMERICAL_OR_EVIDENCE_UNCERTAINTY"
+      ],
+      "no_contact_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 18.896
+      },
+      "unknown_sample_count": 9448,
+      "max_environment_force_ratio": 57.85423769102265,
+      "max_environment_torque_ratio": 44.292834810859844,
+      "max_external_force_ratio": 57.85431202225099,
+      "max_external_torque_ratio": 44.297205123350935,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "merged-v4-frozen-nominal-20261001"
+      }
+    },
+    "A_net_aggregation": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "INDETERMINATE",
+      "no_contact_result": "PASS",
+      "definite_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "possible_interval": {
+        "start_step": 552,
+        "end_step_exclusive": 10000,
+        "duration_s": 18.896
+      },
+      "reason_codes": [
+        "NUMERICAL_OR_EVIDENCE_UNCERTAINTY"
+      ],
+      "no_contact_interval": {
+        "start_step": 552,
+        "end_step_exclusive": 10000,
+        "duration_s": 18.896
+      },
+      "unknown_sample_count": 9448,
+      "max_environment_force_ratio": 57.85423769102263,
+      "max_environment_torque_ratio": 21.025839877943643,
+      "max_external_force_ratio": 57.85431202225098,
+      "max_external_torque_ratio": 21.030210190434737,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "merged-v4-frozen-nominal-20261001"
+      }
+    },
+    "B0": {
+      "verdict": "PASS",
+      "duration_s": 18.896,
+      "trace_validity": "VALID",
+      "scope": "Added-task accumulated-Q proxy; native task outcome is stored separately"
+    },
+    "B1": {
+      "verdict": "PASS",
+      "duration_s": 18.896,
+      "trace_validity": "VALID",
+      "scope": "Continuous common-Q; environmental load is intentionally not part of this contract"
+    },
+    "B2": {
+      "verdict": "PASS",
+      "duration_s": 18.896,
+      "trace_validity": "VALID"
+    },
+    "B3": {
+      "verdict": "PASS",
+      "duration_s": 18.896,
+      "trace_validity": "VALID"
+    },
+    "B4_normal": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "PASS",
+      "no_contact_result": "PASS",
+      "definite_interval": {
+        "start_step": 633,
+        "end_step_exclusive": 10000,
+        "duration_s": 18.734
+      },
+      "possible_interval": {
+        "start_step": 552,
+        "end_step_exclusive": 10000,
+        "duration_s": 18.896
+      },
+      "reason_codes": [],
+      "no_contact_interval": {
+        "start_step": 552,
+        "end_step_exclusive": 10000,
+        "duration_s": 18.896
+      },
+      "unknown_sample_count": 78,
+      "max_environment_force_ratio": 40.90912379170045,
+      "max_environment_torque_ratio": 44.292834810859844,
+      "max_external_force_ratio": 40.9091981229288,
+      "max_external_torque_ratio": 44.297205123350935,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "merged-v4-frozen-nominal-20261001"
+      }
+    }
+  },
+  "native": {
+    "success": true,
+    "success_at_50": true,
+    "first_terminal_actions": 50,
+    "goal_unchanged": true
+  },
+  "reference": {
+    "reference_version": "external-raw-vertex-passive-reference-1",
+    "verdict": "INDETERMINATE",
+    "definite_seconds": 0.0,
+    "possible_seconds": 18.896,
+    "common_conditions_agree": true,
+    "geometry_reconstruction_error_m": 2.7755575615628914e-17,
+    "wrench_reconstruction_error": 0.0,
+    "passive_reconstruction_error": 3.903127820947816e-18,
+    "human_annotation": false,
+    "independence": "Separate vertex/force/interval implementations, shared simulator, saved FK and task specification; not real-world truth or blinded human annotation"
+  },
+  "counterfactual": {
+    "status": "NOT_SELECTED"
+  },
+  "B6": {
+    "status": "NOT_SELECTED"
+  },
+  "B7": {
+    "status": "NOT_SELECTED"
+  },
+  "observer_bit_equal": true,
+  "trace_sha256": "6ed9fc601fc4b95036c8ad8799c2e5b5b0a9beefdf118646f692b5e3f854dfc5",
+  "nominal_physics_steps": 20000,
+  "branch_cost_steps": 0
+}

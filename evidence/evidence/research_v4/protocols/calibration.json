@@ -1,0 +1,13 @@
+{
+  "hold_s": 15.0,
+  "force_pass_ratio": 0.0001,
+  "force_fail_ratio": 0.01,
+  "torque_pass_ratio": 0.0001,
+  "torque_fail_ratio": 0.01,
+  "penetration_tolerance_m": 1e-05,
+  "positive_gap_m": 1e-06,
+  "clock_tolerance_s": 1e-08,
+  "duration_tolerance_s": 1e-09,
+  "passive_residual_tolerance": 1e-10,
+  "version": "merged-v4-frozen-nominal-20261001"
+}

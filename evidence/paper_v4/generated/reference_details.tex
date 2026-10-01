@@ -1,0 +1,20 @@
+\begin{table}[h]\centering\small\caption{Mechanical baselines on the preselected branch subset. Valid and feasible/robust are separate counts; no-load truth is not their prediction target.}
+\begin{tabular}{lrrrrr}\toprule
+Source & Selected & B6 valid & B6 feasible & B7 valid & B7 robust\\\midrule
+controls & 48 & 39 & 39 & 39 & 33\\
+allegro & 20 & 0 & 0 & 1 & 0\\
+fetch & 20 & 0 & 0 & 7 & 7\\
+dexgraspbench & 20 & 0 & 0 & 16 & 14\\
+\bottomrule\end{tabular}
+\end{table}
+\begin{table}[h]\centering\small\caption{Reference-sample labels and invalid telemetry. Allegro validity counts use 720 candidate executions, not independent scenes.}
+\begin{tabular}{lrrrrrr}\toprule
+Source & Executions & Invalid & Ref N & Ref P & Ref F & Ref U\\\midrule
+controls & 240 & 0 & 240 & 77 & 163 & 0\\
+allegro & 720 & 5 & 30 & 2 & 28 & 0\\
+fetch & 100 & 0 & 30 & 0 & 15 & 15\\
+dexgraspbench & 100 & 1 & 30 & 21 & 9 & 0\\
+\bottomrule\end{tabular}
+\end{table}
+The full confusion matrices, FPR/FNR, conditional error rates, accepted risk, unknown bounds and source-specific denominators are in the machine-readable analysis. For example, no acceptance means accepted risk is NA, not zero; a reference-indeterminate accepted item contributes uncertainty rather than a verified true positive. Binomial Wilson intervals are explicitly conditional-iid summaries, not corrections for shared apparatus or few object identities. The raw reconstruction is code-independent, not simulator-independent.
+Invalid Allegro candidate IDs from the geometry-consistency recovery are: \texttt{2ddbe9ae96604e624158}, \texttt{2658117c8f62d0ddfac4}, \texttt{c1963347598f1be128f4}, \texttt{555739848b81d855e167}, \texttt{a5eb27b988aecedb0b73}.

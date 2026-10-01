@@ -1,0 +1,173 @@
+{
+  "created_utc": "2026-09-30T21:00:47.344556+00:00",
+  "authorization_date": "2026-10-01",
+  "authorization": "User requested removal of merged V1/V2 and retired pre-merge material; reusable material may be archived on F:/project.",
+  "original_protection_manifest_sha256": "c37dcb2202fbc28b528f3f7396a99443aa50ddba3683d871314194fc8e1c767d",
+  "archive_receipts": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\receipts.json",
+  "archive_receipts_sha256": "976a9929caa435f8b01f7a195a7e0dc2bf8f229da9c98c5b53b43cadc88a55d4",
+  "files": {
+    "dist/merged_hl_grasping_paper_v1_evidence.zip": {
+      "sha256": "05367f0caab48ccc5509812d481f3bd312acfd15f8578da03730a7e05a53e5f7",
+      "bytes": 3425050,
+      "archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\merged-paper-retired-releases.zip",
+      "entry": "merged-hl-grasping-paper/dist/merged_hl_grasping_paper_v1_evidence.zip"
+    },
+    "dist/merged_hl_grasping_paper_v1_latex_source.zip": {
+      "sha256": "7f129dd187db7cdb41a434d412ad1cd2b0256dfa09b38759550b0914084dbd26",
+      "bytes": 2046336,
+      "archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\merged-paper-retired-releases.zip",
+      "entry": "merged-hl-grasping-paper/dist/merged_hl_grasping_paper_v1_latex_source.zip"
+    },
+    "dist/merged_hl_grasping_paper_v1.pdf": {
+      "sha256": "57cce42a4b984e65b423dcf00d2a9da3bb6f1c2c2df502f803796b028424dff4",
+      "bytes": 2432080,
+      "archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\merged-paper-retired-releases.zip",
+      "entry": "merged-hl-grasping-paper/dist/merged_hl_grasping_paper_v1.pdf"
+    },
+    "dist/merged_hl_grasping_paper_v2_evidence.zip": {
+      "sha256": "da507688bb9a9e357a83d24dd147324182b16c9b1d5488a650b9251f893557a2",
+      "bytes": 138727780,
+      "archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\merged-paper-retired-releases.zip",
+      "entry": "merged-hl-grasping-paper/dist/merged_hl_grasping_paper_v2_evidence.zip"
+    },
+    "dist/merged_hl_grasping_paper_v2_latex_source.zip": {
+      "sha256": "300e86c1bea39d75da042c6ff737e3a2a741c7cba270021f0671b06fce37994e",
+      "bytes": 2083005,
+      "archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\merged-paper-retired-releases.zip",
+      "entry": "merged-hl-grasping-paper/dist/merged_hl_grasping_paper_v2_latex_source.zip"
+    },
+    "dist/merged_hl_grasping_paper_v2_SHA256SUMS.txt": {
+      "sha256": "3df226bba7ee5f03945429d9b4d776014c4f1adbebeb8b235eb550bca4f74236",
+      "bytes": 432,
+      "archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\merged-paper-retired-releases.zip",
+      "entry": "merged-hl-grasping-paper/dist/merged_hl_grasping_paper_v2_SHA256SUMS.txt"
+    },
+    "dist/merged_hl_grasping_paper_v2_verification.json": {
+      "sha256": "e9943909fd8e676a2b218eeeda315c70d5b2f56d3fee53eae1919dc9c1642398",
+      "bytes": 828,
+      "archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\merged-paper-retired-releases.zip",
+      "entry": "merged-hl-grasping-paper/dist/merged_hl_grasping_paper_v2_verification.json"
+    },
+    "dist/merged_hl_grasping_paper_v2.pdf": {
+      "sha256": "4c0b6f8614c843af96018ce8d7ed6937bf0a61d0f48e8c314acceb218053f88c",
+      "bytes": 2499557,
+      "archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\merged-paper-retired-releases.zip",
+      "entry": "merged-hl-grasping-paper/dist/merged_hl_grasping_paper_v2.pdf"
+    },
+    "dist/release_verification.json": {
+      "sha256": "8180f973479c80a15a3a08694cf56d7e677d2aab85383b1847df467b61ae0d9d",
+      "bytes": 731,
+      "archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\merged-paper-retired-releases.zip",
+      "entry": "merged-hl-grasping-paper/dist/release_verification.json"
+    },
+    "dist/SHA256SUMS.txt": {
+      "sha256": "6a49522ea42811ea951fdd05428cecae4b9e9358fe7e4a1ebe9559e0bfdac9c7",
+      "bytes": 412,
+      "archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\merged-paper-retired-releases.zip",
+      "entry": "merged-hl-grasping-paper/dist/SHA256SUMS.txt"
+    }
+  },
+  "group_receipts": [
+    {
+      "Group": "hl-grasping-paper",
+      "Archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\hl-grasping-paper.zip",
+      "ArchiveSHA256": "6e56d884ad3adf6099b8e097baa8e3278249ed43f82893d8f1d206384c93e92c",
+      "Manifest": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\hl-grasping-paper.manifest.csv",
+      "ManifestSHA256": "10e09d9116e67a537ecd330e713eb29c413d14a18d026533d8a6f994bfc8ebd5",
+      "VerifiedFiles": 168,
+      "RemovedFiles": 168,
+      "OriginalBytes": 18470577.0
+    },
+    {
+      "Group": "open-hand-hl-grasping-paper",
+      "Archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\open-hand-hl-grasping-paper.zip",
+      "ArchiveSHA256": "c1a92a4f7a4cb437f063db966f09fb669cc4087de88cec0e3a66f67df3b7a6bf",
+      "Manifest": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\open-hand-hl-grasping-paper.manifest.csv",
+      "ManifestSHA256": "91a483ebab1c273ee174e9f7ea2098346e91ce828b8c04a64d75c5f2e5efd242",
+      "VerifiedFiles": 103,
+      "RemovedFiles": 103,
+      "OriginalBytes": 12193425.0
+    },
+    {
+      "Group": "hl_grasping_paper_v5_artifacts",
+      "Archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\hl_grasping_paper_v5_artifacts.zip",
+      "ArchiveSHA256": "3afb2102acf4a19d1ec80417b9a635d5145d69d9b801aa8609236a43568a22b7",
+      "Manifest": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\hl_grasping_paper_v5_artifacts.manifest.csv",
+      "ManifestSHA256": "9bccc0d0f10bcddb3a54f039d685b09700b98aad3a660401f0c88b504054d6b3",
+      "VerifiedFiles": 22,
+      "RemovedFiles": 22,
+      "OriginalBytes": 6321334.0
+    },
+    {
+      "Group": "paper_artifacts_v22",
+      "Archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\paper_artifacts_v22.zip",
+      "ArchiveSHA256": "28828ac28caa623413900c051a3abd8655cb5560dccbaa4ac295c1c10a54b698",
+      "Manifest": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\paper_artifacts_v22.manifest.csv",
+      "ManifestSHA256": "568abb0c19b6ae2a2b4f7953a97c0353d30a7e36a406b7843214cfd03320d8fc",
+      "VerifiedFiles": 1372,
+      "RemovedFiles": 1372,
+      "OriginalBytes": 680490048.0
+    },
+    {
+      "Group": "runs",
+      "Archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\runs.zip",
+      "ArchiveSHA256": "844314733e3c1907cf7ed5e9fb9e18f79cd021d7395e209d6e8f186c294e284d",
+      "Manifest": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\runs.manifest.csv",
+      "ManifestSHA256": "6364139401d5dfa4c655e91751cc316514163778266479a5cb7f5ebbb6f5b783",
+      "VerifiedFiles": 85927,
+      "RemovedFiles": 85927,
+      "OriginalBytes": 9788075717.0
+    },
+    {
+      "Group": "results",
+      "Archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\results.zip",
+      "ArchiveSHA256": "11e2fe33be5312ceb4eb778aa76f8f0dc5f952c4f933cc5dd3eb2c98aa55dd0e",
+      "Manifest": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\results.manifest.csv",
+      "ManifestSHA256": "d8b042d56cdf73673059306822cd9e58392e8327a6f14b857ad911720d731f42",
+      "VerifiedFiles": 21732,
+      "RemovedFiles": 21732,
+      "OriginalBytes": 3317024241.0
+    },
+    {
+      "Group": "tmp",
+      "Archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\tmp.zip",
+      "ArchiveSHA256": "1e25ea02c04f23578935d468f902843403e0366778c3521bffd16e2422382030",
+      "Manifest": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\tmp.manifest.csv",
+      "ManifestSHA256": "6e747e5fde6860f8f7173f78597bfec964534cffa679771b9f7eb785e6c30edf",
+      "VerifiedFiles": 784,
+      "RemovedFiles": 784,
+      "OriginalBytes": 54277729.0
+    },
+    {
+      "Group": "showcase_media",
+      "Archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\showcase_media.zip",
+      "ArchiveSHA256": "d22edc7b0b04c3cc0e884e192463886ae0a947c2473f2c12f4ca3bb6c2f0a7bd",
+      "Manifest": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\showcase_media.manifest.csv",
+      "ManifestSHA256": "2977f0b951041ad00440a28c123f68ac40134cef197fe81e45fe739c07da9d13",
+      "VerifiedFiles": 13,
+      "RemovedFiles": 13,
+      "OriginalBytes": 3297647.0
+    },
+    {
+      "Group": "reports",
+      "Archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\reports.zip",
+      "ArchiveSHA256": "59ace6b227e6ba31ab7e3d11ec1c44691821f08e24cf85c480a9d2c70871f78a",
+      "Manifest": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\reports.manifest.csv",
+      "ManifestSHA256": "c11864a1848d0b54df4f1f5a32a24820a80b06f3dad1a99fa1d0064f7699ead3",
+      "VerifiedFiles": 4,
+      "RemovedFiles": 4,
+      "OriginalBytes": 456647.0
+    },
+    {
+      "Group": "merged-paper-retired-releases",
+      "Archive": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\merged-paper-retired-releases.zip",
+      "ArchiveSHA256": "f35b8af33649459c3b2e5cca680dd8e0038409d2af15581ca747ade831fb0843",
+      "Manifest": "F:\\project\\Dexterous-Hand-Control-Sim-history-20261001\\merged-paper-retired-releases.manifest.csv",
+      "ManifestSHA256": "284f4a07bd27568dacb04caffc93a29aa51e53b75ca731ee33b2fc4a05d94b22",
+      "VerifiedFiles": 10,
+      "RemovedFiles": 10,
+      "OriginalBytes": 151216211.0
+    }
+  ],
+  "scope": "Archive-verified relocation, not preservation at original paths"
+}

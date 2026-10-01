@@ -1,0 +1,28 @@
+{
+  "role": "retrospective; limited original telemetry; not a C_NL verdict",
+  "original_exclusions": {
+    "baseline": 85,
+    "repair": 85
+  },
+  "intersection": 85,
+  "union": 85,
+  "inspected_scenes": 85,
+  "unique_jobs": 510,
+  "logical_memberships": 1530,
+  "interval_count": 5007,
+  "historical_traces_recomputed": 510,
+  "all_eligible_candidates_show_sustained_upward_load": false,
+  "categories": {
+    "sustained_measured_upward_load": 379,
+    "no_local_common_interval": 119,
+    "mixed_or_transient_full_wrench_unknown": 7,
+    "no_environment_records_in_local_common_intervals": 5
+  },
+  "telemetry_column_count": 18,
+  "limitations": [
+    "No contact point or complete force/torque; net force cannot recover opposing loads",
+    "active_count is normal_force>1e-4, not efc_address",
+    "1% weight and 0.1s are old diagnostic thresholds, not a calibrated V4 gate",
+    "Load participation is not intervention-conditioned necessary dependence"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "role": "engineering_smoke_only",
+  "input": "output\\example_shadow\\graspdata\\core_bottle_523cddb320608c09a37f3fc191551700\\scale006_pose000\\0.npy",
+  "input_sha256": "c6e3f0641dec8e9ffaec1b21d308357526b6db6ccc29ad84ceeeb99457afde96",
+  "candidate_choice": "lexicographically first before outcomes",
+  "source": "Public static pregrasp/grasp/squeeze trajectory, not learned acquisition policy",
+  "native_task": "Upstream six signed external-force tests, gravity disabled; original early stop and reset semantics",
+  "native_outcomes": [
+    [
+      true,
+      0.0034277122812681345,
+      7.0208148358789835
+    ],
+    [
+      true,
+      0.0034277122812681345,
+      7.0208148358789835
+    ]
+  ],
+  "observer_bit_equal": true,
+  "physics_steps": 4200,
+  "recorded_segments": 6,
+  "geometry_clock_max_error": 1.6556817971688717e-17,
+  "elapsed_s": 3.4206763000111096,
+  "versions": {
+    "mujoco": "3.3.2",
+    "numpy": "1.26.4",
+    "torch": "2.2.2+cpu",
+    "scipy": "1.17.1",
+    "trimesh": "5.1.0"
+  },
+  "independence": "Upstream native implementation executed twice; not reproduction of a published aggregate score"
+}

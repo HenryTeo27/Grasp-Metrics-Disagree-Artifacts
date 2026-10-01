@@ -1,0 +1,398 @@
+{
+  "job_id": "e507ccf85139cff6ece6",
+  "case_id": "v4_final_cylinder_random_12",
+  "family": "cylinder_random",
+  "rank": 3,
+  "methods": {
+    "B5": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "FAIL",
+      "no_contact_result": "FAIL",
+      "definite_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "possible_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "reason_codes": [
+        "GLOBAL_COMMON_CONDITION_FAILED"
+      ],
+      "no_contact_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "unknown_sample_count": 0,
+      "max_environment_force_ratio": 65.13000881916824,
+      "max_environment_torque_ratio": 31.639547401034093,
+      "max_external_force_ratio": 65.13000881916824,
+      "max_external_torque_ratio": 31.639547401034093,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "merged-v4-frozen-nominal-20261001"
+      }
+    },
+    "B4": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "FAIL",
+      "no_contact_result": "FAIL",
+      "definite_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "possible_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "reason_codes": [
+        "GLOBAL_COMMON_CONDITION_FAILED"
+      ],
+      "no_contact_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "unknown_sample_count": 0,
+      "max_environment_force_ratio": 65.13000881916824,
+      "max_environment_torque_ratio": 31.639547401034093,
+      "max_external_force_ratio": 65.13000881916824,
+      "max_external_torque_ratio": 31.639547401034093,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "merged-v4-frozen-nominal-20261001"
+      }
+    },
+    "A_no_geometry": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "FAIL",
+      "no_contact_result": "FAIL",
+      "definite_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "possible_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "reason_codes": [
+        "GLOBAL_COMMON_CONDITION_FAILED"
+      ],
+      "no_contact_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "unknown_sample_count": 0,
+      "max_environment_force_ratio": 65.13000881916824,
+      "max_environment_torque_ratio": 31.639547401034093,
+      "max_external_force_ratio": 65.13000881916824,
+      "max_external_torque_ratio": 31.639547401034093,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "merged-v4-frozen-nominal-20261001"
+      }
+    },
+    "A_no_torque": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "FAIL",
+      "no_contact_result": "FAIL",
+      "definite_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "possible_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "reason_codes": [
+        "GLOBAL_COMMON_CONDITION_FAILED"
+      ],
+      "no_contact_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "unknown_sample_count": 0,
+      "max_environment_force_ratio": 65.13000881916824,
+      "max_environment_torque_ratio": 31.639547401034093,
+      "max_external_force_ratio": 65.13000881916824,
+      "max_external_torque_ratio": 31.639547401034093,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "merged-v4-frozen-nominal-20261001"
+      }
+    },
+    "A_binary_unknown_fail": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "FAIL",
+      "no_contact_result": "FAIL",
+      "definite_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "possible_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "reason_codes": [
+        "GLOBAL_COMMON_CONDITION_FAILED"
+      ],
+      "no_contact_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "unknown_sample_count": 0,
+      "max_environment_force_ratio": 65.13000881916824,
+      "max_environment_torque_ratio": 31.639547401034093,
+      "max_external_force_ratio": 65.13000881916824,
+      "max_external_torque_ratio": 31.639547401034093,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "merged-v4-frozen-nominal-20261001"
+      }
+    },
+    "A_accumulated": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "FAIL",
+      "no_contact_result": "FAIL",
+      "definite_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "possible_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "reason_codes": [
+        "GLOBAL_COMMON_CONDITION_FAILED"
+      ],
+      "no_contact_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "unknown_sample_count": 0,
+      "max_environment_force_ratio": 65.13000881916824,
+      "max_environment_torque_ratio": 31.639547401034093,
+      "max_external_force_ratio": 65.13000881916824,
+      "max_external_torque_ratio": 31.639547401034093,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "merged-v4-frozen-nominal-20261001"
+      }
+    },
+    "A_net_aggregation": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "FAIL",
+      "no_contact_result": "FAIL",
+      "definite_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "possible_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "reason_codes": [
+        "GLOBAL_COMMON_CONDITION_FAILED"
+      ],
+      "no_contact_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "unknown_sample_count": 0,
+      "max_environment_force_ratio": 63.894511541241506,
+      "max_environment_torque_ratio": 27.44550734753196,
+      "max_external_force_ratio": 63.894511541241506,
+      "max_external_torque_ratio": 27.44550734753196,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "merged-v4-frozen-nominal-20261001"
+      }
+    },
+    "B0": {
+      "verdict": "FAIL",
+      "trace_validity": "VALID",
+      "scope": "Actual unchanged native legacy gate, not the generic accumulated-Q proxy"
+    },
+    "B1": {
+      "verdict": "FAIL",
+      "duration_s": 0.0,
+      "trace_validity": "VALID",
+      "scope": "Continuous common-Q; environmental load is intentionally not part of this contract"
+    },
+    "B2": {
+      "verdict": "FAIL",
+      "duration_s": 0.0,
+      "trace_validity": "VALID"
+    },
+    "B3": {
+      "verdict": "FAIL",
+      "duration_s": 0.0,
+      "trace_validity": "VALID"
+    },
+    "B4_normal": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "FAIL",
+      "no_contact_result": "FAIL",
+      "definite_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "possible_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "reason_codes": [
+        "GLOBAL_COMMON_CONDITION_FAILED"
+      ],
+      "no_contact_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 0.0
+      },
+      "unknown_sample_count": 0,
+      "max_environment_force_ratio": 57.72168125108196,
+      "max_environment_torque_ratio": 31.639547401034093,
+      "max_external_force_ratio": 57.72168125108196,
+      "max_external_torque_ratio": 31.639547401034093,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "merged-v4-frozen-nominal-20261001"
+      }
+    }
+  },
+  "reference": {
+    "verdict": "NOT_SELECTED"
+  },
+  "counterfactual": {
+    "status": "NOT_SELECTED"
+  },
+  "B6": {
+    "status": "NOT_SELECTED"
+  },
+  "B7": {
+    "status": "NOT_SELECTED"
+  },
+  "raw_sha256": "17ab8df10af9ce3a3092bbb15fa7472eb8d814d18e96aad7957bb2566db697ab",
+  "raw_metadata_sha256": "7b71b7b15605e4d4c0bfeb26c9e142fe71c77bf6c69e02e35348607ebb6b1cb6",
+  "nominal_physics_steps": 9630,
+  "elapsed_s": 10.481966699997429,
+  "branch_cost_steps": 0
+}

@@ -1,0 +1,27 @@
+{
+  "role": "SAME_REGISTERED_80_REQUALIFIED_NOT_NEW_N",
+  "calibration": {
+    "hold_s": 15.0,
+    "force_pass_ratio": 0.0001,
+    "force_fail_ratio": 0.01,
+    "torque_pass_ratio": 0.0001,
+    "torque_fail_ratio": 0.01,
+    "penetration_tolerance_m": 1e-05,
+    "positive_gap_m": 1e-06,
+    "clock_tolerance_s": 1e-08,
+    "duration_tolerance_s": 1e-09,
+    "passive_residual_tolerance": 1e-10,
+    "version": "merged-v4-calibration-nominal-20261001"
+  },
+  "design_sha256": "69da59eceb14e924eb7e44ce6612a90d36048da6e2023ee9301e7c996a2d0761",
+  "source_hashes": {
+    "formal_controls.py": "975a509347ee8feea2c310397317005fae77f865912beedd3c03e85d62e88cbc",
+    "controls.py": "441ec8662eb2c7a19f0fb0e7ab0860eb4d5740a7e3c4dcccc957feed8f1d79a8",
+    "control_reference.py": "212166d186c37fbe7ab796658d0eb4457f94f6a69d0f8d04bd2c72f947d3be42",
+    "contact_observer.py": "03b4db75bf963ba163efc9d15b679a8ca04ec747f0994b72d2af7204ba426d33",
+    "contracts.py": "72e04b1b5c190b3cbdba9abef29ad4ab175588b806ee6d5c23d241ea95b26142",
+    "baselines.py": "0901eb23380ecf1acd7c57d032d1158781ff328c693d3d1a8519525aa6bab213",
+    "counterfactual.py": "86d36dfaa9ce4a0d8aaa6ce56a7606117b93dd38e39ec7cac783c330146c97bb",
+    "mechanical_baselines.py": "944c0ac7077fbc5947874338bb34d6a94ff333e51b9058a92cbfff6409057f95"
+  }
+}

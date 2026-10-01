@@ -1,0 +1,124 @@
+{
+  "job_id": "0b97b25b77043ad04947",
+  "t0_rule": "planned_schedule_end_minus_4_seconds",
+  "same_case_as_first_pilot": true,
+  "nominal_warm_continuation_bit_equal": true,
+  "counterfactual": {
+    "status": "VALID",
+    "sham_bit_equal": true,
+    "horizon_s": 3.0,
+    "t0_s": 26.599999999996136,
+    "continuation": "Recorded controls and mocap, not controller recovery",
+    "endpoint_frame": "reference_body",
+    "reference_body_id": 1,
+    "intervention_audit": {
+      "method": "unused_collision_bit",
+      "spare_bit": 2,
+      "preserved_target_hand_pairs": [
+        [
+          43,
+          2
+        ],
+        [
+          43,
+          4
+        ],
+        [
+          43,
+          6
+        ],
+        [
+          43,
+          8
+        ],
+        [
+          43,
+          10
+        ],
+        [
+          43,
+          12
+        ],
+        [
+          43,
+          14
+        ],
+        [
+          43,
+          16
+        ],
+        [
+          43,
+          18
+        ],
+        [
+          43,
+          20
+        ],
+        [
+          43,
+          22
+        ],
+        [
+          43,
+          24
+        ],
+        [
+          43,
+          26
+        ],
+        [
+          43,
+          28
+        ],
+        [
+          43,
+          30
+        ],
+        [
+          43,
+          32
+        ],
+        [
+          43,
+          34
+        ],
+        [
+          43,
+          36
+        ],
+        [
+          43,
+          38
+        ],
+        [
+          43,
+          40
+        ],
+        [
+          43,
+          42
+        ]
+      ],
+      "target_geoms": [
+        43
+      ],
+      "removed_scope": "target_environment_only"
+    },
+    "endpoints": {
+      "sham": {
+        "success": true,
+        "max_position_error_m": 0.00012285101228409133,
+        "max_angle_error_rad": 0.006014567501551216,
+        "max_linear_speed_m_s": 4.216398339718186e-05
+      },
+      "removed": {
+        "success": true,
+        "max_position_error_m": 0.0013412165249954975,
+        "max_angle_error_rad": 0.015683278751092326,
+        "max_linear_speed_m_s": 0.007266824485807332
+      }
+    },
+    "cell": "BOTH_RETAIN"
+  }
+}

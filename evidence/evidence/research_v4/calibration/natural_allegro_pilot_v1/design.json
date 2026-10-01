@@ -1,0 +1,716 @@
+{
+  "role": "DEVELOPMENT_ONLY",
+  "retrospective_candidates": 177,
+  "branch_cases": 20,
+  "selection": "First job per unique scene in sorted job-id order, first 20 before CF outcomes",
+  "rows": [
+    {
+      "job_id": "008da7e74f78f588b3ec",
+      "branch_selected": true
+    },
+    {
+      "job_id": "00ab82b10edc360a7497",
+      "branch_selected": true
+    },
+    {
+      "job_id": "010a8063861c63b878ee",
+      "branch_selected": true
+    },
+    {
+      "job_id": "0303e45357e1cd864171",
+      "branch_selected": true
+    },
+    {
+      "job_id": "0405215aa279dc85cb11",
+      "branch_selected": true
+    },
+    {
+      "job_id": "055ba35e68e8fa994b1a",
+      "branch_selected": true
+    },
+    {
+      "job_id": "0595e356e7747a5f25f2",
+      "branch_selected": true
+    },
+    {
+      "job_id": "061068bea9418d4b7a89",
+      "branch_selected": true
+    },
+    {
+      "job_id": "062c3834bce9b70bbf54",
+      "branch_selected": true
+    },
+    {
+      "job_id": "091d76ef1460ec885957",
+      "branch_selected": true
+    },
+    {
+      "job_id": "0a0ffcbc8177c656ee66",
+      "branch_selected": true
+    },
+    {
+      "job_id": "0a130a89cd7928d063df",
+      "branch_selected": false
+    },
+    {
+      "job_id": "0b45ba6d941ca2034a78",
+      "branch_selected": true
+    },
+    {
+      "job_id": "0b97b25b77043ad04947",
+      "branch_selected": true
+    },
+    {
+      "job_id": "0baa60ea00da6a226cd4",
+      "branch_selected": false
+    },
+    {
+      "job_id": "0e21aea6f2d41b66ed7b",
+      "branch_selected": true
+    },
+    {
+      "job_id": "0fa0f3e432a60e4c0354",
+      "branch_selected": false
+    },
+    {
+      "job_id": "0ff5d4e446e54f7fa81f",
+      "branch_selected": false
+    },
+    {
+      "job_id": "123fc595fd196458c13c",
+      "branch_selected": true
+    },
+    {
+      "job_id": "15aca29cbc678b952969",
+      "branch_selected": true
+    },
+    {
+      "job_id": "19a8dbe677ea8ddd6ce2",
+      "branch_selected": false
+    },
+    {
+      "job_id": "1a19afc8b692eca1e794",
+      "branch_selected": true
+    },
+    {
+      "job_id": "1b00e67f0eb85d6a0ef7",
+      "branch_selected": true
+    },
+    {
+      "job_id": "1e39c8938b5b24fe9da0",
+      "branch_selected": true
+    },
+    {
+      "job_id": "1f7c1b3b970c1ff4217f",
+      "branch_selected": true
+    },
+    {
+      "job_id": "20225c2f7a40ddef24db",
+      "branch_selected": false
+    },
+    {
+      "job_id": "209225234d25292a669e",
+      "branch_selected": false
+    },
+    {
+      "job_id": "209b01b25ff9520dadc8",
+      "branch_selected": false
+    },
+    {
+      "job_id": "20a66baae3530c22a93a",
+      "branch_selected": false
+    },
+    {
+      "job_id": "21f8d90ea02c9ae8069e",
+      "branch_selected": false
+    },
+    {
+      "job_id": "22542184062de5808e08",
+      "branch_selected": false
+    },
+    {
+      "job_id": "22883faa361099e8d2d5",
+      "branch_selected": false
+    },
+    {
+      "job_id": "24af05a83d2b6a8d9a1d",
+      "branch_selected": false
+    },
+    {
+      "job_id": "292a22ece26fe9c0cc6d",
+      "branch_selected": false
+    },
+    {
+      "job_id": "2c83c954f73b940851d9",
+      "branch_selected": false
+    },
+    {
+      "job_id": "30f058bc76d41f3f1a96",
+      "branch_selected": false
+    },
+    {
+      "job_id": "32d1c8904b361818deb8",
+      "branch_selected": false
+    },
+    {
+      "job_id": "33cba35890fe1d900031",
+      "branch_selected": false
+    },
+    {
+      "job_id": "33fd0db2cf963265ab5a",
+      "branch_selected": false
+    },
+    {
+      "job_id": "34eb7993ace16735dc93",
+      "branch_selected": false
+    },
+    {
+      "job_id": "3f7e508c014c4872087f",
+      "branch_selected": false
+    },
+    {
+      "job_id": "42ca461c12484e2fc753",
+      "branch_selected": false
+    },
+    {
+      "job_id": "44dbf6b18159f9dbf0e7",
+      "branch_selected": false
+    },
+    {
+      "job_id": "4552f6b2625e3db3bdc5",
+      "branch_selected": false
+    },
+    {
+      "job_id": "4a289ff9eddb55a0a1dd",
+      "branch_selected": false
+    },
+    {
+      "job_id": "4a9304a2c28934e1d9a9",
+      "branch_selected": false
+    },
+    {
+      "job_id": "4b30f1c2e53b89528832",
+      "branch_selected": false
+    },
+    {
+      "job_id": "4b65591726570fff2abd",
+      "branch_selected": false
+    },
+    {
+      "job_id": "4fee91e90730d6d35404",
+      "branch_selected": false
+    },
+    {
+      "job_id": "520e98b2658a37e0e613",
+      "branch_selected": false
+    },
+    {
+      "job_id": "536db609af278e38cd01",
+      "branch_selected": false
+    },
+    {
+      "job_id": "5397369b9bc4d109f489",
+      "branch_selected": false
+    },
+    {
+      "job_id": "549e7ac69ccb84c53677",
+      "branch_selected": false
+    },
+    {
+      "job_id": "54cfaa13e80cc022c894",
+      "branch_selected": false
+    },
+    {
+      "job_id": "55a09689e681ac581b64",
+      "branch_selected": false
+    },
+    {
+      "job_id": "569a4569f9a34a1b2304",
+      "branch_selected": false
+    },
+    {
+      "job_id": "56cfbfb1d2b02843015c",
+      "branch_selected": false
+    },
+    {
+      "job_id": "5767514381fa714d9221",
+      "branch_selected": false
+    },
+    {
+      "job_id": "58527797cc7cb61d21a8",
+      "branch_selected": false
+    },
+    {
+      "job_id": "5bc0da88127bf28f8c17",
+      "branch_selected": false
+    },
+    {
+      "job_id": "5e5189974dd75bfb0b2d",
+      "branch_selected": false
+    },
+    {
+      "job_id": "5e920e2c5673f6421ef8",
+      "branch_selected": false
+    },
+    {
+      "job_id": "604393cde77f49dd92da",
+      "branch_selected": false
+    },
+    {
+      "job_id": "641b1fe9ee1de7fd49ec",
+      "branch_selected": false
+    },
+    {
+      "job_id": "64c0931a61d2e2b0d3a1",
+      "branch_selected": false
+    },
+    {
+      "job_id": "661fd0dd85ee226b4086",
+      "branch_selected": false
+    },
+    {
+      "job_id": "66c2f65f9b96319d5e20",
+      "branch_selected": false
+    },
+    {
+      "job_id": "68c95a8a956757205748",
+      "branch_selected": false
+    },
+    {
+      "job_id": "69120071ddb9fdbeedbf",
+      "branch_selected": false
+    },
+    {
+      "job_id": "6b1a08511246b55a6861",
+      "branch_selected": false
+    },
+    {
+      "job_id": "6b585bb58cecc7bfa22e",
+      "branch_selected": false
+    },
+    {
+      "job_id": "6beead62e671ed559e4a",
+      "branch_selected": false
+    },
+    {
+      "job_id": "6d170f875af262320109",
+      "branch_selected": false
+    },
+    {
+      "job_id": "6d22d07a22d0d37d04e7",
+      "branch_selected": false
+    },
+    {
+      "job_id": "6d9b74e9c82949ee985f",
+      "branch_selected": false
+    },
+    {
+      "job_id": "6f41d957b59b51a19670",
+      "branch_selected": false
+    },
+    {
+      "job_id": "6f774dcd372c4886d2b2",
+      "branch_selected": false
+    },
+    {
+      "job_id": "6faaf823f9dbf0347ec3",
+      "branch_selected": false
+    },
+    {
+      "job_id": "706ea8939674ba46fbc4",
+      "branch_selected": false
+    },
+    {
+      "job_id": "70d289bde58356c602cd",
+      "branch_selected": false
+    },
+    {
+      "job_id": "71070f10b48640c41998",
+      "branch_selected": false
+    },
+    {
+      "job_id": "7145e6a6c696da941241",
+      "branch_selected": false
+    },
+    {
+      "job_id": "71e766638c36de144c11",
+      "branch_selected": false
+    },
+    {
+      "job_id": "7496af442905f934d7f6",
+      "branch_selected": false
+    },
+    {
+      "job_id": "751d43d5f3880de7466b",
+      "branch_selected": false
+    },
+    {
+      "job_id": "75397c6ea91047fe1ebf",
+      "branch_selected": false
+    },
+    {
+      "job_id": "7673b7b0fa3bcdc26aa8",
+      "branch_selected": false
+    },
+    {
+      "job_id": "793e2aa8a101a35275a7",
+      "branch_selected": false
+    },
+    {
+      "job_id": "7a27eea47543420761dd",
+      "branch_selected": false
+    },
+    {
+      "job_id": "7a2f31c689958b41ba04",
+      "branch_selected": false
+    },
+    {
+      "job_id": "7ba06eba7e9e76fbdeeb",
+      "branch_selected": false
+    },
+    {
+      "job_id": "7eb2ba87b0cd0f971698",
+      "branch_selected": false
+    },
+    {
+      "job_id": "7ecd3212844b080473f9",
+      "branch_selected": false
+    },
+    {
+      "job_id": "81e26afccb2806272337",
+      "branch_selected": false
+    },
+    {
+      "job_id": "837dc546915244b56232",
+      "branch_selected": false
+    },
+    {
+      "job_id": "87a961b6f3a1ea44bb12",
+      "branch_selected": false
+    },
+    {
+      "job_id": "888f893047a6def66d88",
+      "branch_selected": false
+    },
+    {
+      "job_id": "8aea585dfb701aec747c",
+      "branch_selected": false
+    },
+    {
+      "job_id": "8bd015a8331bd164367d",
+      "branch_selected": false
+    },
+    {
+      "job_id": "8cf0412fd620986b62a6",
+      "branch_selected": false
+    },
+    {
+      "job_id": "8dda145fca5e10c6a68a",
+      "branch_selected": false
+    },
+    {
+      "job_id": "908428fd32c37101ed3c",
+      "branch_selected": false
+    },
+    {
+      "job_id": "9191d21ec783aca2121b",
+      "branch_selected": false
+    },
+    {
+      "job_id": "9635277a1c60cce2e696",
+      "branch_selected": false
+    },
+    {
+      "job_id": "97b545d25697cfd2479e",
+      "branch_selected": false
+    },
+    {
+      "job_id": "9b3ab65437c1f85ba08b",
+      "branch_selected": false
+    },
+    {
+      "job_id": "9cdf377c60dcd79c040c",
+      "branch_selected": false
+    },
+    {
+      "job_id": "9cee7bbb9b12e7ed7c27",
+      "branch_selected": false
+    },
+    {
+      "job_id": "9cf7b6057c421bf1c3ff",
+      "branch_selected": false
+    },
+    {
+      "job_id": "9eb023c6b49c36129684",
+      "branch_selected": false
+    },
+    {
+      "job_id": "9ecb45b05686ee60ae55",
+      "branch_selected": false
+    },
+    {
+      "job_id": "9f554396406df227e5de",
+      "branch_selected": false
+    },
+    {
+      "job_id": "a014c69c06ef162298cc",
+      "branch_selected": false
+    },
+    {
+      "job_id": "a029a4a79d4c7ec0b9bc",
+      "branch_selected": false
+    },
+    {
+      "job_id": "a1d554287902b6723c99",
+      "branch_selected": false
+    },
+    {
+      "job_id": "a1f12131b3707d0c43b8",
+      "branch_selected": false
+    },
+    {
+      "job_id": "a2b5f163218b423df585",
+      "branch_selected": false
+    },
+    {
+      "job_id": "a363c9af16aeceb3d6e0",
+      "branch_selected": false
+    },
+    {
+      "job_id": "a63fe3fc175574954038",
+      "branch_selected": false
+    },
+    {
+      "job_id": "a7a6295207867128e9e9",
+      "branch_selected": false
+    },
+    {
+      "job_id": "a7b2dc8ab980cd87b64d",
+      "branch_selected": false
+    },
+    {
+      "job_id": "a8771e00744f3379160e",
+      "branch_selected": false
+    },
+    {
+      "job_id": "aafedf4c388f11c8a83e",
+      "branch_selected": false
+    },
+    {
+      "job_id": "ab43a06d2e52fdf6938f",
+      "branch_selected": false
+    },
+    {
+      "job_id": "ab6760804cb48a5f0fe3",
+      "branch_selected": false
+    },
+    {
+      "job_id": "af923f013fa44eb4aafc",
+      "branch_selected": false
+    },
+    {
+      "job_id": "b199fb7ecc4db7a13bc7",
+      "branch_selected": false
+    },
+    {
+      "job_id": "b1fe4dbcbbf9be46b06b",
+      "branch_selected": false
+    },
+    {
+      "job_id": "b3475d4c2db4c299df74",
+      "branch_selected": false
+    },
+    {
+      "job_id": "b413f5e1b655ff0f0e3c",
+      "branch_selected": false
+    },
+    {
+      "job_id": "b8140768773c71b6bf5c",
+      "branch_selected": false
+    },
+    {
+      "job_id": "b860f245271c473265e2",
+      "branch_selected": false
+    },
+    {
+      "job_id": "b86e8efcd169088efcce",
+      "branch_selected": false
+    },
+    {
+      "job_id": "b9a3483009ebaed5e9a9",
+      "branch_selected": false
+    },
+    {
+      "job_id": "bf846adb5e57fc29e589",
+      "branch_selected": false
+    },
+    {
+      "job_id": "bfe00f78f17d9ba86e67",
+      "branch_selected": false
+    },
+    {
+      "job_id": "c1a34d93f79f6e9f9df7",
+      "branch_selected": false
+    },
+    {
+      "job_id": "c2ea4925982b4101cda3",
+      "branch_selected": false
+    },
+    {
+      "job_id": "c3030c8d601781ed8683",
+      "branch_selected": false
+    },
+    {
+      "job_id": "c3325f9c2fcd37c34aa6",
+      "branch_selected": false
+    },
+    {
+      "job_id": "c3c94df8504b49015b5f",
+      "branch_selected": false
+    },
+    {
+      "job_id": "c442e36582af28860f2e",
+      "branch_selected": false
+    },
+    {
+      "job_id": "c5eed1152b8fa25913c7",
+      "branch_selected": false
+    },
+    {
+      "job_id": "c75ecb76b39241594a6a",
+      "branch_selected": false
+    },
+    {
+      "job_id": "caed6618a2f7b9f7113b",
+      "branch_selected": false
+    },
+    {
+      "job_id": "cc26afc8565a710572e9",
+      "branch_selected": false
+    },
+    {
+      "job_id": "d00ceaf9e5c0ac674e55",
+      "branch_selected": false
+    },
+    {
+      "job_id": "d0480ebec817ae1e80df",
+      "branch_selected": false
+    },
+    {
+      "job_id": "d3a18b9d4bd9fb00e8ab",
+      "branch_selected": false
+    },
+    {
+      "job_id": "d4326302638cc8f8fd3f",
+      "branch_selected": false
+    },
+    {
+      "job_id": "d51671a9d7dee86f2940",
+      "branch_selected": false
+    },
+    {
+      "job_id": "d62a4af81130f5c5b5df",
+      "branch_selected": false
+    },
+    {
+      "job_id": "d7fb1ec98d44eeeed738",
+      "branch_selected": false
+    },
+    {
+      "job_id": "d8dea9ea8bb6c23a66fe",
+      "branch_selected": false
+    },
+    {
+      "job_id": "daf45bc5ac15a59d3069",
+      "branch_selected": false
+    },
+    {
+      "job_id": "dbc6ac6a2d573159c06a",
+      "branch_selected": false
+    },
+    {
+      "job_id": "dc515f3c0936e21c6aa3",
+      "branch_selected": false
+    },
+    {
+      "job_id": "dd40f1f1098d092ee5c4",
+      "branch_selected": false
+    },
+    {
+      "job_id": "de3c137e9da63c131ea5",
+      "branch_selected": false
+    },
+    {
+      "job_id": "dec67b951f182bcc97ce",
+      "branch_selected": false
+    },
+    {
+      "job_id": "df4ceef6845acbea6df7",
+      "branch_selected": false
+    },
+    {
+      "job_id": "df7f3d0235cf8c6620d6",
+      "branch_selected": false
+    },
+    {
+      "job_id": "e2360b2b085dec1062b1",
+      "branch_selected": false
+    },
+    {
+      "job_id": "e2b9210c0ecf69a89114",
+      "branch_selected": false
+    },
+    {
+      "job_id": "e3243adb62a690238cd3",
+      "branch_selected": false
+    },
+    {
+      "job_id": "e4080c25564d2b017c79",
+      "branch_selected": false
+    },
+    {
+      "job_id": "e4160af481811de4ffcc",
+      "branch_selected": false
+    },
+    {
+      "job_id": "e492e300cc679d8c30e8",
+      "branch_selected": false
+    },
+    {
+      "job_id": "e75fd3e250b2dae3f752",
+      "branch_selected": false
+    },
+    {
+      "job_id": "e86ff2a3a7e536779238",
+      "branch_selected": false
+    },
+    {
+      "job_id": "ed2d800bfd4e32cde049",
+      "branch_selected": false
+    },
+    {
+      "job_id": "ee68817537a25a99df8d",
+      "branch_selected": false
+    },
+    {
+      "job_id": "f015626683767e5a234e",
+      "branch_selected": false
+    },
+    {
+      "job_id": "f6d96eb710fb64f3daac",
+      "branch_selected": false
+    },
+    {
+      "job_id": "fd64dc32253fcf3bb0ab",
+      "branch_selected": false
+    },
+    {
+      "job_id": "feb0d2cc45bc104c9e6b",
+      "branch_selected": false
+    },
+    {
+      "job_id": "ff59f48992c9d06b4398",
+      "branch_selected": false
+    }
+  ]
+}

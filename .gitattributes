@@ -1,0 +1,6 @@
+# Frozen evidence must retain exact bytes on every platform.
+evidence/** -text
+*.pdf binary
+*.png binary
+*.zip binary
+*.npz binary

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this research manuscript and its versioned artifact."
+type: software
+title: "When Grasp Metrics Disagree: Contact, Load, and Retention in Simulation - Research Artifacts"
+authors:
+  - family-names: Teo
+    given-names: Ee Hern
+    affiliation: Tianjin University
+version: "4.5"
+date-released: 2026-10-01
+repository-code: "https://github.com/HenryTeo27/Grasp-Metrics-Disagree-Artifacts"
+url: "https://github.com/HenryTeo27/Grasp-Metrics-Disagree-Artifacts/releases/tag/v4.5"
+abstract: "Frozen evidence and bounded offline reproduction for a simulation study of contact, load support, and retention metrics, including negative primary comparisons."

@@ -1,0 +1,14 @@
+{
+  "generated_utc": "2026-09-30T04:42:55.681257+00:00",
+  "hashes": {
+    "protocol.json": "aaf66f693270e2521bf8dcdfeafdb19c401d96b465b223e363b58918dedc0f58",
+    "cases.json": "1b9b6c23a4165bddc6cb9fa9c546010a5f046718d87f05856d6c898a3f91e570",
+    "jobs.json": "d1048ac11a3beaa0c04770d183395b59be1b2190a16c7c4840f780450b9aa491",
+    "membership.json": "36e9751482373292f5ef7e827e29b0e4afe60eab33ac2e280b71ca239b167c5a"
+  },
+  "no_prior_scene_overlap": true,
+  "fresh_scenes": 360,
+  "paired_scenes": 120,
+  "unique_rollouts": 3087,
+  "legacy_diagnostic_rollouts": 43
+}

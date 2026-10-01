@@ -1,0 +1,148 @@
+{
+  "same_B4_B5_choices": 120,
+  "differing_NC_B5_choices": 0,
+  "invalid_allegro_jobs": [
+    "2ddbe9ae96604e624158",
+    "2658117c8f62d0ddfac4",
+    "c1963347598f1be128f4",
+    "555739848b81d855e167",
+    "a5eb27b988aecedb0b73"
+  ],
+  "invalid_dgb_cases": [
+    "dgb_final_054"
+  ],
+  "representation_bit_equal": 8,
+  "representation_NC_flips": 8,
+  "mechanical": [
+    {
+      "source": "controls",
+      "selected": 48,
+      "B6_valid": 39,
+      "B6_feasible": 39,
+      "B6_statuses": {
+        "VALID": 39,
+        "UNREACHABLE": 9
+      },
+      "B6_solver_wall_s": 0.48478820017771795,
+      "B7_valid": 39,
+      "B7_robust": 33,
+      "B7_statuses": {
+        "VALID": 39,
+        "UNREACHABLE": 9
+      },
+      "B7_physics_steps": 117000
+    },
+    {
+      "source": "allegro",
+      "selected": 20,
+      "B6_valid": 0,
+      "B6_feasible": 0,
+      "B6_statuses": {
+        "UNREACHABLE": 19,
+        "NOT_APPLICABLE": 1
+      },
+      "B6_solver_wall_s": 0.0,
+      "B7_valid": 1,
+      "B7_robust": 0,
+      "B7_statuses": {
+        "UNREACHABLE": 19,
+        "VALID": 1
+      },
+      "B7_physics_steps": 3000
+    },
+    {
+      "source": "fetch",
+      "selected": 20,
+      "B6_valid": 0,
+      "B6_feasible": 0,
+      "B6_statuses": {
+        "UNREACHABLE": 13,
+        "NOT_APPLICABLE": 7
+      },
+      "B6_solver_wall_s": 0.0,
+      "B7_valid": 7,
+      "B7_robust": 7,
+      "B7_statuses": {
+        "UNREACHABLE": 13,
+        "VALID": 7
+      },
+      "B7_physics_steps": 21000
+    },
+    {
+      "source": "dexgraspbench",
+      "selected": 20,
+      "B6_valid": 0,
+      "B6_feasible": 0,
+      "B6_statuses": {
+        "NOT_APPLICABLE": 16,
+        "UNREACHABLE": 4
+      },
+      "B6_solver_wall_s": 0.0,
+      "B7_valid": 16,
+      "B7_robust": 14,
+      "B7_statuses": {
+        "VALID": 16,
+        "UNREACHABLE": 4
+      },
+      "B7_physics_steps": 24000
+    }
+  ],
+  "data_quality": [
+    {
+      "source": "controls",
+      "executions": 240,
+      "invalid": 0,
+      "unknown_valid": 0,
+      "reference_n": 240,
+      "reference_labels": {
+        "PASS": 77,
+        "FAIL": 163
+      },
+      "incomplete_reference": 0
+    },
+    {
+      "source": "allegro",
+      "executions": 720,
+      "invalid": 5,
+      "unknown_valid": 0,
+      "reference_n": 30,
+      "reference_labels": {
+        "FAIL": 28,
+        "PASS": 2
+      },
+      "incomplete_reference": 0
+    },
+    {
+      "source": "fetch",
+      "executions": 100,
+      "invalid": 0,
+      "unknown_valid": 48,
+      "reference_n": 30,
+      "reference_labels": {
+        "FAIL": 15,
+        "INDETERMINATE": 15
+      },
+      "incomplete_reference": 0
+    },
+    {
+      "source": "dexgraspbench",
+      "executions": 100,
+      "invalid": 1,
+      "unknown_valid": 0,
+      "reference_n": 30,
+      "reference_labels": {
+        "PASS": 21,
+        "FAIL": 9
+      },
+      "incomplete_reference": 0
+    }
+  ],
+  "claim_ids": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+  ],
+  "source_sha256": "fdc304dbe6e84556051493538ccf94700e94de73b7b80ddf1c408dc1717bc665"
+}

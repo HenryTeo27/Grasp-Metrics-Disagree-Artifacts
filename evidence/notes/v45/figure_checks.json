@@ -1,0 +1,54 @@
+{
+  "scope": "Editorial recomposition; no new physical measurements",
+  "k6_stacks": {
+    "B0": {
+      "usable": 15,
+      "failed": 25,
+      "abstained": 80
+    },
+    "B1": {
+      "usable": 15,
+      "failed": 21,
+      "abstained": 84
+    },
+    "B2": {
+      "usable": 10,
+      "failed": 3,
+      "abstained": 107
+    },
+    "B3": {
+      "usable": 10,
+      "failed": 3,
+      "abstained": 107
+    },
+    "B4_normal": {
+      "usable": 10,
+      "failed": 3,
+      "abstained": 107
+    },
+    "B4": {
+      "usable": 10,
+      "failed": 3,
+      "abstained": 107
+    },
+    "B5": {
+      "usable": 10,
+      "failed": 3,
+      "abstained": 107
+    }
+  },
+  "B2_B4_B5_all_choices_identical": true,
+  "control_examples": [
+    "final_control_000",
+    "final_control_001",
+    "final_control_002",
+    "final_control_003"
+  ],
+  "input_hashes": {
+    "evidence/research_v4/analysis/u2_choices_and_outcomes.csv": "85cbad0ff1632cca30802c56771eea66aa875ee1e32e3816fbb7944ee12e8e48",
+    "evidence/research_v4/controls/final/cases/final_control_000.json": "fb0813da36b24ef169ece36993946d75710f8da393517e0b9090d4005d7f4123",
+    "evidence/research_v4/controls/final/cases/final_control_001.json": "610855207e56d9d1f2a74309a429659c393364f4a0231c3c6a3a9621ffae82c3",
+    "evidence/research_v4/controls/final/cases/final_control_002.json": "880ee4b220ee7060341475e30eb9a06408f7fdf9b1bdea4515ae9d975c7011e1",
+    "evidence/research_v4/controls/final/cases/final_control_003.json": "a8fc145beb1417ad17501ca5d9b803a4115431c7334fbaab2a00ed0abdf7f13d"
+  }
+}

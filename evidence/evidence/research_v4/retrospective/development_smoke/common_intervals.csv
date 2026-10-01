@@ -1,0 +1,4 @@
+job_id,interval_id,start_row,end_row_exclusive,duration_s,qualifies_15s,global_common,environment_record_s,upward_load_s,longest_upward_load_s
+a1d554287902b6723c99,0,1326,9000,15.348,True,True,15.348,15.348,15.348
+c1a34d93f79f6e9f9df7,0,1337,9000,15.326,True,True,15.326,15.326,15.326
+f20ab2db287b9002990d,0,1374,8151,13.554,False,False,13.554,13.554,13.554

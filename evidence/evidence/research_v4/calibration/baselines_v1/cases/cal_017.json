@@ -1,0 +1,219 @@
+{
+  "case_id": "cal_017",
+  "mechanism": "inactive_margin",
+  "reference": "PASS",
+  "fixed_reference_source_sha256": "7cb6b027a3407534ce99170f5d7c4444f74db0d36138e6b6b379461ebea366f6",
+  "historical": {
+    "B5": "PASS",
+    "B4": "PASS",
+    "A_no_geometry": "PASS",
+    "A_no_torque": "PASS",
+    "A_binary_unknown_fail": "PASS",
+    "A_accumulated": "PASS",
+    "B0": "PASS",
+    "B1": "PASS",
+    "B2": "FAIL",
+    "B3": "PASS",
+    "B4_normal": "PASS"
+  },
+  "curve": [
+    {
+      "low": 1e-06,
+      "high": 0.0001,
+      "B4": "PASS",
+      "B4_normal": "PASS",
+      "B5": "PASS"
+    },
+    {
+      "low": 1e-05,
+      "high": 0.001,
+      "B4": "PASS",
+      "B4_normal": "PASS",
+      "B5": "PASS"
+    },
+    {
+      "low": 0.0001,
+      "high": 0.01,
+      "B4": "PASS",
+      "B4_normal": "PASS",
+      "B5": "PASS"
+    },
+    {
+      "low": 0.001,
+      "high": 0.1,
+      "B4": "PASS",
+      "B4_normal": "PASS",
+      "B5": "PASS"
+    },
+    {
+      "low": 0.01,
+      "high": 1.0,
+      "B4": "PASS",
+      "B4_normal": "PASS",
+      "B5": "PASS"
+    }
+  ],
+  "geometry_sensitivity": [
+    {
+      "penetration_tolerance_m": 1e-06,
+      "B5": "PASS"
+    },
+    {
+      "penetration_tolerance_m": 1e-05,
+      "B5": "PASS"
+    },
+    {
+      "penetration_tolerance_m": 0.0001,
+      "B5": "PASS"
+    }
+  ],
+  "B6": {
+    "status": "VALID",
+    "feasible": true,
+    "hand_contacts": 8,
+    "cone_rays": 8,
+    "solver_status": 0,
+    "scaled_equilibrium_residual": 1.9054942852441455e-14,
+    "physics_steps": 0,
+    "forward_calls": 1,
+    "solver_time_s": 0.010730199981480837,
+    "approximation": "Static point-contact inscribed friction cones and bounded actuator forces; no rolling/torsional contact couples, acceleration, controller tracking, or joint-limit support. Predicts capacity in this approximation, not historical no-load truth or actual retention."
+  },
+  "B7": {
+    "status": "VALID",
+    "robust": true,
+    "branches": [
+      {
+        "axis": 0,
+        "sign": -1,
+        "force_n": 0.8554645123891661,
+        "endpoint": {
+          "success": true,
+          "max_position_error_m": 0.0007857342075699093,
+          "max_angle_error_rad": 1.421792559847452e-06,
+          "max_linear_speed_m_s": 0.024980765160358537
+        }
+      },
+      {
+        "axis": 0,
+        "sign": 1,
+        "force_n": 0.8554645123891661,
+        "endpoint": {
+          "success": true,
+          "max_position_error_m": 0.0007857342075699013,
+          "max_angle_error_rad": 1.421792559847452e-06,
+          "max_linear_speed_m_s": 0.02498076516035845
+        }
+      },
+      {
+        "axis": 1,
+        "sign": -1,
+        "force_n": 0.8554645123891661,
+        "endpoint": {
+          "success": true,
+          "max_position_error_m": 0.0005913493126518082,
+          "max_angle_error_rad": 9.424321830774485e-08,
+          "max_linear_speed_m_s": 0.0005922348358000876
+        }
+      },
+      {
+        "axis": 1,
+        "sign": 1,
+        "force_n": 0.8554645123891661,
+        "endpoint": {
+          "success": true,
+          "max_position_error_m": 0.0005913493126518088,
+          "max_angle_error_rad": 9.424321830774485e-08,
+          "max_linear_speed_m_s": 0.000592234835800093
+        }
+      },
+      {
+        "axis": 2,
+        "sign": -1,
+        "force_n": 0.8554645123891661,
+        "endpoint": {
+          "success": true,
+          "max_position_error_m": 0.0008362932789965916,
+          "max_angle_error_rad": 9.424321830774485e-08,
+          "max_linear_speed_m_s": 0.0008375465368983124
+        }
+      },
+      {
+        "axis": 2,
+        "sign": 1,
+        "force_n": 0.8554645123891661,
+        "endpoint": {
+          "success": true,
+          "max_position_error_m": 1.2532579053980974e-06,
+          "max_angle_error_rad": 9.424321830774485e-08,
+          "max_linear_speed_m_s": 0.0002510186503567646
+        }
+      }
+    ],
+    "horizon_s": 1.0,
+    "additional_force_weight_fraction": 1.0,
+    "gravity_unchanged": true,
+    "physics_steps": 3000,
+    "simulated_seconds": 6.0,
+    "elapsed_s": 0.11867799999890849,
+    "intervention": {
+      "method": "unused_collision_bit",
+      "spare_bit": 8,
+      "preserved_target_hand_pairs": [
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "target_geoms": [
+        4
+      ],
+      "removed_scope": "target_environment_only"
+    },
+    "purpose": "Active six-direction future stability probe; extra cost, not C_NL ground truth"
+  },
+  "counterfactual": {
+    "status": "VALID",
+    "sham_bit_equal": true,
+    "horizon_s": 3.0,
+    "t0_s": 7.999999999999341,
+    "continuation": "Recorded controls and mocap, not controller recovery",
+    "intervention_audit": {
+      "method": "unused_collision_bit",
+      "spare_bit": 8,
+      "preserved_target_hand_pairs": [
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "target_geoms": [
+        4
+      ],
+      "removed_scope": "target_environment_only"
+    },
+    "endpoints": {
+      "sham": {
+        "success": true,
+        "max_position_error_m": 0.0012563198053539004,
+        "max_angle_error_rad": 9.424321830774485e-08,
+        "max_linear_speed_m_s": 0.0004187732684491692
+      },
+      "removed": {
+        "success": true,
+        "max_position_error_m": 0.0012563198053539004,
+        "max_angle_error_rad": 9.424321830774485e-08,
+        "max_linear_speed_m_s": 0.0004187732684491692
+      }
+    },
+    "cell": "BOTH_RETAIN"
+  }
+}

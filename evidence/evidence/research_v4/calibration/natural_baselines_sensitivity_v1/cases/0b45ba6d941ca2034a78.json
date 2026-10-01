@@ -1,0 +1,277 @@
+{
+  "job_id": "0b45ba6d941ca2034a78",
+  "same_original_scene": true,
+  "features": {
+    "mean_force_ratio": 11.654757443597246,
+    "mean_torque_ratio": 7.847217279856107,
+    "min_geometry_gap_m": -0.002251932453394709
+  },
+  "numerical_variants": [
+    {
+      "cell": "DEPENDENT",
+      "endpoints": {
+        "nominal": {
+          "success": true,
+          "max_position_error_m": 0.0017640968545136145,
+          "max_angle_error_rad": 0.01315624499757159,
+          "max_linear_speed_m_s": 0.0007548968717070219
+        },
+        "removed": {
+          "success": false,
+          "max_position_error_m": 44.21095239554978,
+          "max_angle_error_rad": 2.328605554908944,
+          "max_linear_speed_m_s": 29.442553391661423
+        }
+      },
+      "dt_s": 0.002,
+      "iterations": 100,
+      "horizon_s": 3.0,
+      "physics_steps": 3000,
+      "variant": "nominal"
+    },
+    {
+      "cell": "DEPENDENT",
+      "endpoints": {
+        "nominal": {
+          "success": true,
+          "max_position_error_m": 0.0017643734188321962,
+          "max_angle_error_rad": 0.013149813455049881,
+          "max_linear_speed_m_s": 0.0007548823516687546
+        },
+        "removed": {
+          "success": false,
+          "max_position_error_m": 44.181931679217676,
+          "max_angle_error_rad": 1.7703057056973202,
+          "max_linear_speed_m_s": 29.437790629776273
+        }
+      },
+      "dt_s": 0.001,
+      "iterations": 100,
+      "horizon_s": 3.0,
+      "physics_steps": 6000,
+      "variant": "half_dt"
+    },
+    {
+      "cell": "DEPENDENT",
+      "endpoints": {
+        "nominal": {
+          "success": true,
+          "max_position_error_m": 0.00176354518632873,
+          "max_angle_error_rad": 0.013169106152341535,
+          "max_linear_speed_m_s": 0.0007550486148081019
+        },
+        "removed": {
+          "success": false,
+          "max_position_error_m": 44.26915414997045,
+          "max_angle_error_rad": 3.14010740285264,
+          "max_linear_speed_m_s": 38.826975629134374
+        }
+      },
+      "dt_s": 0.004,
+      "iterations": 100,
+      "horizon_s": 3.0,
+      "physics_steps": 1500,
+      "variant": "double_dt"
+    },
+    {
+      "cell": "DEPENDENT",
+      "endpoints": {
+        "nominal": {
+          "success": true,
+          "max_position_error_m": 0.0017640968545136145,
+          "max_angle_error_rad": 0.01315624499757159,
+          "max_linear_speed_m_s": 0.0007548968717070219
+        },
+        "removed": {
+          "success": false,
+          "max_position_error_m": 44.21095239554978,
+          "max_angle_error_rad": 2.328605554908944,
+          "max_linear_speed_m_s": 29.442553391661423
+        }
+      },
+      "dt_s": 0.002,
+      "iterations": 50,
+      "horizon_s": 3.0,
+      "physics_steps": 3000,
+      "variant": "half_iterations"
+    }
+  ],
+  "B6": {
+    "status": "NOT_APPLICABLE",
+    "reason": "EQUALITIES_OR_UNBOUNDED_ACTUATORS_REQUIRE_ADAPTER",
+    "physics_steps": 0
+  },
+  "B7": {
+    "status": "VALID",
+    "robust": false,
+    "branches": [
+      {
+        "axis": 0,
+        "sign": -1,
+        "force_n": 0.7975530000000001,
+        "endpoint": {
+          "success": false,
+          "max_position_error_m": 6.893042835715359,
+          "max_angle_error_rad": 1.5626500736798572,
+          "max_linear_speed_m_s": 13.815746624987908
+        }
+      },
+      {
+        "axis": 0,
+        "sign": 1,
+        "force_n": 0.7975530000000001,
+        "endpoint": {
+          "success": false,
+          "max_position_error_m": 6.96046083235811,
+          "max_angle_error_rad": 0.47589488577048555,
+          "max_linear_speed_m_s": 13.88441588555229
+        }
+      },
+      {
+        "axis": 1,
+        "sign": -1,
+        "force_n": 0.7975530000000001,
+        "endpoint": {
+          "success": false,
+          "max_position_error_m": 6.876883899237273,
+          "max_angle_error_rad": 0.44032155556359565,
+          "max_linear_speed_m_s": 13.79948757824716
+        }
+      },
+      {
+        "axis": 1,
+        "sign": 1,
+        "force_n": 0.7975530000000001,
+        "endpoint": {
+          "success": false,
+          "max_position_error_m": 6.959462795772322,
+          "max_angle_error_rad": 0.8844895538351725,
+          "max_linear_speed_m_s": 13.883218761440368
+        }
+      },
+      {
+        "axis": 2,
+        "sign": -1,
+        "force_n": 0.7975530000000001,
+        "endpoint": {
+          "success": false,
+          "max_position_error_m": 9.831350683095401,
+          "max_angle_error_rad": 0.8110839619904696,
+          "max_linear_speed_m_s": 19.6228891161546
+        }
+      },
+      {
+        "axis": 2,
+        "sign": 1,
+        "force_n": 0.7975530000000001,
+        "endpoint": {
+          "success": false,
+          "max_position_error_m": 0.06508714128770125,
+          "max_angle_error_rad": 0.6566225019741475,
+          "max_linear_speed_m_s": 0.09746867153794317
+        }
+      }
+    ],
+    "horizon_s": 1.0,
+    "additional_force_weight_fraction": 1.0,
+    "gravity_unchanged": true,
+    "physics_steps": 3000,
+    "simulated_seconds": 6.0,
+    "elapsed_s": 0.3067577999900095,
+    "intervention": {
+      "method": "unused_collision_bit",
+      "spare_bit": 2,
+      "preserved_target_hand_pairs": [
+        [
+          43,
+          2
+        ],
+        [
+          43,
+          4
+        ],
+        [
+          43,
+          6
+        ],
+        [
+          43,
+          8
+        ],
+        [
+          43,
+          10
+        ],
+        [
+          43,
+          12
+        ],
+        [
+          43,
+          14
+        ],
+        [
+          43,
+          16
+        ],
+        [
+          43,
+          18
+        ],
+        [
+          43,
+          20
+        ],
+        [
+          43,
+          22
+        ],
+        [
+          43,
+          24
+        ],
+        [
+          43,
+          26
+        ],
+        [
+          43,
+          28
+        ],
+        [
+          43,
+          30
+        ],
+        [
+          43,
+          32
+        ],
+        [
+          43,
+          34
+        ],
+        [
+          43,
+          36
+        ],
+        [
+          43,
+          38
+        ],
+        [
+          43,
+          40
+        ],
+        [
+          43,
+          42
+        ]
+      ],
+      "target_geoms": [
+        43
+      ],
+      "removed_scope": "target_environment_only"
+    },
+    "purpose": "Active six-direction future stability probe; extra cost, not C_NL ground truth"
+  }
+}

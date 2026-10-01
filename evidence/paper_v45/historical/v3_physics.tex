@@ -1,0 +1,15 @@
+\begin{table}[H]\centering\small
+\caption{Same 120 scenes and frozen candidates: legacy runtime geometry edits versus per-case compiled primitive physics. Counts are coverage at $K=6$. Gains/losses compare physical conditions, not repaired versus baseline policies.}
+\label{tab:v3-physics}
+\begin{tabular}{llrrrr}\toprule
+Program & Metric & Legacy & Compiled & Gains & Losses \\\midrule
+baseline & Accumulated & 37 & 38 & 7 & 6 \\
+baseline & Contiguous & 37 & 37 & 6 & 6 \\
+baseline & Clear contiguous & 18 & 13 & 0 & 5 \\
+repair & Accumulated & 43 & 43 & 7 & 7 \\
+repair & Contiguous & 43 & 42 & 6 & 7 \\
+repair & Clear contiguous & 24 & 18 & 0 & 6 \\
+no-extra & Accumulated & 37 & 38 & 7 & 6 \\
+no-extra & Contiguous & 37 & 37 & 6 & 6 \\
+no-extra & Clear contiguous & 18 & 13 & 0 & 5 \\
+\bottomrule\end{tabular}\end{table}

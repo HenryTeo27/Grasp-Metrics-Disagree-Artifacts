@@ -1,0 +1,175 @@
+{
+  "counts": {
+    "baseline": {
+      "legacy_success": 128,
+      "contiguous_success": 122,
+      "clear_contiguous_success": 37
+    },
+    "repair": {
+      "legacy_success": 141,
+      "contiguous_success": 133,
+      "clear_contiguous_success": 48
+    }
+  },
+  "retrospective": {
+    "scope": "Post-hoc union of the identical baseline/repair 85-case V3 exclusions; not 170 independent cases",
+    "candidates": 510,
+    "scenes": 85,
+    "replayed": 177,
+    "common_failure_without_replay": 333,
+    "B5": {
+      "FAIL": 510
+    },
+    "B4": {
+      "FAIL": 510
+    },
+    "rescued_scene_count": 0,
+    "unknown_scene_count": 0,
+    "candidate_reference_missing_for_full_wrench": 333,
+    "interpretation": "Missing wrench evidence in common-condition failures is not presented as measured zero load. Only all-condition verdicts and the declared excluded-scene coverage are complete.",
+    "calibration_version": "merged-v4-calibration-nominal-20261001",
+    "source_sha256": "effaea35616b629dd041f59ef28eebcd9b1bb018ac4e2a42dee71c91112ed83a"
+  },
+  "distribution_rows": [
+    {
+      "split": "V3",
+      "family": "bar_random",
+      "n": 60,
+      "mass_g": "76.02--84.19",
+      "s1_mm": "14.01--19.00",
+      "s2_mm": "35.02--48.65",
+      "s3_mm": "16.01--21.92",
+      "x_mm": "-2.48--8.34",
+      "y_mm": "77.07--84.23"
+    },
+    {
+      "split": "V3",
+      "family": "capsule_random",
+      "n": 60,
+      "mass_g": "60.49--66.73",
+      "s1_mm": "13.71--18.29",
+      "s2_mm": "23.19--37.91",
+      "s3_mm": "0.00--0.00",
+      "x_mm": "-9.26--9.41",
+      "y_mm": "75.04--98.20"
+    },
+    {
+      "split": "V3",
+      "family": "cube_random",
+      "n": 60,
+      "mass_g": "55.01--64.35",
+      "s1_mm": "22.01--28.23",
+      "s2_mm": "22.01--28.23",
+      "s3_mm": "22.01--28.23",
+      "x_mm": "-9.46--9.42",
+      "y_mm": "75.15--98.04"
+    },
+    {
+      "split": "V3",
+      "family": "cylinder_random",
+      "n": 60,
+      "mass_g": "65.08--69.88",
+      "s1_mm": "18.07--23.44",
+      "s2_mm": "27.01--36.98",
+      "s3_mm": "0.00--0.00",
+      "x_mm": "-9.47--9.33",
+      "y_mm": "75.01--98.42"
+    },
+    {
+      "split": "V3",
+      "family": "flat_box_random",
+      "n": 60,
+      "mass_g": "63.72--85.50",
+      "s1_mm": "24.09--33.92",
+      "s2_mm": "24.51--33.95",
+      "s3_mm": "8.11--13.90",
+      "x_mm": "-9.00--9.36",
+      "y_mm": "75.34--98.17"
+    },
+    {
+      "split": "V3",
+      "family": "sphere_random",
+      "n": 60,
+      "mass_g": "51.93--56.77",
+      "s1_mm": "17.04--23.95",
+      "s2_mm": "0.00--0.00",
+      "s3_mm": "0.00--0.00",
+      "x_mm": "-9.15--9.50",
+      "y_mm": "75.01--98.43"
+    },
+    {
+      "split": "V4",
+      "family": "bar_random",
+      "n": 20,
+      "mass_g": "76.32--84.21",
+      "s1_mm": "14.37--18.80",
+      "s2_mm": "35.54--48.68",
+      "s3_mm": "16.01--21.83",
+      "x_mm": "-2.43--8.47",
+      "y_mm": "78.03--84.45"
+    },
+    {
+      "split": "V4",
+      "family": "capsule_random",
+      "n": 20,
+      "mass_g": "61.02--66.19",
+      "s1_mm": "13.62--18.43",
+      "s2_mm": "23.13--37.05",
+      "s3_mm": "0.00--0.00",
+      "x_mm": "-9.16--9.15",
+      "y_mm": "75.58--98.24"
+    },
+    {
+      "split": "V4",
+      "family": "cube_random",
+      "n": 20,
+      "mass_g": "55.30--64.58",
+      "s1_mm": "22.20--28.39",
+      "s2_mm": "22.20--28.39",
+      "s3_mm": "22.20--28.39",
+      "x_mm": "-9.02--4.96",
+      "y_mm": "77.54--97.72"
+    },
+    {
+      "split": "V4",
+      "family": "cylinder_random",
+      "n": 20,
+      "mass_g": "65.63--68.78",
+      "s1_mm": "18.03--23.38",
+      "s2_mm": "27.88--36.50",
+      "s3_mm": "0.00--0.00",
+      "x_mm": "-9.15--8.04",
+      "y_mm": "77.25--97.75"
+    },
+    {
+      "split": "V4",
+      "family": "flat_box_random",
+      "n": 20,
+      "mass_g": "65.25--84.11",
+      "s1_mm": "24.03--33.95",
+      "s2_mm": "24.20--33.07",
+      "s3_mm": "8.19--13.81",
+      "x_mm": "-8.53--9.45",
+      "y_mm": "75.18--98.12"
+    },
+    {
+      "split": "V4",
+      "family": "sphere_random",
+      "n": 20,
+      "mass_g": "52.03--56.78",
+      "s1_mm": "17.19--23.97",
+      "s2_mm": "0.00--0.00",
+      "s3_mm": "0.00--0.00",
+      "x_mm": "-8.88--9.01",
+      "y_mm": "75.23--97.41"
+    }
+  ],
+  "source_hashes": {
+    "evidence\\prospective_v3\\analysis.json": "89d15d1a84f523a101e491dce724cd25a916f21b9e04beb755f14f6c3dfef80f",
+    "evidence\\prospective_v3\\case_results.csv": "0860c660264260f3e927579ae7dc2e290880fe03e66fc146a3afbea97df83fd7",
+    "evidence\\prospective_v3\\physics_sensitivity.csv": "e4f069761e8cde4fb9665bc19717f9f74d888d19ab98038bfafdd0fdda176282",
+    "evidence\\prospective_v3\\cases.json": "1b9b6c23a4165bddc6cb9fa9c546010a5f046718d87f05856d6c898a3f91e570",
+    "evidence\\research_v4\\protocols\\final_allegro_cases.json": "95f82062ff9a86dd93204dceb2afd77b18b6b13c7dbd49ceb099c48970416219",
+    "evidence\\research_v4\\manifests\\candidate_registry.csv": "5e193ebe64679847f03d660c712de9b181baa2ac88641a0c6dab0c111f551692"
+  }
+}

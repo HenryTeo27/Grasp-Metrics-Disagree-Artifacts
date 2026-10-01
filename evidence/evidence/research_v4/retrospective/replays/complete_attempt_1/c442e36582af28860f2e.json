@@ -1,0 +1,868 @@
+{
+  "job": {
+    "job_id": "c442e36582af28860f2e",
+    "block": "new1",
+    "physics": "compiled",
+    "case": {
+      "case_id": "v3_new1_cube_random_03",
+      "seed": 78434860,
+      "object_xyz": [
+        0.005929,
+        0.09804,
+        -0.032755
+      ],
+      "object_quat": [
+        0.99361376,
+        0.0,
+        0.0,
+        -0.11283477
+      ],
+      "object_yaw_rad": -0.226151,
+      "object_geom": {
+        "type": "box",
+        "size": [
+          0.027245,
+          0.027245,
+          0.027245
+        ],
+        "mass": 0.06287,
+        "friction": [
+          0.9,
+          0.015,
+          0.004
+        ],
+        "rgba": [
+          0.2,
+          0.55,
+          0.95,
+          1.0
+        ]
+      }
+    },
+    "family": "cube_random",
+    "candidate": {
+      "anchor": "configs/open_hand_hl/menagerie/allegro_tabletop_cube_core11_staged_support_hold15_anchor_v0.json",
+      "runner": "staged",
+      "derived": false,
+      "derived_finger": 0.0,
+      "derived_thumb": 0.0,
+      "extra_s": 0.5,
+      "thresholds": {
+        "hold_target_s": 15.0,
+        "min_lift_m": 0.004,
+        "max_xy_m": 0.05,
+        "max_force_n": 90.0
+      }
+    }
+  },
+  "result": {
+    "job_id": "c442e36582af28860f2e",
+    "block": "new1",
+    "physics": "compiled",
+    "family": "cube_random",
+    "case_id": "v3_new1_cube_random_03",
+    "candidate": {
+      "anchor": "configs/open_hand_hl/menagerie/allegro_tabletop_cube_core11_staged_support_hold15_anchor_v0.json",
+      "runner": "staged",
+      "derived": false,
+      "derived_finger": 0.0,
+      "derived_thumb": 0.0,
+      "extra_s": 0.5,
+      "thresholds": {
+        "hold_target_s": 15.0,
+        "min_lift_m": 0.004,
+        "max_xy_m": 0.05,
+        "max_force_n": 90.0
+      }
+    },
+    "metrics": {
+      "first_long_finger_step": 1740,
+      "first_thumb_long_finger_step": 3195,
+      "first_palm_step": -1,
+      "first_lift_step": 1866,
+      "first_lifted_thumb_long_finger_step": 3195,
+      "thumb_long_finger_overlap_s": 23.931999999997615,
+      "lifted_thumb_long_finger_supported_s": 16.41400000000178,
+      "lifted_any_duration_s": 19.14000000000027,
+      "support_hold_lifted_supported_s": 15.200000000001745,
+      "support_ramp_lifted_supported_s": 0.9600000000000007,
+      "max_object_lift_m": 0.010160955047994025,
+      "max_object_xy_displacement_m": 0.040814553901908655,
+      "max_contact_force_n": 2.1165419430785217,
+      "long_finger_contact_duration_s": 26.893999999995973,
+      "thumb_contact_duration_s": 23.935999999997613,
+      "palm_contact_duration_s": 0.0,
+      "thumb_lifted_contact_duration_s": 16.41800000000178,
+      "thumb_max_count": 5,
+      "thumb_max_force_n": 1.5913352251608754,
+      "thumb_bodies": "[\"th_distal\", \"th_medial\", \"th_tip\"]",
+      "ff_contact_duration_s": 26.893999999995973,
+      "ff_lifted_contact_duration_s": 19.114000000000285,
+      "ff_max_count": 2,
+      "ff_max_force_n": 2.1165419430785217,
+      "ff_bodies": "[\"ff_tip\"]",
+      "mf_contact_duration_s": 0.0,
+      "mf_lifted_contact_duration_s": 0.0,
+      "mf_max_count": 0,
+      "mf_max_force_n": 0.0,
+      "mf_bodies": "[]",
+      "rf_contact_duration_s": 0.0,
+      "rf_lifted_contact_duration_s": 0.0,
+      "rf_max_count": 0,
+      "rf_max_force_n": 0.0,
+      "rf_bodies": "[]",
+      "palm_lifted_contact_duration_s": 0.0,
+      "palm_max_count": 0,
+      "palm_max_force_n": 0.0,
+      "palm_bodies": "[]",
+      "other_contact_duration_s": 0.0,
+      "other_lifted_contact_duration_s": 0.0,
+      "other_max_count": 0,
+      "other_max_force_n": 0.0,
+      "other_bodies": "[]"
+    },
+    "legacy_success": true,
+    "temporal": {
+      "steps": 15200,
+      "dt": 0.002,
+      "legacy_success": true,
+      "accumulated_s": 16.414,
+      "contiguous_s": 16.16,
+      "clear_contiguous_s": 0.008,
+      "contiguous_success": true,
+      "clear_contiguous_success": false,
+      "environment_contact_s": 29.52,
+      "no_assistance": true,
+      "raw_intervals": [
+        [
+          3195,
+          3315
+        ],
+        [
+          3317,
+          3324
+        ],
+        [
+          7120,
+          15200
+        ]
+      ],
+      "clear_intervals": [
+        [
+          3309,
+          3313
+        ],
+        [
+          3321,
+          3323
+        ],
+        [
+          7123,
+          7124
+        ],
+        [
+          7127,
+          7128
+        ],
+        [
+          7131,
+          7132
+        ],
+        [
+          7136,
+          7137
+        ],
+        [
+          7139,
+          7140
+        ],
+        [
+          7145,
+          7146
+        ],
+        [
+          7149,
+          7150
+        ],
+        [
+          7153,
+          7154
+        ],
+        [
+          7158,
+          7159
+        ],
+        [
+          7162,
+          7163
+        ],
+        [
+          7166,
+          7167
+        ],
+        [
+          7170,
+          7171
+        ],
+        [
+          7175,
+          7177
+        ],
+        [
+          7183,
+          7185
+        ],
+        [
+          7189,
+          7190
+        ],
+        [
+          7192,
+          7193
+        ],
+        [
+          7195,
+          7196
+        ],
+        [
+          7199,
+          7201
+        ],
+        [
+          7205,
+          7206
+        ],
+        [
+          7207,
+          7208
+        ],
+        [
+          7210,
+          7211
+        ],
+        [
+          7213,
+          7214
+        ],
+        [
+          7216,
+          7218
+        ],
+        [
+          7222,
+          7225
+        ],
+        [
+          7229,
+          7231
+        ],
+        [
+          7233,
+          7234
+        ],
+        [
+          7235,
+          7236
+        ],
+        [
+          7238,
+          7240
+        ],
+        [
+          7242,
+          7243
+        ],
+        [
+          7244,
+          7245
+        ],
+        [
+          7246,
+          7247
+        ],
+        [
+          7248,
+          7249
+        ],
+        [
+          7251,
+          7253
+        ],
+        [
+          7255,
+          7257
+        ],
+        [
+          7259,
+          7261
+        ],
+        [
+          7263,
+          7265
+        ],
+        [
+          7267,
+          7269
+        ],
+        [
+          7271,
+          7274
+        ],
+        [
+          7277,
+          7280
+        ],
+        [
+          7282,
+          7283
+        ],
+        [
+          7284,
+          7286
+        ],
+        [
+          7288,
+          7291
+        ],
+        [
+          7294,
+          7298
+        ],
+        [
+          7301,
+          7303
+        ],
+        [
+          7304,
+          7306
+        ],
+        [
+          7309,
+          7313
+        ],
+        [
+          7316,
+          7319
+        ],
+        [
+          7322,
+          7326
+        ],
+        [
+          7330,
+          7334
+        ],
+        [
+          7337,
+          7339
+        ],
+        [
+          7340,
+          7341
+        ],
+        [
+          7343,
+          7345
+        ],
+        [
+          7346,
+          7347
+        ],
+        [
+          7349,
+          7351
+        ],
+        [
+          7354,
+          7357
+        ],
+        [
+          7360,
+          7362
+        ],
+        [
+          7364,
+          7366
+        ],
+        [
+          7369,
+          7371
+        ],
+        [
+          7373,
+          7374
+        ],
+        [
+          7376,
+          7378
+        ],
+        [
+          7380,
+          7381
+        ],
+        [
+          7383,
+          7385
+        ],
+        [
+          7388,
+          7390
+        ],
+        [
+          7393,
+          7395
+        ],
+        [
+          7398,
+          7399
+        ],
+        [
+          7400,
+          7401
+        ],
+        [
+          7403,
+          7405
+        ],
+        [
+          7409,
+          7411
+        ],
+        [
+          7414,
+          7416
+        ],
+        [
+          7419,
+          7421
+        ],
+        [
+          7425,
+          7427
+        ],
+        [
+          7430,
+          7432
+        ],
+        [
+          7435,
+          7436
+        ],
+        [
+          7437,
+          7438
+        ],
+        [
+          7441,
+          7443
+        ],
+        [
+          7446,
+          7448
+        ],
+        [
+          7451,
+          7452
+        ],
+        [
+          7453,
+          7454
+        ],
+        [
+          7456,
+          7457
+        ],
+        [
+          7458,
+          7459
+        ],
+        [
+          7462,
+          7465
+        ],
+        [
+          7470,
+          7473
+        ],
+        [
+          7476,
+          7477
+        ],
+        [
+          7478,
+          7479
+        ],
+        [
+          7480,
+          7481
+        ],
+        [
+          7483,
+          7485
+        ],
+        [
+          7488,
+          7490
+        ],
+        [
+          7492,
+          7494
+        ],
+        [
+          7497,
+          7500
+        ],
+        [
+          7504,
+          7508
+        ],
+        [
+          7512,
+          7515
+        ],
+        [
+          7517,
+          7519
+        ],
+        [
+          7521,
+          7523
+        ],
+        [
+          7525,
+          7527
+        ],
+        [
+          7528,
+          7529
+        ],
+        [
+          7531,
+          7534
+        ],
+        [
+          7536,
+          7537
+        ],
+        [
+          7538,
+          7540
+        ],
+        [
+          7541,
+          7542
+        ],
+        [
+          7544,
+          7547
+        ],
+        [
+          7549,
+          7552
+        ],
+        [
+          7555,
+          7559
+        ],
+        [
+          7561,
+          7563
+        ],
+        [
+          7564,
+          7565
+        ],
+        [
+          7566,
+          7568
+        ],
+        [
+          7570,
+          7573
+        ],
+        [
+          7574,
+          7575
+        ],
+        [
+          7576,
+          7577
+        ],
+        [
+          7578,
+          7580
+        ],
+        [
+          7581,
+          7582
+        ],
+        [
+          7583,
+          7585
+        ],
+        [
+          7586,
+          7587
+        ],
+        [
+          7588,
+          7590
+        ],
+        [
+          7591,
+          7592
+        ],
+        [
+          7593,
+          7595
+        ],
+        [
+          7596,
+          7597
+        ],
+        [
+          7598,
+          7600
+        ],
+        [
+          7601,
+          7603
+        ],
+        [
+          7604,
+          7607
+        ],
+        [
+          7609,
+          7613
+        ],
+        [
+          7616,
+          7617
+        ],
+        [
+          7618,
+          7620
+        ],
+        [
+          7625,
+          7627
+        ],
+        [
+          7632,
+          7633
+        ],
+        [
+          7636,
+          7637
+        ],
+        [
+          7646,
+          7647
+        ]
+      ]
+    },
+    "physical": {
+      "type": "box",
+      "mass": 0.06287,
+      "body_frame_inertia": [
+        [
+          3.1111849247833326e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.1111849247833326e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.1111849247833326e-05
+        ]
+      ],
+      "analytic_inertia": [
+        [
+          3.1111849247833326e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.1111849247833326e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          3.1111849247833326e-05
+        ]
+      ],
+      "inertia_relative_error": 0.0,
+      "geom_rbound": 0.04718972425221406
+    },
+    "object_mass": 0.06287,
+    "initial_hand_contact": false,
+    "initial_object_pose": [
+      0.005928999998605512,
+      0.09803999999978752,
+      -0.05294056520967847,
+      0.9936137652749513,
+      -2.637479608672415e-13,
+      9.746684508328578e-13,
+      -0.11283477059902342
+    ],
+    "qpos_edits": 0,
+    "qvel_edits": 0,
+    "dt": 0.002,
+    "settle_steps": 100,
+    "final_step": 15300,
+    "elapsed_s": 9.344998900021892
+  },
+  "observer": {
+    "observer_version": "merged-v4-contact-solve-1",
+    "step_columns": [
+      "step",
+      "solve_time",
+      "dt",
+      "com_x",
+      "com_y",
+      "com_z",
+      "quat_w",
+      "quat_x",
+      "quat_y",
+      "quat_z",
+      "free_qvel_0",
+      "free_qvel_1",
+      "free_qvel_2",
+      "free_qvel_3",
+      "free_qvel_4",
+      "free_qvel_5",
+      "env_count",
+      "env_constraint_count",
+      "env_force_threshold_count",
+      "env_normal_n",
+      "env_abs_force_n",
+      "env_abs_torque_nm",
+      "env_net_force_x",
+      "env_net_force_y",
+      "env_net_force_z",
+      "env_net_torque_x",
+      "env_net_torque_y",
+      "env_net_torque_z",
+      "env_min_dist",
+      "env_dist_present",
+      "env_active_min_dist",
+      "env_active_dist_present",
+      "applied_any",
+      "target_applied_norm",
+      "target_qpos_write",
+      "target_qvel_write",
+      "geometry_clock_error",
+      "contact_start",
+      "contact_end"
+    ],
+    "contact_columns": [
+      "step",
+      "geom1",
+      "geom2",
+      "body1",
+      "body2",
+      "role",
+      "efc_address",
+      "dim",
+      "dist",
+      "point_x",
+      "point_y",
+      "point_z",
+      "frame_0",
+      "frame_1",
+      "frame_2",
+      "frame_3",
+      "frame_4",
+      "frame_5",
+      "frame_6",
+      "frame_7",
+      "frame_8",
+      "local_fn",
+      "local_ft1",
+      "local_ft2",
+      "local_tn",
+      "local_tt1",
+      "local_tt2",
+      "target_force_x",
+      "target_force_y",
+      "target_force_z",
+      "target_com_torque_x",
+      "target_com_torque_y",
+      "target_com_torque_z"
+    ],
+    "body_roles": [
+      0,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "mass_kg": 0.06287,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "support_paths": {
+      "complete_for_declared_model": true,
+      "reason_codes": [],
+      "scope": "Single free primitive; direct equality/tendon/actuator/passive paths and applied arrays. No claim to detect malicious plugins or opaque external callbacks."
+    },
+    "snapshot": {
+      "step": 4000,
+      "flag": 16383,
+      "time": 7.999999999999341
+    },
+    "sample_convention": "pre-integration solve state with separately named post states",
+    "force_convention": "contact-frame force/torque acts on geom2; world wrench about target COM",
+    "geometry_clock_max_error": 0.0
+  },
+  "planned_steps": 15300,
+  "terminal_reason": "controller_schedule_completed",
+  "source_id": "allegro_frozen_library",
+  "length_scale_m": 0.04718972425221406,
+  "archive_equivalence": {
+    "samples": true,
+    "telemetry": true,
+    "step_index": true,
+    "solve_time": true,
+    "metrics": true,
+    "temporal": true
+  },
+  "equivalence_pass": true,
+  "trace_sha256": "10dde2892043acecaf240db0b1a1aa1ebf79d105ab3b8264cb684fe93a98cb6b",
+  "job_spec_hash": "fe93fade02bb4d8b5fd1449b3216878eb68b4fe2f7b0ddcf05a6ec8bdd82f8b3",
+  "elapsed_s": 10.537443800014444,
+  "trace_bytes": 18349327,
+  "observer_code_sha256": "220f8095e70026f3e0ecb61ac333316d186b2aff02b9a0295c62826f25af5f39",
+  "adapter_code_sha256": "226f8448fb2b2c56f6b1c69d4571640397d46a985998333fdac77b491c3366aa",
+  "v3_input_manifest_hash": "8ab9c81ae18cf76e5d8196b30bad6094e755d712e943172f1a6559e702d92d1f",
+  "split_role": "retrospective_development",
+  "controller_state": "Open-loop command tape for branching; no policy execution on restored branches"
+}

@@ -1,0 +1,7 @@
+source,nominal_executions,assigned_scenes_or_records,inference_unit,audited_nominal_steps,counterfactual_and_probe_steps,B6_solver_wall_s,nominal_observer_off_included,unmetered_cost
+controls,240,240,Scene within fixed apparatus/family; Fetch seed,4320000,234000,0.48478820017771795,True,None in physical-step totals; not all wall-clock overhead metered
+allegro,720,120,Scene within fixed apparatus/family; Fetch seed,8363972,6000,0.0,False,None in physical-step totals; not all wall-clock overhead metered
+fetch,100,100,Scene within fixed apparatus/family; Fetch seed,2000000,42000,0.0,True,None in physical-step totals; not all wall-clock overhead metered
+dexgraspbench,100,100,Record clustered within four identities,900000,48000,0.0,True,DGB native force tests and two upstream staging phases
+U2 future,720,0,Repeated futures in the same 120 scenes; not new independent scenes,0,5362500,0,False,No physical steps for invalid-input futures; these remain INVALID
+Representation pairs,8,0,Paired technical reruns of eight existing controls,72000,0,0,False,None in physical-step totals

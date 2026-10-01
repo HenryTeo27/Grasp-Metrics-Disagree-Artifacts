@@ -1,0 +1,40 @@
+{
+  "role": "DEVELOPMENT_ONLY_OLD_360",
+  "real_compatible_versions": [
+    {
+      "version": "baseline",
+      "scenes": 360,
+      "native": 128,
+      "contiguous": 122,
+      "nc": 37
+    },
+    {
+      "version": "repair",
+      "scenes": 360,
+      "native": 141,
+      "contiguous": 133,
+      "nc": 48
+    }
+  ],
+  "excluded_pseudo_version": "No-extra is identical to baseline, not a third independent checkpoint",
+  "U1": {
+    "chosen": {
+      "native": "repair",
+      "contiguous": "repair",
+      "nc": "repair"
+    },
+    "enabled": false,
+    "reason": "All available historical scoring contracts promote repair; no ranking divergence in the genuine two-version pool"
+  },
+  "U2": {
+    "enabled": true,
+    "pool": "Unmodified V4.1 repair ordered K=6 library; K=1/3 are prefixes",
+    "native_accepted": 141,
+    "nc_accepted": 48,
+    "differing_decisions": 93,
+    "decision": "Use U2 as the sole utility route; independent future test not yet observed",
+    "caveat": "This establishes a nondegenerate acceptance space, not B5 superiority. B4 and B5 are tied in all existing comparisons."
+  },
+  "primary_utility": "Additional 15s hold-last-command retention after removing target-environment permissions; pose relative to palm <=3cm, rotation <=.35rad, speed <=.2m/s for entire interval. Future endpoint does not read any auditor verdict. This is an added intervention-conditioned use, not native policy success.",
+  "accounting": "Selection observes identical K full schedules. Future evaluation cost is separate. B7 active probes are not admitted as cost-free U2 selectors."
+}

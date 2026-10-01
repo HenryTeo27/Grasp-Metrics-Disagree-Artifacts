@@ -1,0 +1,11 @@
+{
+  "job_id": "a5eb27b988aecedb0b73",
+  "case_id": "v4_final_cylinder_random_17",
+  "elapsed_s": 0.0,
+  "outcome": {
+    "status": "INVALID",
+    "reason": "REGISTERED_INVALID_NOMINAL_INPUT",
+    "physics_steps": 0,
+    "recovery_sha256": "6ef783c4fd81647c9d5cfd47225df275eae8727dca7b6752aa2f64326b32f887"
+  }
+}

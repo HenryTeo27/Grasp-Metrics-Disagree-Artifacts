@@ -1,0 +1,112 @@
+{
+  "job_id": "1eea76230b347b902739",
+  "case_id": "v4_final_cylinder_random_10",
+  "outcome": {
+    "status": "VALID",
+    "result": {
+      "success": true,
+      "max_position_error_m": 0.005014580675535654,
+      "max_angle_error_rad": 0.08591014041128754,
+      "max_linear_speed_m_s": 0.005130259230704088
+    },
+    "hold_s": 15.0,
+    "physics_steps": 7500,
+    "intervention": {
+      "method": "unused_collision_bit",
+      "spare_bit": 2,
+      "preserved_target_hand_pairs": [
+        [
+          43,
+          2
+        ],
+        [
+          43,
+          4
+        ],
+        [
+          43,
+          6
+        ],
+        [
+          43,
+          8
+        ],
+        [
+          43,
+          10
+        ],
+        [
+          43,
+          12
+        ],
+        [
+          43,
+          14
+        ],
+        [
+          43,
+          16
+        ],
+        [
+          43,
+          18
+        ],
+        [
+          43,
+          20
+        ],
+        [
+          43,
+          22
+        ],
+        [
+          43,
+          24
+        ],
+        [
+          43,
+          26
+        ],
+        [
+          43,
+          28
+        ],
+        [
+          43,
+          30
+        ],
+        [
+          43,
+          32
+        ],
+        [
+          43,
+          34
+        ],
+        [
+          43,
+          36
+        ],
+        [
+          43,
+          38
+        ],
+        [
+          43,
+          40
+        ],
+        [
+          43,
+          42
+        ]
+      ],
+      "target_geoms": [
+        43
+      ],
+      "removed_scope": "target_environment_only"
+    },
+    "endpoint": "Independent all-sample palm-relative displacement/angle/speed bounds",
+    "continuation": "Fixed final actuator commands and mocap; target initial state is copied only at explicit branch reset"
+  },
+  "elapsed_s": 0.7321816000039689
+}

@@ -1,0 +1,35 @@
+{
+  "checked_utc": "2026-09-30T19:09:57.884476+00:00",
+  "executable": "C:\\Users\\User\\.cache\\codex-grasp-audit-venv\\Scripts\\python.exe",
+  "python": "3.11.1",
+  "numpy": "2.4.6",
+  "mujoco": "3.8.0",
+  "automatic_install": false,
+  "platform": "Windows-10-10.0.26200-SP0",
+  "modules": {
+    "torch": false,
+    "scipy": false,
+    "robosuite": false,
+    "robomimic": false
+  },
+  "fetch": {
+    "source": "public_fetch_state_machine",
+    "split_role": "engineering_smoke_excluded_from_final",
+    "scene": {
+      "id": "seed0_raised",
+      "seed": 0,
+      "goal_height_above_reset_m": 0.15,
+      "expected_scope": "Unchanged expert may acquire and maintain environment-clear bilateral support; failures are retained."
+    },
+    "observer_on_off_bit_equal": true,
+    "original_trace_bit_equal": true,
+    "native_success_final": true,
+    "control_steps": 500,
+    "physics_steps": 10000,
+    "elapsed_s": 3.3201830000034533,
+    "source_sha256": "5d9682b52e43dbee2d2dd81d83b44b14cdc70945c9069de3b3958df8a852865b",
+    "state_restore": "Not yet tested; observer equality does not establish sham equivalence",
+    "controller_license": "MIT",
+    "assets_redistribution": "Excluded; retain upstream license limits"
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "job": {
+    "job_id": "daf45bc5ac15a59d3069",
+    "block": "new2",
+    "physics": "compiled",
+    "case": {
+      "case_id": "v3_new2_cube_random_09",
+      "seed": 12167744,
+      "object_xyz": [
+        -0.00729,
+        0.078044,
+        -0.037147
+      ],
+      "object_quat": [
+        0.99908124,
+        0.0,
+        0.0,
+        0.04285638
+      ],
+      "object_yaw_rad": 0.085739,
+      "object_geom": {
+        "type": "box",
+        "size": [
+          0.022853,
+          0.022853,
+          0.022853
+        ],
+        "mass": 0.05628,
+        "friction": [
+          0.9,
+          0.015,
+          0.004
+        ],
+        "rgba": [
+          0.2,
+          0.55,
+          0.95,
+          1.0
+        ]
+      }
+    },
+    "family": "cube_random",
+    "candidate": {
+      "anchor": "configs/open_hand_hl/menagerie/allegro_tabletop_cube_core00_staged_support_hold15_anchor_v0.json",
+      "runner": "staged",
+      "derived": false,
+      "derived_finger": 0.0,
+      "derived_thumb": 0.0,
+      "extra_s": 0.5,
+      "thresholds": {
+        "hold_target_s": 15.0,
+        "min_lift_m": 0.004,
+        "max_xy_m": 0.05,
+        "max_force_n": 90.0
+      }
+    }
+  },
+  "result": {
+    "job_id": "daf45bc5ac15a59d3069",
+    "block": "new2",
+    "physics": "compiled",
+    "family": "cube_random",
+    "case_id": "v3_new2_cube_random_09",
+    "candidate": {
+      "anchor": "configs/open_hand_hl/menagerie/allegro_tabletop_cube_core00_staged_support_hold15_anchor_v0.json",
+      "runner": "staged",
+      "derived": false,
+      "derived_finger": 0.0,
+      "derived_thumb": 0.0,
+      "extra_s": 0.5,
+      "thresholds": {
+        "hold_target_s": 15.0,
+        "min_lift_m": 0.004,
+        "max_xy_m": 0.05,
+        "max_force_n": 90.0
+      }
+    },
+    "metrics": {
+      "first_long_finger_step": 1591,
+      "first_thumb_long_finger_step": 2946,
+      "first_palm_step": -1,
+      "first_lift_step": 4414,
+      "first_lifted_thumb_long_finger_step": 4414,
+      "thumb_long_finger_overlap_s": 20.623999999999448,
+      "lifted_thumb_long_finger_supported_s": 17.70000000000107,
+      "lifted_any_duration_s": 21.371999999999034,
+      "support_hold_lifted_supported_s": 15.194000000001743,
+      "support_ramp_lifted_supported_s": 1.6760000000000013,
+      "max_object_lift_m": 0.008899331479378242,
+      "max_object_xy_displacement_m": 0.03632816656935548,
+      "max_contact_force_n": 0.8088834140931801,
+      "long_finger_contact_duration_s": 23.35999999999793,
+      "thumb_contact_duration_s": 24.19399999999747,
+      "palm_contact_duration_s": 0.0,
+      "thumb_lifted_contact_duration_s": 21.257999999999097,
+      "thumb_max_count": 1,
+      "thumb_max_force_n": 0.8088834140931801,
+      "thumb_bodies": "[\"th_tip\"]",
+      "ff_contact_duration_s": 23.35999999999793,
+      "ff_lifted_contact_duration_s": 17.800000000001013,
+      "ff_max_count": 2,
+      "ff_max_force_n": 0.6397739749200068,
+      "ff_bodies": "[\"ff_tip\"]",
+      "mf_contact_duration_s": 0.0,
+      "mf_lifted_contact_duration_s": 0.0,
+      "mf_max_count": 0,
+      "mf_max_force_n": 0.0,
+      "mf_bodies": "[]",
+      "rf_contact_duration_s": 0.0,
+      "rf_lifted_contact_duration_s": 0.0,
+      "rf_max_count": 0,
+      "rf_max_force_n": 0.0,
+      "rf_bodies": "[]",
+      "palm_lifted_contact_duration_s": 0.0,
+      "palm_max_count": 0,
+      "palm_max_force_n": 0.0,
+      "palm_bodies": "[]",
+      "other_contact_duration_s": 0.0,
+      "other_lifted_contact_duration_s": 0.0,
+      "other_max_count": 0,
+      "other_max_force_n": 0.0,
+      "other_bodies": "[]"
+    },
+    "legacy_success": true,
+    "temporal": {
+      "steps": 15100,
+      "dt": 0.002,
+      "legacy_success": true,
+      "accumulated_s": 17.7,
+      "contiguous_s": 15.048,
+      "clear_contiguous_s": 0.002,
+      "contiguous_success": true,
+      "clear_contiguous_success": false,
+      "environment_contact_s": 30.144000000000002,
+      "no_assistance": true,
+      "raw_intervals": [
+        [
+          4414,
+          4437
+        ],
+        [
+          4438,
+          4485
+        ],
+        [
+          4486,
+          4523
+        ],
+        [
+          4524,
+          4558
+        ],
+        [
+          4559,
+          4595
+        ],
+        [
+          4596,
+          4635
+        ],
+        [
+          4636,
+          4674
+        ],
+        [
+          4675,
+          4707
+        ],
+        [
+          4708,
+          4731
+        ],
+        [
+          4732,
+          4751
+        ],
+        [
+          4752,
+          4766
+        ],
+        [
+          4767,
+          4779
+        ],
+        [
+          4781,
+          4786
+        ],
+        [
+          4788,
+          4795
+        ],
+        [
+          4797,
+          4804
+        ],
+        [
+          4805,
+          4808
+        ],
+        [
+          4809,
+          4811
+        ],
+        [
+          4813,
+          4814
+        ],
+        [
+          4821,
+          4824
+        ],
+        [
+          4826,
+          4829
+        ],
+        [
+          4831,
+          4834
+        ],
+        [
+          4836,
+          4838
+        ],
+        [
+          4839,
+          4840
+        ],
+        [
+          4849,
+          4850
+        ],
+        [
+          4851,
+          4852
+        ],
+        [
+          5026,
+          5048
+        ],
+        [
+          6619,
+          6689
+        ],
+        [
+          6690,
+          6869
+        ],
+        [
+          6870,
+          6944
+        ],
+        [
+          6945,
+          6990
+        ],
+        [
+          6991,
+          7030
+        ],
+        [
+          7031,
+          7063
+        ],
+        [
+          7064,
+          7090
+        ],
+        [
+          7091,
+          7115
+        ],
+        [
+          7116,
+          7138
+        ],
+        [
+          7139,
+          7158
+        ],
+        [
+          7159,
+          7177
+        ],
+        [
+          7178,
+          7194
+        ],
+        [
+          7195,
+          7211
+        ],
+        [
+          7212,
+          7226
+        ],
+        [
+          7227,
+          7241
+        ],
+        [
+          7242,
+          7254
+        ],
+        [
+          7255,
+          7268
+        ],
+        [
+          7269,
+          7280
+        ],
+        [
+          7281,
+          7293
+        ],
+        [
+          7294,
+          7304
+        ],
+        [
+          7305,
+          7316
+        ],
+        [
+          7317,
+          7326
+        ],
+        [
+          7327,
+          7337
+        ],
+        [
+          7338,
+          7347
+        ],
+        [
+          7348,
+          7357
+        ],
+        [
+          7358,
+          7367
+        ],
+        [
+          7368,
+          7376
+        ],
+        [
+          7377,
+          7386
+        ],
+        [
+          7387,
+          7394
+        ],
+        [
+          7395,
+          7403
+        ],
+        [
+          7404,
+          7412
+        ],
+        [
+          7413,
+          7419
+        ],
+        [
+          7420,
+          7428
+        ],
+        [
+          7429,
+          7436
+        ],
+        [
+          7437,
+          7443
+        ],
+        [
+          7444,
+          7451
+        ],
+        [
+          7452,
+          7459
+        ],
+        [
+          7460,
+          7465
+        ],
+        [
+          7466,
+          7473
+        ],
+        [
+          7474,
+          7480
+        ],
+        [
+          7481,
+          7486
+        ],
+        [
+          7487,
+          7494
+        ],
+        [
+          7496,
+          7513
+        ],
+        [
+          7514,
+          7542
+        ],
+        [
+          7543,
+          7575
+        ],
+        [
+          7576,
+          15100
+        ]
+      ],
+      "clear_intervals": [
+        [
+          4439,
+          4440
+        ]
+      ]
+    },
+    "physical": {
+      "type": "box",
+      "mass": 0.05628,
+      "body_frame_inertia": [
+        [
+          1.9595180529679996e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.9595180529679996e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.9595180529679996e-05
+        ]
+      ],
+      "analytic_inertia": [
+        [
+          1.9595180529679996e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.9595180529679996e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.9595180529679996e-05
+        ]
+      ],
+      "inertia_relative_error": 0.0,
+      "geom_rbound": 0.03958255710537155
+    },
+    "object_mass": 0.05628,
+    "initial_hand_contact": false,
+    "initial_object_pose": [
+      -0.007308427777052847,
+      0.07826978985048551,
+      -0.057324797598150186,
+      0.9991079708673122,
+      -0.0005161709718132469,
+      -0.0005211002201340238,
+      0.042222323141813935
+    ],
+    "qpos_edits": 0,
+    "qvel_edits": 0,
+    "dt": 0.002,
+    "settle_steps": 100,
+    "final_step": 15200,
+    "elapsed_s": 8.407776400039438
+  },
+  "observer": {
+    "observer_version": "merged-v4-contact-solve-1",
+    "step_columns": [
+      "step",
+      "solve_time",
+      "dt",
+      "com_x",
+      "com_y",
+      "com_z",
+      "quat_w",
+      "quat_x",
+      "quat_y",
+      "quat_z",
+      "free_qvel_0",
+      "free_qvel_1",
+      "free_qvel_2",
+      "free_qvel_3",
+      "free_qvel_4",
+      "free_qvel_5",
+      "env_count",
+      "env_constraint_count",
+      "env_force_threshold_count",
+      "env_normal_n",
+      "env_abs_force_n",
+      "env_abs_torque_nm",
+      "env_net_force_x",
+      "env_net_force_y",
+      "env_net_force_z",
+      "env_net_torque_x",
+      "env_net_torque_y",
+      "env_net_torque_z",
+      "env_min_dist",
+      "env_dist_present",
+      "env_active_min_dist",
+      "env_active_dist_present",
+      "applied_any",
+      "target_applied_norm",
+      "target_qpos_write",
+      "target_qvel_write",
+      "geometry_clock_error",
+      "contact_start",
+      "contact_end"
+    ],
+    "contact_columns": [
+      "step",
+      "geom1",
+      "geom2",
+      "body1",
+      "body2",
+      "role",
+      "efc_address",
+      "dim",
+      "dist",
+      "point_x",
+      "point_y",
+      "point_z",
+      "frame_0",
+      "frame_1",
+      "frame_2",
+      "frame_3",
+      "frame_4",
+      "frame_5",
+      "frame_6",
+      "frame_7",
+      "frame_8",
+      "local_fn",
+      "local_ft1",
+      "local_ft2",
+      "local_tn",
+      "local_tt1",
+      "local_tt2",
+      "target_force_x",
+      "target_force_y",
+      "target_force_z",
+      "target_com_torque_x",
+      "target_com_torque_y",
+      "target_com_torque_z"
+    ],
+    "body_roles": [
+      0,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "mass_kg": 0.05628,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "support_paths": {
+      "complete_for_declared_model": true,
+      "reason_codes": [],
+      "scope": "Single free primitive; direct equality/tendon/actuator/passive paths and applied arrays. No claim to detect malicious plugins or opaque external callbacks."
+    },
+    "snapshot": {
+      "step": 4000,
+      "flag": 16383,
+      "time": 7.999999999999341
+    },
+    "sample_convention": "pre-integration solve state with separately named post states",
+    "force_convention": "contact-frame force/torque acts on geom2; world wrench about target COM",
+    "geometry_clock_max_error": 0.0
+  },
+  "planned_steps": 15200,
+  "terminal_reason": "controller_schedule_completed",
+  "source_id": "allegro_frozen_library",
+  "length_scale_m": 0.03958255710537155,
+  "archive_equivalence": {
+    "samples": true,
+    "telemetry": true,
+    "step_index": true,
+    "solve_time": true,
+    "metrics": true,
+    "temporal": true
+  },
+  "equivalence_pass": true,
+  "trace_sha256": "e32e51b46dd0789848c16e70434f3a39ad540b9713b0b488b9b43c190b6a58aa",
+  "job_spec_hash": "88423e42f117f25cf62f84af0a3703d052286bf485bbf92b05966696f82094d1",
+  "elapsed_s": 9.539676199958194,
+  "trace_bytes": 15959637,
+  "observer_code_sha256": "220f8095e70026f3e0ecb61ac333316d186b2aff02b9a0295c62826f25af5f39",
+  "adapter_code_sha256": "226f8448fb2b2c56f6b1c69d4571640397d46a985998333fdac77b491c3366aa",
+  "v3_input_manifest_hash": "8ab9c81ae18cf76e5d8196b30bad6094e755d712e943172f1a6559e702d92d1f",
+  "split_role": "retrospective_development",
+  "controller_state": "Open-loop command tape for branching; no policy execution on restored branches"
+}

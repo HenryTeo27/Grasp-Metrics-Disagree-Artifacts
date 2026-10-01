@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "source": "controls",
+  "fixed_case": "First registered formal row; no selection from outcome",
+  "method_verdicts_equal": {
+    "B5": true,
+    "B4": true,
+    "A_no_geometry": true,
+    "A_no_torque": true,
+    "A_binary_unknown_fail": true,
+    "A_accumulated": true,
+    "A_net_aggregation": true,
+    "B0": true,
+    "B1": true,
+    "B2": true,
+    "B3": true,
+    "B4_normal": true
+  },
+  "observer_neutral": true,
+  "counterfactual": {
+    "status": "VALID",
+    "sham_bit_equal": true,
+    "horizon_s": 3.0,
+    "t0_s": 7.999999999999341,
+    "continuation": "Recorded controls and mocap, not controller recovery",
+    "endpoint_frame": "world",
+    "reference_body_id": null,
+    "intervention_audit": {
+      "method": "unused_collision_bit",
+      "spare_bit": 8,
+      "preserved_target_hand_pairs": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "target_geoms": [
+        3
+      ],
+      "removed_scope": "target_environment_only"
+    },
+    "endpoints": {
+      "sham": {
+        "success": true,
+        "max_position_error_m": 0.0011661957947661783,
+        "max_angle_error_rad": 0.0,
+        "max_linear_speed_m_s": 0.000388731931579721
+      },
+      "removed": {
+        "success": true,
+        "max_position_error_m": 0.0011661957947661783,
+        "max_angle_error_rad": 0.0,
+        "max_linear_speed_m_s": 0.000388731931579721
+      }
+    },
+    "cell": "BOTH_RETAIN"
+  },
+  "interpreter": "C:\\Users\\User\\.cache\\codex-grasp-audit-venv\\Scripts\\python.exe",
+  "python": "3.11.1",
+  "versions": {
+    "numpy": "2.4.6",
+    "mujoco": "3.8.0",
+    "scipy": "1.17.1"
+  },
+  "original_protocol_sha256": "ffc60fe94dca45e826c2f864865cbeb7c749b7a11b6f05784b9c6f24b896b9a0",
+  "script_sha256": "c18b81de105187f46ad1a9a2b8e048de051c58f06203eef15b9714fc701a3685",
+  "scope": "One exact runtime re-execution; existing isolated declared venv, not clean-machine installation or full-matrix reproduction"
+}

@@ -1,0 +1,12 @@
+\begin{table}[h]\centering\small
+\caption{Candidate membership in the historical V3 360-scene pool. Shared/new/dropped refer to distinct complete candidate specifications by family, not new independent program checkpoints.}
+\begin{tabular}{lrrrrl}\toprule Family & Changed scenes & Shared & New & Dropped & Order / runner\\\midrule
+bar & 0/60 & 11 & 0 & 0 & nearest XY / hold \\
+capsule & 0/60 & 12 & 0 & 0 & nearest XY / hold \\
+cube & 0/60 & 6 & 0 & 0 & fixed / staged \\
+cylinder & 0/60 & 12 & 0 & 0 & nearest XY / hold \\
+flat box & 0/60 & 6 & 0 & 0 & fixed / staged \\
+sphere & 46/60 & 12 & 6 & 0 & nearest XY / hold \\
+\bottomrule\end{tabular}\end{table}
+The pool uses six candidates per scene; K=1 and K=3 are prefixes. There are no repeated candidates within a scene/policy prefix. No-extra equals baseline in all 360 scenes, rather than padding its budget with duplicates. The three conditions have 6,480 logical slots and share 2,278 distinct executions. Baseline has 29 complete candidate specifications and repair 35. Non-sphere ordered lists are unchanged; sphere additions alter the nearest-anchor neighborhood.
+Candidate identity contains runner, anchor, derived-control offsets, hold extension and native thresholds. Staged schedules have pre-position, finger ramp/hold, thumb ramp/hold, lift and support phases. Hold schedules retain each anchor\textquotesingle s settling/contact/grip stages and any micro, bridge, cradle or feedback phases, followed by lift, support ramp and hold. Full numerical phase/control arrays are preserved in hash-locked anchor JSONs; no phase is refitted for V4.

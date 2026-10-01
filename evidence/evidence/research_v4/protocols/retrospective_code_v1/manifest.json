@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-09-30T20:07:56.373049+00:00",
+  "role": "Exact V4 code at completion of 177 retrospective replays",
+  "files": {
+    "scripts/v4/__init__.py": "fec1b965b9ff88c65511e56b0a3a24a3ce31abbdf926bb2c812151c5cbb6906b",
+    "scripts/v4/adapters/__init__.py": "f117c419fa4c0f41bf4c8d98b88ebad0e3f1269797c98d654903dd2ce2a28307",
+    "scripts/v4/adapters/allegro.py": "226f8448fb2b2c56f6b1c69d4571640397d46a985998333fdac77b491c3366aa",
+    "scripts/v4/cli.py": "47e81e4333065cb6ef7db7b6c415888accc6a41a76797c1cc0e6ab386e93bf68",
+    "scripts/v4/common.py": "10ad619852f91d142966c2c8e62d0f4fb93a38af995f21a8cd903bc87af26bd4",
+    "scripts/v4/contact_observer.py": "220f8095e70026f3e0ecb61ac333316d186b2aff02b9a0295c62826f25af5f39",
+    "scripts/v4/contracts.py": "b74d821fd0b3a2d75aa49a5db46f67ceb722656f4c7047bdc3c3106948897515",
+    "scripts/v4/doctor.py": "eaed023089dd1344cdedddc36c6d69181762fc55ff187f4fd9a09eec1d6a919d",
+    "scripts/v4/inventory.py": "5e2c6857cc7ca811d61f26231742998faafbca3f31083cbe992353a5afffe694",
+    "scripts/v4/provenance.py": "24ab3262fe1f733554d8983233d39d5f2d422ea5eb70913213cb6dc7a82a86a2",
+    "scripts/v4/replay_missing.py": "d6a1cbb472528f074437bdd47c35101f769db089672b3ba40b27e0efc832cd22",
+    "scripts/v4/retrospective.py": "fc13afb304f644af6c0c3aabd5e488f61cf3ede0f5a44e8ff06a16b1b4c70435"
+  },
+  "original_v3_code": "See prospective_v3/frozen_inputs and its protocol"
+}

@@ -1,0 +1,106 @@
+"""Development full-state sham and target-environment-only contact intervention."""
+from __future__ import annotations
+
+import numpy as np
+import mujoco
+
+
+def remove_target_environment(model, target, roles):
+    targets = np.flatnonzero(model.geom_bodyid == target)
+    if model.npair and any(int(g) in targets for g in np.r_[model.pair_geom1, model.pair_geom2]):
+        raise ValueError('Explicit target pairs require a separate intervention adapter')
+    used = int(np.bitwise_or.reduce(np.r_[model.geom_contype, model.geom_conaffinity]))
+    bit = next((1 << i for i in range(30) if not (used & (1 << i))), None)
+    if bit is None:
+        raise ValueError('No unused collision bit')
+    hand = np.flatnonzero(np.asarray(roles)[model.geom_bodyid] > 0)
+    pairs = []
+    for a in targets:
+        for b in hand:
+            if (model.geom_contype[a] & model.geom_conaffinity[b] or
+                    model.geom_contype[b] & model.geom_conaffinity[a]):
+                pairs.append((int(a), int(b)))
+    # A single spare bit is exact only when target geoms share hand-pair permissions.
+    expected = {(a, b) for a in targets for b in {p[1] for p in pairs}}
+    if expected != set(pairs):
+        raise ValueError('Nonuniform target-hand permissions require a richer bit mapping')
+    before = np.c_[model.geom_contype.copy(), model.geom_conaffinity.copy()]
+    for _, b in pairs:
+        model.geom_contype[b] |= bit
+    for a in targets:
+        model.geom_contype[a] = 0
+        model.geom_conaffinity[a] = bit
+    after = np.c_[model.geom_contype, model.geom_conaffinity]
+    for a in range(model.ngeom):
+        for b in range(a):
+            old = bool(before[a, 0] & before[b, 1] or before[b, 0] & before[a, 1])
+            new = bool(after[a, 0] & after[b, 1] or after[b, 0] & after[a, 1])
+            target_pair = (a in targets) != (b in targets)
+            other = b if a in targets else a
+            environment_pair = target_pair and roles[model.geom_bodyid[other]] == 0
+            if new != (False if environment_pair else old):
+                raise RuntimeError('Intervention changed an undeclared collision permission')
+    return dict(method='unused_collision_bit', spare_bit=bit, preserved_target_hand_pairs=pairs,
+                target_geoms=targets.tolist(), removed_scope='target_environment_only')
+
+
+def endpoint(qpos, qvel, initial, *, position_limit=.03, angle_limit=.35, speed_limit=.2):
+    displacement = np.linalg.norm(qpos[:, :3] - initial[:3], axis=1)
+    dots = np.abs(qpos[:, 3:7] @ initial[3:7])
+    angles = 2*np.arccos(np.clip(dots, 0., 1.))
+    speeds = np.linalg.norm(qvel[:, :3], axis=1)
+    return dict(success=bool(np.all(displacement <= position_limit) and
+                             np.all(angles <= angle_limit) and np.all(speeds <= speed_limit)),
+                max_position_error_m=float(displacement.max()), max_angle_error_rad=float(angles.max()),
+                max_linear_speed_m_s=float(speeds.max()))
+
+
+def branch_fixture(arrays, metadata, *, horizon_s=3.):
+    snap = metadata['snapshot']
+    if snap is None:
+        return dict(status='UNREACHABLE', reason='NO_DECLARED_SNAPSHOT')
+    first = snap['step']
+    applied = arrays['steps'][:first+1, metadata['step_columns'].index('applied_any')].any()
+    if not metadata['global_common'] or not arrays['common_q'][first] or applied:
+        return dict(status='UNREACHABLE', reason='COMMON_OR_NO_ASSISTANCE_PRECONDITION_FAILED')
+    dt = float(arrays['steps'][0, metadata['step_columns'].index('dt')])
+    count = round(horizon_s/dt)
+    if first+count > len(arrays['steps']):
+        return dict(status='UNREACHABLE', reason='INSUFFICIENT_CONTINUATION_TAPE')
+    target, qadr, vadr = metadata['target_body'], metadata['target_qadr'], metadata['target_vadr']
+    trajectories, audits = {}, {}
+    for name in ('sham', 'removed'):
+        model = mujoco.MjModel.from_xml_string(metadata['model_xml'])
+        if name == 'removed':
+            audits[name] = remove_target_environment(model, target, metadata['body_roles'])
+        data = mujoco.MjData(model)
+        mujoco.mj_setState(model, data, arrays['snapshot_state'], mujoco.mjtState(snap['flag']))
+        restored = np.empty_like(arrays['snapshot_state'])
+        mujoco.mj_getState(model, data, restored, mujoco.mjtState(snap['flag']))
+        if not np.array_equal(restored, arrays['snapshot_state']):
+            raise RuntimeError('Full integration-state restoration failed')
+        initial = data.qpos[qadr:qadr+7].copy()
+        qs, vs = [], []
+        for step in range(first, first+count):
+            data.ctrl[:] = arrays['controls'][step]
+            tape = arrays['mocap'][step]
+            data.mocap_pos[:] = tape[:3*model.nmocap].reshape(-1, 3)
+            data.mocap_quat[:] = tape[3*model.nmocap:].reshape(-1, 4)
+            mujoco.mj_step(model, data)
+            qs.append(data.qpos[qadr:qadr+7].copy())
+            vs.append(data.qvel[vadr:vadr+6].copy())
+        trajectories[name] = (np.asarray(qs), np.asarray(vs))
+    expected_q = arrays['post_qpos'][first:first+count]
+    expected_v = arrays['post_qvel'][first:first+count]
+    equal = all(np.array_equal(a, b) for a, b in zip(trajectories['sham'], (expected_q, expected_v)))
+    if not equal:
+        return dict(status='INVALID', reason='SHAM_TRAJECTORY_MISMATCH',
+                    max_q_error=float(np.max(np.abs(trajectories['sham'][0]-expected_q))),
+                    max_v_error=float(np.max(np.abs(trajectories['sham'][1]-expected_v))))
+    endpoints = {name: endpoint(*trajectory, initial) for name, trajectory in trajectories.items()}
+    cell = (endpoints['sham']['success'], endpoints['removed']['success'])
+    labels = {(True, True): 'BOTH_RETAIN', (True, False): 'DEPENDENT',
+              (False, False): 'BOTH_FAIL', (False, True): 'REMOVAL_RESCUES'}
+    return dict(status='VALID', sham_bit_equal=True, horizon_s=horizon_s, t0_s=snap['time'],
+                continuation='Recorded controls and mocap, not controller recovery',
+                intervention_audit=audits['removed'], endpoints=endpoints, cell=labels[cell])

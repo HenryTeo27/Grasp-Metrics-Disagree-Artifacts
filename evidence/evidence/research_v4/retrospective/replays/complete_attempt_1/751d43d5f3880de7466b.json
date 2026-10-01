@@ -1,0 +1,576 @@
+{
+  "job": {
+    "job_id": "751d43d5f3880de7466b",
+    "block": "new2",
+    "physics": "compiled",
+    "case": {
+      "case_id": "v3_new2_cube_random_02",
+      "seed": 60198604,
+      "object_xyz": [
+        0.002513,
+        0.090146,
+        -0.03357
+      ],
+      "object_quat": [
+        0.99920751,
+        0.0,
+        0.0,
+        -0.03980381
+      ],
+      "object_yaw_rad": -0.079629,
+      "object_geom": {
+        "type": "box",
+        "size": [
+          0.02643,
+          0.02643,
+          0.02643
+        ],
+        "mass": 0.06165,
+        "friction": [
+          0.9,
+          0.015,
+          0.004
+        ],
+        "rgba": [
+          0.2,
+          0.55,
+          0.95,
+          1.0
+        ]
+      }
+    },
+    "family": "cube_random",
+    "candidate": {
+      "anchor": "configs/open_hand_hl/menagerie/allegro_tabletop_cube_core11_staged_support_hold15_anchor_v0.json",
+      "runner": "staged",
+      "derived": false,
+      "derived_finger": 0.0,
+      "derived_thumb": 0.0,
+      "extra_s": 0.5,
+      "thresholds": {
+        "hold_target_s": 15.0,
+        "min_lift_m": 0.004,
+        "max_xy_m": 0.05,
+        "max_force_n": 90.0
+      }
+    }
+  },
+  "result": {
+    "job_id": "751d43d5f3880de7466b",
+    "block": "new2",
+    "physics": "compiled",
+    "family": "cube_random",
+    "case_id": "v3_new2_cube_random_02",
+    "candidate": {
+      "anchor": "configs/open_hand_hl/menagerie/allegro_tabletop_cube_core11_staged_support_hold15_anchor_v0.json",
+      "runner": "staged",
+      "derived": false,
+      "derived_finger": 0.0,
+      "derived_thumb": 0.0,
+      "extra_s": 0.5,
+      "thresholds": {
+        "hold_target_s": 15.0,
+        "min_lift_m": 0.004,
+        "max_xy_m": 0.05,
+        "max_force_n": 90.0
+      }
+    },
+    "metrics": {
+      "first_long_finger_step": 1725,
+      "first_thumb_long_finger_step": 3295,
+      "first_palm_step": -1,
+      "first_lift_step": 1854,
+      "first_lifted_thumb_long_finger_step": 3295,
+      "thumb_long_finger_overlap_s": 23.803999999997686,
+      "lifted_thumb_long_finger_supported_s": 16.698000000001624,
+      "lifted_any_duration_s": 19.582000000000026,
+      "support_hold_lifted_supported_s": 15.200000000001745,
+      "support_ramp_lifted_supported_s": 0.9860000000000008,
+      "max_object_lift_m": 0.010961775774254716,
+      "max_object_xy_displacement_m": 0.04151091171429968,
+      "max_contact_force_n": 2.0634406311953963,
+      "long_finger_contact_duration_s": 26.943999999995945,
+      "thumb_contact_duration_s": 23.809999999997682,
+      "palm_contact_duration_s": 0.0,
+      "thumb_lifted_contact_duration_s": 16.700000000001623,
+      "thumb_max_count": 4,
+      "thumb_max_force_n": 1.9614669363924877,
+      "thumb_bodies": "[\"th_distal\", \"th_tip\"]",
+      "ff_contact_duration_s": 26.943999999995945,
+      "ff_lifted_contact_duration_s": 19.580000000000027,
+      "ff_max_count": 2,
+      "ff_max_force_n": 2.0634406311953963,
+      "ff_bodies": "[\"ff_tip\"]",
+      "mf_contact_duration_s": 0.0,
+      "mf_lifted_contact_duration_s": 0.0,
+      "mf_max_count": 0,
+      "mf_max_force_n": 0.0,
+      "mf_bodies": "[]",
+      "rf_contact_duration_s": 0.0,
+      "rf_lifted_contact_duration_s": 0.0,
+      "rf_max_count": 0,
+      "rf_max_force_n": 0.0,
+      "rf_bodies": "[]",
+      "palm_lifted_contact_duration_s": 0.0,
+      "palm_max_count": 0,
+      "palm_max_force_n": 0.0,
+      "palm_bodies": "[]",
+      "other_contact_duration_s": 0.0,
+      "other_lifted_contact_duration_s": 0.0,
+      "other_max_count": 0,
+      "other_max_force_n": 0.0,
+      "other_bodies": "[]"
+    },
+    "legacy_success": true,
+    "temporal": {
+      "steps": 15200,
+      "dt": 0.002,
+      "legacy_success": true,
+      "accumulated_s": 16.698,
+      "contiguous_s": 16.186,
+      "clear_contiguous_s": 0.666,
+      "contiguous_success": true,
+      "clear_contiguous_success": false,
+      "environment_contact_s": 28.886,
+      "no_assistance": true,
+      "raw_intervals": [
+        [
+          3295,
+          3548
+        ],
+        [
+          3549,
+          3552
+        ],
+        [
+          7107,
+          15200
+        ]
+      ],
+      "clear_intervals": [
+        [
+          3475,
+          3476
+        ],
+        [
+          3477,
+          3478
+        ],
+        [
+          3485,
+          3486
+        ],
+        [
+          3492,
+          3493
+        ],
+        [
+          3498,
+          3500
+        ],
+        [
+          3506,
+          3507
+        ],
+        [
+          3508,
+          3509
+        ],
+        [
+          3512,
+          3513
+        ],
+        [
+          3515,
+          3517
+        ],
+        [
+          3521,
+          3523
+        ],
+        [
+          3525,
+          3527
+        ],
+        [
+          3530,
+          3532
+        ],
+        [
+          3534,
+          3536
+        ],
+        [
+          3538,
+          3540
+        ],
+        [
+          3542,
+          3545
+        ],
+        [
+          3546,
+          3547
+        ],
+        [
+          3549,
+          3552
+        ],
+        [
+          7108,
+          7111
+        ],
+        [
+          7113,
+          7116
+        ],
+        [
+          7119,
+          7123
+        ],
+        [
+          7126,
+          7129
+        ],
+        [
+          7132,
+          7135
+        ],
+        [
+          7137,
+          7138
+        ],
+        [
+          7139,
+          7141
+        ],
+        [
+          7144,
+          7147
+        ],
+        [
+          7150,
+          7152
+        ],
+        [
+          7154,
+          7156
+        ],
+        [
+          7159,
+          7162
+        ],
+        [
+          7165,
+          7167
+        ],
+        [
+          7170,
+          7173
+        ],
+        [
+          7176,
+          7178
+        ],
+        [
+          7180,
+          7181
+        ],
+        [
+          7182,
+          7183
+        ],
+        [
+          7184,
+          7185
+        ],
+        [
+          7186,
+          7187
+        ],
+        [
+          7189,
+          7191
+        ],
+        [
+          7193,
+          7195
+        ],
+        [
+          7197,
+          7199
+        ],
+        [
+          7201,
+          7203
+        ],
+        [
+          7205,
+          7207
+        ],
+        [
+          7209,
+          7212
+        ],
+        [
+          7215,
+          7219
+        ],
+        [
+          7222,
+          7226
+        ],
+        [
+          7228,
+          7230
+        ],
+        [
+          7231,
+          7233
+        ],
+        [
+          7234,
+          7236
+        ],
+        [
+          7238,
+          7243
+        ],
+        [
+          7245,
+          7249
+        ],
+        [
+          7251,
+          7257
+        ],
+        [
+          7259,
+          7266
+        ],
+        [
+          7268,
+          7277
+        ],
+        [
+          7278,
+          7282
+        ],
+        [
+          7283,
+          7293
+        ],
+        [
+          7294,
+          7316
+        ],
+        [
+          7317,
+          7650
+        ]
+      ]
+    },
+    "physical": {
+      "type": "box",
+      "mass": 0.06165,
+      "body_frame_inertia": [
+        [
+          2.8710195389999998e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.8710195389999998e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.8710195389999998e-05
+        ]
+      ],
+      "analytic_inertia": [
+        [
+          2.871019539e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.871019539e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.871019539e-05
+        ]
+      ],
+      "inertia_relative_error": 1.1801145004388636e-16,
+      "geom_rbound": 0.045778102844045425
+    },
+    "object_mass": 0.06165,
+    "initial_hand_contact": false,
+    "initial_object_pose": [
+      0.002512999999892271,
+      0.09014599999865007,
+      -0.053755565209678474,
+      0.9992075143311069,
+      -1.2105616663716009e-12,
+      4.821736089174616e-14,
+      -0.03980381017253129
+    ],
+    "qpos_edits": 0,
+    "qvel_edits": 0,
+    "dt": 0.002,
+    "settle_steps": 100,
+    "final_step": 15300,
+    "elapsed_s": 9.562970099970698
+  },
+  "observer": {
+    "observer_version": "merged-v4-contact-solve-1",
+    "step_columns": [
+      "step",
+      "solve_time",
+      "dt",
+      "com_x",
+      "com_y",
+      "com_z",
+      "quat_w",
+      "quat_x",
+      "quat_y",
+      "quat_z",
+      "free_qvel_0",
+      "free_qvel_1",
+      "free_qvel_2",
+      "free_qvel_3",
+      "free_qvel_4",
+      "free_qvel_5",
+      "env_count",
+      "env_constraint_count",
+      "env_force_threshold_count",
+      "env_normal_n",
+      "env_abs_force_n",
+      "env_abs_torque_nm",
+      "env_net_force_x",
+      "env_net_force_y",
+      "env_net_force_z",
+      "env_net_torque_x",
+      "env_net_torque_y",
+      "env_net_torque_z",
+      "env_min_dist",
+      "env_dist_present",
+      "env_active_min_dist",
+      "env_active_dist_present",
+      "applied_any",
+      "target_applied_norm",
+      "target_qpos_write",
+      "target_qvel_write",
+      "geometry_clock_error",
+      "contact_start",
+      "contact_end"
+    ],
+    "contact_columns": [
+      "step",
+      "geom1",
+      "geom2",
+      "body1",
+      "body2",
+      "role",
+      "efc_address",
+      "dim",
+      "dist",
+      "point_x",
+      "point_y",
+      "point_z",
+      "frame_0",
+      "frame_1",
+      "frame_2",
+      "frame_3",
+      "frame_4",
+      "frame_5",
+      "frame_6",
+      "frame_7",
+      "frame_8",
+      "local_fn",
+      "local_ft1",
+      "local_ft2",
+      "local_tn",
+      "local_tt1",
+      "local_tt2",
+      "target_force_x",
+      "target_force_y",
+      "target_force_z",
+      "target_com_torque_x",
+      "target_com_torque_y",
+      "target_com_torque_z"
+    ],
+    "body_roles": [
+      0,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "mass_kg": 0.06165,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "support_paths": {
+      "complete_for_declared_model": true,
+      "reason_codes": [],
+      "scope": "Single free primitive; direct equality/tendon/actuator/passive paths and applied arrays. No claim to detect malicious plugins or opaque external callbacks."
+    },
+    "snapshot": {
+      "step": 4000,
+      "flag": 16383,
+      "time": 7.999999999999341
+    },
+    "sample_convention": "pre-integration solve state with separately named post states",
+    "force_convention": "contact-frame force/torque acts on geom2; world wrench about target COM",
+    "geometry_clock_max_error": 0.0
+  },
+  "planned_steps": 15300,
+  "terminal_reason": "controller_schedule_completed",
+  "source_id": "allegro_frozen_library",
+  "length_scale_m": 0.045778102844045425,
+  "archive_equivalence": {
+    "samples": true,
+    "telemetry": true,
+    "step_index": true,
+    "solve_time": true,
+    "metrics": true,
+    "temporal": true
+  },
+  "equivalence_pass": true,
+  "trace_sha256": "f4820260ff611b763c97e0f44698b70fba9fda5234f9e06b96507b2b22f358ba",
+  "job_spec_hash": "660c37c9663ba3dcd70357f6ffe2397dccb50ed7e5891f0568f8141bf9d24e93",
+  "elapsed_s": 10.776451799960341,
+  "trace_bytes": 18565420,
+  "observer_code_sha256": "220f8095e70026f3e0ecb61ac333316d186b2aff02b9a0295c62826f25af5f39",
+  "adapter_code_sha256": "226f8448fb2b2c56f6b1c69d4571640397d46a985998333fdac77b491c3366aa",
+  "v3_input_manifest_hash": "8ab9c81ae18cf76e5d8196b30bad6094e755d712e943172f1a6559e702d92d1f",
+  "split_role": "retrospective_development",
+  "controller_state": "Open-loop command tape for branching; no policy execution on restored branches"
+}

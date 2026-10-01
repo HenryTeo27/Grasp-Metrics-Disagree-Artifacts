@@ -1,0 +1,12 @@
+{
+  "planned_replays": 177,
+  "completed": 177,
+  "equivalence_passes": 177,
+  "failures": [],
+  "trace_bytes": 2887068455,
+  "elapsed_s": 451.3631310000201,
+  "unreplayed_common_condition_failures": 333,
+  "full_candidate_denominator": 510,
+  "source_lock_unchanged": true,
+  "cache_hits": 0
+}

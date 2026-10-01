@@ -1,0 +1,66 @@
+{
+  "n": 80,
+  "role": "calibration",
+  "methods": {
+    "B5": {
+      "PASS": 25,
+      "FAIL": 55
+    },
+    "B4": {
+      "PASS": 25,
+      "FAIL": 55
+    },
+    "A_no_geometry": {
+      "PASS": 25,
+      "FAIL": 55
+    },
+    "A_no_torque": {
+      "PASS": 25,
+      "FAIL": 55
+    },
+    "A_binary_unknown_fail": {
+      "PASS": 25,
+      "FAIL": 55
+    },
+    "A_accumulated": {
+      "PASS": 25,
+      "FAIL": 55
+    },
+    "A_net_aggregation": {
+      "PASS": 25,
+      "FAIL": 55
+    },
+    "B0": {
+      "PASS": 67,
+      "FAIL": 13
+    },
+    "B1": {
+      "PASS": 64,
+      "FAIL": 16
+    },
+    "B2": {
+      "PASS": 7,
+      "FAIL": 73
+    },
+    "B3": {
+      "PASS": 25,
+      "FAIL": 55
+    },
+    "B4_normal": {
+      "PASS": 25,
+      "FAIL": 55
+    }
+  },
+  "reference": {
+    "PASS": 25,
+    "FAIL": 55
+  },
+  "cf": {
+    "BOTH_RETAIN": 57,
+    "DEPENDENT": 10,
+    "UNREACHABLE": 13
+  },
+  "observer_full_integration_bit_equal": true,
+  "nominal_physics_steps": 1440000,
+  "branch_cost_steps": 402000
+}

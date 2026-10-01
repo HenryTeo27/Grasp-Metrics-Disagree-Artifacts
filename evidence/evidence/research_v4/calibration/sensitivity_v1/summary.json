@@ -1,0 +1,61 @@
+{
+  "count": 32,
+  "base_initializations": 8,
+  "agreement": [
+    {
+      "case_id": "cal_000",
+      "B5_stable": true,
+      "cf_stable": true,
+      "withdrawal_matches_removal": true
+    },
+    {
+      "case_id": "cal_001",
+      "B5_stable": true,
+      "cf_stable": true,
+      "withdrawal_matches_removal": true
+    },
+    {
+      "case_id": "cal_002",
+      "B5_stable": true,
+      "cf_stable": true,
+      "withdrawal_matches_removal": true
+    },
+    {
+      "case_id": "cal_003",
+      "B5_stable": true,
+      "cf_stable": true,
+      "withdrawal_matches_removal": true
+    },
+    {
+      "case_id": "cal_004",
+      "B5_stable": true,
+      "cf_stable": true,
+      "withdrawal_matches_removal": true
+    },
+    {
+      "case_id": "cal_005",
+      "B5_stable": true,
+      "cf_stable": true,
+      "withdrawal_matches_removal": true
+    },
+    {
+      "case_id": "cal_006",
+      "B5_stable": true,
+      "cf_stable": true,
+      "withdrawal_matches_removal": true
+    },
+    {
+      "case_id": "cal_007",
+      "B5_stable": true,
+      "cf_stable": true,
+      "withdrawal_matches_removal": true
+    }
+  ],
+  "reference_match": true,
+  "observer_bit_equal": true,
+  "cf_status": {
+    "VALID": 28,
+    "UNREACHABLE": 4
+  },
+  "interpretation": "Variant trajectories need not be equal; stability means retained categorical labels on this declared small subset only."
+}

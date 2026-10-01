@@ -1,0 +1,84 @@
+{
+  "case_id": "cal_078",
+  "mechanism": "applied_assistance",
+  "reference": "FAIL",
+  "fixed_reference_source_sha256": "ccddad062fabef6ff95f6adc6fca02d274e390d2c3349e81721192c1f33fb0b0",
+  "historical": {
+    "B5": "FAIL",
+    "B4": "FAIL",
+    "A_no_geometry": "FAIL",
+    "A_no_torque": "FAIL",
+    "A_binary_unknown_fail": "FAIL",
+    "A_accumulated": "FAIL",
+    "B0": "FAIL",
+    "B1": "FAIL",
+    "B2": "FAIL",
+    "B3": "FAIL",
+    "B4_normal": "FAIL"
+  },
+  "curve": [
+    {
+      "low": 1e-06,
+      "high": 0.0001,
+      "B4": "FAIL",
+      "B4_normal": "FAIL",
+      "B5": "FAIL"
+    },
+    {
+      "low": 1e-05,
+      "high": 0.001,
+      "B4": "FAIL",
+      "B4_normal": "FAIL",
+      "B5": "FAIL"
+    },
+    {
+      "low": 0.0001,
+      "high": 0.01,
+      "B4": "FAIL",
+      "B4_normal": "FAIL",
+      "B5": "FAIL"
+    },
+    {
+      "low": 0.001,
+      "high": 0.1,
+      "B4": "FAIL",
+      "B4_normal": "FAIL",
+      "B5": "FAIL"
+    },
+    {
+      "low": 0.01,
+      "high": 1.0,
+      "B4": "FAIL",
+      "B4_normal": "FAIL",
+      "B5": "FAIL"
+    }
+  ],
+  "geometry_sensitivity": [
+    {
+      "penetration_tolerance_m": 1e-06,
+      "B5": "FAIL"
+    },
+    {
+      "penetration_tolerance_m": 1e-05,
+      "B5": "FAIL"
+    },
+    {
+      "penetration_tolerance_m": 0.0001,
+      "B5": "FAIL"
+    }
+  ],
+  "B6": {
+    "status": "UNREACHABLE",
+    "reason": "APPLIED_ASSISTANCE_PRESENT",
+    "physics_steps": 0
+  },
+  "B7": {
+    "status": "UNREACHABLE",
+    "reason": "APPLIED_ASSISTANCE_PRESENT",
+    "physics_steps": 0
+  },
+  "counterfactual": {
+    "status": "UNREACHABLE",
+    "reason": "COMMON_OR_NO_ASSISTANCE_PRECONDITION_FAILED"
+  }
+}

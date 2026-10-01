@@ -1,0 +1,98 @@
+{
+  "role": "DEVELOPMENT_ONLY_SAME_20_OLD_SCENES",
+  "rows": [
+    {
+      "job_id": "008da7e74f78f588b3ec",
+      "branch_selected": true
+    },
+    {
+      "job_id": "00ab82b10edc360a7497",
+      "branch_selected": true
+    },
+    {
+      "job_id": "010a8063861c63b878ee",
+      "branch_selected": true
+    },
+    {
+      "job_id": "0303e45357e1cd864171",
+      "branch_selected": true
+    },
+    {
+      "job_id": "0405215aa279dc85cb11",
+      "branch_selected": true
+    },
+    {
+      "job_id": "055ba35e68e8fa994b1a",
+      "branch_selected": true
+    },
+    {
+      "job_id": "0595e356e7747a5f25f2",
+      "branch_selected": true
+    },
+    {
+      "job_id": "061068bea9418d4b7a89",
+      "branch_selected": true
+    },
+    {
+      "job_id": "062c3834bce9b70bbf54",
+      "branch_selected": true
+    },
+    {
+      "job_id": "091d76ef1460ec885957",
+      "branch_selected": true
+    },
+    {
+      "job_id": "0a0ffcbc8177c656ee66",
+      "branch_selected": true
+    },
+    {
+      "job_id": "0b45ba6d941ca2034a78",
+      "branch_selected": true
+    },
+    {
+      "job_id": "0b97b25b77043ad04947",
+      "branch_selected": true
+    },
+    {
+      "job_id": "0e21aea6f2d41b66ed7b",
+      "branch_selected": true
+    },
+    {
+      "job_id": "123fc595fd196458c13c",
+      "branch_selected": true
+    },
+    {
+      "job_id": "15aca29cbc678b952969",
+      "branch_selected": true
+    },
+    {
+      "job_id": "1a19afc8b692eca1e794",
+      "branch_selected": true
+    },
+    {
+      "job_id": "1b00e67f0eb85d6a0ef7",
+      "branch_selected": true
+    },
+    {
+      "job_id": "1e39c8938b5b24fe9da0",
+      "branch_selected": true
+    },
+    {
+      "job_id": "1f7c1b3b970c1ff4217f",
+      "branch_selected": true
+    }
+  ],
+  "variants": [
+    "nominal",
+    "half_dt",
+    "double_dt",
+    "half_iterations"
+  ],
+  "horizon_s": 3.0,
+  "continuation": "Fixed original command/mocap tape, zero-order resampled at each variant dt; same full initial state",
+  "hashes": {
+    "natural_baseline_pilot.py": "09a26824badb3e921e1ff15c721e60152af84840226f55de8d3dbec522a1c3b3",
+    "mechanical_baselines.py": "09dd234aeadd2c00901ddf9c8735a3eddfa5b75cad458eab9822df91cd960eeb",
+    "counterfactual.py": "e85b5efb8e9552dd86b16a7ee33bdda6a03e3fd8818e4528ae719aa52d01309c"
+  }
+}

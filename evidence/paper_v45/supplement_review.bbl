@@ -1,0 +1,59 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{e-cagan}(2026)]{fetch_expert}
+{e-cagan}.
+\newblock {FetchExpert}: Scripted pick-and-place controller.
+\newblock \url{https://github.com/e-cagan/franka-il-rl}, 2026.
+\newblock Pinned commit and source file in the supplement; MIT license.
+
+\bibitem[{Farama Foundation}(2026)]{gymnasium_robotics}
+{Farama Foundation}.
+\newblock {Gymnasium-Robotics}.
+\newblock \url{https://robotics.farama.org/envs/fetch/pick_and_place/}, 2026.
+\newblock Version 1.4.2, FetchPickAndPlace-v4.
+
+\bibitem[{Google DeepMind}(2026{\natexlab{a}})]{mujoco_computation}
+{Google DeepMind}.
+\newblock {MuJoCo} computation and state documentation.
+\newblock \url{https://mujoco.readthedocs.io/en/3.3.2/computation/},
+  2026{\natexlab{a}}.
+\newblock Source-specific runtime versions and integration-state qualifications
+  are recorded in the artifact.
+
+\bibitem[{Google DeepMind}(2026{\natexlab{b}})]{mujoco_menagerie}
+{Google DeepMind}.
+\newblock {MuJoCo Menagerie}.
+\newblock \url{https://github.com/google-deepmind/mujoco_menagerie},
+  2026{\natexlab{b}}.
+\newblock Pinned robot assets and hashes are listed in the artifact dependency
+  manifest.
+
+\bibitem[Teo(2026{\natexlab{a}})]{teo_custom}
+Ee~Hern Teo.
+\newblock From false positives to failure topologies: Heuristic learning for
+  auditable dexterous grasping development.
+\newblock Technical report, Zenodo, 2026{\natexlab{a}}.
+\newblock URL \url{https://doi.org/10.5281/zenodo.20922238}.
+\newblock Prior report; historical experimental records are reused.
+
+\bibitem[Teo(2026{\natexlab{b}})]{teo_open}
+Ee~Hern Teo.
+\newblock When contact becomes support: Auditing and repairing contact-topology
+  failures in programmatic dexterous grasp search.
+\newblock Technical report, Zenodo, 2026{\natexlab{b}}.
+\newblock URL \url{https://doi.org/10.5281/zenodo.20922501}.
+\newblock Prior report; historical experimental records are reused.
+
+\bibitem[Todorov et~al.(2012)Todorov, Erez, and Tassa]{todorov2012mujoco}
+Emanuel Todorov, Tom Erez, and Yuval Tassa.
+\newblock {MuJoCo}: A physics engine for model-based control.
+\newblock In \emph{IEEE/RSJ International Conference on Intelligent Robots and
+  Systems}, pages 5026--5033, 2012.
+\newblock \doi{10.1109/IROS.2012.6386109}.
+
+\end{thebibliography}

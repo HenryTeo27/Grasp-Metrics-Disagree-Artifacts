@@ -1,0 +1,649 @@
+{
+  "count": 80,
+  "role": "DEVELOPMENT_CALIBRATION_NOT_FORMAL_TEST",
+  "all_observer_bit_equal": true,
+  "reference_disagreement": 0,
+  "counterfactual_invalid": 0,
+  "records": [
+    {
+      "case_id": "cal_000",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "PASS",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_001",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "FAIL",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_002",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "DEPENDENT"
+    },
+    {
+      "case_id": "cal_003",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_004",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_005",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_006",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "UNREACHABLE"
+    },
+    {
+      "case_id": "cal_007",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "FAIL",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_008",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "PASS",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_009",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "FAIL",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_010",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "DEPENDENT"
+    },
+    {
+      "case_id": "cal_011",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_012",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_013",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_014",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "UNREACHABLE"
+    },
+    {
+      "case_id": "cal_015",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "FAIL",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_016",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "UNREACHABLE"
+    },
+    {
+      "case_id": "cal_017",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "FAIL",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_018",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "DEPENDENT"
+    },
+    {
+      "case_id": "cal_019",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_020",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_021",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_022",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "UNREACHABLE"
+    },
+    {
+      "case_id": "cal_023",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "FAIL",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_024",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "PASS",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_025",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "FAIL",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_026",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "DEPENDENT"
+    },
+    {
+      "case_id": "cal_027",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_028",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_029",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_030",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "UNREACHABLE"
+    },
+    {
+      "case_id": "cal_031",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "FAIL",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_032",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "PASS",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_033",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "FAIL",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_034",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "DEPENDENT"
+    },
+    {
+      "case_id": "cal_035",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_036",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_037",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_038",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "UNREACHABLE"
+    },
+    {
+      "case_id": "cal_039",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "FAIL",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_040",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "UNREACHABLE"
+    },
+    {
+      "case_id": "cal_041",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "FAIL",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_042",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "DEPENDENT"
+    },
+    {
+      "case_id": "cal_043",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_044",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_045",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_046",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "UNREACHABLE"
+    },
+    {
+      "case_id": "cal_047",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_048",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "PASS",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_049",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "FAIL",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_050",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "DEPENDENT"
+    },
+    {
+      "case_id": "cal_051",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_052",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_053",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_054",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "UNREACHABLE"
+    },
+    {
+      "case_id": "cal_055",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "FAIL",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_056",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "PASS",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_057",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "FAIL",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_058",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "DEPENDENT"
+    },
+    {
+      "case_id": "cal_059",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_060",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_061",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_062",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "UNREACHABLE"
+    },
+    {
+      "case_id": "cal_063",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "FAIL",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_064",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "UNREACHABLE"
+    },
+    {
+      "case_id": "cal_065",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "FAIL",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_066",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "DEPENDENT"
+    },
+    {
+      "case_id": "cal_067",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_068",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_069",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_070",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "UNREACHABLE"
+    },
+    {
+      "case_id": "cal_071",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_072",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "PASS",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_073",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "FAIL",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_074",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "DEPENDENT"
+    },
+    {
+      "case_id": "cal_075",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_076",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_077",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "BOTH_RETAIN"
+    },
+    {
+      "case_id": "cal_078",
+      "b5": "FAIL",
+      "b4": "FAIL",
+      "nc": "FAIL",
+      "reference": "FAIL",
+      "cf": "UNREACHABLE"
+    },
+    {
+      "case_id": "cal_079",
+      "b5": "PASS",
+      "b4": "PASS",
+      "nc": "FAIL",
+      "reference": "PASS",
+      "cf": "BOTH_RETAIN"
+    }
+  ]
+}

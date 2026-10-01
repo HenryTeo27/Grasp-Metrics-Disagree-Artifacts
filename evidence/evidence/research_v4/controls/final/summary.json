@@ -1,0 +1,67 @@
+{
+  "n": 240,
+  "role": "final",
+  "methods": {
+    "B5": {
+      "PASS": 77,
+      "FAIL": 163
+    },
+    "B4": {
+      "PASS": 77,
+      "FAIL": 163
+    },
+    "A_no_geometry": {
+      "PASS": 77,
+      "FAIL": 163
+    },
+    "A_no_torque": {
+      "PASS": 77,
+      "FAIL": 163
+    },
+    "A_binary_unknown_fail": {
+      "PASS": 77,
+      "FAIL": 163
+    },
+    "A_accumulated": {
+      "PASS": 92,
+      "FAIL": 148
+    },
+    "A_net_aggregation": {
+      "PASS": 77,
+      "FAIL": 163
+    },
+    "B0": {
+      "PASS": 201,
+      "FAIL": 39
+    },
+    "B1": {
+      "PASS": 182,
+      "FAIL": 58
+    },
+    "B2": {
+      "PASS": 21,
+      "FAIL": 219
+    },
+    "B3": {
+      "PASS": 77,
+      "FAIL": 163
+    },
+    "B4_normal": {
+      "PASS": 77,
+      "FAIL": 163
+    }
+  },
+  "reference": {
+    "PASS": 77,
+    "FAIL": 163
+  },
+  "cf": {
+    "BOTH_RETAIN": 33,
+    "DEPENDENT": 6,
+    "UNREACHABLE": 9,
+    "NOT_SELECTED": 192
+  },
+  "observer_full_integration_bit_equal": true,
+  "nominal_physics_steps": 4320000,
+  "branch_cost_steps": 234000
+}

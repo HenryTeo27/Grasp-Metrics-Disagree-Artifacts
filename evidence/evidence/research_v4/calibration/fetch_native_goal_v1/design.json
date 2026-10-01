@@ -1,0 +1,11 @@
+{
+  "role": "DEVELOPMENT_ONLY",
+  "rows": [
+    {
+      "case_id": "native_goal_qualification_900001",
+      "seed": 900001,
+      "counterfactual_selected": true,
+      "reference_selected": true
+    }
+  ]
+}

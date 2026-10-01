@@ -1,0 +1,10 @@
+policy,metric,old,compiled,gains,losses
+baseline,legacy_success,37,38,7,6
+baseline,contiguous_success,37,37,6,6
+baseline,clear_contiguous_success,18,13,0,5
+repair,legacy_success,43,43,7,7
+repair,contiguous_success,43,42,6,7
+repair,clear_contiguous_success,24,18,0,6
+no_extra,legacy_success,37,38,7,6
+no_extra,contiguous_success,37,37,6,6
+no_extra,clear_contiguous_success,18,13,0,5

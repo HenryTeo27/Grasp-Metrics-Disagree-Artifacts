@@ -1,0 +1,74 @@
+[
+  {
+    "source": "controls",
+    "selected": 48,
+    "B6_valid": 39,
+    "B6_feasible": 39,
+    "B6_statuses": {
+      "VALID": 39,
+      "UNREACHABLE": 9
+    },
+    "B6_solver_wall_s": 0.48478820017771795,
+    "B7_valid": 39,
+    "B7_robust": 33,
+    "B7_statuses": {
+      "VALID": 39,
+      "UNREACHABLE": 9
+    },
+    "B7_physics_steps": 117000
+  },
+  {
+    "source": "allegro",
+    "selected": 20,
+    "B6_valid": 0,
+    "B6_feasible": 0,
+    "B6_statuses": {
+      "UNREACHABLE": 19,
+      "NOT_APPLICABLE": 1
+    },
+    "B6_solver_wall_s": 0.0,
+    "B7_valid": 1,
+    "B7_robust": 0,
+    "B7_statuses": {
+      "UNREACHABLE": 19,
+      "VALID": 1
+    },
+    "B7_physics_steps": 3000
+  },
+  {
+    "source": "fetch",
+    "selected": 20,
+    "B6_valid": 0,
+    "B6_feasible": 0,
+    "B6_statuses": {
+      "UNREACHABLE": 13,
+      "NOT_APPLICABLE": 7
+    },
+    "B6_solver_wall_s": 0.0,
+    "B7_valid": 7,
+    "B7_robust": 7,
+    "B7_statuses": {
+      "UNREACHABLE": 13,
+      "VALID": 7
+    },
+    "B7_physics_steps": 21000
+  },
+  {
+    "source": "dexgraspbench",
+    "selected": 20,
+    "B6_valid": 0,
+    "B6_feasible": 0,
+    "B6_statuses": {
+      "NOT_APPLICABLE": 16,
+      "UNREACHABLE": 4
+    },
+    "B6_solver_wall_s": 0.0,
+    "B7_valid": 16,
+    "B7_robust": 14,
+    "B7_statuses": {
+      "VALID": 16,
+      "UNREACHABLE": 4
+    },
+    "B7_physics_steps": 24000
+  }
+]

@@ -1,0 +1,349 @@
+{
+  "case": {
+    "case_id": "dgb_final_054",
+    "object_identity": "sem_Piano_438f64dd9ff80bfddd5efa4c0e7932e",
+    "source_input": "output/example_shadow/graspdata/sem_Piano_438f64dd9ff80bfddd5efa4c0e7932e/scale006_pose000/19.npy",
+    "input_sha256": "15a10aa454ec636895868e822b4e9e7511988d2c0aac3421d4314b2241f03acc",
+    "counterfactual_selected": true,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  "metadata": {
+    "observer_version": "merged-v4-contact-solve-3",
+    "mujoco_version": "3.3.2",
+    "target_body": 26,
+    "target_qadr": 29,
+    "target_vadr": 28,
+    "step_columns": [
+      "step",
+      "solve_time",
+      "dt",
+      "com_x",
+      "com_y",
+      "com_z",
+      "quat_w",
+      "quat_x",
+      "quat_y",
+      "quat_z",
+      "free_qvel_0",
+      "free_qvel_1",
+      "free_qvel_2",
+      "free_qvel_3",
+      "free_qvel_4",
+      "free_qvel_5",
+      "env_count",
+      "env_constraint_count",
+      "env_force_threshold_count",
+      "env_normal_n",
+      "env_abs_force_n",
+      "env_abs_torque_nm",
+      "env_net_force_x",
+      "env_net_force_y",
+      "env_net_force_z",
+      "env_net_torque_x",
+      "env_net_torque_y",
+      "env_net_torque_z",
+      "env_min_dist",
+      "env_dist_present",
+      "env_active_min_dist",
+      "env_active_dist_present",
+      "applied_any",
+      "target_applied_norm",
+      "target_qpos_write",
+      "target_qvel_write",
+      "geometry_clock_error",
+      "contact_start",
+      "contact_end",
+      "target_damping_force_n",
+      "target_damping_torque_nm",
+      "target_damping_post_force_n",
+      "target_damping_post_torque_nm",
+      "passive_meter_residual"
+    ],
+    "contact_columns": [
+      "step",
+      "geom1",
+      "geom2",
+      "body1",
+      "body2",
+      "role",
+      "efc_address",
+      "dim",
+      "dist",
+      "point_x",
+      "point_y",
+      "point_z",
+      "frame_0",
+      "frame_1",
+      "frame_2",
+      "frame_3",
+      "frame_4",
+      "frame_5",
+      "frame_6",
+      "frame_7",
+      "frame_8",
+      "local_fn",
+      "local_ft1",
+      "local_ft2",
+      "local_tn",
+      "local_tt1",
+      "local_tt2",
+      "target_force_x",
+      "target_force_y",
+      "target_force_z",
+      "target_com_torque_x",
+      "target_com_torque_y",
+      "target_com_torque_z"
+    ],
+    "body_roles": [
+      0,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "mass_kg": 0.09868693297165115,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "support_paths": {
+      "complete_for_declared_model": true,
+      "reason_codes": [],
+      "metered_paths": [],
+      "requires_passive_meter": false,
+      "scope": "Single free world-child target; direct equality/tendon/actuator/passive paths and applied arrays. Free-joint damping is measured at the solve state and implicit velocity endpoint. No claim to detect malicious plugins or opaque external callbacks."
+    },
+    "applicable": true,
+    "target_damping_coefficients": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "target_body_ipos": [
+      -2.6261609945274296e-05,
+      0.008919765964464033,
+      -0.006484750854522437
+    ],
+    "model_disableflags": 0,
+    "integrator": 3,
+    "damping_enabled": true,
+    "implicit_joint_damping": true,
+    "passive_meter": "Maximum solve-state and implicit-endpoint free-joint damping wrench magnitude; rotational generalized force transformed to world COM. Other passive paths stay unknown.",
+    "snapshot": {
+      "step": 500,
+      "flag": 8191,
+      "time": 2.800000000000002
+    },
+    "sample_convention": "pre-integration solve state with separately named post states",
+    "force_convention": "contact-frame force/torque acts on geom2; world wrench about target COM",
+    "geometry_clock_max_error": 582.4805544465042,
+    "start_time_s": 0.8000000000000006,
+    "planned_steps": 4500,
+    "global_common": true,
+    "branch_prefix_ok": true,
+    "terminal_reason": "controller_schedule_completed",
+    "reference_body_id": 2,
+    "length_scale_m": 0.06302615589672152,
+    "object_bounds": {
+      "body_frame_min": [
+        -0.042774633371113285,
+        -0.024285834414872122,
+        -0.03938885415805145
+      ],
+      "body_frame_max": [
+        0.041308339845623716,
+        0.029563463052278048,
+        0.03754938136759111
+      ],
+      "length_scale_m": 0.06302615589672152,
+      "convention": "Half diagonal of declared body-frame union bounding box; conservative geom boxes, fixed across poses"
+    },
+    "reference_initial_pose": [
+      0.026622813186725637,
+      -0.12308541229448056,
+      0.11880098042946481,
+      0.3503179967064386,
+      0.09043469896767625,
+      0.37497105991470603,
+      -0.8535195197724861
+    ],
+    "source_input": "output\\example_shadow\\graspdata\\sem_Piano_438f64dd9ff80bfddd5efa4c0e7932e\\scale006_pose000\\19.npy",
+    "input_sha256": "15a10aa454ec636895868e822b4e9e7511988d2c0aac3421d4314b2241f03acc",
+    "environment_geometry": "No environmental collision geoms or explicit pairs in the native FC model; clearance sentinel 1e10",
+    "source": "DGB static pregrasp/grasp/squeeze example, not a learned acquisition controller",
+    "task_contract": "Added 18s gravity-on continuation after unchanged .8s gravity-off staged closure; fixed squeeze commands/mocap, 15 contiguous seconds with hand contact, relative displacement <=.03m, rotation <=.35rad, world speed <=.2m/s after .5s settling",
+    "native_result_not_used": true,
+    "gravity_disableflag": 0,
+    "elapsed_s": 2.3614385999972
+  },
+  "methods": {
+    "B5": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "INVALID",
+      "no_external_load_verdict": "INDETERMINATE",
+      "no_contact_result": "INDETERMINATE",
+      "definite_interval": null,
+      "possible_interval": null,
+      "reason_codes": [
+        "SOLVE_CLOCK_MISMATCH"
+      ]
+    },
+    "B4": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "INVALID",
+      "no_external_load_verdict": "INDETERMINATE",
+      "no_contact_result": "INDETERMINATE",
+      "definite_interval": null,
+      "possible_interval": null,
+      "reason_codes": [
+        "SOLVE_CLOCK_MISMATCH"
+      ]
+    },
+    "A_no_geometry": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "INVALID",
+      "no_external_load_verdict": "INDETERMINATE",
+      "no_contact_result": "INDETERMINATE",
+      "definite_interval": null,
+      "possible_interval": null,
+      "reason_codes": [
+        "SOLVE_CLOCK_MISMATCH"
+      ]
+    },
+    "A_no_torque": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "INVALID",
+      "no_external_load_verdict": "INDETERMINATE",
+      "no_contact_result": "INDETERMINATE",
+      "definite_interval": null,
+      "possible_interval": null,
+      "reason_codes": [
+        "SOLVE_CLOCK_MISMATCH"
+      ]
+    },
+    "A_binary_unknown_fail": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "INVALID",
+      "no_external_load_verdict": "INDETERMINATE",
+      "no_contact_result": "INDETERMINATE",
+      "definite_interval": null,
+      "possible_interval": null,
+      "reason_codes": [
+        "SOLVE_CLOCK_MISMATCH"
+      ]
+    },
+    "A_accumulated": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "INVALID",
+      "no_external_load_verdict": "INDETERMINATE",
+      "no_contact_result": "INDETERMINATE",
+      "definite_interval": null,
+      "possible_interval": null,
+      "reason_codes": [
+        "SOLVE_CLOCK_MISMATCH"
+      ]
+    },
+    "A_net_aggregation": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "merged-v4-frozen-nominal-20261001",
+      "applicable": true,
+      "trace_validity": "INVALID",
+      "no_external_load_verdict": "INDETERMINATE",
+      "no_contact_result": "INDETERMINATE",
+      "definite_interval": null,
+      "possible_interval": null,
+      "reason_codes": [
+        "SOLVE_CLOCK_MISMATCH"
+      ]
+    },
+    "B0": {
+      "verdict": "INDETERMINATE",
+      "trace_validity": "INVALID",
+      "scope": "Added-task accumulated-Q proxy; native task outcome is stored separately"
+    },
+    "B1": {
+      "verdict": "INDETERMINATE",
+      "trace_validity": "INVALID"
+    },
+    "B2": {
+      "verdict": "INDETERMINATE",
+      "trace_validity": "INVALID"
+    },
+    "B3": {
+      "verdict": "INDETERMINATE",
+      "trace_validity": "INVALID"
+    },
+    "B4_normal": {
+      "verdict": "INDETERMINATE",
+      "trace_validity": "INVALID"
+    }
+  },
+  "native": {
+    "result": [
+      false,
+      0.17214639013425317,
+      21.919867179090524
+    ],
+    "scope": "Unmodified upstream gravity-off signed-force task, not added retention"
+  },
+  "reference": {
+    "verdict": "NOT_SELECTED"
+  },
+  "counterfactual": {
+    "status": "UNREACHABLE",
+    "reason": "COMMON_PREFIX_PRECONDITION_FAILED"
+  },
+  "B6": {
+    "status": "UNREACHABLE",
+    "reason": "COMMON_PREFIX_PRECONDITION_FAILED",
+    "physics_steps": 0
+  },
+  "B7": {
+    "status": "UNREACHABLE",
+    "reason": "COMMON_PREFIX_PRECONDITION_FAILED",
+    "physics_steps": 0
+  },
+  "observer_bit_equal": true,
+  "trace_sha256": "f4db56c4236dccbc3c74d80eb02fe9e49dd8c5880cf6a8ad2f34d4b13d178733",
+  "nominal_physics_steps": 9000,
+  "branch_cost_steps": 0
+}

@@ -1,0 +1,41 @@
+\section{Results}
+\label{sec:results}
+\input{generated/results}
+
+\begin{table}[t]
+\centering\small
+\caption{Final no-load reference comparison on controlled apparatus. B0/B1/B2
+have their own valid semantics; errors below are relative to the fixed $\NL$
+reference, not accusations that their original definitions were implemented
+incorrectly. U is indeterminate; invalid is separately reported in the text.}
+\label{tab:controls}
+\input{generated/control_table}
+\end{table}
+
+\begin{table}[t]
+\centering\small
+\caption{External source tasks remain separate. Allegro rows here use rank-1
+candidates across 120 scenes, not 720 independent trials. Native external task
+outcomes are not interchangeable with the added retention contract.}
+\label{tab:external}
+\input{generated/external_table}
+\end{table}
+
+\begin{table}[t]
+\centering\small
+\caption{U2 on all 120 fresh Allegro scenes. Usable is independent future
+retention of the selected candidate; abstentions remain in the denominator.
+All methods pay the same complete nominal $K$-prefix simulation budget.}
+\label{tab:utility}
+\input{generated/utility_table}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{risk_coverage_utility.pdf}
+\caption{Registered control operating points and sealed candidate decisions.
+Curve points change both normalized force and torque bounds together relative
+to the fixed nominal reference. Overlapping B4/B5 curves must not be interpreted
+as independent performance gains. The utility panel reports all-scene counts.}
+\label{fig:curves}
+\end{figure}

@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "manifest_files": 3774,
+  "source_counts": {
+    "controls": 240,
+    "allegro": 120,
+    "fetch": 100,
+    "dexgraspbench": 100
+  },
+  "candidate_executions": 720,
+  "future_outcomes": 720,
+  "independent_endpoint_flags_checked": 715,
+  "raw_trace_rescoring": [
+    "final_control_000",
+    "final_control_001",
+    "final_control_002"
+  ],
+  "preserved_V3": {
+    "counts": {
+      "baseline": 37,
+      "repair": 48
+    },
+    "paired_gains": 11,
+    "paired_losses": 0,
+    "interval95": [
+      0.016666666666666666,
+      0.04722222222222222
+    ]
+  },
+  "protocol_sha256": "ffc60fe94dca45e826c2f864865cbeb7c749b7a11b6f05784b9c6f24b896b9a0",
+  "numpy_version": "1.26.4",
+  "checks": [
+    "all source summaries and confusion matrices",
+    "paired 10000-draw intervals",
+    "sealed U2 choices and every future label",
+    "all 60 operating points",
+    "claim ledger hashes and paired effects",
+    "three regenerated figure pairs"
+  ],
+  "scope": "Label-level aggregate reproduction; not a fresh physical adjudication of all raw traces",
+  "network": "denied",
+  "simulator": "import blocked",
+  "full_dynamic_reproduction": "NOT_RUN",
+  "full_original_raw": "NOT_BUNDLED; see raw_trace_manifest.json"
+}

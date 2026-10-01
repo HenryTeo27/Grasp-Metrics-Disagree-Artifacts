@@ -1,0 +1,104 @@
+[
+  {
+    "mechanism": "independent",
+    "verdict": "PASS",
+    "no_contact": "PASS",
+    "b4": "PASS",
+    "common_seconds": 17.0,
+    "observer_bit_equal": true,
+    "elapsed_s": 5.141565500001889,
+    "max_load_ratio": 0.0,
+    "reason_codes": []
+  },
+  {
+    "mechanism": "inactive_margin",
+    "verdict": "FAIL",
+    "no_contact": "FAIL",
+    "b4": "FAIL",
+    "common_seconds": 17.0,
+    "observer_bit_equal": true,
+    "elapsed_s": 7.027790799969807,
+    "max_load_ratio": 0.9999999999703797,
+    "reason_codes": [
+      "NO_QUALIFYING_CONTINUOUS_INTERVAL"
+    ]
+  },
+  {
+    "mechanism": "necessary_floor",
+    "verdict": "FAIL",
+    "no_contact": "FAIL",
+    "b4": "FAIL",
+    "common_seconds": 17.0,
+    "observer_bit_equal": true,
+    "elapsed_s": 7.05132109997794,
+    "max_load_ratio": 1.9094938306243252,
+    "reason_codes": [
+      "NO_QUALIFYING_CONTINUOUS_INTERVAL"
+    ]
+  },
+  {
+    "mechanism": "redundant_floor",
+    "verdict": "FAIL",
+    "no_contact": "FAIL",
+    "b4": "FAIL",
+    "common_seconds": 17.0,
+    "observer_bit_equal": true,
+    "elapsed_s": 7.352296199998818,
+    "max_load_ratio": 10.437006319574673,
+    "reason_codes": [
+      "NO_QUALIFYING_CONTINUOUS_INTERVAL"
+    ]
+  },
+  {
+    "mechanism": "opposing_environment",
+    "verdict": "FAIL",
+    "no_contact": "FAIL",
+    "b4": "FAIL",
+    "common_seconds": 17.0,
+    "observer_bit_equal": true,
+    "elapsed_s": 9.169940400053747,
+    "max_load_ratio": 23.464687019294303,
+    "reason_codes": [
+      "NO_QUALIFYING_CONTINUOUS_INTERVAL"
+    ]
+  },
+  {
+    "mechanism": "intermittent_floor",
+    "verdict": "FAIL",
+    "no_contact": "FAIL",
+    "b4": "FAIL",
+    "common_seconds": 17.0,
+    "observer_bit_equal": true,
+    "elapsed_s": 6.090671100013424,
+    "max_load_ratio": 22.894947385978003,
+    "reason_codes": [
+      "NO_QUALIFYING_CONTINUOUS_INTERVAL"
+    ]
+  },
+  {
+    "mechanism": "applied_assistance",
+    "verdict": "FAIL",
+    "no_contact": "FAIL",
+    "b4": "FAIL",
+    "common_seconds": 17.0,
+    "observer_bit_equal": true,
+    "elapsed_s": 4.843260499997996,
+    "max_load_ratio": 0.0,
+    "reason_codes": [
+      "GLOBAL_COMMON_CONDITION_FAILED"
+    ]
+  },
+  {
+    "mechanism": "boundary_gap",
+    "verdict": "FAIL",
+    "no_contact": "FAIL",
+    "b4": "FAIL",
+    "common_seconds": 17.0,
+    "observer_bit_equal": true,
+    "elapsed_s": 7.208902699989267,
+    "max_load_ratio": 0.9999999999703796,
+    "reason_codes": [
+      "NO_QUALIFYING_CONTINUOUS_INTERVAL"
+    ]
+  }
+]

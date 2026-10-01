@@ -1,0 +1,2 @@
+case_id,family,excluded_baseline,excluded_repair,unique_jobs,common_eligible_jobs,eligible_with_sustained_upward_load,full_wrench_accounting
+v3_new1_bar_random_07,bar_random,True,True,6,2,2,UNKNOWN_PENDING_REPLAY

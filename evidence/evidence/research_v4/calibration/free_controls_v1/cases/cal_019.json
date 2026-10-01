@@ -1,0 +1,305 @@
+{
+  "case": {
+    "case_id": "cal_019",
+    "first48": true,
+    "physical_signature": "c550ccf1a9a17659b825aab8b96b82a28d15d18e6c74d1414ef83ecdc7f55507",
+    "parameters": {
+      "mechanism": "redundant_floor",
+      "seed": 51019,
+      "mass": 0.09336488883933466,
+      "half_x": 0.02521427698285103,
+      "half_y": 0.02295431421008508,
+      "half_z": 0.026275848622519558,
+      "pad_friction": 0.7115907826636001,
+      "duration_s": 18.0,
+      "timestep_s": 0.002,
+      "jaw_command": 0.015605687942646246,
+      "gap_m": 0.01134617473034815,
+      "target_tilt_rad": 0.11037701973772471,
+      "target_offset_y": 0.0,
+      "initial_angular_speed": 0.006179281248400947
+    }
+  },
+  "metadata": {
+    "observer_version": "merged-v4-contact-solve-2",
+    "mujoco_version": "3.8.0",
+    "target_body": 5,
+    "target_qadr": 2,
+    "target_vadr": 2,
+    "step_columns": [
+      "step",
+      "solve_time",
+      "dt",
+      "com_x",
+      "com_y",
+      "com_z",
+      "quat_w",
+      "quat_x",
+      "quat_y",
+      "quat_z",
+      "free_qvel_0",
+      "free_qvel_1",
+      "free_qvel_2",
+      "free_qvel_3",
+      "free_qvel_4",
+      "free_qvel_5",
+      "env_count",
+      "env_constraint_count",
+      "env_force_threshold_count",
+      "env_normal_n",
+      "env_abs_force_n",
+      "env_abs_torque_nm",
+      "env_net_force_x",
+      "env_net_force_y",
+      "env_net_force_z",
+      "env_net_torque_x",
+      "env_net_torque_y",
+      "env_net_torque_z",
+      "env_min_dist",
+      "env_dist_present",
+      "env_active_min_dist",
+      "env_active_dist_present",
+      "applied_any",
+      "target_applied_norm",
+      "target_qpos_write",
+      "target_qvel_write",
+      "geometry_clock_error",
+      "contact_start",
+      "contact_end"
+    ],
+    "contact_columns": [
+      "step",
+      "geom1",
+      "geom2",
+      "body1",
+      "body2",
+      "role",
+      "efc_address",
+      "dim",
+      "dist",
+      "point_x",
+      "point_y",
+      "point_z",
+      "frame_0",
+      "frame_1",
+      "frame_2",
+      "frame_3",
+      "frame_4",
+      "frame_5",
+      "frame_6",
+      "frame_7",
+      "frame_8",
+      "local_fn",
+      "local_ft1",
+      "local_ft2",
+      "local_tn",
+      "local_tt1",
+      "local_tt2",
+      "target_force_x",
+      "target_force_y",
+      "target_force_z",
+      "target_com_torque_x",
+      "target_com_torque_y",
+      "target_com_torque_z"
+    ],
+    "body_roles": [
+      0,
+      0,
+      0,
+      1,
+      2,
+      0
+    ],
+    "mass_kg": 0.09336488883933466,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "support_paths": {
+      "complete_for_declared_model": true,
+      "reason_codes": [],
+      "scope": "Single free primitive; direct equality/tendon/actuator/passive paths and applied arrays. No claim to detect malicious plugins or opaque external callbacks."
+    },
+    "snapshot": {
+      "step": 4000,
+      "flag": 16383,
+      "time": 7.999999999999341
+    },
+    "sample_convention": "pre-integration solve state with separately named post states",
+    "force_convention": "contact-frame force/torque acts on geom2; world wrench about target COM",
+    "geometry_clock_max_error": 0.0,
+    "fixture": {
+      "mechanism": "redundant_floor",
+      "seed": 51019,
+      "mass": 0.09336488883933466,
+      "half_x": 0.02521427698285103,
+      "half_y": 0.02295431421008508,
+      "half_z": 0.026275848622519558,
+      "pad_friction": 0.7115907826636001,
+      "duration_s": 18.0,
+      "timestep_s": 0.002,
+      "jaw_command": 0.015605687942646246,
+      "gap_m": 0.01134617473034815,
+      "target_tilt_rad": 0.11037701973772471,
+      "target_offset_y": 0.0,
+      "initial_angular_speed": 0.006179281248400947
+    },
+    "signature": "bc351a4931e699d7035d8300b92cf34e48ee2e10c79abdeae6e08c54bb11cb86",
+    "model_xml": "<mujoco model=\"free_target_development_control\"><option timestep=\"0.002\" gravity=\"0 0 -9.81\" integrator=\"implicitfast\" cone=\"elliptic\" iterations=\"100\" tolerance=\"1e-10\"/><default><geom condim=\"6\" solref=\".01 1\" solimp=\".95 .99 .001\"/></default><worldbody><body name=\"env_base_floor\" mocap=\"true\" pos=\"0 0 .02\" quat=\"1 0 0 0\"><geom name=\"base_floor\" type=\"plane\" size=\"1 1 .01\" contype=\"2\" conaffinity=\"4\" friction=\".8 .005 .0001\" margin=\"0\" gap=\"0\"/></body><body name=\"env_support\" mocap=\"true\" pos=\"0 0 0.4738741513774804\" quat=\"1 0 0 0\"><geom name=\"support\" type=\"plane\" size=\"1 1 .01\" contype=\"2\" conaffinity=\"4\" friction=\".8 .005 .0001\" margin=\"0\" gap=\"0\"/></body><body name=\"pad_left\" pos=\"-0.04321427698285103 0 .5\"><joint name=\"left\" type=\"slide\" axis=\"1 0 0\" damping=\"2\"/><geom name=\"pad_geom_left\" type=\"box\" size=\".015 .045 .045\" mass=\".2\" contype=\"1\" conaffinity=\"4\" friction=\"0.7115907826636001 .005 .0001\"/></body><body name=\"pad_right\" pos=\"0.04321427698285103 0 .5\"><joint name=\"right\" type=\"slide\" axis=\"-1 0 0\" damping=\"2\"/><geom name=\"pad_geom_right\" type=\"box\" size=\".015 .045 .045\" mass=\".2\" contype=\"1\" conaffinity=\"4\" friction=\"0.7115907826636001 .005 .0001\"/></body><body name=\"target\" pos=\"0 0.0 .5\" quat=\"0.9984775006801854 0.055160498868759116 0 0\"><freejoint name=\"target_free\"/><geom name=\"object\" type=\"box\" size=\"0.02521427698285103 0.02295431421008508 0.026275848622519558\" mass=\"0.09336488883933466\" contype=\"4\" conaffinity=\"3\" friction=\".8 .005 .0001\"/></body></worldbody><actuator><position joint=\"left\" kp=\"1000\" forcelimited=\"true\" forcerange=\"-20 20\"/><position joint=\"right\" kp=\"1000\" forcelimited=\"true\" forcerange=\"-20 20\"/></actuator></mujoco>",
+    "target_geom": 4,
+    "plane_geoms": [
+      0,
+      1
+    ],
+    "target_half_size": [
+      0.02521427698285103,
+      0.02295431421008508,
+      0.026275848622519558
+    ],
+    "length_scale_m": 0.04304742182125206,
+    "planned_steps": 9000,
+    "terminal_reason": "controller_schedule_completed",
+    "global_common": true,
+    "elapsed_s": 7.468163299956359,
+    "task_contract": "Free pregrasp retention; no acquisition claim; bilateral pad constraints, pose/speed bounds, and 15 contiguous seconds after 1s settling",
+    "role": "development_only"
+  },
+  "b5": {
+    "contract_version": "merged-v4-no-external-load-1",
+    "calibration_version": "development-instrumentation-v1-not-frozen",
+    "applicable": true,
+    "trace_validity": "VALID",
+    "no_external_load_verdict": "FAIL",
+    "no_contact_result": "FAIL",
+    "definite_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "possible_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "reason_codes": [
+      "NO_QUALIFYING_CONTINUOUS_INTERVAL"
+    ],
+    "no_contact_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "unknown_sample_count": 0,
+    "max_environment_force_ratio": 52.86783018326813,
+    "max_environment_torque_ratio": 37.76084270953161,
+    "config": {
+      "hold_s": 15.0,
+      "force_pass_ratio": 0.0001,
+      "force_fail_ratio": 0.01,
+      "torque_pass_ratio": 0.0001,
+      "torque_fail_ratio": 0.01,
+      "penetration_tolerance_m": 1e-05,
+      "positive_gap_m": 1e-06,
+      "clock_tolerance_s": 1e-08,
+      "duration_tolerance_s": 1e-09,
+      "version": "development-instrumentation-v1-not-frozen"
+    }
+  },
+  "b4": {
+    "contract_version": "merged-v4-no-external-load-1",
+    "calibration_version": "development-instrumentation-v1-not-frozen",
+    "applicable": true,
+    "trace_validity": "VALID",
+    "no_external_load_verdict": "FAIL",
+    "no_contact_result": "FAIL",
+    "definite_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "possible_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "reason_codes": [
+      "NO_QUALIFYING_CONTINUOUS_INTERVAL"
+    ],
+    "no_contact_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "unknown_sample_count": 0,
+    "max_environment_force_ratio": 52.86783018326813,
+    "max_environment_torque_ratio": 37.76084270953161,
+    "config": {
+      "hold_s": 15.0,
+      "force_pass_ratio": 0.0001,
+      "force_fail_ratio": 0.01,
+      "torque_pass_ratio": 0.0001,
+      "torque_fail_ratio": 0.01,
+      "penetration_tolerance_m": 1e-05,
+      "positive_gap_m": 1e-06,
+      "clock_tolerance_s": 1e-08,
+      "duration_tolerance_s": 1e-09,
+      "version": "development-instrumentation-v1-not-frozen"
+    }
+  },
+  "reference": {
+    "reference_version": "free-box-plane-raw-reference-1",
+    "verdict": "FAIL",
+    "definite_seconds": 0.0,
+    "possible_seconds": 0.0,
+    "no_contact_seconds": 0.0,
+    "geometry_reconstruction_error_m": 3.122502256758253e-17,
+    "wrench_reconstruction_error": 0.0,
+    "common_conditions_agree": true,
+    "independence": "Separate raw wrench, vertex geometry and interval implementations; shared MuJoCo physics and task specification",
+    "human_annotation": false,
+    "external_physical_truth": false
+  },
+  "counterfactual": {
+    "status": "VALID",
+    "sham_bit_equal": true,
+    "horizon_s": 3.0,
+    "t0_s": 7.999999999999341,
+    "continuation": "Recorded controls and mocap, not controller recovery",
+    "intervention_audit": {
+      "method": "unused_collision_bit",
+      "spare_bit": 8,
+      "preserved_target_hand_pairs": [
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "target_geoms": [
+        4
+      ],
+      "removed_scope": "target_environment_only"
+    },
+    "endpoints": {
+      "sham": {
+        "success": true,
+        "max_position_error_m": 0.00032086642731295455,
+        "max_angle_error_rad": 0.014298676598731762,
+        "max_linear_speed_m_s": 0.00010842610505510843
+      },
+      "removed": {
+        "success": true,
+        "max_position_error_m": 0.0012717441616049937,
+        "max_angle_error_rad": 1.8781351687460548e-05,
+        "max_linear_speed_m_s": 0.000424237954115272
+      }
+    },
+    "cell": "BOTH_RETAIN"
+  },
+  "observer_bit_equal": true,
+  "elapsed_s": 8.772691500023939
+}

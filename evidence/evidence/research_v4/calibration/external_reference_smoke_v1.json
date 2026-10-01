@@ -1,0 +1,32 @@
+[
+  {
+    "source": "external/fetch/smoke/full_state_retention_metered_v2",
+    "reference": {
+      "reference_version": "external-raw-vertex-passive-reference-1",
+      "verdict": "INDETERMINATE",
+      "definite_seconds": 0.0,
+      "possible_seconds": 18.79,
+      "common_conditions_agree": true,
+      "geometry_reconstruction_error_m": 5.551115123125783e-17,
+      "wrench_reconstruction_error": 0.0,
+      "passive_reconstruction_error": 6.071532165918825e-18,
+      "human_annotation": false,
+      "independence": "Separate vertex/force/interval implementations, shared simulator, saved FK and task specification; not real-world truth or blinded human annotation"
+    }
+  },
+  {
+    "source": "external/dexgraspbench/smoke/added_gravity_retention",
+    "reference": {
+      "reference_version": "external-raw-vertex-passive-reference-1",
+      "verdict": "PASS",
+      "definite_seconds": 17.5,
+      "possible_seconds": 17.5,
+      "common_conditions_agree": true,
+      "geometry_reconstruction_error_m": 0.0,
+      "wrench_reconstruction_error": 0.0,
+      "passive_reconstruction_error": 0.0,
+      "human_annotation": false,
+      "independence": "Separate vertex/force/interval implementations, shared simulator, saved FK and task specification; not real-world truth or blinded human annotation"
+    }
+  }
+]

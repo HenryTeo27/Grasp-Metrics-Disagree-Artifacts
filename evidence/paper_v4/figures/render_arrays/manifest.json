@@ -1,0 +1,23 @@
+[
+  {
+    "case_id": "final_control_000",
+    "snapshot_time": 7.999999999999341,
+    "original_trace_sha256": "19cecd1497922100b346ed1955a2e9ca901f39a98fe8553fafc01368d0a99ed4",
+    "display_only_edits": "RGBA, sky texture, headlight and offscreen camera; no dynamic step",
+    "output_sha256": "b85b15e92d06ebebadac72f67981f408d018fece5e5b67d1f57927f69be4e39e"
+  },
+  {
+    "case_id": "final_control_001",
+    "snapshot_time": 7.999999999999341,
+    "original_trace_sha256": "6eb6256bd028fc1ec6ea9a0b68763b89f208913192af4b671d64a68038c6040e",
+    "display_only_edits": "RGBA, sky texture, headlight and offscreen camera; no dynamic step",
+    "output_sha256": "314c82ed138911b7d92989bbd56af3d85196e2625bb36701abda42dc98b42a2e"
+  },
+  {
+    "case_id": "final_control_002",
+    "snapshot_time": 7.999999999999341,
+    "original_trace_sha256": "ed5ebf9739b1152dfffb85be02689b1738031d561ba1a1252ccaace3d6a49eae",
+    "display_only_edits": "RGBA, sky texture, headlight and offscreen camera; no dynamic step",
+    "output_sha256": "cef73c0cd716a02ad3177d801b618623157d184e50ff341ee9e6ffaf921059b1"
+  }
+]

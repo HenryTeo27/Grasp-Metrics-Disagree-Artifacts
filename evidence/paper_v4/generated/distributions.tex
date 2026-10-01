@@ -1,0 +1,18 @@
+\begin{table}[h]\centering\small
+\caption{Realized geometry and mass ranges in the actual new V3 360 and V4 120 scene manifests, not substituted from an older 20-case suite. Box sizes are half-extents; curved objects use radius and axial half-length. All lengths below are mm and masses g.}
+\begin{tabular}{llrrrrr}\toprule Split & Family & N & Size 1 & Size 2 & Size 3 & Mass\\\midrule
+V3 & bar & 60 & 14.01--19.00 & 35.02--48.65 & 16.01--21.92 & 76.02--84.19 \\
+V3 & capsule & 60 & 13.71--18.29 & 23.19--37.91 & 0.00--0.00 & 60.49--66.73 \\
+V3 & cube & 60 & 22.01--28.23 & 22.01--28.23 & 22.01--28.23 & 55.01--64.35 \\
+V3 & cylinder & 60 & 18.07--23.44 & 27.01--36.98 & 0.00--0.00 & 65.08--69.88 \\
+V3 & flat box & 60 & 24.09--33.92 & 24.51--33.95 & 8.11--13.90 & 63.72--85.50 \\
+V3 & sphere & 60 & 17.04--23.95 & 0.00--0.00 & 0.00--0.00 & 51.93--56.77 \\
+V4 & bar & 20 & 14.37--18.80 & 35.54--48.68 & 16.01--21.83 & 76.32--84.21 \\
+V4 & capsule & 20 & 13.62--18.43 & 23.13--37.05 & 0.00--0.00 & 61.02--66.19 \\
+V4 & cube & 20 & 22.20--28.39 & 22.20--28.39 & 22.20--28.39 & 55.30--64.58 \\
+V4 & cylinder & 20 & 18.03--23.38 & 27.88--36.50 & 0.00--0.00 & 65.63--68.78 \\
+V4 & flat box & 20 & 24.03--33.95 & 24.20--33.07 & 8.19--13.81 & 65.25--84.11 \\
+V4 & sphere & 20 & 17.19--23.97 & 0.00--0.00 & 0.00--0.00 & 52.03--56.78 \\
+\bottomrule\end{tabular}\end{table}
+The two studies use the same parametric family generator with different frozen seeds. V3 seeds are 2026093031--2026093033; V4 uses 2026100202 and records input-selection randomness before scene generation. Sizes and XY positions are drawn uniformly within family-specific ranges, but mass is a deterministic function of sampled size and height is coupled to the geometry: the lowest point starts 20 mm above the floor. Thus these are not independent mass/size/height factors or unseen object categories. Bar XY ranges are $[-2.5,8.5]\times[77,84.5]$ mm; other families use $[-9.5,9.5]\times[75,98.5]$ mm. Yaw is uniform within $\pm0.25$ rad for cubes, $\pm0.18$ for bars and $\pm0.30$ for flat boxes; rotationally symmetric families have zero initial yaw. Contact friction parameters remain $(0.9,0.015,0.004)$.
+For the free-object apparatus, mass is uniform 50--100 g; half-extents are 25--35, 22--29 and 25--35 mm; pad friction is 0.55--0.90. Nominal jaw command is 10--16 mm, with nine deliberately weak hand-only initializations at 3.02--3.15 mm and necessary-floor command fixed at 3.1 mm. Inactive-floor gap is 10--14 mm and the boundary group uses 0.7 times that gap. Every third initialization uses either a lateral offset within $\pm7$ mm or tilt within $\pm0.15$ rad and angular speed within $\pm1$ rad/s. All values and their coupling are listed in the frozen input design.

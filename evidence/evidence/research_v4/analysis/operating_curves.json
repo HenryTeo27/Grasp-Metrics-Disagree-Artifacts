@@ -1,0 +1,3196 @@
+{
+  "curves": [
+    {
+      "low": 1e-06,
+      "high": 0.0001,
+      "method": "A_accumulated",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 15,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.09202453987730061,
+      "FNR": 0.0,
+      "accepted_risk": 0.16304347826086957,
+      "conditional_FPR": 0.09202453987730061,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.09202453987730061,
+        0.09202453987730061
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.16304347826086957,
+        0.16304347826086957
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.38333333333333336,
+      "FPR_wilson_iid_only": [
+        0.05656177844744624,
+        0.14627424959917867
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 15,
+        "FAIL_FAIL": 148,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-06,
+      "high": 0.0001,
+      "method": "A_binary_unknown_fail",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-06,
+      "high": 0.0001,
+      "method": "A_net_aggregation",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-06,
+      "high": 0.0001,
+      "method": "A_no_geometry",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-06,
+      "high": 0.0001,
+      "method": "A_no_torque",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-06,
+      "high": 0.0001,
+      "method": "B0",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 124,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.7607361963190185,
+      "FNR": 0.0,
+      "accepted_risk": 0.6169154228855721,
+      "conditional_FPR": 0.7607361963190185,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.7607361963190185,
+        0.7607361963190185
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.6169154228855721,
+        0.6169154228855721
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.8375,
+      "FPR_wilson_iid_only": [
+        0.6897182230532071,
+        0.8197474733079726
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 124,
+        "FAIL_FAIL": 39,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-06,
+      "high": 0.0001,
+      "method": "B1",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 105,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.6441717791411042,
+      "FNR": 0.0,
+      "accepted_risk": 0.5769230769230769,
+      "conditional_FPR": 0.6441717791411042,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.6441717791411042,
+        0.6441717791411042
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.5769230769230769,
+        0.5769230769230769
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.7583333333333333,
+      "FPR_wilson_iid_only": [
+        0.5681295708790526,
+        0.7135749906383055
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 105,
+        "FAIL_FAIL": 58,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-06,
+      "high": 0.0001,
+      "method": "B2",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 56,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.7272727272727273,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.7272727272727273,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.7272727272727273,
+        0.7272727272727273
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.0875,
+      "accepted_per_assigned": 0.0875,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.6187910782504654,
+        0.8141550920757009
+      ],
+      "matrix": {
+        "PASS_PASS": 21,
+        "PASS_FAIL": 56,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-06,
+      "high": 0.0001,
+      "method": "B3",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-06,
+      "high": 0.0001,
+      "method": "B4",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-06,
+      "high": 0.0001,
+      "method": "B4_normal",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-06,
+      "high": 0.0001,
+      "method": "B5",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-05,
+      "high": 0.001,
+      "method": "A_accumulated",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 15,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.09202453987730061,
+      "FNR": 0.0,
+      "accepted_risk": 0.16304347826086957,
+      "conditional_FPR": 0.09202453987730061,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.09202453987730061,
+        0.09202453987730061
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.16304347826086957,
+        0.16304347826086957
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.38333333333333336,
+      "FPR_wilson_iid_only": [
+        0.05656177844744624,
+        0.14627424959917867
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 15,
+        "FAIL_FAIL": 148,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-05,
+      "high": 0.001,
+      "method": "A_binary_unknown_fail",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-05,
+      "high": 0.001,
+      "method": "A_net_aggregation",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-05,
+      "high": 0.001,
+      "method": "A_no_geometry",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-05,
+      "high": 0.001,
+      "method": "A_no_torque",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-05,
+      "high": 0.001,
+      "method": "B0",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 124,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.7607361963190185,
+      "FNR": 0.0,
+      "accepted_risk": 0.6169154228855721,
+      "conditional_FPR": 0.7607361963190185,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.7607361963190185,
+        0.7607361963190185
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.6169154228855721,
+        0.6169154228855721
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.8375,
+      "FPR_wilson_iid_only": [
+        0.6897182230532071,
+        0.8197474733079726
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 124,
+        "FAIL_FAIL": 39,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-05,
+      "high": 0.001,
+      "method": "B1",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 105,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.6441717791411042,
+      "FNR": 0.0,
+      "accepted_risk": 0.5769230769230769,
+      "conditional_FPR": 0.6441717791411042,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.6441717791411042,
+        0.6441717791411042
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.5769230769230769,
+        0.5769230769230769
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.7583333333333333,
+      "FPR_wilson_iid_only": [
+        0.5681295708790526,
+        0.7135749906383055
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 105,
+        "FAIL_FAIL": 58,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-05,
+      "high": 0.001,
+      "method": "B2",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 56,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.7272727272727273,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.7272727272727273,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.7272727272727273,
+        0.7272727272727273
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.0875,
+      "accepted_per_assigned": 0.0875,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.6187910782504654,
+        0.8141550920757009
+      ],
+      "matrix": {
+        "PASS_PASS": 21,
+        "PASS_FAIL": 56,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-05,
+      "high": 0.001,
+      "method": "B3",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-05,
+      "high": 0.001,
+      "method": "B4",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-05,
+      "high": 0.001,
+      "method": "B4_normal",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 1e-05,
+      "high": 0.001,
+      "method": "B5",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.0001,
+      "high": 0.01,
+      "method": "A_accumulated",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 15,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.09202453987730061,
+      "FNR": 0.0,
+      "accepted_risk": 0.16304347826086957,
+      "conditional_FPR": 0.09202453987730061,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.09202453987730061,
+        0.09202453987730061
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.16304347826086957,
+        0.16304347826086957
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.38333333333333336,
+      "FPR_wilson_iid_only": [
+        0.05656177844744624,
+        0.14627424959917867
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 15,
+        "FAIL_FAIL": 148,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.0001,
+      "high": 0.01,
+      "method": "A_binary_unknown_fail",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.0001,
+      "high": 0.01,
+      "method": "A_net_aggregation",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.0001,
+      "high": 0.01,
+      "method": "A_no_geometry",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.0001,
+      "high": 0.01,
+      "method": "A_no_torque",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.0001,
+      "high": 0.01,
+      "method": "B0",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 124,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.7607361963190185,
+      "FNR": 0.0,
+      "accepted_risk": 0.6169154228855721,
+      "conditional_FPR": 0.7607361963190185,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.7607361963190185,
+        0.7607361963190185
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.6169154228855721,
+        0.6169154228855721
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.8375,
+      "FPR_wilson_iid_only": [
+        0.6897182230532071,
+        0.8197474733079726
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 124,
+        "FAIL_FAIL": 39,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.0001,
+      "high": 0.01,
+      "method": "B1",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 105,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.6441717791411042,
+      "FNR": 0.0,
+      "accepted_risk": 0.5769230769230769,
+      "conditional_FPR": 0.6441717791411042,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.6441717791411042,
+        0.6441717791411042
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.5769230769230769,
+        0.5769230769230769
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.7583333333333333,
+      "FPR_wilson_iid_only": [
+        0.5681295708790526,
+        0.7135749906383055
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 105,
+        "FAIL_FAIL": 58,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.0001,
+      "high": 0.01,
+      "method": "B2",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 56,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.7272727272727273,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.7272727272727273,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.7272727272727273,
+        0.7272727272727273
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.0875,
+      "accepted_per_assigned": 0.0875,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.6187910782504654,
+        0.8141550920757009
+      ],
+      "matrix": {
+        "PASS_PASS": 21,
+        "PASS_FAIL": 56,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.0001,
+      "high": 0.01,
+      "method": "B3",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.0001,
+      "high": 0.01,
+      "method": "B4",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.0001,
+      "high": 0.01,
+      "method": "B4_normal",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.0001,
+      "high": 0.01,
+      "method": "B5",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.001,
+      "high": 0.1,
+      "method": "A_accumulated",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 15,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.09202453987730061,
+      "FNR": 0.0,
+      "accepted_risk": 0.16304347826086957,
+      "conditional_FPR": 0.09202453987730061,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.09202453987730061,
+        0.09202453987730061
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.16304347826086957,
+        0.16304347826086957
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.38333333333333336,
+      "FPR_wilson_iid_only": [
+        0.05656177844744624,
+        0.14627424959917867
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 15,
+        "FAIL_FAIL": 148,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.001,
+      "high": 0.1,
+      "method": "A_binary_unknown_fail",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.001,
+      "high": 0.1,
+      "method": "A_net_aggregation",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.001,
+      "high": 0.1,
+      "method": "A_no_geometry",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.001,
+      "high": 0.1,
+      "method": "A_no_torque",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.001,
+      "high": 0.1,
+      "method": "B0",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 124,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.7607361963190185,
+      "FNR": 0.0,
+      "accepted_risk": 0.6169154228855721,
+      "conditional_FPR": 0.7607361963190185,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.7607361963190185,
+        0.7607361963190185
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.6169154228855721,
+        0.6169154228855721
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.8375,
+      "FPR_wilson_iid_only": [
+        0.6897182230532071,
+        0.8197474733079726
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 124,
+        "FAIL_FAIL": 39,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.001,
+      "high": 0.1,
+      "method": "B1",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 105,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.6441717791411042,
+      "FNR": 0.0,
+      "accepted_risk": 0.5769230769230769,
+      "conditional_FPR": 0.6441717791411042,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.6441717791411042,
+        0.6441717791411042
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.5769230769230769,
+        0.5769230769230769
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.7583333333333333,
+      "FPR_wilson_iid_only": [
+        0.5681295708790526,
+        0.7135749906383055
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 105,
+        "FAIL_FAIL": 58,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.001,
+      "high": 0.1,
+      "method": "B2",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 56,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.7272727272727273,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.7272727272727273,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.7272727272727273,
+        0.7272727272727273
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.0875,
+      "accepted_per_assigned": 0.0875,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.6187910782504654,
+        0.8141550920757009
+      ],
+      "matrix": {
+        "PASS_PASS": 21,
+        "PASS_FAIL": 56,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.001,
+      "high": 0.1,
+      "method": "B3",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.001,
+      "high": 0.1,
+      "method": "B4",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.001,
+      "high": 0.1,
+      "method": "B4_normal",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.001,
+      "high": 0.1,
+      "method": "B5",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.01,
+      "high": 1.0,
+      "method": "A_accumulated",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 15,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 15,
+      "unknown_prediction": 15,
+      "FPR": 0.09202453987730061,
+      "FNR": 0.0,
+      "accepted_risk": 0.16304347826086957,
+      "conditional_FPR": 0.10135135135135136,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.09202453987730061,
+        0.18404907975460122
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.16304347826086957,
+        0.16304347826086957
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.38333333333333336,
+      "FPR_wilson_iid_only": [
+        0.05656177844744624,
+        0.14627424959917867
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 15,
+        "FAIL_FAIL": 133,
+        "FAIL_INDETERMINATE": 15,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.01,
+      "high": 1.0,
+      "method": "A_binary_unknown_fail",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.01,
+      "high": 1.0,
+      "method": "A_net_aggregation",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 42,
+      "unknown_prediction": 42,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.25766871165644173
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 121,
+        "FAIL_INDETERMINATE": 42,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.01,
+      "high": 1.0,
+      "method": "A_no_geometry",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 12,
+      "unknown_prediction": 12,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0736196319018405
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 151,
+        "FAIL_INDETERMINATE": 12,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.01,
+      "high": 1.0,
+      "method": "A_no_torque",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 12,
+      "unknown_prediction": 12,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0736196319018405
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 151,
+        "FAIL_INDETERMINATE": 12,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.01,
+      "high": 1.0,
+      "method": "B0",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 124,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.7607361963190185,
+      "FNR": 0.0,
+      "accepted_risk": 0.6169154228855721,
+      "conditional_FPR": 0.7607361963190185,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.7607361963190185,
+        0.7607361963190185
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.6169154228855721,
+        0.6169154228855721
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.8375,
+      "FPR_wilson_iid_only": [
+        0.6897182230532071,
+        0.8197474733079726
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 124,
+        "FAIL_FAIL": 39,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.01,
+      "high": 1.0,
+      "method": "B1",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 105,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.6441717791411042,
+      "FNR": 0.0,
+      "accepted_risk": 0.5769230769230769,
+      "conditional_FPR": 0.6441717791411042,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.6441717791411042,
+        0.6441717791411042
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.5769230769230769,
+        0.5769230769230769
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.7583333333333333,
+      "FPR_wilson_iid_only": [
+        0.5681295708790526,
+        0.7135749906383055
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 105,
+        "FAIL_FAIL": 58,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.01,
+      "high": 1.0,
+      "method": "B2",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 56,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.7272727272727273,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.7272727272727273,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.7272727272727273,
+        0.7272727272727273
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.0875,
+      "accepted_per_assigned": 0.0875,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.6187910782504654,
+        0.8141550920757009
+      ],
+      "matrix": {
+        "PASS_PASS": 21,
+        "PASS_FAIL": 56,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.01,
+      "high": 1.0,
+      "method": "B3",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 0,
+      "unknown_prediction": 0,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 163,
+        "FAIL_INDETERMINATE": 0,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.01,
+      "high": 1.0,
+      "method": "B4",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 12,
+      "unknown_prediction": 12,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0736196319018405
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 151,
+        "FAIL_INDETERMINATE": 12,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.01,
+      "high": 1.0,
+      "method": "B4_normal",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 13,
+      "unknown_prediction": 13,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.07975460122699386
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 150,
+        "FAIL_INDETERMINATE": 13,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    },
+    {
+      "low": 0.01,
+      "high": 1.0,
+      "method": "B5",
+      "n": 240,
+      "invalid": 0,
+      "reference_positive": 77,
+      "reference_negative": 163,
+      "reference_unknown": 0,
+      "false_accept": 0,
+      "false_reject": 0,
+      "unknown_positive": 0,
+      "unknown_negative": 12,
+      "unknown_prediction": 12,
+      "FPR": 0.0,
+      "FNR": 0.0,
+      "accepted_risk": 0.0,
+      "conditional_FPR": 0.0,
+      "conditional_FNR": 0.0,
+      "FPR_bounds": [
+        0.0,
+        0.0736196319018405
+      ],
+      "FNR_bounds": [
+        0.0,
+        0.0
+      ],
+      "accepted_risk_bounds": [
+        0.0,
+        0.0
+      ],
+      "correct_accept_per_assigned": 0.32083333333333336,
+      "accepted_per_assigned": 0.32083333333333336,
+      "FPR_wilson_iid_only": [
+        0.0,
+        0.023024605801502687
+      ],
+      "FNR_wilson_iid_only": [
+        0.0,
+        0.04751842528243408
+      ],
+      "matrix": {
+        "PASS_PASS": 77,
+        "PASS_FAIL": 0,
+        "PASS_INDETERMINATE": 0,
+        "FAIL_PASS": 0,
+        "FAIL_FAIL": 151,
+        "FAIL_INDETERMINATE": 12,
+        "INDETERMINATE_PASS": 0,
+        "INDETERMINATE_FAIL": 0,
+        "INDETERMINATE_INDETERMINATE": 0
+      }
+    }
+  ],
+  "costs": {
+    "B4": {
+      "median_s": 0.0020202499872539192,
+      "p95_s": 0.0032329550507711247
+    },
+    "B5": {
+      "median_s": 0.0018836500239558518,
+      "p95_s": 0.003108060019440017
+    }
+  },
+  "scope": "Registered five-point controls sensitivity relative to fixed nominal reference; not post-test threshold selection. CPU timing is single offline scoring call, excludes telemetry/IO and simulator, hardware-dependent.",
+  "nominal_verdicts_match": true
+}

@@ -1,0 +1,6 @@
+source,role,may_tune,may_claim_fresh
+prospective_v2,retrospective_development,True,False
+prospective_v3,retrospective_development,True,False
+auditor_fixtures_v3,retrospective_development,True,False
+auditor_fixtures_v3_posthoc,retrospective_development,True,False
+external_v3,retrospective_development,True,False

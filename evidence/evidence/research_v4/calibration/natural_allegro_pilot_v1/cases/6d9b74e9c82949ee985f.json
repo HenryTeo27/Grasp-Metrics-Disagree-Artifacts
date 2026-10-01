@@ -1,0 +1,90 @@
+{
+  "job_id": "6d9b74e9c82949ee985f",
+  "case_id": "v3_new2_cube_random_08",
+  "family": "cube_random",
+  "role": "RETROSPECTIVE_DEVELOPMENT_NOT_FORMAL_TEST",
+  "b5": {
+    "contract_version": "merged-v4-no-external-load-1",
+    "calibration_version": "development-instrumentation-v1-not-frozen",
+    "applicable": true,
+    "trace_validity": "VALID",
+    "no_external_load_verdict": "FAIL",
+    "no_contact_result": "FAIL",
+    "definite_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "possible_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "reason_codes": [
+      "NO_QUALIFYING_CONTINUOUS_INTERVAL"
+    ],
+    "no_contact_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "unknown_sample_count": 0,
+    "max_environment_force_ratio": 31.433015597092123,
+    "max_environment_torque_ratio": 29.377749806501605,
+    "config": {
+      "hold_s": 15.0,
+      "force_pass_ratio": 0.0001,
+      "force_fail_ratio": 0.01,
+      "torque_pass_ratio": 0.0001,
+      "torque_fail_ratio": 0.01,
+      "penetration_tolerance_m": 1e-05,
+      "positive_gap_m": 1e-06,
+      "clock_tolerance_s": 1e-08,
+      "duration_tolerance_s": 1e-09,
+      "version": "development-instrumentation-v1-not-frozen"
+    }
+  },
+  "b4": {
+    "contract_version": "merged-v4-no-external-load-1",
+    "calibration_version": "development-instrumentation-v1-not-frozen",
+    "applicable": true,
+    "trace_validity": "VALID",
+    "no_external_load_verdict": "FAIL",
+    "no_contact_result": "FAIL",
+    "definite_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "possible_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "reason_codes": [
+      "NO_QUALIFYING_CONTINUOUS_INTERVAL"
+    ],
+    "no_contact_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "unknown_sample_count": 0,
+    "max_environment_force_ratio": 31.433015597092123,
+    "max_environment_torque_ratio": 29.377749806501605,
+    "config": {
+      "hold_s": 15.0,
+      "force_pass_ratio": 0.0001,
+      "force_fail_ratio": 0.01,
+      "torque_pass_ratio": 0.0001,
+      "torque_fail_ratio": 0.01,
+      "penetration_tolerance_m": 1e-05,
+      "positive_gap_m": 1e-06,
+      "clock_tolerance_s": 1e-08,
+      "duration_tolerance_s": 1e-09,
+      "version": "development-instrumentation-v1-not-frozen"
+    }
+  },
+  "counterfactual": null,
+  "geometry_reconstruction_error_m": 5.551115123125783e-17
+}

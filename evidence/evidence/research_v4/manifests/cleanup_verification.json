@@ -1,0 +1,29 @@
+{
+  "checked_utc": "2026-09-30T21:04:59.177159+00:00",
+  "protection": {
+    "protection": "PASS_WITH_AUTHORIZED_RELOCATION",
+    "file_count": 9201,
+    "missing": [],
+    "changed": [],
+    "authorized_archived_files": [
+      "dist/merged_hl_grasping_paper_v1.pdf",
+      "dist/merged_hl_grasping_paper_v1_evidence.zip",
+      "dist/merged_hl_grasping_paper_v1_latex_source.zip",
+      "dist/merged_hl_grasping_paper_v2.pdf",
+      "dist/merged_hl_grasping_paper_v2_evidence.zip",
+      "dist/merged_hl_grasping_paper_v2_latex_source.zip",
+      "dist/merged_hl_grasping_paper_v2_SHA256SUMS.txt",
+      "dist/merged_hl_grasping_paper_v2_verification.json",
+      "dist/release_verification.json",
+      "dist/SHA256SUMS.txt"
+    ],
+    "archive_errors": []
+  },
+  "frozen_inputs": {
+    "frozen_input_count": 317,
+    "archive_mismatches": [],
+    "current_v3_input_mismatches": [],
+    "suite_mismatches": [],
+    "historical_other_runtime_locks": "Previously disclosed failures are not altered"
+  }
+}

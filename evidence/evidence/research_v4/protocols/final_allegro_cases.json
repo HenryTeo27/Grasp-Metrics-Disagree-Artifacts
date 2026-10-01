@@ -1,0 +1,4442 @@
+[
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_00",
+    "seed": 14778149,
+    "object_xyz": [
+      -2.2e-05,
+      0.085826,
+      -0.037802
+    ],
+    "object_quat": [
+      0.99672969,
+      0.0,
+      0.0,
+      0.08080796
+    ],
+    "object_yaw_rad": 0.161792,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.022198,
+        0.022198,
+        0.022198
+      ],
+      "mass": 0.0553,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_01",
+    "seed": 12786361,
+    "object_xyz": [
+      -0.004111,
+      0.085842,
+      -0.032332
+    ],
+    "object_quat": [
+      0.99965261,
+      0.0,
+      0.0,
+      0.02635621
+    ],
+    "object_yaw_rad": 0.052719,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.027668,
+        0.027668,
+        0.027668
+      ],
+      "mass": 0.0635,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_02",
+    "seed": 33479729,
+    "object_xyz": [
+      -0.000412,
+      0.089742,
+      -0.03669
+    ],
+    "object_quat": [
+      0.99317538,
+      0.0,
+      0.0,
+      0.11663042
+    ],
+    "object_yaw_rad": 0.233793,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.02331,
+        0.02331,
+        0.02331
+      ],
+      "mass": 0.05697,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_03",
+    "seed": 64596922,
+    "object_xyz": [
+      -0.002837,
+      0.0787,
+      -0.036514
+    ],
+    "object_quat": [
+      0.9948354,
+      0.0,
+      0.0,
+      -0.10150139
+    ],
+    "object_yaw_rad": -0.203353,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.023486,
+        0.023486,
+        0.023486
+      ],
+      "mass": 0.05723,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_04",
+    "seed": 15913375,
+    "object_xyz": [
+      0.003452,
+      0.082682,
+      -0.033038
+    ],
+    "object_quat": [
+      0.9973095,
+      0.0,
+      0.0,
+      -0.07330588
+    ],
+    "object_yaw_rad": -0.146743,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.026962,
+        0.026962,
+        0.026962
+      ],
+      "mass": 0.06244,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_05",
+    "seed": 89854039,
+    "object_xyz": [
+      -0.00902,
+      0.082681,
+      -0.037727
+    ],
+    "object_quat": [
+      0.99995913,
+      0.0,
+      0.0,
+      0.0090412
+    ],
+    "object_yaw_rad": 0.018083,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.022273,
+        0.022273,
+        0.022273
+      ],
+      "mass": 0.05541,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_06",
+    "seed": 28122913,
+    "object_xyz": [
+      0.004955,
+      0.094063,
+      -0.036852
+    ],
+    "object_quat": [
+      0.99763828,
+      0.0,
+      0.0,
+      -0.06868666
+    ],
+    "object_yaw_rad": -0.137482,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.023148,
+        0.023148,
+        0.023148
+      ],
+      "mass": 0.05672,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_07",
+    "seed": 95972793,
+    "object_xyz": [
+      0.004028,
+      0.087677,
+      -0.034102
+    ],
+    "object_quat": [
+      0.9994053,
+      0.0,
+      0.0,
+      0.03448251
+    ],
+    "object_yaw_rad": 0.068979,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.025898,
+        0.025898,
+        0.025898
+      ],
+      "mass": 0.06085,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_08",
+    "seed": 84639347,
+    "object_xyz": [
+      -0.000367,
+      0.097722,
+      -0.032931
+    ],
+    "object_quat": [
+      0.99621386,
+      0.0,
+      0.0,
+      -0.08693645
+    ],
+    "object_yaw_rad": -0.174093,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.027069,
+        0.027069,
+        0.027069
+      ],
+      "mass": 0.0626,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_09",
+    "seed": 79836743,
+    "object_xyz": [
+      0.001409,
+      0.087795,
+      -0.035207
+    ],
+    "object_quat": [
+      0.99987098,
+      0.0,
+      0.0,
+      -0.01606294
+    ],
+    "object_yaw_rad": -0.032127,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.024793,
+        0.024793,
+        0.024793
+      ],
+      "mass": 0.05919,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_10",
+    "seed": 92586850,
+    "object_xyz": [
+      -0.004466,
+      0.077536,
+      -0.035282
+    ],
+    "object_quat": [
+      0.99872277,
+      0.0,
+      0.0,
+      0.05052558
+    ],
+    "object_yaw_rad": 0.101094,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.024718,
+        0.024718,
+        0.024718
+      ],
+      "mass": 0.05908,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_11",
+    "seed": 91803423,
+    "object_xyz": [
+      -0.006696,
+      0.091935,
+      -0.03226
+    ],
+    "object_quat": [
+      0.99687251,
+      0.0,
+      0.0,
+      0.07902655
+    ],
+    "object_yaw_rad": 0.158218,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.02774,
+        0.02774,
+        0.02774
+      ],
+      "mass": 0.06361,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_12",
+    "seed": 53273944,
+    "object_xyz": [
+      -0.008257,
+      0.095971,
+      -0.036251
+    ],
+    "object_quat": [
+      0.99635717,
+      0.0,
+      0.0,
+      0.08527833
+    ],
+    "object_yaw_rad": 0.170764,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.023749,
+        0.023749,
+        0.023749
+      ],
+      "mass": 0.05762,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_13",
+    "seed": 30800709,
+    "object_xyz": [
+      -0.005135,
+      0.095323,
+      -0.035837
+    ],
+    "object_quat": [
+      0.99548879,
+      0.0,
+      0.0,
+      -0.09487919
+    ],
+    "object_yaw_rad": -0.190044,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.024163,
+        0.024163,
+        0.024163
+      ],
+      "mass": 0.05824,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_14",
+    "seed": 67078170,
+    "object_xyz": [
+      0.001509,
+      0.084273,
+      -0.034167
+    ],
+    "object_quat": [
+      0.99794413,
+      0.0,
+      0.0,
+      0.06408993
+    ],
+    "object_yaw_rad": 0.128268,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.025833,
+        0.025833,
+        0.025833
+      ],
+      "mass": 0.06075,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_15",
+    "seed": 52515148,
+    "object_xyz": [
+      -0.006707,
+      0.089352,
+      -0.034772
+    ],
+    "object_quat": [
+      0.99979272,
+      0.0,
+      0.0,
+      0.02035991
+    ],
+    "object_yaw_rad": 0.040723,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.025228,
+        0.025228,
+        0.025228
+      ],
+      "mass": 0.05984,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_16",
+    "seed": 36922535,
+    "object_xyz": [
+      0.003178,
+      0.092695,
+      -0.034828
+    ],
+    "object_quat": [
+      0.99741732,
+      0.0,
+      0.0,
+      0.07182401
+    ],
+    "object_yaw_rad": 0.143772,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.025172,
+        0.025172,
+        0.025172
+      ],
+      "mass": 0.05976,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_17",
+    "seed": 41914839,
+    "object_xyz": [
+      0.001319,
+      0.083634,
+      -0.03161
+    ],
+    "object_quat": [
+      0.99853826,
+      0.0,
+      0.0,
+      0.05404951
+    ],
+    "object_yaw_rad": 0.108152,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.02839,
+        0.02839,
+        0.02839
+      ],
+      "mass": 0.06458,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_18",
+    "seed": 96120990,
+    "object_xyz": [
+      -0.008464,
+      0.082023,
+      -0.035052
+    ],
+    "object_quat": [
+      0.99954312,
+      0.0,
+      0.0,
+      0.03022509
+    ],
+    "object_yaw_rad": 0.060459,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.024948,
+        0.024948,
+        0.024948
+      ],
+      "mass": 0.05942,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cube_random",
+    "case_id": "v4_final_cube_random_19",
+    "seed": 15468674,
+    "object_xyz": [
+      0.002988,
+      0.095474,
+      -0.033819
+    ],
+    "object_quat": [
+      0.99982828,
+      0.0,
+      0.0,
+      -0.01853115
+    ],
+    "object_yaw_rad": -0.037064,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.026181,
+        0.026181,
+        0.026181
+      ],
+      "mass": 0.06127,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.2,
+        0.55,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_00",
+    "seed": 71618692,
+    "object_xyz": [
+      0.000555,
+      0.085214,
+      -0.02948
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.018807,
+        0.03052,
+        0.0
+      ],
+      "mass": 0.06632,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_01",
+    "seed": 35631722,
+    "object_xyz": [
+      -1.2e-05,
+      0.091479,
+      -0.026397
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.02338,
+        0.033603,
+        0.0
+      ],
+      "mass": 0.06878,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_02",
+    "seed": 17712414,
+    "object_xyz": [
+      0.002064,
+      0.085458,
+      -0.027929
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.021232,
+        0.032071,
+        0.0
+      ],
+      "mass": 0.06759,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_03",
+    "seed": 48996523,
+    "object_xyz": [
+      -0.007325,
+      0.077251,
+      -0.023501
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.018026,
+        0.036499,
+        0.0
+      ],
+      "mass": 0.06818,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_04",
+    "seed": 27449551,
+    "object_xyz": [
+      0.001273,
+      0.088504,
+      -0.029798
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.021788,
+        0.030202,
+        0.0
+      ],
+      "mass": 0.06711,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_05",
+    "seed": 70566651,
+    "object_xyz": [
+      0.001069,
+      0.079534,
+      -0.02761
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.021829,
+        0.03239,
+        0.0
+      ],
+      "mass": 0.06789,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_06",
+    "seed": 15597229,
+    "object_xyz": [
+      -0.004184,
+      0.0891,
+      -0.031033
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.020319,
+        0.028967,
+        0.0
+      ],
+      "mass": 0.06623,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_07",
+    "seed": 57066556,
+    "object_xyz": [
+      -0.009152,
+      0.096659,
+      -0.029854
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.020976,
+        0.030146,
+        0.0
+      ],
+      "mass": 0.06684,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_08",
+    "seed": 35274286,
+    "object_xyz": [
+      -0.008582,
+      0.080584,
+      -0.028167
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.020945,
+        0.031833,
+        0.0
+      ],
+      "mass": 0.06743,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_09",
+    "seed": 48158697,
+    "object_xyz": [
+      0.006299,
+      0.079792,
+      -0.030302
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.019595,
+        0.029698,
+        0.0
+      ],
+      "mass": 0.06627,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_10",
+    "seed": 37937930,
+    "object_xyz": [
+      0.005379,
+      0.087875,
+      -0.031168
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.018451,
+        0.028832,
+        0.0
+      ],
+      "mass": 0.06563,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_11",
+    "seed": 56775899,
+    "object_xyz": [
+      0.001038,
+      0.093015,
+      -0.030683
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.021614,
+        0.029317,
+        0.0
+      ],
+      "mass": 0.06675,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_12",
+    "seed": 41954459,
+    "object_xyz": [
+      0.00804,
+      0.08911,
+      -0.027486
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.021364,
+        0.032514,
+        0.0
+      ],
+      "mass": 0.06779,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_13",
+    "seed": 60870447,
+    "object_xyz": [
+      0.006906,
+      0.089575,
+      -0.029326
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.022984,
+        0.030674,
+        0.0
+      ],
+      "mass": 0.06763,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_14",
+    "seed": 42464663,
+    "object_xyz": [
+      -0.003462,
+      0.084289,
+      -0.031354
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.022982,
+        0.028646,
+        0.0
+      ],
+      "mass": 0.06692,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_15",
+    "seed": 34012540,
+    "object_xyz": [
+      0.007887,
+      0.097753,
+      -0.028082
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.018276,
+        0.031918,
+        0.0
+      ],
+      "mass": 0.06665,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_16",
+    "seed": 63368268,
+    "object_xyz": [
+      -0.004021,
+      0.083323,
+      -0.032119
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.021595,
+        0.027881,
+        0.0
+      ],
+      "mass": 0.06624,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_17",
+    "seed": 92906264,
+    "object_xyz": [
+      -0.005349,
+      0.09109,
+      -0.028506
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.022019,
+        0.031494,
+        0.0
+      ],
+      "mass": 0.06763,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_18",
+    "seed": 59427899,
+    "object_xyz": [
+      0.005176,
+      0.089555,
+      -0.026289
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.019345,
+        0.033711,
+        0.0
+      ],
+      "mass": 0.0676,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "cylinder_random",
+    "case_id": "v4_final_cylinder_random_19",
+    "seed": 92658474,
+    "object_xyz": [
+      0.00441,
+      0.083323,
+      -0.025312
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "cylinder",
+      "size": [
+        0.019404,
+        0.034688,
+        0.0
+      ],
+      "mass": 0.06796,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.15,
+        0.72,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_00",
+    "seed": 23714967,
+    "object_xyz": [
+      0.00752,
+      0.079665,
+      -0.041711
+    ],
+    "object_quat": [
+      0.99978801,
+      0.0,
+      0.0,
+      -0.02058985
+    ],
+    "object_yaw_rad": -0.041183,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.01743,
+        0.048498,
+        0.018289
+      ],
+      "mass": 0.0841,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_01",
+    "seed": 87395395,
+    "object_xyz": [
+      0.008469,
+      0.080804,
+      -0.04156
+    ],
+    "object_quat": [
+      0.9996505,
+      0.0,
+      0.0,
+      -0.02643636
+    ],
+    "object_yaw_rad": -0.052879,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.017393,
+        0.047175,
+        0.01844
+      ],
+      "mass": 0.08331,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_02",
+    "seed": 74442908,
+    "object_xyz": [
+      0.007861,
+      0.079711,
+      -0.041092
+    ],
+    "object_quat": [
+      0.99863801,
+      0.0,
+      0.0,
+      -0.05217404
+    ],
+    "object_yaw_rad": -0.104395,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.016702,
+        0.048676,
+        0.018908
+      ],
+      "mass": 0.08421,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_03",
+    "seed": 92894397,
+    "object_xyz": [
+      0.002852,
+      0.082672,
+      -0.042324
+    ],
+    "object_quat": [
+      0.99715335,
+      0.0,
+      0.0,
+      -0.07540025
+    ],
+    "object_yaw_rad": -0.150944,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.016254,
+        0.040397,
+        0.017676
+      ],
+      "mass": 0.07924,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_04",
+    "seed": 44886696,
+    "object_xyz": [
+      0.003673,
+      0.078584,
+      -0.042898
+    ],
+    "object_quat": [
+      0.99660998,
+      0.0,
+      0.0,
+      0.08227122
+    ],
+    "object_yaw_rad": 0.164729,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.014723,
+        0.046129,
+        0.017102
+      ],
+      "mass": 0.08268,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_05",
+    "seed": 17674472,
+    "object_xyz": [
+      0.000928,
+      0.082466,
+      -0.04246
+    ],
+    "object_quat": [
+      0.99826879,
+      0.0,
+      0.0,
+      -0.0588168
+    ],
+    "object_yaw_rad": -0.117702,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.014762,
+        0.042346,
+        0.01754
+      ],
+      "mass": 0.08041,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_06",
+    "seed": 75241789,
+    "object_xyz": [
+      0.00675,
+      0.080113,
+      -0.041264
+    ],
+    "object_quat": [
+      0.99596476,
+      0.0,
+      0.0,
+      0.0897452
+    ],
+    "object_yaw_rad": 0.179732,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.018407,
+        0.043018,
+        0.018736
+      ],
+      "mass": 0.08081,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_07",
+    "seed": 10978531,
+    "object_xyz": [
+      -0.002421,
+      0.080973,
+      -0.039012
+    ],
+    "object_quat": [
+      0.99757599,
+      0.0,
+      0.0,
+      0.06958548
+    ],
+    "object_yaw_rad": 0.139284,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.017205,
+        0.03669,
+        0.020988
+      ],
+      "mass": 0.07701,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_08",
+    "seed": 43268382,
+    "object_xyz": [
+      0.005817,
+      0.083363,
+      -0.038437
+    ],
+    "object_quat": [
+      0.99944466,
+      0.0,
+      0.0,
+      -0.03332235
+    ],
+    "object_yaw_rad": -0.066657,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.017181,
+        0.045513,
+        0.021563
+      ],
+      "mass": 0.08231,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_09",
+    "seed": 28272002,
+    "object_xyz": [
+      0.002918,
+      0.081528,
+      -0.040041
+    ],
+    "object_quat": [
+      0.99961997,
+      0.0,
+      0.0,
+      0.0275664
+    ],
+    "object_yaw_rad": 0.05514,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.018457,
+        0.048543,
+        0.019959
+      ],
+      "mass": 0.08413,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_10",
+    "seed": 89108869,
+    "object_xyz": [
+      -2.3e-05,
+      0.081279,
+      -0.042663
+    ],
+    "object_quat": [
+      0.99997723,
+      0.0,
+      0.0,
+      -0.00674773
+    ],
+    "object_yaw_rad": -0.013496,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.014734,
+        0.043102,
+        0.017337
+      ],
+      "mass": 0.08086,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_11",
+    "seed": 29300180,
+    "object_xyz": [
+      0.008204,
+      0.078524,
+      -0.043988
+    ],
+    "object_quat": [
+      0.99991083,
+      0.0,
+      0.0,
+      0.0133541
+    ],
+    "object_yaw_rad": 0.026709,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.014616,
+        0.047108,
+        0.016012
+      ],
+      "mass": 0.08326,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_12",
+    "seed": 19563907,
+    "object_xyz": [
+      0.00611,
+      0.082784,
+      -0.039351
+    ],
+    "object_quat": [
+      0.99920472,
+      0.0,
+      0.0,
+      0.03987394
+    ],
+    "object_yaw_rad": 0.079769,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.014366,
+        0.048134,
+        0.020649
+      ],
+      "mass": 0.08388,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_13",
+    "seed": 20315031,
+    "object_xyz": [
+      -0.002434,
+      0.083478,
+      -0.043939
+    ],
+    "object_quat": [
+      0.9992474,
+      0.0,
+      0.0,
+      -0.03878958
+    ],
+    "object_yaw_rad": -0.077599,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.018235,
+        0.045472,
+        0.016061
+      ],
+      "mass": 0.08228,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_14",
+    "seed": 44770520,
+    "object_xyz": [
+      0.000907,
+      0.079019,
+      -0.042475
+    ],
+    "object_quat": [
+      0.99718075,
+      0.0,
+      0.0,
+      -0.07503699
+    ],
+    "object_yaw_rad": -0.150215,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.017263,
+        0.037843,
+        0.017525
+      ],
+      "mass": 0.07771,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_15",
+    "seed": 19384738,
+    "object_xyz": [
+      0.002304,
+      0.079059,
+      -0.038166
+    ],
+    "object_quat": [
+      0.99995637,
+      0.0,
+      0.0,
+      -0.00934126
+    ],
+    "object_yaw_rad": -0.018683,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.015813,
+        0.035541,
+        0.021834
+      ],
+      "mass": 0.07632,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_16",
+    "seed": 28161314,
+    "object_xyz": [
+      0.005191,
+      0.084445,
+      -0.040195
+    ],
+    "object_quat": [
+      0.99647179,
+      0.0,
+      0.0,
+      0.08392833
+    ],
+    "object_yaw_rad": 0.168054,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.015417,
+        0.037553,
+        0.019805
+      ],
+      "mass": 0.07753,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_17",
+    "seed": 71718706,
+    "object_xyz": [
+      -0.002054,
+      0.082497,
+      -0.038497
+    ],
+    "object_quat": [
+      0.99602806,
+      0.0,
+      0.0,
+      0.08903995
+    ],
+    "object_yaw_rad": 0.178316,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.0188,
+        0.038139,
+        0.021503
+      ],
+      "mass": 0.07788,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_18",
+    "seed": 26140823,
+    "object_xyz": [
+      0.006812,
+      0.079746,
+      -0.040769
+    ],
+    "object_quat": [
+      0.99992565,
+      0.0,
+      0.0,
+      0.01219424
+    ],
+    "object_yaw_rad": 0.024389,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.015614,
+        0.046641,
+        0.019231
+      ],
+      "mass": 0.08298,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "bar_random",
+    "case_id": "v4_final_bar_random_19",
+    "seed": 69140393,
+    "object_xyz": [
+      0.006155,
+      0.078029,
+      -0.039101
+    ],
+    "object_quat": [
+      0.99775686,
+      0.0,
+      0.0,
+      0.06694214
+    ],
+    "object_yaw_rad": 0.133984,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.01767,
+        0.041663,
+        0.020899
+      ],
+      "mass": 0.08,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.85,
+        0.35,
+        0.12,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_00",
+    "seed": 25434510,
+    "object_xyz": [
+      -0.000303,
+      0.078636,
+      -0.037726
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.022274,
+        0.0,
+        0.0
+      ],
+      "mass": 0.05559,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_01",
+    "seed": 97408829,
+    "object_xyz": [
+      0.004222,
+      0.075229,
+      -0.036026
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.023974,
+        0.0,
+        0.0
+      ],
+      "mass": 0.05678,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_02",
+    "seed": 80383839,
+    "object_xyz": [
+      -0.006849,
+      0.080436,
+      -0.039614
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.020386,
+        0.0,
+        0.0
+      ],
+      "mass": 0.05427,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_03",
+    "seed": 71522406,
+    "object_xyz": [
+      -0.008875,
+      0.092133,
+      -0.040345
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.019655,
+        0.0,
+        0.0
+      ],
+      "mass": 0.05376,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_04",
+    "seed": 17154278,
+    "object_xyz": [
+      -0.003025,
+      0.077827,
+      -0.04281
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.01719,
+        0.0,
+        0.0
+      ],
+      "mass": 0.05203,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_05",
+    "seed": 80737775,
+    "object_xyz": [
+      -0.008354,
+      0.096713,
+      -0.038826
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.021174,
+        0.0,
+        0.0
+      ],
+      "mass": 0.05482,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_06",
+    "seed": 60724237,
+    "object_xyz": [
+      0.002073,
+      0.089772,
+      -0.036234
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.023766,
+        0.0,
+        0.0
+      ],
+      "mass": 0.05664,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_07",
+    "seed": 45872277,
+    "object_xyz": [
+      -0.001753,
+      0.087109,
+      -0.036979
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.023021,
+        0.0,
+        0.0
+      ],
+      "mass": 0.05611,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_08",
+    "seed": 80647876,
+    "object_xyz": [
+      -0.006443,
+      0.090672,
+      -0.0396
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.0204,
+        0.0,
+        0.0
+      ],
+      "mass": 0.05428,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_09",
+    "seed": 88490329,
+    "object_xyz": [
+      0.007409,
+      0.081046,
+      -0.036915
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.023085,
+        0.0,
+        0.0
+      ],
+      "mass": 0.05616,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_10",
+    "seed": 11228209,
+    "object_xyz": [
+      0.0037,
+      0.075925,
+      -0.040591
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.019409,
+        0.0,
+        0.0
+      ],
+      "mass": 0.05359,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_11",
+    "seed": 13464471,
+    "object_xyz": [
+      0.006264,
+      0.078233,
+      -0.041275
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.018725,
+        0.0,
+        0.0
+      ],
+      "mass": 0.05311,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_12",
+    "seed": 17004806,
+    "object_xyz": [
+      0.009009,
+      0.097405,
+      -0.0398
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.0202,
+        0.0,
+        0.0
+      ],
+      "mass": 0.05414,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_13",
+    "seed": 87648411,
+    "object_xyz": [
+      0.007795,
+      0.085891,
+      -0.038464
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.021536,
+        0.0,
+        0.0
+      ],
+      "mass": 0.05508,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_14",
+    "seed": 25369524,
+    "object_xyz": [
+      0.006608,
+      0.075832,
+      -0.040148
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.019852,
+        0.0,
+        0.0
+      ],
+      "mass": 0.0539,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_15",
+    "seed": 12001843,
+    "object_xyz": [
+      -0.003719,
+      0.081634,
+      -0.039378
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.020622,
+        0.0,
+        0.0
+      ],
+      "mass": 0.05444,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_16",
+    "seed": 62405379,
+    "object_xyz": [
+      -0.003413,
+      0.082991,
+      -0.041949
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.018051,
+        0.0,
+        0.0
+      ],
+      "mass": 0.05264,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_17",
+    "seed": 28699867,
+    "object_xyz": [
+      0.002157,
+      0.077888,
+      -0.038753
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.021247,
+        0.0,
+        0.0
+      ],
+      "mass": 0.05487,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_18",
+    "seed": 16741340,
+    "object_xyz": [
+      0.006855,
+      0.088406,
+      -0.03787
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.02213,
+        0.0,
+        0.0
+      ],
+      "mass": 0.05549,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "sphere_random",
+    "case_id": "v4_final_sphere_random_19",
+    "seed": 57225409,
+    "object_xyz": [
+      0.006398,
+      0.086834,
+      -0.036037
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "sphere",
+      "size": [
+        0.023963,
+        0.0,
+        0.0
+      ],
+      "mass": 0.05677,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.95,
+        0.75,
+        0.1,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_00",
+    "seed": 51411361,
+    "object_xyz": [
+      0.0049,
+      0.075584,
+      -0.018917
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.017954,
+        0.02313,
+        0.0
+      ],
+      "mass": 0.06207,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_01",
+    "seed": 89903759,
+    "object_xyz": [
+      -0.002755,
+      0.095982,
+      -0.008866
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.014393,
+        0.036741,
+        0.0
+      ],
+      "mass": 0.06506,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_02",
+    "seed": 51175694,
+    "object_xyz": [
+      0.008105,
+      0.083861,
+      -0.01818
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.016504,
+        0.025316,
+        0.0
+      ],
+      "mass": 0.06211,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_03",
+    "seed": 60456180,
+    "object_xyz": [
+      0.007384,
+      0.088923,
+      -0.01549
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.016224,
+        0.028286,
+        0.0
+      ],
+      "mass": 0.06301,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_04",
+    "seed": 68012888,
+    "object_xyz": [
+      0.006204,
+      0.087886,
+      -0.020238
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.014272,
+        0.02549,
+        0.0
+      ],
+      "mass": 0.06106,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_05",
+    "seed": 91370652,
+    "object_xyz": [
+      0.002021,
+      0.093607,
+      -0.018413
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.018036,
+        0.023551,
+        0.0
+      ],
+      "mass": 0.06226,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_06",
+    "seed": 40361157,
+    "object_xyz": [
+      -0.008529,
+      0.079805,
+      -0.012924
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.015098,
+        0.031978,
+        0.0
+      ],
+      "mass": 0.06374,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_07",
+    "seed": 43130786,
+    "object_xyz": [
+      9.9e-05,
+      0.076551,
+      -0.00933
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.013616,
+        0.037054,
+        0.0
+      ],
+      "mass": 0.06478,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_08",
+    "seed": 58846656,
+    "object_xyz": [
+      -0.004931,
+      0.084975,
+      -0.015364
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.013934,
+        0.030702,
+        0.0
+      ],
+      "mass": 0.06271,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_09",
+    "seed": 51093769,
+    "object_xyz": [
+      0.005462,
+      0.077023,
+      -0.018109
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.017673,
+        0.024218,
+        0.0
+      ],
+      "mass": 0.06231,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_10",
+    "seed": 84395652,
+    "object_xyz": [
+      -0.00541,
+      0.098238,
+      -0.006771
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.01707,
+        0.036159,
+        0.0
+      ],
+      "mass": 0.06619,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_11",
+    "seed": 26867039,
+    "object_xyz": [
+      -0.002759,
+      0.09596,
+      -0.012457
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.014546,
+        0.032997,
+        0.0
+      ],
+      "mass": 0.06382,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_12",
+    "seed": 21684324,
+    "object_xyz": [
+      -0.001202,
+      0.080403,
+      -0.00935
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.018308,
+        0.032342,
+        0.0
+      ],
+      "mass": 0.06547,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_13",
+    "seed": 72619289,
+    "object_xyz": [
+      -0.006141,
+      0.096738,
+      -0.017038
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.014457,
+        0.028505,
+        0.0
+      ],
+      "mass": 0.06221,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_14",
+    "seed": 47922307,
+    "object_xyz": [
+      -0.008001,
+      0.096607,
+      -0.021005
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.01579,
+        0.023206,
+        0.0
+      ],
+      "mass": 0.06102,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_15",
+    "seed": 42330971,
+    "object_xyz": [
+      -0.00471,
+      0.078054,
+      -0.013554
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.015081,
+        0.031365,
+        0.0
+      ],
+      "mass": 0.06352,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_16",
+    "seed": 55964095,
+    "object_xyz": [
+      -0.009163,
+      0.088323,
+      -0.010069
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.016092,
+        0.033839,
+        0.0
+      ],
+      "mass": 0.06489,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_17",
+    "seed": 67363240,
+    "object_xyz": [
+      0.009148,
+      0.09541,
+      -0.012189
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.017964,
+        0.029847,
+        0.0
+      ],
+      "mass": 0.06443,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_18",
+    "seed": 65217613,
+    "object_xyz": [
+      -0.002537,
+      0.09053,
+      -0.00848
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.018426,
+        0.033094,
+        0.0
+      ],
+      "mass": 0.0658,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "capsule_random",
+    "case_id": "v4_final_capsule_random_19",
+    "seed": 53956925,
+    "object_xyz": [
+      0.003728,
+      0.089075,
+      -0.015293
+    ],
+    "object_quat": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "object_yaw_rad": 0.0,
+    "object_geom": {
+      "type": "capsule",
+      "size": [
+        0.016649,
+        0.028057,
+        0.0
+      ],
+      "mass": 0.06314,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.62,
+        0.35,
+        0.95,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_00",
+    "seed": 72260283,
+    "object_xyz": [
+      -0.008532,
+      0.077515,
+      -0.046554
+    ],
+    "object_quat": [
+      0.99748535,
+      0.0,
+      0.0,
+      0.07087302
+    ],
+    "object_yaw_rad": 0.141865,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.027373,
+        0.025067,
+        0.013446
+      ],
+      "mass": 0.06745,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_01",
+    "seed": 30600781,
+    "object_xyz": [
+      0.009449,
+      0.089988,
+      -0.048037
+    ],
+    "object_quat": [
+      0.99715888,
+      0.0,
+      0.0,
+      -0.07532712
+    ],
+    "object_yaw_rad": -0.150797,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.031169,
+        0.030016,
+        0.011963
+      ],
+      "mass": 0.07742,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_02",
+    "seed": 19323590,
+    "object_xyz": [
+      0.000923,
+      0.081601,
+      -0.05181
+    ],
+    "object_quat": [
+      0.99821658,
+      0.0,
+      0.0,
+      0.05969631
+    ],
+    "object_yaw_rad": 0.119464,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.03394,
+        0.032493,
+        0.00819
+      ],
+      "mass": 0.08411,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_03",
+    "seed": 65836192,
+    "object_xyz": [
+      0.002635,
+      0.082357,
+      -0.049037
+    ],
+    "object_quat": [
+      0.9948803,
+      0.0,
+      0.0,
+      -0.1010603
+    ],
+    "object_yaw_rad": -0.202466,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.033947,
+        0.030187,
+        0.010963
+      ],
+      "mass": 0.08099,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_04",
+    "seed": 94003154,
+    "object_xyz": [
+      -0.007306,
+      0.098116,
+      -0.049231
+    ],
+    "object_quat": [
+      0.9997859,
+      0.0,
+      0.0,
+      -0.02069186
+    ],
+    "object_yaw_rad": -0.041387,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.024949,
+        0.025307,
+        0.010769
+      ],
+      "mass": 0.06525,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_05",
+    "seed": 48769577,
+    "object_xyz": [
+      -0.004417,
+      0.081239,
+      -0.050339
+    ],
+    "object_quat": [
+      0.9912778,
+      0.0,
+      0.0,
+      -0.13178897
+    ],
+    "object_yaw_rad": -0.264347,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.033013,
+        0.027693,
+        0.009661
+      ],
+      "mass": 0.07657,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_06",
+    "seed": 68716856,
+    "object_xyz": [
+      -0.001736,
+      0.079851,
+      -0.047266
+    ],
+    "object_quat": [
+      0.99914741,
+      0.0,
+      0.0,
+      -0.04128493
+    ],
+    "object_yaw_rad": -0.082593,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.033262,
+        0.025549,
+        0.012734
+      ],
+      "mass": 0.07399,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_07",
+    "seed": 25604222,
+    "object_xyz": [
+      -0.001799,
+      0.082142,
+      -0.049577
+    ],
+    "object_quat": [
+      0.997564,
+      0.0,
+      0.0,
+      0.06975724
+    ],
+    "object_yaw_rad": 0.139628,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.026279,
+        0.024197,
+        0.010423
+      ],
+      "mass": 0.06543,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_08",
+    "seed": 25280141,
+    "object_xyz": [
+      0.004899,
+      0.080708,
+      -0.050735
+    ],
+    "object_quat": [
+      0.9919115,
+      0.0,
+      0.0,
+      0.1269314
+    ],
+    "object_yaw_rad": 0.254549,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.026106,
+        0.027575,
+        0.009265
+      ],
+      "mass": 0.06879,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_09",
+    "seed": 10346865,
+    "object_xyz": [
+      0.002877,
+      0.091245,
+      -0.048836
+    ],
+    "object_quat": [
+      0.99226429,
+      0.0,
+      0.0,
+      -0.12414334
+    ],
+    "object_yaw_rad": -0.248929,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.028898,
+        0.0284,
+        0.011164
+      ],
+      "mass": 0.07283,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_10",
+    "seed": 83225688,
+    "object_xyz": [
+      -0.005394,
+      0.085111,
+      -0.048295
+    ],
+    "object_quat": [
+      0.99986055,
+      0.0,
+      0.0,
+      0.0166997
+    ],
+    "object_yaw_rad": 0.033401,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.027171,
+        0.029274,
+        0.011705
+      ],
+      "mass": 0.07182,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_11",
+    "seed": 78220272,
+    "object_xyz": [
+      0.008388,
+      0.097072,
+      -0.046476
+    ],
+    "object_quat": [
+      0.99400756,
+      0.0,
+      0.0,
+      0.10931135
+    ],
+    "object_yaw_rad": 0.21906,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.025078,
+        0.029232,
+        0.013524
+      ],
+      "mass": 0.06932,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_12",
+    "seed": 40028342,
+    "object_xyz": [
+      0.002511,
+      0.080468,
+      -0.046381
+    ],
+    "object_quat": [
+      0.98922671,
+      0.0,
+      0.0,
+      0.14639167
+    ],
+    "object_yaw_rad": 0.293839,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.029705,
+        0.031244,
+        0.013619
+      ],
+      "mass": 0.07712,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_13",
+    "seed": 70142959,
+    "object_xyz": [
+      0.00699,
+      0.07518,
+      -0.048202
+    ],
+    "object_quat": [
+      0.99111063,
+      0.0,
+      0.0,
+      0.13304027
+    ],
+    "object_yaw_rad": 0.266872,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.025792,
+        0.030518,
+        0.011798
+      ],
+      "mass": 0.07148,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_14",
+    "seed": 27118553,
+    "object_xyz": [
+      -0.000889,
+      0.094383,
+      -0.046188
+    ],
+    "object_quat": [
+      0.98954833,
+      0.0,
+      0.0,
+      -0.1442016
+    ],
+    "object_yaw_rad": -0.289412,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.0295,
+        0.026603,
+        0.013812
+      ],
+      "mass": 0.07139,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_15",
+    "seed": 93210632,
+    "object_xyz": [
+      -0.004878,
+      0.094139,
+      -0.049419
+    ],
+    "object_quat": [
+      0.99776939,
+      0.0,
+      0.0,
+      -0.06675506
+    ],
+    "object_yaw_rad": -0.133609,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.02702,
+        0.026222,
+        0.010581
+      ],
+      "mass": 0.06834,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_16",
+    "seed": 64619958,
+    "object_xyz": [
+      0.001867,
+      0.085232,
+      -0.051622
+    ],
+    "object_quat": [
+      0.99998824,
+      0.0,
+      0.0,
+      0.00484944
+    ],
+    "object_yaw_rad": 0.009699,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.032223,
+        0.031082,
+        0.008378
+      ],
+      "mass": 0.08006,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_17",
+    "seed": 64939596,
+    "object_xyz": [
+      0.003367,
+      0.094851,
+      -0.046786
+    ],
+    "object_quat": [
+      0.9996282,
+      0.0,
+      0.0,
+      0.02726645
+    ],
+    "object_yaw_rad": 0.05454,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.030766,
+        0.031062,
+        0.013214
+      ],
+      "mass": 0.07823,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_18",
+    "seed": 75273007,
+    "object_xyz": [
+      -0.005922,
+      0.097993,
+      -0.05055
+    ],
+    "object_quat": [
+      0.99962862,
+      0.0,
+      0.0,
+      -0.02725114
+    ],
+    "object_yaw_rad": -0.054509,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.025187,
+        0.033068,
+        0.00945
+      ],
+      "mass": 0.07331,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  },
+  {
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_19",
+    "seed": 47891342,
+    "object_xyz": [
+      0.007639,
+      0.087751,
+      -0.048505
+    ],
+    "object_quat": [
+      0.99988161,
+      0.0,
+      0.0,
+      -0.01538738
+    ],
+    "object_yaw_rad": -0.030776,
+    "object_geom": {
+      "type": "box",
+      "size": [
+        0.024034,
+        0.030257,
+        0.011495
+      ],
+      "mass": 0.06909,
+      "friction": [
+        0.9,
+        0.015,
+        0.004
+      ],
+      "rgba": [
+        0.35,
+        0.85,
+        0.4,
+        1.0
+      ]
+    }
+  }
+]

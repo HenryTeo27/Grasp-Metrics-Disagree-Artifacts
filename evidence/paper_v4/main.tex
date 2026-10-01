@@ -1,0 +1,53 @@
+\pdfoutput=1
+\input{glyphtounicode}
+\pdfgentounicode=1
+\documentclass[10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=23mm]{geometry}
+\usepackage{amsmath,amssymb,booktabs,tabularx,array}
+\usepackage{graphicx,xcolor,microtype,placeins,enumitem,float}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=teal!60!black,citecolor=teal!60!black,urlcolor=teal!60!black,
+ pdftitle={When Grasp Metrics Disagree: Physically Grounded Auditing for Robot Program Evaluation},pdfauthor={Teo Ee Hern}}
+\graphicspath{{figures/}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\NC}{C_{\mathrm{NC}}}
+\newcommand{\NL}{C_{\mathrm{NL}}}
+\newcommand{\CF}{D_{\mathrm{CF}}}
+\newcommand{\Pass}{\textsc{Pass}}
+\newcommand{\Fail}{\textsc{Fail}}
+\newcommand{\Unk}{\textsc{Indeterminate}}
+\setlength{\emergencystretch}{2em}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.1}
+\setlist{nosep,leftmargin=*}
+\renewcommand{\topfraction}{.9}
+\renewcommand{\bottomfraction}{.85}
+\renewcommand{\textfraction}{.08}
+\renewcommand{\floatpagefraction}{.72}
+\input{generated/numbers}
+\title{When Grasp Metrics Disagree:\\Physically Grounded Auditing for\\Robot Program Evaluation}
+\author{Teo Ee Hern\\Tianjin University\\\texttt{eehern27@gmail.com}}
+\date{October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+\input{generated/abstract}
+\end{abstract}
+\noindent\textbf{Keywords:} grasp evaluation; contact semantics; external load; counterfactual replay; negative results; reproducibility.
+
+\input{sections/01_introduction}
+\input{sections/02_contracts}
+\input{sections/03_design}
+\input{sections/04_results}
+\input{sections/05_discussion}
+\FloatBarrier
+\bibliographystyle{plainnat}
+\bibliography{references}
+\clearpage
+\appendix
+\input{sections/06_appendix}
+\end{document}

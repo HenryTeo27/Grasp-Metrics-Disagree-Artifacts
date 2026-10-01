@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "source": "fetch",
+  "fixed_case": "First registered formal row; no selection from outcome",
+  "method_verdicts_equal": {
+    "B5": true,
+    "B4": true,
+    "A_no_geometry": true,
+    "A_no_torque": true,
+    "A_binary_unknown_fail": true,
+    "A_accumulated": true,
+    "A_net_aggregation": true,
+    "B0": true,
+    "B1": true,
+    "B2": true,
+    "B3": true,
+    "B4_normal": true
+  },
+  "observer_neutral": true,
+  "counterfactual": {
+    "status": "NOT_SELECTED"
+  },
+  "interpreter": "C:\\Users\\User\\.cache\\codex-grasp-audit-venv\\Scripts\\python.exe",
+  "python": "3.11.1",
+  "versions": {
+    "numpy": "2.4.6",
+    "mujoco": "3.8.0",
+    "scipy": "1.17.1"
+  },
+  "original_protocol_sha256": "ffc60fe94dca45e826c2f864865cbeb7c749b7a11b6f05784b9c6f24b896b9a0",
+  "script_sha256": "c18b81de105187f46ad1a9a2b8e048de051c58f06203eef15b9714fc701a3685",
+  "scope": "One exact runtime re-execution; existing isolated declared venv, not clean-machine installation or full-matrix reproduction"
+}

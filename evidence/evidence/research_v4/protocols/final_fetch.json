@@ -1,0 +1,702 @@
+[
+  {
+    "case_id": "fetch_final_000",
+    "seed": 1066068,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_001",
+    "seed": 1661528,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_002",
+    "seed": 1809355,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_003",
+    "seed": 1061170,
+    "counterfactual_selected": true,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_004",
+    "seed": 1935214,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_005",
+    "seed": 1713996,
+    "counterfactual_selected": true,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_006",
+    "seed": 1597920,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_007",
+    "seed": 1285507,
+    "counterfactual_selected": true,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_008",
+    "seed": 1613347,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_009",
+    "seed": 1623115,
+    "counterfactual_selected": true,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_010",
+    "seed": 1770490,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_011",
+    "seed": 1459637,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_012",
+    "seed": 1125680,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_013",
+    "seed": 1518981,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_014",
+    "seed": 1995917,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_015",
+    "seed": 1556298,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_016",
+    "seed": 1856393,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_017",
+    "seed": 1412112,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_018",
+    "seed": 1430677,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_019",
+    "seed": 1046140,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_020",
+    "seed": 1826296,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_021",
+    "seed": 1720903,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_022",
+    "seed": 1510648,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_023",
+    "seed": 1702156,
+    "counterfactual_selected": true,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_024",
+    "seed": 1741445,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_025",
+    "seed": 1892879,
+    "counterfactual_selected": true,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_026",
+    "seed": 1282534,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_027",
+    "seed": 1212962,
+    "counterfactual_selected": true,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_028",
+    "seed": 1962350,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_029",
+    "seed": 1902245,
+    "counterfactual_selected": true,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_030",
+    "seed": 1227623,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_031",
+    "seed": 1065526,
+    "counterfactual_selected": true,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_032",
+    "seed": 1856899,
+    "counterfactual_selected": true,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_033",
+    "seed": 1248238,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_034",
+    "seed": 1519303,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_035",
+    "seed": 1619796,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_036",
+    "seed": 1503528,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_037",
+    "seed": 1414241,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_038",
+    "seed": 1203967,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_039",
+    "seed": 1758103,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_040",
+    "seed": 1654668,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_041",
+    "seed": 1309099,
+    "counterfactual_selected": true,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_042",
+    "seed": 1631517,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_043",
+    "seed": 1920565,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_044",
+    "seed": 1398426,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_045",
+    "seed": 1184328,
+    "counterfactual_selected": true,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_046",
+    "seed": 1745779,
+    "counterfactual_selected": true,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_047",
+    "seed": 1239186,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_048",
+    "seed": 1289607,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_049",
+    "seed": 1906951,
+    "counterfactual_selected": true,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_050",
+    "seed": 1552599,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_051",
+    "seed": 1954294,
+    "counterfactual_selected": true,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_052",
+    "seed": 1150113,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_053",
+    "seed": 1345248,
+    "counterfactual_selected": true,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_054",
+    "seed": 1232506,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_055",
+    "seed": 1417816,
+    "counterfactual_selected": true,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_056",
+    "seed": 1303378,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_057",
+    "seed": 1794351,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_058",
+    "seed": 1335241,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_059",
+    "seed": 1830080,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_060",
+    "seed": 1569199,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_061",
+    "seed": 1701375,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_062",
+    "seed": 1467548,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_063",
+    "seed": 1834303,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_064",
+    "seed": 1289278,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_065",
+    "seed": 1816563,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_066",
+    "seed": 1038797,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_067",
+    "seed": 1926008,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_068",
+    "seed": 1688074,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_069",
+    "seed": 1285697,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_070",
+    "seed": 1380029,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_071",
+    "seed": 1768475,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_072",
+    "seed": 1399960,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_073",
+    "seed": 1186845,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_074",
+    "seed": 1676844,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_075",
+    "seed": 1134117,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_076",
+    "seed": 1128281,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_077",
+    "seed": 1022004,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_078",
+    "seed": 1846219,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_079",
+    "seed": 1707663,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_080",
+    "seed": 1035703,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_081",
+    "seed": 1780139,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_082",
+    "seed": 1302745,
+    "counterfactual_selected": true,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_083",
+    "seed": 1824432,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_084",
+    "seed": 1924615,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_085",
+    "seed": 1282474,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_086",
+    "seed": 1131337,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_087",
+    "seed": 1419673,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_088",
+    "seed": 1988645,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_089",
+    "seed": 1790284,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_090",
+    "seed": 1656257,
+    "counterfactual_selected": true,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_091",
+    "seed": 1592652,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_092",
+    "seed": 1024532,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_093",
+    "seed": 1389962,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_094",
+    "seed": 1990528,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_095",
+    "seed": 1746426,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_096",
+    "seed": 1456028,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_097",
+    "seed": 1744510,
+    "counterfactual_selected": false,
+    "reference_selected": true,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_098",
+    "seed": 1895996,
+    "counterfactual_selected": true,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  },
+  {
+    "case_id": "fetch_final_099",
+    "seed": 1522594,
+    "counterfactual_selected": false,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.3
+  }
+]

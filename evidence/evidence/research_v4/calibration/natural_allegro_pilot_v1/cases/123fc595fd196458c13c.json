@@ -1,0 +1,207 @@
+{
+  "job_id": "123fc595fd196458c13c",
+  "case_id": "v3_new1_bar_random_08",
+  "family": "bar_random",
+  "role": "RETROSPECTIVE_DEVELOPMENT_NOT_FORMAL_TEST",
+  "b5": {
+    "contract_version": "merged-v4-no-external-load-1",
+    "calibration_version": "development-instrumentation-v1-not-frozen",
+    "applicable": true,
+    "trace_validity": "VALID",
+    "no_external_load_verdict": "FAIL",
+    "no_contact_result": "FAIL",
+    "definite_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "possible_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "reason_codes": [
+      "NO_QUALIFYING_CONTINUOUS_INTERVAL"
+    ],
+    "no_contact_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "unknown_sample_count": 0,
+    "max_environment_force_ratio": 38.981486780445636,
+    "max_environment_torque_ratio": 35.216510513742655,
+    "config": {
+      "hold_s": 15.0,
+      "force_pass_ratio": 0.0001,
+      "force_fail_ratio": 0.01,
+      "torque_pass_ratio": 0.0001,
+      "torque_fail_ratio": 0.01,
+      "penetration_tolerance_m": 1e-05,
+      "positive_gap_m": 1e-06,
+      "clock_tolerance_s": 1e-08,
+      "duration_tolerance_s": 1e-09,
+      "version": "development-instrumentation-v1-not-frozen"
+    }
+  },
+  "b4": {
+    "contract_version": "merged-v4-no-external-load-1",
+    "calibration_version": "development-instrumentation-v1-not-frozen",
+    "applicable": true,
+    "trace_validity": "VALID",
+    "no_external_load_verdict": "FAIL",
+    "no_contact_result": "FAIL",
+    "definite_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "possible_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "reason_codes": [
+      "NO_QUALIFYING_CONTINUOUS_INTERVAL"
+    ],
+    "no_contact_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "unknown_sample_count": 0,
+    "max_environment_force_ratio": 38.981486780445636,
+    "max_environment_torque_ratio": 35.216510513742655,
+    "config": {
+      "hold_s": 15.0,
+      "force_pass_ratio": 0.0001,
+      "force_fail_ratio": 0.01,
+      "torque_pass_ratio": 0.0001,
+      "torque_fail_ratio": 0.01,
+      "penetration_tolerance_m": 1e-05,
+      "positive_gap_m": 1e-06,
+      "clock_tolerance_s": 1e-08,
+      "duration_tolerance_s": 1e-09,
+      "version": "development-instrumentation-v1-not-frozen"
+    }
+  },
+  "counterfactual": {
+    "status": "VALID",
+    "sham_bit_equal": true,
+    "horizon_s": 3.0,
+    "t0_s": 7.999999999999341,
+    "continuation": "Recorded controls and mocap, not controller recovery",
+    "endpoint_frame": "reference_body",
+    "reference_body_id": 1,
+    "intervention_audit": {
+      "method": "unused_collision_bit",
+      "spare_bit": 2,
+      "preserved_target_hand_pairs": [
+        [
+          43,
+          2
+        ],
+        [
+          43,
+          4
+        ],
+        [
+          43,
+          6
+        ],
+        [
+          43,
+          8
+        ],
+        [
+          43,
+          10
+        ],
+        [
+          43,
+          12
+        ],
+        [
+          43,
+          14
+        ],
+        [
+          43,
+          16
+        ],
+        [
+          43,
+          18
+        ],
+        [
+          43,
+          20
+        ],
+        [
+          43,
+          22
+        ],
+        [
+          43,
+          24
+        ],
+        [
+          43,
+          26
+        ],
+        [
+          43,
+          28
+        ],
+        [
+          43,
+          30
+        ],
+        [
+          43,
+          32
+        ],
+        [
+          43,
+          34
+        ],
+        [
+          43,
+          36
+        ],
+        [
+          43,
+          38
+        ],
+        [
+          43,
+          40
+        ],
+        [
+          43,
+          42
+        ]
+      ],
+      "target_geoms": [
+        43
+      ],
+      "removed_scope": "target_environment_only"
+    },
+    "endpoints": {
+      "sham": {
+        "success": true,
+        "max_position_error_m": 0.002051723254901024,
+        "max_angle_error_rad": 0.010367519486442931,
+        "max_linear_speed_m_s": 0.001728115133132301
+      },
+      "removed": {
+        "success": false,
+        "max_position_error_m": 44.44959221355358,
+        "max_angle_error_rad": 3.1404288994146956,
+        "max_linear_speed_m_s": 29.52412390606475
+      }
+    },
+    "cell": "DEPENDENT"
+  },
+  "geometry_reconstruction_error_m": 5.551115123125783e-17
+}

@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-09-30T22:44:56.322456+00:00",
+  "type": "FAIL_CLOSED_BOOKKEEPING_RECOVERY",
+  "protocol_sha256": "ffc60fe94dca45e826c2f864865cbeb7c749b7a11b6f05784b9c6f24b896b9a0",
+  "recovery_script_sha256": "75bfb715a6052b9303fb29a8394b5a84447725d1cc0cdef11e3839896d40e66b",
+  "exposed_at_registration": {
+    "controls": 240,
+    "allegro_scores": 167,
+    "future_use_outcomes": 0
+  },
+  "trigger": "Two native-failed cylinder traces have primitive geometry reconstruction differences above the existing 1e-10 m assertion; the first observed failure was 1.172649061187414e-09 m",
+  "rule": "Only RuntimeError beginning with the exact registered geometry-mismatch prefix becomes invalid telemetry. All methods receive INDETERMINATE/INVALID, native result retained separately. No tolerance is changed and no case is replaced.",
+  "future_rule": "A candidate with this invalid diagnostic input has INVALID future evidence, never physical FAIL; all-scene selection denominators and missing-outcome bounds are retained.",
+  "limits": "Bookkeeping after an exposed implementation failure, not a pre-test code addition. G2 scientific sources, thresholds, physics, candidate pool and primary estimands are unchanged. Finite-pool oracle is a lower bound when any candidate future is invalid."
+}

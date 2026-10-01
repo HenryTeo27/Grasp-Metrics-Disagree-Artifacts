@@ -1,0 +1,100 @@
+[
+  {
+    "mechanism": "independent",
+    "verdict": "PASS",
+    "no_contact": "PASS",
+    "b4": "PASS",
+    "common_seconds": 17.0,
+    "observer_bit_equal": true,
+    "elapsed_s": 6.440613900020253,
+    "max_load_ratio": 0.0,
+    "reason_codes": []
+  },
+  {
+    "mechanism": "inactive_margin",
+    "verdict": "PASS",
+    "no_contact": "FAIL",
+    "b4": "PASS",
+    "common_seconds": 17.0,
+    "observer_bit_equal": true,
+    "elapsed_s": 9.02169970003888,
+    "max_load_ratio": 0.0,
+    "reason_codes": []
+  },
+  {
+    "mechanism": "necessary_floor",
+    "verdict": "FAIL",
+    "no_contact": "FAIL",
+    "b4": "FAIL",
+    "common_seconds": 17.0,
+    "observer_bit_equal": true,
+    "elapsed_s": 8.19940789998509,
+    "max_load_ratio": 1.9094938306243252,
+    "reason_codes": [
+      "NO_QUALIFYING_CONTINUOUS_INTERVAL"
+    ]
+  },
+  {
+    "mechanism": "redundant_floor",
+    "verdict": "FAIL",
+    "no_contact": "FAIL",
+    "b4": "FAIL",
+    "common_seconds": 17.0,
+    "observer_bit_equal": true,
+    "elapsed_s": 8.83065669995267,
+    "max_load_ratio": 10.437006319574673,
+    "reason_codes": [
+      "NO_QUALIFYING_CONTINUOUS_INTERVAL"
+    ]
+  },
+  {
+    "mechanism": "opposing_environment",
+    "verdict": "FAIL",
+    "no_contact": "FAIL",
+    "b4": "FAIL",
+    "common_seconds": 17.0,
+    "observer_bit_equal": true,
+    "elapsed_s": 11.009706799988635,
+    "max_load_ratio": 23.464687019294303,
+    "reason_codes": [
+      "NO_QUALIFYING_CONTINUOUS_INTERVAL"
+    ]
+  },
+  {
+    "mechanism": "intermittent_floor",
+    "verdict": "FAIL",
+    "no_contact": "FAIL",
+    "b4": "FAIL",
+    "common_seconds": 17.0,
+    "observer_bit_equal": true,
+    "elapsed_s": 7.37185519997729,
+    "max_load_ratio": 22.894947385978003,
+    "reason_codes": [
+      "NO_QUALIFYING_CONTINUOUS_INTERVAL"
+    ]
+  },
+  {
+    "mechanism": "applied_assistance",
+    "verdict": "FAIL",
+    "no_contact": "FAIL",
+    "b4": "FAIL",
+    "common_seconds": 17.0,
+    "observer_bit_equal": true,
+    "elapsed_s": 5.774308599997312,
+    "max_load_ratio": 0.0,
+    "reason_codes": [
+      "GLOBAL_COMMON_CONDITION_FAILED"
+    ]
+  },
+  {
+    "mechanism": "boundary_gap",
+    "verdict": "PASS",
+    "no_contact": "FAIL",
+    "b4": "PASS",
+    "common_seconds": 17.0,
+    "observer_bit_equal": true,
+    "elapsed_s": 8.0918243000051,
+    "max_load_ratio": 0.9999999756917201,
+    "reason_codes": []
+  }
+]

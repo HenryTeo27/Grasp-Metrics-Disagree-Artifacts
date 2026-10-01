@@ -1,0 +1,9 @@
+mechanism,count,calibration_count,scope
+applied_assistance,30,10,"Fixed apparatus group, not independent physical mechanism population"
+boundary_gap,30,10,"Fixed apparatus group, not independent physical mechanism population"
+inactive_margin,30,10,"Fixed apparatus group, not independent physical mechanism population"
+independent,30,10,"Fixed apparatus group, not independent physical mechanism population"
+intermittent_floor,30,10,"Fixed apparatus group, not independent physical mechanism population"
+necessary_floor,30,10,"Fixed apparatus group, not independent physical mechanism population"
+opposing_environment,30,10,"Fixed apparatus group, not independent physical mechanism population"
+redundant_floor,30,10,"Fixed apparatus group, not independent physical mechanism population"

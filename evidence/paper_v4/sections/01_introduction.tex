@@ -1,0 +1,59 @@
+\section{Introduction}
+An object can remain between a robot's fingers while resting on a table; a
+simulator can also generate a contact record across a positive gap with no
+active force constraint. Rejecting both situations answers a literal
+\emph{no-contact} question, not necessarily a \emph{no-external-load} question.
+Conversely, observing external load does not by itself establish that the
+object would be lost after a specified removal. These distinctions matter when
+an evaluator is used to accept a candidate or judge a robot-program repair.
+They do not imply that environmental contact is generally undesirable:
+extrinsic manipulation deliberately exploits it~\citep{extrinsic2014}.
+
+We study these distinctions as a measurement problem. The programs come from
+earlier human--coding-agent heuristic iteration, but we do not test whether
+agents outperform other developers. Previous frozen Allegro experiments found
+37 versus 48 environment-clear 15-second successes among 360 scenes, with all
+11 repair gains confined to spheres. Their literal contact exclusion motivates
+re-examination, not an assumption that a less restrictive evaluator will
+recover the excluded grasps. Historical counts and new experiments retain
+separate data roles and model conditions.
+
+\paragraph{Relation to existing evaluation.}
+Temporal monitoring of manipulation is established: SafeManip evaluates
+property-grounded temporal safety across tasks and environments
+\citep{huang2026safemanip}. Grasp evaluators already guide selection and
+refinement, including learned evaluators with real-world transfer
+\citep{lum2025getagrip}. Task-oriented wrench-space methods evaluate what
+forces a grasp can supply~\citep{chen2023task}, while dynamic tool-use work
+assesses perturbation resistance and downstream behavior
+\citep{grasp_to_act2026}. DexGraspBench provides a multi-hand physical
+evaluation setting~\citep{chen2025bodex,dexgraspbench}. Thus, a temporal
+predicate, a force threshold, an evaluator-driven selection rule, or a replay
+branch is not in itself a new contribution. Broader behavior-quality evaluation
+also goes beyond a binary success flag~\citep{eval_actions2026}.
+
+Our narrower question is whether combining geometry with a well-specified
+full-wrench monitor yields a measurable benefit beyond that simpler monitor,
+and what construct changes remain when it does not. We use free-object
+controls, independently coded raw-evidence reconstruction, source-specific
+external tasks, and exact-state paired interventions. A frozen candidate-pool
+experiment then tests decisions on a separate future endpoint. The primary
+comparisons are against an information-matched wrench baseline, not merely
+against a known contact-record proxy.
+
+The contribution is an executable separation of three physical evaluation
+targets, an empirical account of their disagreements and limits, and a
+precommitted test of incremental decision value. Negative outcomes are part of
+that account. No new grasp controller, general causal identification theorem,
+or real-world safety guarantee is proposed.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{contract_examples.pdf}
+\caption{Simulation renderings of three registered free-object controls at the
+fixed branch time. The middle scene changes a record-level verdict without
+external load; the supported scene carries real load. Renderings are explanatory,
+not numerical evidence. All labels are computed from complete traces. The
+object is green, actuated hand pads blue, and environment gray.}
+\label{fig:examples}
+\end{figure}

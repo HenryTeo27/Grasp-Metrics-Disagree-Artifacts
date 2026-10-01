@@ -1,0 +1,77 @@
+{
+  "count": 4,
+  "results": [
+    {
+      "methods": {
+        "B5": "FAIL",
+        "B4": "FAIL",
+        "A_no_geometry": "FAIL",
+        "A_no_torque": "FAIL",
+        "A_binary_unknown_fail": "FAIL",
+        "A_accumulated": "PASS",
+        "A_net_aggregation": "FAIL",
+        "B0": "PASS",
+        "B1": "FAIL",
+        "B2": "FAIL",
+        "B3": "FAIL",
+        "B4_normal": "FAIL"
+      },
+      "definite_seconds": 9.9,
+      "accumulated_seconds": 16.9
+    },
+    {
+      "methods": {
+        "B5": "FAIL",
+        "B4": "FAIL",
+        "A_no_geometry": "FAIL",
+        "A_no_torque": "FAIL",
+        "A_binary_unknown_fail": "FAIL",
+        "A_accumulated": "PASS",
+        "A_net_aggregation": "FAIL",
+        "B0": "PASS",
+        "B1": "FAIL",
+        "B2": "FAIL",
+        "B3": "FAIL",
+        "B4_normal": "FAIL"
+      },
+      "definite_seconds": 9.9,
+      "accumulated_seconds": 16.9
+    },
+    {
+      "methods": {
+        "B5": "FAIL",
+        "B4": "FAIL",
+        "A_no_geometry": "FAIL",
+        "A_no_torque": "FAIL",
+        "A_binary_unknown_fail": "FAIL",
+        "A_accumulated": "PASS",
+        "A_net_aggregation": "FAIL",
+        "B0": "PASS",
+        "B1": "FAIL",
+        "B2": "FAIL",
+        "B3": "FAIL",
+        "B4_normal": "FAIL"
+      },
+      "definite_seconds": 9.9,
+      "accumulated_seconds": 16.9
+    },
+    {
+      "methods": {
+        "B5": "FAIL",
+        "B4": "FAIL",
+        "A_no_geometry": "FAIL",
+        "A_no_torque": "FAIL",
+        "A_binary_unknown_fail": "FAIL",
+        "A_accumulated": "PASS",
+        "A_net_aggregation": "FAIL",
+        "B0": "PASS",
+        "B1": "FAIL",
+        "B2": "FAIL",
+        "B3": "FAIL",
+        "B4_normal": "FAIL"
+      },
+      "definite_seconds": 9.9,
+      "accumulated_seconds": 16.9
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "role": "DEVELOPMENT_ONLY_THREE_OLD_TRAJECTORIES",
+  "jobs": {
+    "native_failure": {
+      "job_id": "9a7877db21f1ad77baa4",
+      "block": "new1",
+      "physics": "compiled",
+      "case": {
+        "case_id": "v3_new1_bar_random_00",
+        "seed": 19152189,
+        "object_xyz": [
+          -0.001161,
+          0.077844,
+          -0.043285
+        ],
+        "object_quat": [
+          0.99801382,
+          0.0,
+          0.0,
+          -0.06299539
+        ],
+        "object_yaw_rad": -0.126074,
+        "object_geom": {
+          "type": "box",
+          "size": [
+            0.01797,
+            0.043026,
+            0.016715
+          ],
+          "mass": 0.08082,
+          "friction": [
+            0.9,
+            0.015,
+            0.004
+          ],
+          "rgba": [
+            0.85,
+            0.35,
+            0.12,
+            1.0
+          ]
+        }
+      },
+      "family": "bar_random",
+      "candidate": {
+        "anchor": "configs/open_hand_hl/menagerie/allegro_tabletop_bar_core_dev_eval02_transfer_hold_15s_anchor_v0.json",
+        "runner": "hold",
+        "derived": false,
+        "derived_finger": 0.0,
+        "derived_thumb": 0.0,
+        "extra_s": 0.5,
+        "thresholds": {
+          "hold_target_s": 15.0,
+          "min_lift_m": 0.015,
+          "max_xy_m": 0.07,
+          "max_force_n": 120.0
+        }
+      }
+    },
+    "native_only": {
+      "job_id": "a1d554287902b6723c99",
+      "block": "new1",
+      "physics": "compiled",
+      "case": {
+        "case_id": "v3_new1_bar_random_07",
+        "seed": 36828346,
+        "object_xyz": [
+          0.005378,
+          0.0791,
+          -0.041439
+        ],
+        "object_quat": [
+          0.99877127,
+          0.0,
+          0.0,
+          0.04955762
+        ],
+        "object_yaw_rad": 0.099156,
+        "object_geom": {
+          "type": "box",
+          "size": [
+            0.015969,
+            0.041942,
+            0.018561
+          ],
+          "mass": 0.08017,
+          "friction": [
+            0.9,
+            0.015,
+            0.004
+          ],
+          "rgba": [
+            0.85,
+            0.35,
+            0.12,
+            1.0
+          ]
+        }
+      },
+      "family": "bar_random",
+      "candidate": {
+        "anchor": "configs/open_hand_hl/menagerie/allegro_tabletop_bar_core_dev_eval05_transfer_hold_15s_anchor_v0.json",
+        "runner": "hold",
+        "derived": false,
+        "derived_finger": 0.0,
+        "derived_thumb": 0.0,
+        "extra_s": 0.5,
+        "thresholds": {
+          "hold_target_s": 15.0,
+          "min_lift_m": 0.015,
+          "max_xy_m": 0.07,
+          "max_force_n": 120.0
+        }
+      }
+    },
+    "clear_pass": {
+      "job_id": "42c6e00e0c5aec936215",
+      "block": "new1",
+      "physics": "compiled",
+      "case": {
+        "case_id": "v3_new1_cylinder_random_02",
+        "seed": 16488920,
+        "object_xyz": [
+          0.000957,
+          0.088089,
+          -0.027233
+        ],
+        "object_quat": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "object_yaw_rad": 0.0,
+        "object_geom": {
+          "type": "cylinder",
+          "size": [
+            0.020166,
+            0.032767,
+            0.0
+          ],
+          "mass": 0.06752,
+          "friction": [
+            0.9,
+            0.015,
+            0.004
+          ],
+          "rgba": [
+            0.15,
+            0.72,
+            0.95,
+            1.0
+          ]
+        }
+      },
+      "family": "cylinder_random",
+      "candidate": {
+        "anchor": "configs/open_hand_hl/menagerie/allegro_tabletop_cylinder_eval09_wide_far_short_lift_anchor_v0.json",
+        "runner": "hold",
+        "derived": false,
+        "derived_finger": 0.0,
+        "derived_thumb": 0.0,
+        "extra_s": 0.5,
+        "thresholds": {
+          "hold_target_s": 15.0,
+          "min_lift_m": 0.015,
+          "max_xy_m": 0.07,
+          "max_force_n": 120.0
+        }
+      }
+    }
+  },
+  "selection": "Lexicographically first old repair case/rank in native-failure, native-only, clear-pass categories; no future endpoint known"
+}

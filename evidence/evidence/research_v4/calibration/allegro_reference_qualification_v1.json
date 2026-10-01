@@ -1,0 +1,59 @@
+{
+  "rows": [
+    {
+      "job_id": "42c6e00e0c5aec936215",
+      "trace_sha256": "b46798b4c62244ef9f5b4dfbbd22b78a7e42ca16692e9481ce2fc01acd5c960e",
+      "reference": {
+        "reference_version": "external-raw-vertex-passive-reference-1",
+        "verdict": "PASS",
+        "definite_seconds": 15.698,
+        "possible_seconds": 15.698,
+        "common_conditions_agree": true,
+        "geometry_reconstruction_error_m": 1.1102230246251565e-16,
+        "wrench_reconstruction_error": 0.0,
+        "passive_reconstruction_error": 0.0,
+        "human_annotation": false,
+        "independence": "Separate vertex/force/interval implementations, shared simulator, saved FK and task specification; not real-world truth or blinded human annotation"
+      },
+      "B5": "PASS",
+      "pass_check": true
+    },
+    {
+      "job_id": "9a7877db21f1ad77baa4",
+      "trace_sha256": "97873229a6892de78e856bfdde86c99c847ed135c1a81297c0ac6fbd55eb8832",
+      "reference": {
+        "reference_version": "external-raw-vertex-passive-reference-1",
+        "verdict": "FAIL",
+        "definite_seconds": 0.0,
+        "possible_seconds": 0.0,
+        "common_conditions_agree": true,
+        "geometry_reconstruction_error_m": 1.3877787807814457e-17,
+        "wrench_reconstruction_error": 0.0,
+        "passive_reconstruction_error": 0.0,
+        "human_annotation": false,
+        "independence": "Separate vertex/force/interval implementations, shared simulator, saved FK and task specification; not real-world truth or blinded human annotation"
+      },
+      "B5": "FAIL",
+      "pass_check": true
+    },
+    {
+      "job_id": "a1d554287902b6723c99",
+      "trace_sha256": "c6d585018d3c013c0424301094a852d131ab579637e79b51dd2a759b4902c27a",
+      "reference": {
+        "reference_version": "external-raw-vertex-passive-reference-1",
+        "verdict": "FAIL",
+        "definite_seconds": 0.0,
+        "possible_seconds": 0.0,
+        "common_conditions_agree": true,
+        "geometry_reconstruction_error_m": 1.3877787807814457e-17,
+        "wrench_reconstruction_error": 0.0,
+        "passive_reconstruction_error": 0.0,
+        "human_annotation": false,
+        "independence": "Separate vertex/force/interval implementations, shared simulator, saved FK and task specification; not real-world truth or blinded human annotation"
+      },
+      "B5": "FAIL",
+      "pass_check": true
+    }
+  ],
+  "passed": true
+}

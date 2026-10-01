@@ -1,0 +1,43 @@
+The separate evidence archive contains individual execution scores and
+reference labels, all candidate future-use endpoints, the pre-future choice
+seal, fixed designs, operating-point labels, code, claim ledger and provenance.
+The protocol SHA256 is
+\path{ffc60fe94dca45e826c2f864865cbeb7c749b7a11b6f05784b9c6f24b896b9a0}.
+The original frozen files remain unchanged. A separately hashed post-failure
+recovery records five geometry-assertion cases as invalid; it never widens the
+threshold or substitutes a case.
+
+From an extracted evidence package, the offline command is
+\begin{quote}\small
+\texttt{python -B reproduce\_v4/reproduce.py --out ../v4-recomputed}
+\end{quote}
+It requires Python, NumPy and Matplotlib, but no simulator or network. It
+verifies packaged hashes, recomputes source tables and paired intervals from
+individual labels, reconstructs U2 results from sealed choices and future
+endpoints, verifies operating-point summaries and the claim ledger, and
+regenerates the three main figures. MuJoCo imports and network connections are
+blocked during this computation. Three complete primitive-control traces are
+also provided for raw rescoring and independent-code reference reconstruction.
+
+This is label-level aggregate reproduction plus three raw examples, not an
+independent physical adjudication of every experiment. Most original NPZ traces
+remain in the local research archive; a complete hash/size inventory is
+included, but no public download location is asserted. This access limitation
+must be resolved before claiming fully open raw-evidence reproducibility.
+The historical appendix supplies the original V3 bootstrap and library
+comparisons without pooling historical and new outcomes.
+
+The declared main runtime is CPython 3.11.1, NumPy 2.4.6, MuJoCo 3.8.0 and
+SciPy 1.17.1. DGB uses a separate environment with NumPy 1.26.4 and MuJoCo
+3.3.2. Fixed first-case dynamic release checks cover all four source rows in
+these existing isolated environments. They are not clean-machine installations
+or complete-matrix reruns. The control check repeats exact-state observer and
+sham equality; source-specific observer/sham qualifications also remain in the
+pre-G2 record. No stronger dynamic reproducibility claim is made.
+
+The PDF, independently buildable LaTeX source ZIP and evidence ZIP are separate.
+Third-party assets and the unlicensed DGB checkout are excluded; exact source
+URLs, versions, available component licenses and hashes are documented in the
+dependency manifest. Missing assets are not treated as a successful dynamic
+verification. No paper submission, public hosting or new code-license grant is
+performed as part of this local release.

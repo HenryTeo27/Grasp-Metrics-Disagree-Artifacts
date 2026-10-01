@@ -1,0 +1,208 @@
+\pdfoutput=1
+\input{glyphtounicode}
+\pdfgentounicode=1
+\documentclass[10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=23mm]{geometry}
+\usepackage{amsmath,amssymb,booktabs,tabularx,array,graphicx,xcolor}
+\usepackage{microtype,placeins,enumitem,float,listings}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\graphicspath{{figures/}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\NC}{C_{\mathrm{NC}}}
+\newcommand{\NL}{C_{\mathrm{NL}}}
+\newcommand{\CF}{D_{\mathrm{CF}}}
+\newcommand{\Pass}{\textsc{Pass}}
+\newcommand{\Fail}{\textsc{Fail}}
+\newcommand{\Unk}{\textsc{Indeterminate}}
+\setlength{\emergencystretch}{2em}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.1}
+\setlist{nosep,leftmargin=*}
+\renewcommand{\topfraction}{.92}
+\renewcommand{\bottomfraction}{.85}
+\renewcommand{\textfraction}{.06}
+\renewcommand{\floatpagefraction}{.8}
+\setcounter{topnumber}{6}
+\setcounter{bottomnumber}{4}
+\setcounter{totalnumber}{8}
+\lstset{basicstyle=\small\ttfamily,columns=fullflexible,keepspaces=true,breaklines=true,literate={-}{{-}}1}
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\input{generated/numbers}
+\title{When Grasp Metrics Disagree:\\Contact, Load, and Retention in Simulation\\\large Supplementary Material}
+\ifdefined\reviewcopy
+\author{Anonymous Author}
+\hypersetup{pdfauthor={}}
+\else
+\author{Teo Ee Hern\\Tianjin University}
+\hypersetup{pdfauthor={Teo Ee Hern}}
+\fi
+\hypersetup{pdftitle={When Grasp Metrics Disagree: Supplementary Material}}
+\date{October 2026; editorial version V4.5}
+\begin{document}
+\maketitle
+\noindent This supplement preserves the detailed V4 protocol, results and
+data-role boundaries behind the compact main paper. V4.5 is an editorial
+release: no new simulation, training, reference labeling or hypothesis test
+was introduced. Repeated numbers here describe the same units as the main
+paper, not an additional evaluation. Frozen identifiers B0--B7 and H1/H4 are
+retained so that the paper maps directly to the evidence records.
+\tableofcontents
+
+\input{detail/02_contracts}
+\input{detail/03_design}
+\input{detail/04_results}
+\FloatBarrier
+
+\section{Detailed Controls, References and Uncertainty}
+\input{generated/mechanism_table}
+\input{generated/reference_details}
+\FloatBarrier
+
+\section{Historical Evidence and Candidate Library}
+The earlier reports~\citep{teo_custom,teo_open} provide development provenance,
+not new confirmation of this paper's monitor comparisons. Their reused
+experimental history remains identifiable. The subsequent consolidated V3
+experiment and present V4 study use different scene sets and analysis locks.
+\input{generated/history}
+\input{generated/candidate_table}
+\input{generated/distributions}
+\FloatBarrier
+
+\subsection{Preserved V3 Comparisons}
+The following original tables and figures retain V3's outcome definitions,
+model pair and candidate budgets. Environment-clear means that study's
+literal no-contact gate; it is not retrospectively renamed no-external-load.
+\input{historical/v3_physics}
+\input{historical/v3_families}
+\input{historical/v3_budget}
+\input{historical/v3_blocks}
+\begin{figure}[H]
+\centering\includegraphics[width=.94\linewidth]{v3_physics_and_budget.pdf}
+\caption{Preserved V3 model and budget comparison. Model changes were not an
+isolated inertia intervention. Historical intervals and denominators differ
+from V4 and are not pooled with it.}
+\end{figure}
+\begin{figure}[H]
+\centering\includegraphics[width=.94\linewidth]{v3_family_replication.pdf}
+\caption{Preserved V3 family-level results. The 11 no-contact gains occur in
+spheres; this does not establish broad family generalization.}
+\end{figure}
+
+\section{Numerical Qualification and Recovery}
+The observer reads each physical contact solve without inserting a forward
+solve into the live trajectory. Target-directed wrenches use the geom-2
+convention of \texttt{mj\_contactForce}. Contact geometry/forces belong to the
+pre-integration solve state; post-integration poses and velocities have
+separate fields. Integer step indices and measured timestamps are retained
+without decimation for adjudication. Full snapshots include warm starts,
+controls, applied forces and mocap; both branches consume the same input tape.
+The branch gate uses prefix conditions and local $Q$, not future native success.
+
+The 80 calibration controls contain 25 no-load reference passes and 55 failures;
+B4/B5 match all 80. Development branches have 57 both-retain, 10 dependent and
+13 unreachable states. Thirty-two executions of the first eight controls vary
+timestep and solver iterations; they are repeated numerical conditions, not
+32 new scenes. A selected natural 20-scene development subset has 17 dependent
+and three both-retain late states, with pre-branch load in the latter. All
+20 labels remain unchanged under the registered numerical settings. These
+selected exclusions do not estimate natural prevalence. A simple pre-branch
+load threshold separates that subset, so no superior learned dependency
+predictor is introduced. Four additional single-burst development cases show
+16.9\,s accumulated versus 9.9\,s continuous unloaded $Q$; they are not added
+to the 80-case calibration denominator.
+
+The five Allegro geometry failures were retained using a post-failure,
+fail-closed bookkeeping recovery. Its hash is separate from the input-only
+protocol lock. No threshold, physical parameter, candidate, data role or
+primary comparison was changed. Invalid telemetry and physical indeterminacy
+are separate fields that can overlap; neither may be silently recoded as a
+verified failure. Natural references were simple random samples (30/120
+rank-1 Allegro entries; 30/100 for Fetch and DGB), not selected successes.
+
+\section{Offline Reproduction and Raw-Evidence Scope}
+The label evidence archive contains execution scores, reference labels,
+all 720 candidate future endpoints, the pre-future choice seal, protocol and
+source manifests, operating-point labels, code, recovery provenance and claim
+ledger. Its protocol SHA256 remains
+\path{ffc60fe94dca45e826c2f864865cbeb7c749b7a11b6f05784b9c6f24b896b9a0}.
+The frozen scientific files are unchanged; V4.5 adds only manuscript,
+figure-composition and packaging files.
+
+Extract the label evidence archive. From its top-level directory, run:
+\begin{lstlisting}
+python -B reproduce_v4/reproduce.py --out ../v4-recomputed
+\end{lstlisting}
+Use a new output directory. Python 3.11, NumPy and Matplotlib are required.
+The original verifier blocks MuJoCo imports and network connections, verifies
+packaged hashes before and after computation, recomputes source tables and
+paired intervals from individual labels, reconstructs U2 from sealed choices
+and future endpoints, and checks operating curves and the claim ledger. It
+also reconstructs the three original V4 figures and rescores three included
+primitive-control raw examples. It does not replay physics.
+
+The V4.5 publication-only figure command is separate:
+\begin{lstlisting}
+python -B scripts/v45_editorial.py figures
+\end{lstlisting}
+It uses the same recorded JSON/CSV and saved display arrays, checks the
+displayed counts, and composes the three main-paper figures. The four-cell
+example table comes from recorded control outcomes, not a new simulation.
+The selection stacks classify failures only after checking the corresponding
+future status is valid; unclassified returned outcomes cause an error.
+
+\paragraph{What is supplied.}
+The label package includes all individual scored records needed for the
+reported aggregates. The separate core-raw ZIP includes all 240 nominal final
+primitive-control NPZs and their eight margin/gap partners, with a dedicated
+hash/size manifest. These controls contain original primitive apparatus
+models, not redistributed third-party hand meshes. The companion is optional
+for label-level reproduction; it is additional source evidence, not a claim
+that all 248 raw records have been independently re-adjudicated during this
+editorial release. The original verifier's three raw rescoring examples remain
+the verified raw-reconstruction scope.
+
+\paragraph{What is not supplied or claimed.}
+Most natural-task, calibration and retrospective raw NPZs remain in the local
+archive. The full raw inventory records hashes and sizes, but an inventory is
+not raw access. No public host for the complete archive is asserted. Thus
+aggregate reproduction, access to controlled raw evidence, full-matrix raw
+adjudication, and dynamic reproduction are distinct levels. No complete
+independent raw audit or clean-machine simulation rerun is claimed.
+
+Main experiments used CPython 3.11.1, NumPy 2.4.6, MuJoCo 3.8.0 and SciPy
+1.17.1; DGB used NumPy 1.26.4 and MuJoCo 3.3.2. Offline release checks used
+NumPy 1.26.4 and Matplotlib 3.11.2. The preserved first-case dynamic checks
+cover all four sources in existing isolated environments; they are not
+fresh installations or complete-matrix reruns. V4.5 adds no dynamic check.
+
+\paragraph{External provenance.}
+FetchExpert~\citep{fetch_expert} is pinned to commit
+\path{3e2dd8c2e5f24702081867d82a78eb1264534f94}, file
+\path{experts/fetch_expert.py}; Gymnasium-Robotics~\citep{gymnasium_robotics}
+is version 1.4.2 (FetchPickAndPlace-v4). DGB is pinned to
+\path{d9ea6cf282de1f463c20fa54b4f68d7025bad40e}. Dependency records list
+component-specific licenses and hashes. Third-party model assets and the
+unlicensed DGB checkout are excluded; missing assets are not silently
+downloaded, substituted or reported as dynamically verified. No new license
+grant for the author's source is made by this local package.
+
+\section{Disclosure}
+OpenAI Codex assisted implementation, experimental workflow, analysis tooling,
+figure composition and manuscript preparation under author direction. The
+author is responsible for all claims and the final submission. No controlled
+comparison estimates the assistance's causal effect.
+
+\FloatBarrier
+\begingroup
+\small
+\setlength{\bibsep}{2pt}
+\bibliographystyle{plainnat}
+\bibliography{references,provenance}
+\endgroup
+\end{document}

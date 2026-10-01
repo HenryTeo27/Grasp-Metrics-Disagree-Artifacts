@@ -1,0 +1,317 @@
+{
+  "job": {
+    "job_id": "a029a4a79d4c7ec0b9bc",
+    "block": "new3",
+    "physics": "compiled",
+    "case": {
+      "case_id": "v3_new3_bar_random_02",
+      "seed": 55263438,
+      "object_xyz": [
+        0.003623,
+        0.081748,
+        -0.042993
+      ],
+      "object_quat": [
+        0.99813001,
+        0.0,
+        0.0,
+        0.06112682
+      ],
+      "object_yaw_rad": 0.12233,
+      "object_geom": {
+        "type": "box",
+        "size": [
+          0.015017,
+          0.039299,
+          0.017007
+        ],
+        "mass": 0.07858,
+        "friction": [
+          0.9,
+          0.015,
+          0.004
+        ],
+        "rgba": [
+          0.85,
+          0.35,
+          0.12,
+          1.0
+        ]
+      }
+    },
+    "family": "bar_random",
+    "candidate": {
+      "anchor": "configs/open_hand_hl/menagerie/allegro_tabletop_bar_core_dev_eval05_transfer_hold_15s_anchor_v0.json",
+      "runner": "hold",
+      "derived": false,
+      "derived_finger": 0.0,
+      "derived_thumb": 0.0,
+      "extra_s": 0.5,
+      "thresholds": {
+        "hold_target_s": 15.0,
+        "min_lift_m": 0.015,
+        "max_xy_m": 0.07,
+        "max_force_n": 120.0
+      }
+    }
+  },
+  "result": {
+    "job_id": "a029a4a79d4c7ec0b9bc",
+    "block": "new3",
+    "physics": "compiled",
+    "family": "bar_random",
+    "case_id": "v3_new3_bar_random_02",
+    "candidate": {
+      "anchor": "configs/open_hand_hl/menagerie/allegro_tabletop_bar_core_dev_eval05_transfer_hold_15s_anchor_v0.json",
+      "runner": "hold",
+      "derived": false,
+      "derived_finger": 0.0,
+      "derived_thumb": 0.0,
+      "extra_s": 0.5,
+      "thresholds": {
+        "hold_target_s": 15.0,
+        "min_lift_m": 0.015,
+        "max_xy_m": 0.07,
+        "max_force_n": 120.0
+      }
+    },
+    "metrics": {
+      "initial_hand_contact_after_settle": false,
+      "first_hand_contact_step": 20,
+      "first_lift_step": 1120,
+      "hand_contact": 1,
+      "thumb_contact": 1,
+      "opposing_contact": 1,
+      "palm_contact": 1,
+      "contact_support_duration_s": 17.71400000000106,
+      "lifted_any_duration_s": 15.284000000001774,
+      "lifted_supported_duration_s": 15.284000000001774,
+      "max_object_lift_m": 0.0172430079592098,
+      "max_object_xy_displacement_m": 0.04271249494449954,
+      "max_contact_force_n": 26.23303713929429,
+      "short_lift_success": true
+    },
+    "legacy_success": true,
+    "temporal": {
+      "steps": 9000,
+      "dt": 0.002,
+      "legacy_success": true,
+      "accumulated_s": 15.284,
+      "contiguous_s": 15.284,
+      "clear_contiguous_s": 0.0,
+      "contiguous_success": true,
+      "clear_contiguous_success": false,
+      "environment_contact_s": 17.992,
+      "no_assistance": true,
+      "raw_intervals": [
+        [
+          1120,
+          8762
+        ]
+      ],
+      "clear_intervals": []
+    },
+    "physical": {
+      "type": "box",
+      "mass": 0.07858,
+      "body_frame_inertia": [
+        [
+          4.802939126033333e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.3482974800013335e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.636014880006667e-05
+        ]
+      ],
+      "analytic_inertia": [
+        [
+          4.8029391260333333e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.3482974800013334e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.6360148800066666e-05
+        ]
+      ],
+      "inertia_relative_error": 1.410857685308788e-16,
+      "geom_rbound": 0.045377965346630515
+    },
+    "object_mass": 0.07858,
+    "initial_hand_contact": false,
+    "initial_object_pose": [
+      0.003516005073273511,
+      0.08168029882733945,
+      -0.06322022624574433,
+      0.9981157453912027,
+      0.0020863132707397507,
+      -0.0040282516424642026,
+      0.0611913334370583
+    ],
+    "qpos_edits": 0,
+    "qvel_edits": 0,
+    "dt": 0.002,
+    "settle_steps": 100,
+    "final_step": 9100,
+    "elapsed_s": 6.796575899992604
+  },
+  "observer": {
+    "observer_version": "merged-v4-contact-solve-1",
+    "step_columns": [
+      "step",
+      "solve_time",
+      "dt",
+      "com_x",
+      "com_y",
+      "com_z",
+      "quat_w",
+      "quat_x",
+      "quat_y",
+      "quat_z",
+      "free_qvel_0",
+      "free_qvel_1",
+      "free_qvel_2",
+      "free_qvel_3",
+      "free_qvel_4",
+      "free_qvel_5",
+      "env_count",
+      "env_constraint_count",
+      "env_force_threshold_count",
+      "env_normal_n",
+      "env_abs_force_n",
+      "env_abs_torque_nm",
+      "env_net_force_x",
+      "env_net_force_y",
+      "env_net_force_z",
+      "env_net_torque_x",
+      "env_net_torque_y",
+      "env_net_torque_z",
+      "env_min_dist",
+      "env_dist_present",
+      "env_active_min_dist",
+      "env_active_dist_present",
+      "applied_any",
+      "target_applied_norm",
+      "target_qpos_write",
+      "target_qvel_write",
+      "geometry_clock_error",
+      "contact_start",
+      "contact_end"
+    ],
+    "contact_columns": [
+      "step",
+      "geom1",
+      "geom2",
+      "body1",
+      "body2",
+      "role",
+      "efc_address",
+      "dim",
+      "dist",
+      "point_x",
+      "point_y",
+      "point_z",
+      "frame_0",
+      "frame_1",
+      "frame_2",
+      "frame_3",
+      "frame_4",
+      "frame_5",
+      "frame_6",
+      "frame_7",
+      "frame_8",
+      "local_fn",
+      "local_ft1",
+      "local_ft2",
+      "local_tn",
+      "local_tt1",
+      "local_tt2",
+      "target_force_x",
+      "target_force_y",
+      "target_force_z",
+      "target_com_torque_x",
+      "target_com_torque_y",
+      "target_com_torque_z"
+    ],
+    "body_roles": [
+      0,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "mass_kg": 0.07858,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "support_paths": {
+      "complete_for_declared_model": true,
+      "reason_codes": [],
+      "scope": "Single free primitive; direct equality/tendon/actuator/passive paths and applied arrays. No claim to detect malicious plugins or opaque external callbacks."
+    },
+    "snapshot": {
+      "step": 4000,
+      "flag": 16383,
+      "time": 7.999999999999341
+    },
+    "sample_convention": "pre-integration solve state with separately named post states",
+    "force_convention": "contact-frame force/torque acts on geom2; world wrench about target COM",
+    "geometry_clock_max_error": 0.0
+  },
+  "planned_steps": 9100,
+  "terminal_reason": "controller_schedule_completed",
+  "source_id": "allegro_frozen_library",
+  "length_scale_m": 0.045377965346630515,
+  "archive_equivalence": {
+    "samples": true,
+    "telemetry": true,
+    "step_index": true,
+    "solve_time": true,
+    "metrics": true,
+    "temporal": true
+  },
+  "equivalence_pass": true,
+  "trace_sha256": "a9c82243ec7a6b8f6ba1b3f0f969d91fd28ce6b0bd865fac35af66de86962ca7",
+  "job_spec_hash": "177f9febbab841df5a7ac632cfc79abca2c96b590e7bb7618fbdcb5a15d59667",
+  "elapsed_s": 7.754642199957743,
+  "trace_bytes": 12688834,
+  "observer_code_sha256": "220f8095e70026f3e0ecb61ac333316d186b2aff02b9a0295c62826f25af5f39",
+  "adapter_code_sha256": "226f8448fb2b2c56f6b1c69d4571640397d46a985998333fdac77b491c3366aa",
+  "v3_input_manifest_hash": "8ab9c81ae18cf76e5d8196b30bad6094e755d712e943172f1a6559e702d92d1f",
+  "split_role": "retrospective_development",
+  "controller_state": "Open-loop command tape for branching; no policy execution on restored branches"
+}

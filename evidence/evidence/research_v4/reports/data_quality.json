@@ -1,0 +1,50 @@
+[
+  {
+    "source": "controls",
+    "executions": 240,
+    "invalid": 0,
+    "unknown_valid": 0,
+    "reference_n": 240,
+    "reference_labels": {
+      "PASS": 77,
+      "FAIL": 163
+    },
+    "incomplete_reference": 0
+  },
+  {
+    "source": "allegro",
+    "executions": 720,
+    "invalid": 5,
+    "unknown_valid": 0,
+    "reference_n": 30,
+    "reference_labels": {
+      "FAIL": 28,
+      "PASS": 2
+    },
+    "incomplete_reference": 0
+  },
+  {
+    "source": "fetch",
+    "executions": 100,
+    "invalid": 0,
+    "unknown_valid": 48,
+    "reference_n": 30,
+    "reference_labels": {
+      "FAIL": 15,
+      "INDETERMINATE": 15
+    },
+    "incomplete_reference": 0
+  },
+  {
+    "source": "dexgraspbench",
+    "executions": 100,
+    "invalid": 1,
+    "unknown_valid": 0,
+    "reference_n": 30,
+    "reference_labels": {
+      "PASS": 21,
+      "FAIL": 9
+    },
+    "incomplete_reference": 0
+  }
+]

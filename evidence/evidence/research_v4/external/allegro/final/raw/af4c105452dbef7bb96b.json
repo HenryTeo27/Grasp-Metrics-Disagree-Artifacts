@@ -1,0 +1,1161 @@
+{
+  "job": {
+    "job_id": "af4c105452dbef7bb96b",
+    "block": "v4_final",
+    "physics": "compiled",
+    "case": {
+      "case_id": "v4_final_flat_box_random_07",
+      "seed": 25604222,
+      "object_xyz": [
+        -0.001799,
+        0.082142,
+        -0.049577
+      ],
+      "object_quat": [
+        0.997564,
+        0.0,
+        0.0,
+        0.06975724
+      ],
+      "object_yaw_rad": 0.139628,
+      "object_geom": {
+        "type": "box",
+        "size": [
+          0.026279,
+          0.024197,
+          0.010423
+        ],
+        "mass": 0.06543,
+        "friction": [
+          0.9,
+          0.015,
+          0.004
+        ],
+        "rgba": [
+          0.35,
+          0.85,
+          0.4,
+          1.0
+        ]
+      }
+    },
+    "family": "flat_box_random",
+    "candidate": {
+      "anchor": "configs/open_hand_hl/menagerie/allegro_tabletop_cube_core11_staged_support_hold15_anchor_v0.json",
+      "runner": "staged",
+      "derived": false,
+      "derived_finger": 0.0,
+      "derived_thumb": 0.0,
+      "extra_s": 0.5,
+      "thresholds": {
+        "hold_target_s": 15.0,
+        "min_lift_m": 0.004,
+        "max_xy_m": 0.05,
+        "max_force_n": 90.0
+      }
+    },
+    "rank": 3,
+    "reference_selected": false,
+    "reference_inclusion_probability": 0.25,
+    "counterfactual_selected": false
+  },
+  "result": {
+    "job_id": "af4c105452dbef7bb96b",
+    "block": "v4_final",
+    "physics": "compiled",
+    "family": "flat_box_random",
+    "case_id": "v4_final_flat_box_random_07",
+    "candidate": {
+      "anchor": "configs/open_hand_hl/menagerie/allegro_tabletop_cube_core11_staged_support_hold15_anchor_v0.json",
+      "runner": "staged",
+      "derived": false,
+      "derived_finger": 0.0,
+      "derived_thumb": 0.0,
+      "extra_s": 0.5,
+      "thresholds": {
+        "hold_target_s": 15.0,
+        "min_lift_m": 0.004,
+        "max_xy_m": 0.05,
+        "max_force_n": 90.0
+      }
+    },
+    "metrics": {
+      "first_long_finger_step": 1722,
+      "first_thumb_long_finger_step": 3444,
+      "first_palm_step": -1,
+      "first_lift_step": 1851,
+      "first_lifted_thumb_long_finger_step": 3444,
+      "thumb_long_finger_overlap_s": 18.24200000000077,
+      "lifted_thumb_long_finger_supported_s": 10.708000000000245,
+      "lifted_any_duration_s": 17.378000000001247,
+      "support_hold_lifted_supported_s": 10.402000000000143,
+      "support_ramp_lifted_supported_s": 0.2960000000000002,
+      "max_object_lift_m": 0.011274077356777303,
+      "max_object_xy_displacement_m": 0.05829621077918631,
+      "max_contact_force_n": 1.9188882629902118,
+      "long_finger_contact_duration_s": 21.68599999999886,
+      "thumb_contact_duration_s": 23.463999999997874,
+      "palm_contact_duration_s": 0.0,
+      "thumb_lifted_contact_duration_s": 14.192000000001409,
+      "thumb_max_count": 2,
+      "thumb_max_force_n": 1.9188882629902118,
+      "thumb_bodies": "[\"th_tip\"]",
+      "ff_contact_duration_s": 21.68599999999886,
+      "ff_lifted_contact_duration_s": 13.89400000000131,
+      "ff_max_count": 4,
+      "ff_max_force_n": 0.7296012112086663,
+      "ff_bodies": "[\"ff_distal\", \"ff_tip\"]",
+      "mf_contact_duration_s": 0.0,
+      "mf_lifted_contact_duration_s": 0.0,
+      "mf_max_count": 0,
+      "mf_max_force_n": 0.0,
+      "mf_bodies": "[]",
+      "rf_contact_duration_s": 0.0,
+      "rf_lifted_contact_duration_s": 0.0,
+      "rf_max_count": 0,
+      "rf_max_force_n": 0.0,
+      "rf_bodies": "[]",
+      "palm_lifted_contact_duration_s": 0.0,
+      "palm_max_count": 0,
+      "palm_max_force_n": 0.0,
+      "palm_bodies": "[]",
+      "other_contact_duration_s": 0.0,
+      "other_lifted_contact_duration_s": 0.0,
+      "other_max_count": 0,
+      "other_max_force_n": 0.0,
+      "other_bodies": "[]"
+    },
+    "legacy_success": false,
+    "temporal": {
+      "steps": 15200,
+      "dt": 0.002,
+      "legacy_success": false,
+      "accumulated_s": 10.708,
+      "contiguous_s": 8.298,
+      "clear_contiguous_s": 0.002,
+      "contiguous_success": false,
+      "clear_contiguous_success": false,
+      "environment_contact_s": 30.194,
+      "no_assistance": true,
+      "raw_intervals": [
+        [
+          3444,
+          3449
+        ],
+        [
+          7448,
+          7481
+        ],
+        [
+          7482,
+          7536
+        ],
+        [
+          7537,
+          7571
+        ],
+        [
+          7572,
+          7599
+        ],
+        [
+          7600,
+          11749
+        ],
+        [
+          11750,
+          11812
+        ],
+        [
+          11813,
+          11856
+        ],
+        [
+          11857,
+          11894
+        ],
+        [
+          11895,
+          11926
+        ],
+        [
+          11927,
+          11954
+        ],
+        [
+          11955,
+          11979
+        ],
+        [
+          11980,
+          12003
+        ],
+        [
+          12004,
+          12024
+        ],
+        [
+          12025,
+          12044
+        ],
+        [
+          12045,
+          12063
+        ],
+        [
+          12064,
+          12081
+        ],
+        [
+          12082,
+          12097
+        ],
+        [
+          12098,
+          12113
+        ],
+        [
+          12114,
+          12129
+        ],
+        [
+          12130,
+          12143
+        ],
+        [
+          12144,
+          12157
+        ],
+        [
+          12158,
+          12171
+        ],
+        [
+          12172,
+          12183
+        ],
+        [
+          12184,
+          12196
+        ],
+        [
+          12197,
+          12208
+        ],
+        [
+          12209,
+          12220
+        ],
+        [
+          12221,
+          12231
+        ],
+        [
+          12232,
+          12242
+        ],
+        [
+          12243,
+          12253
+        ],
+        [
+          12254,
+          12263
+        ],
+        [
+          12264,
+          12273
+        ],
+        [
+          12274,
+          12283
+        ],
+        [
+          12284,
+          12293
+        ],
+        [
+          12294,
+          12302
+        ],
+        [
+          12303,
+          12311
+        ],
+        [
+          12312,
+          12320
+        ],
+        [
+          12321,
+          12329
+        ],
+        [
+          12330,
+          12337
+        ],
+        [
+          12338,
+          12346
+        ],
+        [
+          12347,
+          12353
+        ],
+        [
+          12354,
+          12362
+        ],
+        [
+          12363,
+          12370
+        ],
+        [
+          12371,
+          12377
+        ],
+        [
+          12378,
+          12385
+        ],
+        [
+          12386,
+          12392
+        ],
+        [
+          12393,
+          12400
+        ],
+        [
+          12401,
+          12406
+        ],
+        [
+          12407,
+          12414
+        ],
+        [
+          12415,
+          12420
+        ],
+        [
+          12421,
+          12428
+        ],
+        [
+          12430,
+          12440
+        ],
+        [
+          12441,
+          12444
+        ],
+        [
+          12445,
+          12452
+        ],
+        [
+          12453,
+          12457
+        ],
+        [
+          12458,
+          12464
+        ],
+        [
+          12465,
+          12470
+        ],
+        [
+          12471,
+          12476
+        ],
+        [
+          12477,
+          12482
+        ],
+        [
+          12483,
+          12488
+        ],
+        [
+          12489,
+          12493
+        ],
+        [
+          12494,
+          12500
+        ],
+        [
+          12502,
+          12510
+        ],
+        [
+          12511,
+          12514
+        ],
+        [
+          12515,
+          12520
+        ],
+        [
+          12521,
+          12525
+        ],
+        [
+          12526,
+          12530
+        ],
+        [
+          12531,
+          12536
+        ],
+        [
+          12537,
+          12540
+        ],
+        [
+          12541,
+          12546
+        ],
+        [
+          12547,
+          12551
+        ],
+        [
+          12552,
+          12555
+        ],
+        [
+          12556,
+          12561
+        ],
+        [
+          12562,
+          12565
+        ],
+        [
+          12566,
+          12570
+        ],
+        [
+          12571,
+          12575
+        ],
+        [
+          12576,
+          12579
+        ],
+        [
+          12580,
+          12584
+        ],
+        [
+          12585,
+          12589
+        ],
+        [
+          12591,
+          12598
+        ],
+        [
+          12600,
+          12605
+        ],
+        [
+          12607,
+          12613
+        ],
+        [
+          12614,
+          12616
+        ],
+        [
+          12617,
+          12621
+        ],
+        [
+          12623,
+          12629
+        ],
+        [
+          12631,
+          12636
+        ],
+        [
+          12637,
+          12639
+        ],
+        [
+          12640,
+          12644
+        ],
+        [
+          12646,
+          12652
+        ],
+        [
+          12654,
+          12658
+        ],
+        [
+          12659,
+          12661
+        ],
+        [
+          12662,
+          12666
+        ],
+        [
+          12668,
+          12673
+        ],
+        [
+          12675,
+          12679
+        ],
+        [
+          12680,
+          12682
+        ],
+        [
+          12683,
+          12686
+        ],
+        [
+          12687,
+          12690
+        ],
+        [
+          12692,
+          12697
+        ],
+        [
+          12699,
+          12703
+        ],
+        [
+          12705,
+          12709
+        ],
+        [
+          12711,
+          12716
+        ],
+        [
+          12719,
+          12724
+        ],
+        [
+          12726,
+          12730
+        ],
+        [
+          12732,
+          12735
+        ],
+        [
+          12736,
+          12738
+        ],
+        [
+          12739,
+          12741
+        ],
+        [
+          12742,
+          12745
+        ],
+        [
+          12747,
+          12751
+        ],
+        [
+          12753,
+          12756
+        ],
+        [
+          12758,
+          12762
+        ],
+        [
+          12764,
+          12767
+        ],
+        [
+          12769,
+          12773
+        ],
+        [
+          12776,
+          12780
+        ],
+        [
+          12781,
+          12782
+        ],
+        [
+          12783,
+          12785
+        ],
+        [
+          12786,
+          12787
+        ],
+        [
+          12788,
+          12791
+        ],
+        [
+          12793,
+          12796
+        ],
+        [
+          12798,
+          12801
+        ],
+        [
+          12803,
+          12806
+        ],
+        [
+          12808,
+          12810
+        ],
+        [
+          12811,
+          12813
+        ],
+        [
+          12815,
+          12818
+        ],
+        [
+          12820,
+          12823
+        ],
+        [
+          12825,
+          12827
+        ],
+        [
+          12828,
+          12829
+        ],
+        [
+          12830,
+          12832
+        ],
+        [
+          12834,
+          12837
+        ],
+        [
+          12839,
+          12841
+        ],
+        [
+          12843,
+          12846
+        ],
+        [
+          12848,
+          12850
+        ],
+        [
+          12852,
+          12854
+        ],
+        [
+          12855,
+          12857
+        ],
+        [
+          12860,
+          12863
+        ],
+        [
+          12865,
+          12867
+        ],
+        [
+          12869,
+          12871
+        ],
+        [
+          12872,
+          12873
+        ],
+        [
+          12875,
+          12878
+        ],
+        [
+          12881,
+          12883
+        ],
+        [
+          12885,
+          12888
+        ],
+        [
+          12892,
+          12895
+        ],
+        [
+          12898,
+          12900
+        ],
+        [
+          12902,
+          12904
+        ],
+        [
+          12906,
+          12908
+        ],
+        [
+          12911,
+          12913
+        ],
+        [
+          12914,
+          12915
+        ],
+        [
+          12917,
+          12919
+        ],
+        [
+          12922,
+          12924
+        ],
+        [
+          12926,
+          12928
+        ],
+        [
+          12931,
+          12933
+        ],
+        [
+          12936,
+          12938
+        ],
+        [
+          12940,
+          12941
+        ],
+        [
+          12942,
+          12943
+        ],
+        [
+          12945,
+          12946
+        ],
+        [
+          12947,
+          12948
+        ],
+        [
+          12950,
+          12952
+        ],
+        [
+          12956,
+          12958
+        ],
+        [
+          12960,
+          12961
+        ],
+        [
+          12963,
+          12964
+        ],
+        [
+          12965,
+          12966
+        ],
+        [
+          12968,
+          12969
+        ],
+        [
+          12971,
+          12972
+        ],
+        [
+          12973,
+          12974
+        ],
+        [
+          12977,
+          12979
+        ],
+        [
+          12983,
+          12984
+        ],
+        [
+          12986,
+          12988
+        ],
+        [
+          12993,
+          12994
+        ],
+        [
+          12995,
+          12996
+        ],
+        [
+          12999,
+          13000
+        ],
+        [
+          13002,
+          13003
+        ],
+        [
+          13005,
+          13006
+        ],
+        [
+          13009,
+          13010
+        ],
+        [
+          13012,
+          13013
+        ],
+        [
+          13016,
+          13017
+        ],
+        [
+          13020,
+          13021
+        ],
+        [
+          13023,
+          13024
+        ],
+        [
+          13028,
+          13029
+        ],
+        [
+          13032,
+          13033
+        ],
+        [
+          13037,
+          13038
+        ],
+        [
+          13041,
+          13042
+        ],
+        [
+          13047,
+          13048
+        ],
+        [
+          13052,
+          13053
+        ],
+        [
+          13058,
+          13059
+        ],
+        [
+          13065,
+          13066
+        ],
+        [
+          13073,
+          13074
+        ],
+        [
+          13083,
+          13084
+        ],
+        [
+          13097,
+          13098
+        ],
+        [
+          13205,
+          13236
+        ]
+      ],
+      "clear_intervals": [
+        [
+          7451,
+          7452
+        ],
+        [
+          7467,
+          7468
+        ],
+        [
+          7477,
+          7478
+        ],
+        [
+          7490,
+          7491
+        ],
+        [
+          7503,
+          7504
+        ],
+        [
+          7518,
+          7519
+        ],
+        [
+          7533,
+          7534
+        ],
+        [
+          7547,
+          7548
+        ],
+        [
+          7591,
+          7592
+        ]
+      ]
+    },
+    "physical": {
+      "type": "box",
+      "mass": 0.06543,
+      "body_frame_inertia": [
+        [
+          1.513905682578e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.74310922337e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.78313189765e-05
+        ]
+      ],
+      "analytic_inertia": [
+        [
+          1.513905682578e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.7431092233699996e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.78313189765e-05
+        ]
+      ],
+      "inertia_relative_error": 1.2173809627484944e-16,
+      "geom_rbound": 0.03721182042039868
+    },
+    "object_mass": 0.06543,
+    "initial_hand_contact": false,
+    "initial_object_pose": [
+      -0.0018057039482472564,
+      0.08229144745222892,
+      -0.06977157203757593,
+      0.9975795026903618,
+      0.0004615602684582733,
+      -0.0008771624594057704,
+      0.06952807605700574
+    ],
+    "qpos_edits": 0,
+    "qvel_edits": 0,
+    "dt": 0.002,
+    "settle_steps": 100,
+    "final_step": 15300,
+    "elapsed_s": 11.020482100022491
+  },
+  "observer": {
+    "observer_version": "merged-v4-contact-solve-3",
+    "mujoco_version": "3.8.0",
+    "target_body": 22,
+    "target_qadr": 22,
+    "target_vadr": 22,
+    "step_columns": [
+      "step",
+      "solve_time",
+      "dt",
+      "com_x",
+      "com_y",
+      "com_z",
+      "quat_w",
+      "quat_x",
+      "quat_y",
+      "quat_z",
+      "free_qvel_0",
+      "free_qvel_1",
+      "free_qvel_2",
+      "free_qvel_3",
+      "free_qvel_4",
+      "free_qvel_5",
+      "env_count",
+      "env_constraint_count",
+      "env_force_threshold_count",
+      "env_normal_n",
+      "env_abs_force_n",
+      "env_abs_torque_nm",
+      "env_net_force_x",
+      "env_net_force_y",
+      "env_net_force_z",
+      "env_net_torque_x",
+      "env_net_torque_y",
+      "env_net_torque_z",
+      "env_min_dist",
+      "env_dist_present",
+      "env_active_min_dist",
+      "env_active_dist_present",
+      "applied_any",
+      "target_applied_norm",
+      "target_qpos_write",
+      "target_qvel_write",
+      "geometry_clock_error",
+      "contact_start",
+      "contact_end",
+      "target_damping_force_n",
+      "target_damping_torque_nm",
+      "target_damping_post_force_n",
+      "target_damping_post_torque_nm",
+      "passive_meter_residual"
+    ],
+    "contact_columns": [
+      "step",
+      "geom1",
+      "geom2",
+      "body1",
+      "body2",
+      "role",
+      "efc_address",
+      "dim",
+      "dist",
+      "point_x",
+      "point_y",
+      "point_z",
+      "frame_0",
+      "frame_1",
+      "frame_2",
+      "frame_3",
+      "frame_4",
+      "frame_5",
+      "frame_6",
+      "frame_7",
+      "frame_8",
+      "local_fn",
+      "local_ft1",
+      "local_ft2",
+      "local_tn",
+      "local_tt1",
+      "local_tt2",
+      "target_force_x",
+      "target_force_y",
+      "target_force_z",
+      "target_com_torque_x",
+      "target_com_torque_y",
+      "target_com_torque_z"
+    ],
+    "body_roles": [
+      0,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "mass_kg": 0.06543,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "support_paths": {
+      "complete_for_declared_model": true,
+      "reason_codes": [],
+      "metered_paths": [],
+      "requires_passive_meter": false,
+      "scope": "Single free world-child target; direct equality/tendon/actuator/passive paths and applied arrays. Free-joint damping is measured at the solve state and implicit velocity endpoint. No claim to detect malicious plugins or opaque external callbacks."
+    },
+    "applicable": true,
+    "target_damping_coefficients": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "target_body_ipos": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "model_disableflags": 0,
+    "integrator": 0,
+    "damping_enabled": true,
+    "implicit_joint_damping": true,
+    "passive_meter": "Maximum solve-state and implicit-endpoint free-joint damping wrench magnitude; rotational generalized force transformed to world COM. Other passive paths stay unknown.",
+    "snapshot": {
+      "step": 13300,
+      "flag": 16383,
+      "time": 26.599999999996136
+    },
+    "sample_convention": "pre-integration solve state with separately named post states",
+    "force_convention": "contact-frame force/torque acts on geom2; world wrench about target COM",
+    "geometry_clock_max_error": 0.0
+  },
+  "planned_steps": 15300,
+  "terminal_reason": "controller_schedule_completed",
+  "source_id": "allegro_frozen_library",
+  "length_scale_m": 0.03721182042039868,
+  "archive_equivalence": null,
+  "equivalence_pass": null,
+  "trace_sha256": "77dc4a3d4e948643203841e12a8eb531c19517fc89724ee4b4ece8548c5a428c",
+  "job_spec_hash": "9c60bd5c3b10dfa9db851055569c900fcc17b296878b085c3e22b6ea7ca39778",
+  "elapsed_s": 12.261569399968721,
+  "trace_bytes": 18061555,
+  "observer_code_sha256": "03b4db75bf963ba163efc9d15b679a8ca04ec747f0994b72d2af7204ba426d33",
+  "adapter_code_sha256": "68c5365a01f4a6de0f0124cfacb5f676c37158a8413300a6820e17cefda91061",
+  "v3_input_manifest_hash": "8ab9c81ae18cf76e5d8196b30bad6094e755d712e943172f1a6559e702d92d1f",
+  "split_role": "v4_final",
+  "controller_state": "Open-loop command tape for branching; no policy execution on restored branches",
+  "final_state_flag": 16383,
+  "final_time_s": 30.59999999999392
+}

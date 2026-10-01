@@ -1,0 +1,136 @@
+{
+  "case": {
+    "id": "cal_004_dt_double",
+    "base_case": "cal_004",
+    "variant": "dt_double",
+    "parameters": {
+      "mechanism": "opposing_environment",
+      "seed": 51004,
+      "mass": 0.07778226130854149,
+      "half_x": 0.033610168949838065,
+      "half_y": 0.027414454360009267,
+      "half_z": 0.03139079472136804,
+      "pad_friction": 0.7054041621516387,
+      "duration_s": 18.0,
+      "timestep_s": 0.004,
+      "jaw_command": 0.015390100020677672,
+      "gap_m": 0.010587272719244076,
+      "target_tilt_rad": 0.0,
+      "target_offset_y": 0.0,
+      "initial_angular_speed": 0.0,
+      "solver_iterations": 100,
+      "solver_tolerance": 1e-10
+    }
+  },
+  "observer_bit_equal": true,
+  "reference": {
+    "reference_version": "free-box-plane-raw-reference-1",
+    "verdict": "FAIL",
+    "definite_seconds": 0.0,
+    "possible_seconds": 0.0,
+    "no_contact_seconds": 0.0,
+    "geometry_reconstruction_error_m": 2.710505431213761e-20,
+    "wrench_reconstruction_error": 0.0,
+    "common_conditions_agree": true,
+    "independence": "Separate raw wrench, vertex geometry and interval implementations; shared MuJoCo physics and task specification",
+    "human_annotation": false,
+    "external_physical_truth": false
+  },
+  "B5": {
+    "contract_version": "merged-v4-no-external-load-1",
+    "calibration_version": "development-instrumentation-v1-not-frozen",
+    "applicable": true,
+    "trace_validity": "VALID",
+    "no_external_load_verdict": "FAIL",
+    "no_contact_result": "FAIL",
+    "definite_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "possible_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "reason_codes": [
+      "NO_QUALIFYING_CONTINUOUS_INTERVAL"
+    ],
+    "no_contact_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "unknown_sample_count": 0,
+    "max_environment_force_ratio": 23.464463010306048,
+    "max_environment_torque_ratio": 20.1535748120104,
+    "config": {
+      "hold_s": 15.0,
+      "force_pass_ratio": 0.0001,
+      "force_fail_ratio": 0.01,
+      "torque_pass_ratio": 0.0001,
+      "torque_fail_ratio": 0.01,
+      "penetration_tolerance_m": 1e-05,
+      "positive_gap_m": 1e-06,
+      "clock_tolerance_s": 1e-08,
+      "duration_tolerance_s": 1e-09,
+      "version": "development-instrumentation-v1-not-frozen"
+    }
+  },
+  "counterfactual": {
+    "status": "VALID",
+    "sham_bit_equal": true,
+    "horizon_s": 3.0,
+    "t0_s": 7.999999999999562,
+    "continuation": "Recorded controls and mocap, not controller recovery",
+    "endpoint_frame": "world",
+    "reference_body_id": null,
+    "intervention_audit": {
+      "method": "unused_collision_bit",
+      "spare_bit": 8,
+      "preserved_target_hand_pairs": [
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "target_geoms": [
+        5
+      ],
+      "removed_scope": "target_environment_only"
+    },
+    "endpoints": {
+      "sham": {
+        "success": true,
+        "max_position_error_m": 0.0005178470200567498,
+        "max_angle_error_rad": 0.0,
+        "max_linear_speed_m_s": 0.0001726156733456404
+      },
+      "removed": {
+        "success": true,
+        "max_position_error_m": 0.0011808885112521428,
+        "max_angle_error_rad": 0.0,
+        "max_linear_speed_m_s": 0.0003937024721761191
+      }
+    },
+    "cell": "BOTH_RETAIN"
+  },
+  "gradual_withdrawal": {
+    "status": "VALID",
+    "endpoint": {
+      "success": true,
+      "max_position_error_m": 0.0011808885112521428,
+      "max_angle_error_rad": 0.0,
+      "max_linear_speed_m_s": 0.0003937024721761191
+    },
+    "duration_s": 0.2,
+    "distance_m": 0.2,
+    "horizon_s": 3.0,
+    "physics_steps": 750,
+    "intervention": "Cubic mocap-plane position withdrawal opposite each inward normal; collision/friction remain active and original mocap schedule is retained plus offset. Kinematic boundary experiment, not asserted equivalent to collision removal."
+  }
+}

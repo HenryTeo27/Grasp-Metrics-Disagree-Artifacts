@@ -1,0 +1,93 @@
+{
+  "job_id": "555739848b81d855e167",
+  "case_id": "v4_final_cylinder_random_14",
+  "family": "cylinder_random",
+  "rank": 6,
+  "methods": {
+    "B0": {
+      "verdict": "INDETERMINATE",
+      "trace_validity": "INVALID",
+      "reason": "GEOMETRY_RECONSTRUCTION_MISMATCH"
+    },
+    "B1": {
+      "verdict": "INDETERMINATE",
+      "trace_validity": "INVALID",
+      "reason": "GEOMETRY_RECONSTRUCTION_MISMATCH"
+    },
+    "B2": {
+      "verdict": "INDETERMINATE",
+      "trace_validity": "INVALID",
+      "reason": "GEOMETRY_RECONSTRUCTION_MISMATCH"
+    },
+    "B3": {
+      "verdict": "INDETERMINATE",
+      "trace_validity": "INVALID",
+      "reason": "GEOMETRY_RECONSTRUCTION_MISMATCH"
+    },
+    "B4_normal": {
+      "verdict": "INDETERMINATE",
+      "trace_validity": "INVALID",
+      "reason": "GEOMETRY_RECONSTRUCTION_MISMATCH"
+    },
+    "B4": {
+      "verdict": "INDETERMINATE",
+      "trace_validity": "INVALID",
+      "reason": "GEOMETRY_RECONSTRUCTION_MISMATCH"
+    },
+    "B5": {
+      "verdict": "INDETERMINATE",
+      "trace_validity": "INVALID",
+      "reason": "GEOMETRY_RECONSTRUCTION_MISMATCH"
+    },
+    "A_no_geometry": {
+      "verdict": "INDETERMINATE",
+      "trace_validity": "INVALID",
+      "reason": "GEOMETRY_RECONSTRUCTION_MISMATCH"
+    },
+    "A_no_torque": {
+      "verdict": "INDETERMINATE",
+      "trace_validity": "INVALID",
+      "reason": "GEOMETRY_RECONSTRUCTION_MISMATCH"
+    },
+    "A_binary_unknown_fail": {
+      "verdict": "INDETERMINATE",
+      "trace_validity": "INVALID",
+      "reason": "GEOMETRY_RECONSTRUCTION_MISMATCH"
+    },
+    "A_accumulated": {
+      "verdict": "INDETERMINATE",
+      "trace_validity": "INVALID",
+      "reason": "GEOMETRY_RECONSTRUCTION_MISMATCH"
+    },
+    "A_net_aggregation": {
+      "verdict": "INDETERMINATE",
+      "trace_validity": "INVALID",
+      "reason": "GEOMETRY_RECONSTRUCTION_MISMATCH"
+    }
+  },
+  "reference": {
+    "verdict": "NOT_SELECTED",
+    "reason": "INVALID_INPUT",
+    "independent_review_complete": false
+  },
+  "counterfactual": {
+    "status": "NOT_SELECTED",
+    "reason": "INVALID_NOMINAL_TELEMETRY"
+  },
+  "B6": {
+    "status": "NOT_SELECTED"
+  },
+  "B7": {
+    "status": "NOT_SELECTED"
+  },
+  "raw_sha256": "95fd5a53425d2d8bd29697d76937dabd05933d73340c2ff53cc39f715cb5d5c4",
+  "raw_metadata_sha256": "c3217191f3be8e9906f8ebbb925905c621209f7561d9c8a98f009dc1b596ec87",
+  "nominal_physics_steps": 9970,
+  "branch_cost_steps": 0,
+  "elapsed_s": 8.888909600034822,
+  "native_result_retained_but_not_used_as_valid_audit": false,
+  "execution_recovery": {
+    "error": "Independent geometry reconstruction mismatch: 1.1890623624610797e-09",
+    "recovery_sha256": "6ef783c4fd81647c9d5cfd47225df275eae8727dca7b6752aa2f64326b32f887"
+  }
+}

@@ -1,0 +1,71 @@
+\section{Reproducibility and Artifact Boundary}
+\label{sec:artifact}
+\input{generated/artifact}
+
+\section{Detailed Controls and Uncertainty}
+\input{generated/mechanism_table}
+\input{generated/reference_details}
+
+\section{Historical Evidence and Candidate Library}
+\input{generated/history}
+\input{generated/candidate_table}
+\input{generated/distributions}
+
+\section{Implementation and Numerical Qualification}
+The observer reconstructs a target-directed world wrench from
+\texttt{mj\_contactForce}, respecting the geom-2 force convention. Contact
+geometry and force belong to the pre-integration solve state; post-integration
+positions and velocities are stored under separate names. Each record includes
+an integer physical-step index and measured timestamp. Telemetry is not
+decimated for adjudication. Snapshot restoration includes integration state,
+warm starts, controls, applied forces and mocap; the command tape supplies the
+same remaining inputs on both branches. The branch gate uses prefix conditions
+and local $Q$, not whether the future native episode eventually succeeds.
+
+\begin{table}[h]
+\centering\small
+\caption{Frozen no-load and branch parameters. These are measurement-contract
+parameters, not deployment safety limits.}
+\begin{tabularx}{\linewidth}{l Y}
+\toprule
+Parameter & Value or rule\\
+\midrule
+Continuous hold & 15\,s, no interruption tolerance\\
+Force / torque gray band & $[10^{-4},10^{-2}]$ in $mg$ / $mgL$ units\\
+Geometry penetration tolerance & $10^{-5}$\,m\\
+Passive residual tolerance & $10^{-10}$ in generalized-force reconstruction\\
+Counterfactual horizon & 3\,s\\
+Endpoint displacement / rotation / speed & 0.03\,m / 0.35\,rad / 0.2\,m/s, all samples\\
+Future-use continuation & 15\,s, fixed final controls/mocap, environment removal\\
+Static feasibility & Eight friction rays; bounded actuator balance; no temporal prediction theorem\\
+Signed-force probe & Six directions, one extra object weight, 1\,s each; gravity retained\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The original 80 calibration controls contain 25 no-load reference passes and
+55 failures; B4 and B5 match all 80. There are 57 both-retain, 10 dependent and
+13 unreachable development branch states. Thirty-two executions of the first
+eight controls vary nominal/half/double timestep and solver iterations; these
+are repeated numerical conditions, not 32 new scenes. A separate natural
+20-scene development subset has 17 dependent and three both-retain late states;
+the latter carry pre-branch environmental load. All 20 labels remain unchanged
+under the registered development numerical settings. These intentionally
+selected old exclusions do not estimate a natural population prevalence.
+
+The same natural subset is separated by a simple pre-branch load threshold in
+development. We therefore do not introduce a new dependency-prediction model or
+claim that the integrated auditor improves that prediction. Four additional
+single-burst development cases expose 16.9\,s accumulated versus 9.9\,s
+continuous unloaded $Q$. They qualify temporal behavior but are not added to
+the 80 calibration cases. The final protocol preserves all of these data-role
+distinctions.
+
+\section{Research Scope and Disclosure}
+This work used coding-agent assistance for implementation, experiments,
+analysis tooling and manuscript preparation under the author's direction.
+The protocol, scripts and logs record that process; no controlled comparison
+isolates the assistance's causal effect. The author is responsible for the
+scientific claims and should review the exact submission and disclosure
+requirements of the intended venue. The distributed source is a preprint
+layout, not a claim of venue-format or anonymity compliance.

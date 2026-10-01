@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "negative_tests": [
+    "tampered input rejected",
+    "path escape rejected"
+  ],
+  "frozen_unit_tests": "\n.........................................................................................\n----------------------------------------------------------------------\nRan 89 tests in 16.996s\n\nOK\n",
+  "historical_protection": {
+    "protection": "PASS_WITH_AUTHORIZED_RELOCATION",
+    "file_count": 9201,
+    "missing": [],
+    "changed": [],
+    "archive_errors": []
+  },
+  "authorized_archived_files": 10,
+  "frozen_v3": {
+    "frozen_input_count": 317,
+    "archive_mismatches": [],
+    "current_v3_input_mismatches": [],
+    "suite_mismatches": [],
+    "historical_other_runtime_locks": "Previously disclosed failures are not altered"
+  },
+  "historical_recount": {
+    "level": "CSV recount, not dynamic replay",
+    "fresh_scenes": 360,
+    "counts": {
+      "baseline": {
+        "legacy_success": 128,
+        "contiguous_success": 122,
+        "clear_contiguous_success": 37
+      },
+      "repair": {
+        "legacy_success": 141,
+        "contiguous_success": 133,
+        "clear_contiguous_success": 48
+      },
+      "no_extra": {
+        "legacy_success": 128,
+        "contiguous_success": 122,
+        "clear_contiguous_success": 37
+      }
+    },
+    "gains": [
+      "v3_new1_sphere_random_04",
+      "v3_new1_sphere_random_07",
+      "v3_new1_sphere_random_10",
+      "v3_new1_sphere_random_15",
+      "v3_new2_sphere_random_04",
+      "v3_new2_sphere_random_06",
+      "v3_new2_sphere_random_08",
+      "v3_new2_sphere_random_09",
+      "v3_new3_sphere_random_01",
+      "v3_new3_sphere_random_07",
+      "v3_new3_sphere_random_19"
+    ],
+    "losses": [],
+    "exclusions": {
+      "baseline": 85,
+      "repair": 85
+    },
+    "exclusion_intersection": 85,
+    "exclusion_union": 85,
+    "selected_equals_coverage": true
+  },
+  "regenerated_figure_pixels_equal": {
+    "contract_examples": true,
+    "experimental_contrasts": true,
+    "risk_coverage_utility": true
+  },
+  "manuscript_visual_review": "All 12 pages contact sheet; detailed pages 6 and 11 plus all three standalone figures; no clipping/overlap found",
+  "caveat": "Same-workflow release audit, not independent human review"
+}

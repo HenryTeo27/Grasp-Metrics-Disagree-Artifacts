@@ -1,0 +1,68 @@
+{
+  "source_commit": "d9ea6cf282de1f463c20fa54b4f68d7025bad40e",
+  "menagerie_commit": "9da3f77e7ef4cb588cefb3bae7209d20522062d8",
+  "files": [
+    {
+      "path": "third_party\\mujoco_menagerie\\shadow_hand\\LICENSE",
+      "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/9da3f77e7ef4cb588cefb3bae7209d20522062d8/shadow_hand/LICENSE",
+      "sha256": "d42cae9a0f292b7a713597ba26e1e1e23d50df906c488f0d36fd3538af200bc1",
+      "bytes": 11355
+    },
+    {
+      "path": "third_party\\mujoco_menagerie\\shadow_hand\\assets\\f_distal_pst.obj",
+      "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/9da3f77e7ef4cb588cefb3bae7209d20522062d8/shadow_hand/assets/f_distal_pst.obj",
+      "sha256": "350fcd33bc8ead915c0f646c8303d6b7554ad50ce546a128671d8d1fc75d5807",
+      "bytes": 341254
+    },
+    {
+      "path": "third_party\\mujoco_menagerie\\shadow_hand\\assets\\f_knuckle.obj",
+      "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/9da3f77e7ef4cb588cefb3bae7209d20522062d8/shadow_hand/assets/f_knuckle.obj",
+      "sha256": "e997543c6c635fa80d152655869fe1d5bc1000a55f7fb648544a8755f068a075",
+      "bytes": 34351
+    },
+    {
+      "path": "third_party\\mujoco_menagerie\\shadow_hand\\assets\\f_middle.obj",
+      "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/9da3f77e7ef4cb588cefb3bae7209d20522062d8/shadow_hand/assets/f_middle.obj",
+      "sha256": "8e78001a2ff735088cd71e009498ac73e4f966a6055d3bc864db049eacdbda11",
+      "bytes": 25738
+    },
+    {
+      "path": "third_party\\mujoco_menagerie\\shadow_hand\\assets\\f_proximal.obj",
+      "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/9da3f77e7ef4cb588cefb3bae7209d20522062d8/shadow_hand/assets/f_proximal.obj",
+      "sha256": "ec7741fb5a9ee379faec68091de1086ade627b46a73f0a32b3cc09fec72524e3",
+      "bytes": 64846
+    },
+    {
+      "path": "third_party\\mujoco_menagerie\\shadow_hand\\assets\\lf_metacarpal.obj",
+      "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/9da3f77e7ef4cb588cefb3bae7209d20522062d8/shadow_hand/assets/lf_metacarpal.obj",
+      "sha256": "71d5317a6c0a5dcf6070791981f2a4720919d0419d0c17b400aef91343ce6baa",
+      "bytes": 88696
+    },
+    {
+      "path": "third_party\\mujoco_menagerie\\shadow_hand\\assets\\palm.obj",
+      "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/9da3f77e7ef4cb588cefb3bae7209d20522062d8/shadow_hand/assets/palm.obj",
+      "sha256": "614cf65374fafaceb713f4ee711692be6a3a0a7851ff2e720925f3a858cb3882",
+      "bytes": 775747
+    },
+    {
+      "path": "third_party\\mujoco_menagerie\\shadow_hand\\assets\\th_distal_pst.obj",
+      "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/9da3f77e7ef4cb588cefb3bae7209d20522062d8/shadow_hand/assets/th_distal_pst.obj",
+      "sha256": "ca87b937114face76a91810f2ee60ea4fc217b57ffa9a7a7f166169a3ebf7da1",
+      "bytes": 300842
+    },
+    {
+      "path": "third_party\\mujoco_menagerie\\shadow_hand\\assets\\th_middle.obj",
+      "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/9da3f77e7ef4cb588cefb3bae7209d20522062d8/shadow_hand/assets/th_middle.obj",
+      "sha256": "a83bd4451f98d88c6c43ca0bbba30b6fd95b205da13adf9aff5a56c5aff3b4a8",
+      "bytes": 75080
+    },
+    {
+      "path": "third_party\\mujoco_menagerie\\shadow_hand\\assets\\th_proximal.obj",
+      "source": "https://raw.githubusercontent.com/google-deepmind/mujoco_menagerie/9da3f77e7ef4cb588cefb3bae7209d20522062d8/shadow_hand/assets/th_proximal.obj",
+      "sha256": "71ffd5329c80a0cef890da0ff490b8e04200ff53154e5b416ce0be24a6a1b256",
+      "bytes": 23772
+    }
+  ],
+  "method": "Pinned raw asset retrieval after HTTPS submodule clone failed; not a complete submodule checkout",
+  "redistribution": "Excluded pending per-component license review"
+}

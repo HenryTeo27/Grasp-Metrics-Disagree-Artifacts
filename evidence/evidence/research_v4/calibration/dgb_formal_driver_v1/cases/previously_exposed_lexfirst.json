@@ -1,0 +1,722 @@
+{
+  "case": {
+    "case_id": "previously_exposed_lexfirst",
+    "source_input": "output/example_shadow/graspdata/core_bottle_523cddb320608c09a37f3fc191551700/scale006_pose000/0.npy",
+    "input_sha256": "c6e3f0641dec8e9ffaec1b21d308357526b6db6ccc29ad84ceeeb99457afde96",
+    "counterfactual_selected": true,
+    "reference_selected": true
+  },
+  "metadata": {
+    "observer_version": "merged-v4-contact-solve-3",
+    "mujoco_version": "3.3.2",
+    "target_body": 26,
+    "target_qadr": 29,
+    "target_vadr": 28,
+    "step_columns": [
+      "step",
+      "solve_time",
+      "dt",
+      "com_x",
+      "com_y",
+      "com_z",
+      "quat_w",
+      "quat_x",
+      "quat_y",
+      "quat_z",
+      "free_qvel_0",
+      "free_qvel_1",
+      "free_qvel_2",
+      "free_qvel_3",
+      "free_qvel_4",
+      "free_qvel_5",
+      "env_count",
+      "env_constraint_count",
+      "env_force_threshold_count",
+      "env_normal_n",
+      "env_abs_force_n",
+      "env_abs_torque_nm",
+      "env_net_force_x",
+      "env_net_force_y",
+      "env_net_force_z",
+      "env_net_torque_x",
+      "env_net_torque_y",
+      "env_net_torque_z",
+      "env_min_dist",
+      "env_dist_present",
+      "env_active_min_dist",
+      "env_active_dist_present",
+      "applied_any",
+      "target_applied_norm",
+      "target_qpos_write",
+      "target_qvel_write",
+      "geometry_clock_error",
+      "contact_start",
+      "contact_end",
+      "target_damping_force_n",
+      "target_damping_torque_nm",
+      "target_damping_post_force_n",
+      "target_damping_post_torque_nm",
+      "passive_meter_residual"
+    ],
+    "contact_columns": [
+      "step",
+      "geom1",
+      "geom2",
+      "body1",
+      "body2",
+      "role",
+      "efc_address",
+      "dim",
+      "dist",
+      "point_x",
+      "point_y",
+      "point_z",
+      "frame_0",
+      "frame_1",
+      "frame_2",
+      "frame_3",
+      "frame_4",
+      "frame_5",
+      "frame_6",
+      "frame_7",
+      "frame_8",
+      "local_fn",
+      "local_ft1",
+      "local_ft2",
+      "local_tn",
+      "local_tt1",
+      "local_tt2",
+      "target_force_x",
+      "target_force_y",
+      "target_force_z",
+      "target_com_torque_x",
+      "target_com_torque_y",
+      "target_com_torque_z"
+    ],
+    "body_roles": [
+      0,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "mass_kg": 0.09908827764606669,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "support_paths": {
+      "complete_for_declared_model": true,
+      "reason_codes": [],
+      "metered_paths": [],
+      "requires_passive_meter": false,
+      "scope": "Single free world-child target; direct equality/tendon/actuator/passive paths and applied arrays. Free-joint damping is measured at the solve state and implicit velocity endpoint. No claim to detect malicious plugins or opaque external callbacks."
+    },
+    "applicable": true,
+    "target_damping_coefficients": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "target_body_ipos": [
+      5.239494606932685e-06,
+      -0.006216840774252728,
+      1.2067366620540683e-06
+    ],
+    "model_disableflags": 0,
+    "integrator": 3,
+    "damping_enabled": true,
+    "implicit_joint_damping": true,
+    "passive_meter": "Maximum solve-state and implicit-endpoint free-joint damping wrench magnitude; rotational generalized force transformed to world COM. Other passive paths stay unknown.",
+    "snapshot": {
+      "step": 500,
+      "flag": 8191,
+      "time": 2.800000000000002
+    },
+    "sample_convention": "pre-integration solve state with separately named post states",
+    "force_convention": "contact-frame force/torque acts on geom2; world wrench about target COM",
+    "geometry_clock_max_error": 1.7368905267604862e-17,
+    "start_time_s": 0.8000000000000006,
+    "planned_steps": 4500,
+    "global_common": true,
+    "branch_prefix_ok": true,
+    "terminal_reason": "controller_schedule_completed",
+    "reference_body_id": 2,
+    "length_scale_m": 0.06363027968614372,
+    "object_bounds": {
+      "body_frame_min": [
+        -0.024251453733656007,
+        -0.053602573043122825,
+        -0.024212933593220565
+      ],
+      "body_frame_max": [
+        0.024235908737472812,
+        0.05362109895098842,
+        0.02423610991065171
+      ],
+      "length_scale_m": 0.06363027968614372,
+      "convention": "Half diagonal of declared body-frame union bounding box; conservative geom boxes, fixed across poses"
+    },
+    "reference_initial_pose": [
+      0.03129799525781845,
+      -0.06286372287660456,
+      0.13600274226492232,
+      0.6861586787795486,
+      0.42704069714834,
+      -0.16356181196385633,
+      -0.5657473324565161
+    ],
+    "source_input": "output\\example_shadow\\graspdata\\core_bottle_523cddb320608c09a37f3fc191551700\\scale006_pose000\\0.npy",
+    "input_sha256": "c6e3f0641dec8e9ffaec1b21d308357526b6db6ccc29ad84ceeeb99457afde96",
+    "environment_geometry": "No environmental collision geoms or explicit pairs in the native FC model; clearance sentinel 1e10",
+    "source": "DGB static pregrasp/grasp/squeeze example, not a learned acquisition controller",
+    "task_contract": "Added 18s gravity-on continuation after unchanged .8s gravity-off staged closure; fixed squeeze commands/mocap, 15 contiguous seconds with hand contact, relative displacement <=.03m, rotation <=.35rad, world speed <=.2m/s after .5s settling",
+    "native_result_not_used": true,
+    "gravity_disableflag": 0,
+    "elapsed_s": 11.500750200008042
+  },
+  "methods": {
+    "B5": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "development-instrumentation-v1-not-frozen",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "PASS",
+      "no_contact_result": "PASS",
+      "definite_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "possible_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "reason_codes": [],
+      "no_contact_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "unknown_sample_count": 0,
+      "max_environment_force_ratio": 0.0,
+      "max_environment_torque_ratio": 0.0,
+      "max_external_force_ratio": 0.0,
+      "max_external_torque_ratio": 0.0,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "development-instrumentation-v1-not-frozen"
+      }
+    },
+    "B4": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "development-instrumentation-v1-not-frozen",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "PASS",
+      "no_contact_result": "PASS",
+      "definite_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "possible_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "reason_codes": [],
+      "no_contact_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "unknown_sample_count": 0,
+      "max_environment_force_ratio": 0.0,
+      "max_environment_torque_ratio": 0.0,
+      "max_external_force_ratio": 0.0,
+      "max_external_torque_ratio": 0.0,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "development-instrumentation-v1-not-frozen"
+      }
+    },
+    "A_no_geometry": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "development-instrumentation-v1-not-frozen",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "PASS",
+      "no_contact_result": "PASS",
+      "definite_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "possible_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "reason_codes": [],
+      "no_contact_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "unknown_sample_count": 0,
+      "max_environment_force_ratio": 0.0,
+      "max_environment_torque_ratio": 0.0,
+      "max_external_force_ratio": 0.0,
+      "max_external_torque_ratio": 0.0,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "development-instrumentation-v1-not-frozen"
+      }
+    },
+    "A_no_torque": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "development-instrumentation-v1-not-frozen",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "PASS",
+      "no_contact_result": "PASS",
+      "definite_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "possible_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "reason_codes": [],
+      "no_contact_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "unknown_sample_count": 0,
+      "max_environment_force_ratio": 0.0,
+      "max_environment_torque_ratio": 0.0,
+      "max_external_force_ratio": 0.0,
+      "max_external_torque_ratio": 0.0,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "development-instrumentation-v1-not-frozen"
+      }
+    },
+    "A_binary_unknown_fail": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "development-instrumentation-v1-not-frozen",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "PASS",
+      "no_contact_result": "PASS",
+      "definite_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "possible_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "reason_codes": [],
+      "no_contact_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "unknown_sample_count": 0,
+      "max_environment_force_ratio": 0.0,
+      "max_environment_torque_ratio": 0.0,
+      "max_external_force_ratio": 0.0,
+      "max_external_torque_ratio": 0.0,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "development-instrumentation-v1-not-frozen"
+      }
+    },
+    "A_accumulated": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "development-instrumentation-v1-not-frozen",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "PASS",
+      "no_contact_result": "PASS",
+      "definite_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 17.5
+      },
+      "possible_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 17.5
+      },
+      "reason_codes": [],
+      "no_contact_interval": {
+        "start_step": null,
+        "end_step_exclusive": null,
+        "duration_s": 17.5
+      },
+      "unknown_sample_count": 0,
+      "max_environment_force_ratio": 0.0,
+      "max_environment_torque_ratio": 0.0,
+      "max_external_force_ratio": 0.0,
+      "max_external_torque_ratio": 0.0,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "development-instrumentation-v1-not-frozen"
+      }
+    },
+    "A_net_aggregation": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "development-instrumentation-v1-not-frozen",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "PASS",
+      "no_contact_result": "PASS",
+      "definite_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "possible_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "reason_codes": [],
+      "no_contact_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "unknown_sample_count": 0,
+      "max_environment_force_ratio": 0.0,
+      "max_environment_torque_ratio": 0.0,
+      "max_external_force_ratio": 0.0,
+      "max_external_torque_ratio": 0.0,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "development-instrumentation-v1-not-frozen"
+      }
+    },
+    "B0": {
+      "verdict": "PASS",
+      "duration_s": 17.5,
+      "trace_validity": "VALID",
+      "scope": "Added-task accumulated-Q proxy; native task outcome is stored separately"
+    },
+    "B1": {
+      "verdict": "PASS",
+      "duration_s": 17.5,
+      "trace_validity": "VALID",
+      "scope": "Continuous common-Q; environmental load is intentionally not part of this contract"
+    },
+    "B2": {
+      "verdict": "PASS",
+      "duration_s": 17.5,
+      "trace_validity": "VALID"
+    },
+    "B3": {
+      "verdict": "PASS",
+      "duration_s": 17.5,
+      "trace_validity": "VALID"
+    },
+    "B4_normal": {
+      "contract_version": "merged-v4-no-external-load-2",
+      "calibration_version": "development-instrumentation-v1-not-frozen",
+      "applicable": true,
+      "trace_validity": "VALID",
+      "no_external_load_verdict": "PASS",
+      "no_contact_result": "PASS",
+      "definite_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "possible_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "reason_codes": [],
+      "no_contact_interval": {
+        "start_step": 125,
+        "end_step_exclusive": 4500,
+        "duration_s": 17.5
+      },
+      "unknown_sample_count": 0,
+      "max_environment_force_ratio": 0.0,
+      "max_environment_torque_ratio": 0.0,
+      "max_external_force_ratio": 0.0,
+      "max_external_torque_ratio": 0.0,
+      "config": {
+        "hold_s": 15.0,
+        "force_pass_ratio": 0.0001,
+        "force_fail_ratio": 0.01,
+        "torque_pass_ratio": 0.0001,
+        "torque_fail_ratio": 0.01,
+        "penetration_tolerance_m": 1e-05,
+        "positive_gap_m": 1e-06,
+        "clock_tolerance_s": 1e-08,
+        "duration_tolerance_s": 1e-09,
+        "passive_residual_tolerance": 1e-10,
+        "version": "development-instrumentation-v1-not-frozen"
+      }
+    }
+  },
+  "native": {
+    "result": [
+      true,
+      0.0034277122812681345,
+      7.0208148358789835
+    ],
+    "scope": "Unmodified upstream gravity-off signed-force task, not added retention"
+  },
+  "reference": {
+    "reference_version": "external-raw-vertex-passive-reference-1",
+    "verdict": "PASS",
+    "definite_seconds": 17.5,
+    "possible_seconds": 17.5,
+    "common_conditions_agree": true,
+    "geometry_reconstruction_error_m": 0.0,
+    "wrench_reconstruction_error": 0.0,
+    "passive_reconstruction_error": 0.0,
+    "human_annotation": false,
+    "independence": "Separate vertex/force/interval implementations, shared simulator, saved FK and task specification; not real-world truth or blinded human annotation"
+  },
+  "counterfactual": {
+    "status": "VALID",
+    "sham_bit_equal": true,
+    "horizon_s": 3.0,
+    "t0_s": 2.800000000000002,
+    "continuation": "Recorded controls and mocap, not controller recovery",
+    "endpoint_frame": "reference_body",
+    "reference_body_id": 2,
+    "intervention_audit": {
+      "method": "no_op_no_target_environment_permissions",
+      "target_geoms": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "removed_scope": "target_environment_only",
+      "removed_pair_count": 0
+    },
+    "endpoints": {
+      "sham": {
+        "success": true,
+        "max_position_error_m": 1.0204733331455025e-05,
+        "max_angle_error_rad": 0.00047441141318918463,
+        "max_linear_speed_m_s": 5.474752303129379e-06
+      },
+      "removed": {
+        "success": true,
+        "max_position_error_m": 1.0204733331455025e-05,
+        "max_angle_error_rad": 0.00047441141318918463,
+        "max_linear_speed_m_s": 5.474752303129379e-06
+      }
+    },
+    "cell": "BOTH_RETAIN"
+  },
+  "B6": {
+    "status": "NOT_APPLICABLE",
+    "reason": "EQUALITIES_OR_UNBOUNDED_ACTUATORS_REQUIRE_ADAPTER",
+    "physics_steps": 0
+  },
+  "B7": {
+    "status": "VALID",
+    "robust": true,
+    "branches": [
+      {
+        "axis": 0,
+        "sign": -1,
+        "force_n": 0.9720560037079142,
+        "endpoint": {
+          "success": true,
+          "max_position_error_m": 0.00019630613321740847,
+          "max_angle_error_rad": 0.003991281767220519,
+          "max_linear_speed_m_s": 0.0019569673987461273
+        }
+      },
+      {
+        "axis": 0,
+        "sign": 1,
+        "force_n": 0.9720560037079142,
+        "endpoint": {
+          "success": true,
+          "max_position_error_m": 0.00022139311341618049,
+          "max_angle_error_rad": 0.0019683300222924334,
+          "max_linear_speed_m_s": 0.002211638031887339
+        }
+      },
+      {
+        "axis": 1,
+        "sign": -1,
+        "force_n": 0.9720560037079142,
+        "endpoint": {
+          "success": true,
+          "max_position_error_m": 9.175047010821556e-05,
+          "max_angle_error_rad": 0.0016714496334604612,
+          "max_linear_speed_m_s": 0.001121821004744684
+        }
+      },
+      {
+        "axis": 1,
+        "sign": 1,
+        "force_n": 0.9720560037079142,
+        "endpoint": {
+          "success": true,
+          "max_position_error_m": 0.00011265039702672797,
+          "max_angle_error_rad": 0.00305564267889606,
+          "max_linear_speed_m_s": 0.001694161611172924
+        }
+      },
+      {
+        "axis": 2,
+        "sign": -1,
+        "force_n": 0.9720560037079142,
+        "endpoint": {
+          "success": true,
+          "max_position_error_m": 6.389902188567432e-05,
+          "max_angle_error_rad": 0.001917421058813429,
+          "max_linear_speed_m_s": 0.0011792404477940126
+        }
+      },
+      {
+        "axis": 2,
+        "sign": 1,
+        "force_n": 0.9720560037079142,
+        "endpoint": {
+          "success": true,
+          "max_position_error_m": 5.861373302373161e-05,
+          "max_angle_error_rad": 0.00119484752732678,
+          "max_linear_speed_m_s": 0.0008935489213161025
+        }
+      }
+    ],
+    "horizon_s": 1.0,
+    "additional_force_weight_fraction": 1.0,
+    "gravity_unchanged": true,
+    "physics_steps": 1500,
+    "simulated_seconds": 6.0,
+    "elapsed_s": 0.350487100018654,
+    "intervention": {
+      "method": "no_op_no_target_environment_permissions",
+      "target_geoms": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "removed_scope": "target_environment_only",
+      "removed_pair_count": 0
+    },
+    "purpose": "Active six-direction future stability probe; extra cost, not C_NL ground truth"
+  },
+  "observer_bit_equal": true,
+  "trace_sha256": "1a3993971fa1af66fd5e8afc41e88ade183d15e3fad5f55c7d57a916c3dbd9d4",
+  "nominal_physics_steps": 9000,
+  "branch_cost_steps": 3000
+}

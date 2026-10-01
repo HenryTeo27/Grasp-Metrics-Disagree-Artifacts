@@ -1,0 +1,89 @@
+{
+  "case": {
+    "id": "cal_006_nominal",
+    "base_case": "cal_006",
+    "variant": "nominal",
+    "parameters": {
+      "mechanism": "applied_assistance",
+      "seed": 51006,
+      "mass": 0.09534884171762993,
+      "half_x": 0.03170941165833678,
+      "half_y": 0.022332660892983035,
+      "half_z": 0.03248659507399575,
+      "pad_friction": 0.6969140921027842,
+      "duration_s": 18.0,
+      "timestep_s": 0.002,
+      "jaw_command": 0.012153588936264281,
+      "gap_m": 0.011520504059017592,
+      "target_tilt_rad": 0.0,
+      "target_offset_y": 0.0,
+      "initial_angular_speed": 0.0,
+      "solver_iterations": 100,
+      "solver_tolerance": 1e-10
+    }
+  },
+  "observer_bit_equal": true,
+  "reference": {
+    "reference_version": "free-box-plane-raw-reference-1",
+    "verdict": "FAIL",
+    "definite_seconds": 0.0,
+    "possible_seconds": 0.0,
+    "no_contact_seconds": 0.0,
+    "geometry_reconstruction_error_m": 0.0,
+    "wrench_reconstruction_error": 0.0,
+    "common_conditions_agree": true,
+    "independence": "Separate raw wrench, vertex geometry and interval implementations; shared MuJoCo physics and task specification",
+    "human_annotation": false,
+    "external_physical_truth": false
+  },
+  "B5": {
+    "contract_version": "merged-v4-no-external-load-1",
+    "calibration_version": "development-instrumentation-v1-not-frozen",
+    "applicable": true,
+    "trace_validity": "VALID",
+    "no_external_load_verdict": "FAIL",
+    "no_contact_result": "FAIL",
+    "definite_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "possible_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "reason_codes": [
+      "GLOBAL_COMMON_CONDITION_FAILED"
+    ],
+    "no_contact_interval": {
+      "start_step": null,
+      "end_step_exclusive": null,
+      "duration_s": 0.0
+    },
+    "unknown_sample_count": 0,
+    "max_environment_force_ratio": 0.0,
+    "max_environment_torque_ratio": 0.0,
+    "config": {
+      "hold_s": 15.0,
+      "force_pass_ratio": 0.0001,
+      "force_fail_ratio": 0.01,
+      "torque_pass_ratio": 0.0001,
+      "torque_fail_ratio": 0.01,
+      "penetration_tolerance_m": 1e-05,
+      "positive_gap_m": 1e-06,
+      "clock_tolerance_s": 1e-08,
+      "duration_tolerance_s": 1e-09,
+      "version": "development-instrumentation-v1-not-frozen"
+    }
+  },
+  "counterfactual": {
+    "status": "UNREACHABLE",
+    "reason": "COMMON_OR_NO_ASSISTANCE_PRECONDITION_FAILED"
+  },
+  "gradual_withdrawal": {
+    "status": "UNREACHABLE",
+    "reason": "APPLIED_ASSISTANCE_PRESENT",
+    "physics_steps": 0
+  }
+}

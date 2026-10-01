@@ -1,0 +1,11 @@
+{
+  "completed": 720,
+  "invalid_geometry_records": [
+    "2ddbe9ae96604e624158",
+    "2658117c8f62d0ddfac4",
+    "c1963347598f1be128f4",
+    "555739848b81d855e167",
+    "a5eb27b988aecedb0b73"
+  ],
+  "original_protocol_sha256": "ffc60fe94dca45e826c2f864865cbeb7c749b7a11b6f05784b9c6f24b896b9a0"
+}

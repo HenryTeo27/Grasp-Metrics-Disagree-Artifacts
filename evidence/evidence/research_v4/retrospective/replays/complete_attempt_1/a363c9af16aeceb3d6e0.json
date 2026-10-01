@@ -1,0 +1,1000 @@
+{
+  "job": {
+    "job_id": "a363c9af16aeceb3d6e0",
+    "block": "new2",
+    "physics": "compiled",
+    "case": {
+      "case_id": "v3_new2_cube_random_07",
+      "seed": 62320558,
+      "object_xyz": [
+        0.009418,
+        0.083631,
+        -0.034844
+      ],
+      "object_quat": [
+        0.99733933,
+        0.0,
+        0.0,
+        0.07289902
+      ],
+      "object_yaw_rad": 0.145927,
+      "object_geom": {
+        "type": "box",
+        "size": [
+          0.025156,
+          0.025156,
+          0.025156
+        ],
+        "mass": 0.05973,
+        "friction": [
+          0.9,
+          0.015,
+          0.004
+        ],
+        "rgba": [
+          0.2,
+          0.55,
+          0.95,
+          1.0
+        ]
+      }
+    },
+    "family": "cube_random",
+    "candidate": {
+      "anchor": "configs/open_hand_hl/menagerie/allegro_tabletop_cube_core11_staged_support_hold15_anchor_v0.json",
+      "runner": "staged",
+      "derived": false,
+      "derived_finger": 0.0,
+      "derived_thumb": 0.0,
+      "extra_s": 0.5,
+      "thresholds": {
+        "hold_target_s": 15.0,
+        "min_lift_m": 0.004,
+        "max_xy_m": 0.05,
+        "max_force_n": 90.0
+      }
+    }
+  },
+  "result": {
+    "job_id": "a363c9af16aeceb3d6e0",
+    "block": "new2",
+    "physics": "compiled",
+    "family": "cube_random",
+    "case_id": "v3_new2_cube_random_07",
+    "candidate": {
+      "anchor": "configs/open_hand_hl/menagerie/allegro_tabletop_cube_core11_staged_support_hold15_anchor_v0.json",
+      "runner": "staged",
+      "derived": false,
+      "derived_finger": 0.0,
+      "derived_thumb": 0.0,
+      "extra_s": 0.5,
+      "thresholds": {
+        "hold_target_s": 15.0,
+        "min_lift_m": 0.004,
+        "max_xy_m": 0.05,
+        "max_force_n": 90.0
+      }
+    },
+    "metrics": {
+      "first_long_finger_step": 1701,
+      "first_thumb_long_finger_step": 3330,
+      "first_palm_step": -1,
+      "first_lift_step": 1845,
+      "first_lifted_thumb_long_finger_step": 3330,
+      "thumb_long_finger_overlap_s": 23.73999999999772,
+      "lifted_thumb_long_finger_supported_s": 17.150000000001373,
+      "lifted_any_duration_s": 20.119999999999727,
+      "support_hold_lifted_supported_s": 15.200000000001745,
+      "support_ramp_lifted_supported_s": 1.1520000000000008,
+      "max_object_lift_m": 0.0096741492306152,
+      "max_object_xy_displacement_m": 0.03068901602490291,
+      "max_contact_force_n": 2.2372986904091747,
+      "long_finger_contact_duration_s": 26.997999999995915,
+      "thumb_contact_duration_s": 23.73999999999772,
+      "palm_contact_duration_s": 0.0,
+      "thumb_lifted_contact_duration_s": 17.150000000001373,
+      "thumb_max_count": 4,
+      "thumb_max_force_n": 2.2372986904091747,
+      "thumb_bodies": "[\"th_distal\", \"th_tip\"]",
+      "ff_contact_duration_s": 26.997999999995915,
+      "ff_lifted_contact_duration_s": 20.119999999999727,
+      "ff_max_count": 2,
+      "ff_max_force_n": 2.1641570851113046,
+      "ff_bodies": "[\"ff_distal\", \"ff_tip\"]",
+      "mf_contact_duration_s": 0.0,
+      "mf_lifted_contact_duration_s": 0.0,
+      "mf_max_count": 0,
+      "mf_max_force_n": 0.0,
+      "mf_bodies": "[]",
+      "rf_contact_duration_s": 0.0,
+      "rf_lifted_contact_duration_s": 0.0,
+      "rf_max_count": 0,
+      "rf_max_force_n": 0.0,
+      "rf_bodies": "[]",
+      "palm_lifted_contact_duration_s": 0.0,
+      "palm_max_count": 0,
+      "palm_max_force_n": 0.0,
+      "palm_bodies": "[]",
+      "other_contact_duration_s": 0.0,
+      "other_lifted_contact_duration_s": 0.0,
+      "other_max_count": 0,
+      "other_max_force_n": 0.0,
+      "other_bodies": "[]"
+    },
+    "legacy_success": true,
+    "temporal": {
+      "steps": 15200,
+      "dt": 0.002,
+      "legacy_success": true,
+      "accumulated_s": 17.150000000000002,
+      "contiguous_s": 16.352,
+      "clear_contiguous_s": 0.008,
+      "contiguous_success": true,
+      "clear_contiguous_success": false,
+      "environment_contact_s": 29.724,
+      "no_assistance": true,
+      "raw_intervals": [
+        [
+          3330,
+          3729
+        ],
+        [
+          7024,
+          15200
+        ]
+      ],
+      "clear_intervals": [
+        [
+          7026,
+          7027
+        ],
+        [
+          7030,
+          7031
+        ],
+        [
+          7033,
+          7034
+        ],
+        [
+          7037,
+          7039
+        ],
+        [
+          7043,
+          7044
+        ],
+        [
+          7045,
+          7046
+        ],
+        [
+          7049,
+          7050
+        ],
+        [
+          7051,
+          7052
+        ],
+        [
+          7055,
+          7057
+        ],
+        [
+          7060,
+          7061
+        ],
+        [
+          7063,
+          7065
+        ],
+        [
+          7069,
+          7071
+        ],
+        [
+          7073,
+          7074
+        ],
+        [
+          7076,
+          7078
+        ],
+        [
+          7081,
+          7082
+        ],
+        [
+          7083,
+          7084
+        ],
+        [
+          7086,
+          7087
+        ],
+        [
+          7088,
+          7089
+        ],
+        [
+          7091,
+          7093
+        ],
+        [
+          7096,
+          7097
+        ],
+        [
+          7098,
+          7099
+        ],
+        [
+          7101,
+          7103
+        ],
+        [
+          7106,
+          7108
+        ],
+        [
+          7110,
+          7111
+        ],
+        [
+          7112,
+          7113
+        ],
+        [
+          7115,
+          7116
+        ],
+        [
+          7117,
+          7118
+        ],
+        [
+          7120,
+          7122
+        ],
+        [
+          7125,
+          7127
+        ],
+        [
+          7129,
+          7130
+        ],
+        [
+          7131,
+          7132
+        ],
+        [
+          7134,
+          7136
+        ],
+        [
+          7139,
+          7141
+        ],
+        [
+          7143,
+          7144
+        ],
+        [
+          7146,
+          7148
+        ],
+        [
+          7150,
+          7151
+        ],
+        [
+          7153,
+          7155
+        ],
+        [
+          7158,
+          7160
+        ],
+        [
+          7162,
+          7163
+        ],
+        [
+          7164,
+          7165
+        ],
+        [
+          7167,
+          7169
+        ],
+        [
+          7172,
+          7174
+        ],
+        [
+          7177,
+          7179
+        ],
+        [
+          7181,
+          7182
+        ],
+        [
+          7183,
+          7184
+        ],
+        [
+          7186,
+          7187
+        ],
+        [
+          7188,
+          7189
+        ],
+        [
+          7191,
+          7193
+        ],
+        [
+          7196,
+          7197
+        ],
+        [
+          7198,
+          7199
+        ],
+        [
+          7200,
+          7201
+        ],
+        [
+          7203,
+          7204
+        ],
+        [
+          7205,
+          7206
+        ],
+        [
+          7208,
+          7209
+        ],
+        [
+          7210,
+          7211
+        ],
+        [
+          7213,
+          7215
+        ],
+        [
+          7218,
+          7219
+        ],
+        [
+          7220,
+          7221
+        ],
+        [
+          7222,
+          7223
+        ],
+        [
+          7225,
+          7226
+        ],
+        [
+          7228,
+          7230
+        ],
+        [
+          7233,
+          7235
+        ],
+        [
+          7237,
+          7238
+        ],
+        [
+          7240,
+          7242
+        ],
+        [
+          7245,
+          7247
+        ],
+        [
+          7250,
+          7252
+        ],
+        [
+          7254,
+          7255
+        ],
+        [
+          7256,
+          7257
+        ],
+        [
+          7259,
+          7260
+        ],
+        [
+          7261,
+          7262
+        ],
+        [
+          7264,
+          7266
+        ],
+        [
+          7269,
+          7271
+        ],
+        [
+          7274,
+          7276
+        ],
+        [
+          7278,
+          7279
+        ],
+        [
+          7280,
+          7281
+        ],
+        [
+          7283,
+          7284
+        ],
+        [
+          7285,
+          7286
+        ],
+        [
+          7287,
+          7288
+        ],
+        [
+          7290,
+          7291
+        ],
+        [
+          7292,
+          7293
+        ],
+        [
+          7295,
+          7297
+        ],
+        [
+          7300,
+          7302
+        ],
+        [
+          7304,
+          7305
+        ],
+        [
+          7306,
+          7307
+        ],
+        [
+          7309,
+          7311
+        ],
+        [
+          7314,
+          7316
+        ],
+        [
+          7318,
+          7319
+        ],
+        [
+          7320,
+          7321
+        ],
+        [
+          7322,
+          7323
+        ],
+        [
+          7325,
+          7326
+        ],
+        [
+          7327,
+          7328
+        ],
+        [
+          7329,
+          7330
+        ],
+        [
+          7332,
+          7334
+        ],
+        [
+          7337,
+          7339
+        ],
+        [
+          7341,
+          7342
+        ],
+        [
+          7343,
+          7344
+        ],
+        [
+          7345,
+          7346
+        ],
+        [
+          7348,
+          7350
+        ],
+        [
+          7353,
+          7355
+        ],
+        [
+          7357,
+          7359
+        ],
+        [
+          7362,
+          7364
+        ],
+        [
+          7366,
+          7368
+        ],
+        [
+          7371,
+          7373
+        ],
+        [
+          7375,
+          7377
+        ],
+        [
+          7380,
+          7382
+        ],
+        [
+          7383,
+          7384
+        ],
+        [
+          7386,
+          7387
+        ],
+        [
+          7388,
+          7389
+        ],
+        [
+          7391,
+          7393
+        ],
+        [
+          7395,
+          7396
+        ],
+        [
+          7397,
+          7398
+        ],
+        [
+          7400,
+          7402
+        ],
+        [
+          7405,
+          7408
+        ],
+        [
+          7412,
+          7415
+        ],
+        [
+          7418,
+          7420
+        ],
+        [
+          7422,
+          7423
+        ],
+        [
+          7424,
+          7425
+        ],
+        [
+          7427,
+          7429
+        ],
+        [
+          7431,
+          7432
+        ],
+        [
+          7433,
+          7434
+        ],
+        [
+          7436,
+          7438
+        ],
+        [
+          7441,
+          7443
+        ],
+        [
+          7444,
+          7445
+        ],
+        [
+          7447,
+          7448
+        ],
+        [
+          7449,
+          7450
+        ],
+        [
+          7452,
+          7454
+        ],
+        [
+          7457,
+          7460
+        ],
+        [
+          7464,
+          7467
+        ],
+        [
+          7470,
+          7472
+        ],
+        [
+          7475,
+          7478
+        ],
+        [
+          7482,
+          7485
+        ],
+        [
+          7488,
+          7490
+        ],
+        [
+          7492,
+          7494
+        ],
+        [
+          7497,
+          7499
+        ],
+        [
+          7502,
+          7504
+        ],
+        [
+          7507,
+          7509
+        ],
+        [
+          7511,
+          7512
+        ],
+        [
+          7513,
+          7514
+        ],
+        [
+          7515,
+          7516
+        ],
+        [
+          7518,
+          7519
+        ],
+        [
+          7529,
+          7533
+        ],
+        [
+          7535,
+          7536
+        ],
+        [
+          7537,
+          7539
+        ],
+        [
+          7542,
+          7545
+        ],
+        [
+          7548,
+          7550
+        ],
+        [
+          7551,
+          7552
+        ],
+        [
+          7554,
+          7556
+        ],
+        [
+          7558,
+          7560
+        ],
+        [
+          7563,
+          7564
+        ],
+        [
+          7572,
+          7575
+        ],
+        [
+          7578,
+          7581
+        ],
+        [
+          7584,
+          7587
+        ],
+        [
+          7590,
+          7593
+        ],
+        [
+          7595,
+          7597
+        ],
+        [
+          7599,
+          7600
+        ],
+        [
+          7601,
+          7604
+        ],
+        [
+          7606,
+          7607
+        ],
+        [
+          7615,
+          7618
+        ],
+        [
+          7624,
+          7625
+        ],
+        [
+          7627,
+          7628
+        ],
+        [
+          7634,
+          7635
+        ],
+        [
+          7641,
+          7642
+        ]
+      ]
+    },
+    "physical": {
+      "type": "box",
+      "mass": 0.05973,
+      "body_frame_inertia": [
+        [
+          2.5199065059520004e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.5199065059520004e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5199065059520004e-05
+        ]
+      ],
+      "analytic_inertia": [
+        [
+          2.5199065059520004e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.5199065059520004e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          2.5199065059520004e-05
+        ]
+      ],
+      "inertia_relative_error": 0.0,
+      "geom_rbound": 0.04357147011520268
+    },
+    "object_mass": 0.05973,
+    "initial_hand_contact": false,
+    "initial_object_pose": [
+      0.009893280697038547,
+      0.08463673192489023,
+      -0.05502085158108092,
+      0.9973061681779624,
+      -0.00011651494362583653,
+      -0.00025215190521310927,
+      0.07335073113387984
+    ],
+    "qpos_edits": 0,
+    "qvel_edits": 0,
+    "dt": 0.002,
+    "settle_steps": 100,
+    "final_step": 15300,
+    "elapsed_s": 9.35221060004551
+  },
+  "observer": {
+    "observer_version": "merged-v4-contact-solve-1",
+    "step_columns": [
+      "step",
+      "solve_time",
+      "dt",
+      "com_x",
+      "com_y",
+      "com_z",
+      "quat_w",
+      "quat_x",
+      "quat_y",
+      "quat_z",
+      "free_qvel_0",
+      "free_qvel_1",
+      "free_qvel_2",
+      "free_qvel_3",
+      "free_qvel_4",
+      "free_qvel_5",
+      "env_count",
+      "env_constraint_count",
+      "env_force_threshold_count",
+      "env_normal_n",
+      "env_abs_force_n",
+      "env_abs_torque_nm",
+      "env_net_force_x",
+      "env_net_force_y",
+      "env_net_force_z",
+      "env_net_torque_x",
+      "env_net_torque_y",
+      "env_net_torque_z",
+      "env_min_dist",
+      "env_dist_present",
+      "env_active_min_dist",
+      "env_active_dist_present",
+      "applied_any",
+      "target_applied_norm",
+      "target_qpos_write",
+      "target_qvel_write",
+      "geometry_clock_error",
+      "contact_start",
+      "contact_end"
+    ],
+    "contact_columns": [
+      "step",
+      "geom1",
+      "geom2",
+      "body1",
+      "body2",
+      "role",
+      "efc_address",
+      "dim",
+      "dist",
+      "point_x",
+      "point_y",
+      "point_z",
+      "frame_0",
+      "frame_1",
+      "frame_2",
+      "frame_3",
+      "frame_4",
+      "frame_5",
+      "frame_6",
+      "frame_7",
+      "frame_8",
+      "local_fn",
+      "local_ft1",
+      "local_ft2",
+      "local_tn",
+      "local_tt1",
+      "local_tt2",
+      "target_force_x",
+      "target_force_y",
+      "target_force_z",
+      "target_com_torque_x",
+      "target_com_torque_y",
+      "target_com_torque_z"
+    ],
+    "body_roles": [
+      0,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "mass_kg": 0.05973,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "support_paths": {
+      "complete_for_declared_model": true,
+      "reason_codes": [],
+      "scope": "Single free primitive; direct equality/tendon/actuator/passive paths and applied arrays. No claim to detect malicious plugins or opaque external callbacks."
+    },
+    "snapshot": {
+      "step": 4000,
+      "flag": 16383,
+      "time": 7.999999999999341
+    },
+    "sample_convention": "pre-integration solve state with separately named post states",
+    "force_convention": "contact-frame force/torque acts on geom2; world wrench about target COM",
+    "geometry_clock_max_error": 0.0
+  },
+  "planned_steps": 15300,
+  "terminal_reason": "controller_schedule_completed",
+  "source_id": "allegro_frozen_library",
+  "length_scale_m": 0.04357147011520268,
+  "archive_equivalence": {
+    "samples": true,
+    "telemetry": true,
+    "step_index": true,
+    "solve_time": true,
+    "metrics": true,
+    "temporal": true
+  },
+  "equivalence_pass": true,
+  "trace_sha256": "5a9caeb71bc46771ab51c7c55794a77cfc009b1864020d6171760bb5d0d39655",
+  "job_spec_hash": "9e29705bda1e57d9d60e74b0e99642d509853270ed1c62c724888a67a4ab4151",
+  "elapsed_s": 10.532475300016813,
+  "trace_bytes": 18879445,
+  "observer_code_sha256": "220f8095e70026f3e0ecb61ac333316d186b2aff02b9a0295c62826f25af5f39",
+  "adapter_code_sha256": "226f8448fb2b2c56f6b1c69d4571640397d46a985998333fdac77b491c3366aa",
+  "v3_input_manifest_hash": "8ab9c81ae18cf76e5d8196b30bad6094e755d712e943172f1a6559e702d92d1f",
+  "split_role": "retrospective_development",
+  "controller_state": "Open-loop command tape for branching; no policy execution on restored branches"
+}

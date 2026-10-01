@@ -1,0 +1,508 @@
+{
+  "job": {
+    "job_id": "cc26afc8565a710572e9",
+    "block": "new3",
+    "physics": "compiled",
+    "case": {
+      "case_id": "v3_new3_cube_random_10",
+      "seed": 49249858,
+      "object_xyz": [
+        0.001259,
+        0.09481,
+        -0.037149
+      ],
+      "object_quat": [
+        0.99588833,
+        0.0,
+        0.0,
+        0.0905894
+      ],
+      "object_yaw_rad": 0.181428,
+      "object_geom": {
+        "type": "box",
+        "size": [
+          0.022851,
+          0.022851,
+          0.022851
+        ],
+        "mass": 0.05628,
+        "friction": [
+          0.9,
+          0.015,
+          0.004
+        ],
+        "rgba": [
+          0.2,
+          0.55,
+          0.95,
+          1.0
+        ]
+      }
+    },
+    "family": "cube_random",
+    "candidate": {
+      "anchor": "configs/open_hand_hl/menagerie/allegro_tabletop_cube_core11_staged_support_hold15_anchor_v0.json",
+      "runner": "staged",
+      "derived": false,
+      "derived_finger": 0.0,
+      "derived_thumb": 0.0,
+      "extra_s": 0.5,
+      "thresholds": {
+        "hold_target_s": 15.0,
+        "min_lift_m": 0.004,
+        "max_xy_m": 0.05,
+        "max_force_n": 90.0
+      }
+    }
+  },
+  "result": {
+    "job_id": "cc26afc8565a710572e9",
+    "block": "new3",
+    "physics": "compiled",
+    "family": "cube_random",
+    "case_id": "v3_new3_cube_random_10",
+    "candidate": {
+      "anchor": "configs/open_hand_hl/menagerie/allegro_tabletop_cube_core11_staged_support_hold15_anchor_v0.json",
+      "runner": "staged",
+      "derived": false,
+      "derived_finger": 0.0,
+      "derived_thumb": 0.0,
+      "extra_s": 0.5,
+      "thresholds": {
+        "hold_target_s": 15.0,
+        "min_lift_m": 0.004,
+        "max_xy_m": 0.05,
+        "max_force_n": 90.0
+      }
+    },
+    "metrics": {
+      "first_long_finger_step": 1795,
+      "first_thumb_long_finger_step": 3416,
+      "first_palm_step": -1,
+      "first_lift_step": 1915,
+      "first_lifted_thumb_long_finger_step": 3416,
+      "thumb_long_finger_overlap_s": 23.567999999997816,
+      "lifted_thumb_long_finger_supported_s": 16.066000000001974,
+      "lifted_any_duration_s": 19.06800000000031,
+      "support_hold_lifted_supported_s": 15.200000000001745,
+      "support_ramp_lifted_supported_s": 0.5960000000000004,
+      "max_object_lift_m": 0.00824526057478004,
+      "max_object_xy_displacement_m": 0.04179810354131999,
+      "max_contact_force_n": 1.9859501315935602,
+      "long_finger_contact_duration_s": 26.80999999999602,
+      "thumb_contact_duration_s": 23.567999999997816,
+      "palm_contact_duration_s": 0.0,
+      "thumb_lifted_contact_duration_s": 16.066000000001974,
+      "thumb_max_count": 4,
+      "thumb_max_force_n": 1.7537206257816238,
+      "thumb_bodies": "[\"th_distal\", \"th_tip\"]",
+      "ff_contact_duration_s": 26.80999999999602,
+      "ff_lifted_contact_duration_s": 19.06800000000031,
+      "ff_max_count": 2,
+      "ff_max_force_n": 1.9859501315935602,
+      "ff_bodies": "[\"ff_tip\"]",
+      "mf_contact_duration_s": 0.0,
+      "mf_lifted_contact_duration_s": 0.0,
+      "mf_max_count": 0,
+      "mf_max_force_n": 0.0,
+      "mf_bodies": "[]",
+      "rf_contact_duration_s": 0.0,
+      "rf_lifted_contact_duration_s": 0.0,
+      "rf_max_count": 0,
+      "rf_max_force_n": 0.0,
+      "rf_bodies": "[]",
+      "palm_lifted_contact_duration_s": 0.0,
+      "palm_max_count": 0,
+      "palm_max_force_n": 0.0,
+      "palm_bodies": "[]",
+      "other_contact_duration_s": 0.0,
+      "other_lifted_contact_duration_s": 0.0,
+      "other_max_count": 0,
+      "other_max_force_n": 0.0,
+      "other_bodies": "[]"
+    },
+    "legacy_success": true,
+    "temporal": {
+      "steps": 15200,
+      "dt": 0.002,
+      "legacy_success": true,
+      "accumulated_s": 16.066,
+      "contiguous_s": 15.796000000000001,
+      "clear_contiguous_s": 0.036000000000000004,
+      "contiguous_success": true,
+      "clear_contiguous_success": false,
+      "environment_contact_s": 29.554000000000002,
+      "no_assistance": true,
+      "raw_intervals": [
+        [
+          3416,
+          3551
+        ],
+        [
+          7302,
+          15200
+        ]
+      ],
+      "clear_intervals": [
+        [
+          7302,
+          7314
+        ],
+        [
+          7316,
+          7319
+        ],
+        [
+          7321,
+          7323
+        ],
+        [
+          7334,
+          7349
+        ],
+        [
+          7351,
+          7353
+        ],
+        [
+          7354,
+          7355
+        ],
+        [
+          7356,
+          7357
+        ],
+        [
+          7368,
+          7384
+        ],
+        [
+          7387,
+          7391
+        ],
+        [
+          7393,
+          7395
+        ],
+        [
+          7406,
+          7424
+        ],
+        [
+          7426,
+          7427
+        ],
+        [
+          7428,
+          7431
+        ],
+        [
+          7433,
+          7436
+        ],
+        [
+          7438,
+          7441
+        ],
+        [
+          7442,
+          7443
+        ],
+        [
+          7453,
+          7465
+        ],
+        [
+          7470,
+          7476
+        ],
+        [
+          7477,
+          7480
+        ],
+        [
+          7481,
+          7485
+        ],
+        [
+          7486,
+          7491
+        ],
+        [
+          7492,
+          7494
+        ],
+        [
+          7495,
+          7497
+        ],
+        [
+          7506,
+          7515
+        ],
+        [
+          7519,
+          7535
+        ],
+        [
+          7544,
+          7552
+        ],
+        [
+          7555,
+          7567
+        ],
+        [
+          7574,
+          7583
+        ],
+        [
+          7587,
+          7598
+        ],
+        [
+          7604,
+          7614
+        ],
+        [
+          7617,
+          7619
+        ],
+        [
+          7621,
+          7623
+        ],
+        [
+          7625,
+          7626
+        ],
+        [
+          7628,
+          7630
+        ],
+        [
+          7634,
+          7635
+        ],
+        [
+          7636,
+          7637
+        ],
+        [
+          7641,
+          7642
+        ],
+        [
+          7644,
+          7645
+        ],
+        [
+          7651,
+          7652
+        ]
+      ]
+    },
+    "physical": {
+      "type": "box",
+      "mass": 0.05628,
+      "body_frame_inertia": [
+        [
+          1.959175090152e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.959175090152e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.959175090152e-05
+        ]
+      ],
+      "analytic_inertia": [
+        [
+          1.959175090152e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.959175090152e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.959175090152e-05
+        ]
+      ],
+      "inertia_relative_error": 0.0,
+      "geom_rbound": 0.039579093003756415
+    },
+    "object_mass": 0.05628,
+    "initial_hand_contact": false,
+    "initial_object_pose": [
+      0.001258999999736761,
+      0.09481000000143411,
+      -0.05733456520967847,
+      0.9958883273994624,
+      2.9385243308380517e-12,
+      2.676316335984095e-13,
+      0.09058939976344622
+    ],
+    "qpos_edits": 0,
+    "qvel_edits": 0,
+    "dt": 0.002,
+    "settle_steps": 100,
+    "final_step": 15300,
+    "elapsed_s": 9.704881299985573
+  },
+  "observer": {
+    "observer_version": "merged-v4-contact-solve-1",
+    "step_columns": [
+      "step",
+      "solve_time",
+      "dt",
+      "com_x",
+      "com_y",
+      "com_z",
+      "quat_w",
+      "quat_x",
+      "quat_y",
+      "quat_z",
+      "free_qvel_0",
+      "free_qvel_1",
+      "free_qvel_2",
+      "free_qvel_3",
+      "free_qvel_4",
+      "free_qvel_5",
+      "env_count",
+      "env_constraint_count",
+      "env_force_threshold_count",
+      "env_normal_n",
+      "env_abs_force_n",
+      "env_abs_torque_nm",
+      "env_net_force_x",
+      "env_net_force_y",
+      "env_net_force_z",
+      "env_net_torque_x",
+      "env_net_torque_y",
+      "env_net_torque_z",
+      "env_min_dist",
+      "env_dist_present",
+      "env_active_min_dist",
+      "env_active_dist_present",
+      "applied_any",
+      "target_applied_norm",
+      "target_qpos_write",
+      "target_qvel_write",
+      "geometry_clock_error",
+      "contact_start",
+      "contact_end"
+    ],
+    "contact_columns": [
+      "step",
+      "geom1",
+      "geom2",
+      "body1",
+      "body2",
+      "role",
+      "efc_address",
+      "dim",
+      "dist",
+      "point_x",
+      "point_y",
+      "point_z",
+      "frame_0",
+      "frame_1",
+      "frame_2",
+      "frame_3",
+      "frame_4",
+      "frame_5",
+      "frame_6",
+      "frame_7",
+      "frame_8",
+      "local_fn",
+      "local_ft1",
+      "local_ft2",
+      "local_tn",
+      "local_tt1",
+      "local_tt2",
+      "target_force_x",
+      "target_force_y",
+      "target_force_z",
+      "target_com_torque_x",
+      "target_com_torque_y",
+      "target_com_torque_z"
+    ],
+    "body_roles": [
+      0,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "mass_kg": 0.05628,
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "support_paths": {
+      "complete_for_declared_model": true,
+      "reason_codes": [],
+      "scope": "Single free primitive; direct equality/tendon/actuator/passive paths and applied arrays. No claim to detect malicious plugins or opaque external callbacks."
+    },
+    "snapshot": {
+      "step": 4000,
+      "flag": 16383,
+      "time": 7.999999999999341
+    },
+    "sample_convention": "pre-integration solve state with separately named post states",
+    "force_convention": "contact-frame force/torque acts on geom2; world wrench about target COM",
+    "geometry_clock_max_error": 0.0
+  },
+  "planned_steps": 15300,
+  "terminal_reason": "controller_schedule_completed",
+  "source_id": "allegro_frozen_library",
+  "length_scale_m": 0.039579093003756415,
+  "archive_equivalence": {
+    "samples": true,
+    "telemetry": true,
+    "step_index": true,
+    "solve_time": true,
+    "metrics": true,
+    "temporal": true
+  },
+  "equivalence_pass": true,
+  "trace_sha256": "8bc5e5633eca81301683671c5740ddee82613cfe50e126bca5b11ba69097fede",
+  "job_spec_hash": "0d0abf463f9981726a8765c687746c891326dae00baf135771947b41774edade",
+  "elapsed_s": 10.842639599984977,
+  "trace_bytes": 18256186,
+  "observer_code_sha256": "220f8095e70026f3e0ecb61ac333316d186b2aff02b9a0295c62826f25af5f39",
+  "adapter_code_sha256": "226f8448fb2b2c56f6b1c69d4571640397d46a985998333fdac77b491c3366aa",
+  "v3_input_manifest_hash": "8ab9c81ae18cf76e5d8196b30bad6094e755d712e943172f1a6559e702d92d1f",
+  "split_role": "retrospective_development",
+  "controller_state": "Open-loop command tape for branching; no policy execution on restored branches"
+}

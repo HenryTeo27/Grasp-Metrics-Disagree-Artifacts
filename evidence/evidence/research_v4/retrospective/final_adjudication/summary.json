@@ -1,0 +1,19 @@
+{
+  "scope": "Post-hoc union of the identical baseline/repair 85-case V3 exclusions; not 170 independent cases",
+  "candidates": 510,
+  "scenes": 85,
+  "replayed": 177,
+  "common_failure_without_replay": 333,
+  "B5": {
+    "FAIL": 510
+  },
+  "B4": {
+    "FAIL": 510
+  },
+  "rescued_scene_count": 0,
+  "unknown_scene_count": 0,
+  "candidate_reference_missing_for_full_wrench": 333,
+  "interpretation": "Missing wrench evidence in common-condition failures is not presented as measured zero load. Only all-condition verdicts and the declared excluded-scene coverage are complete.",
+  "calibration_version": "merged-v4-calibration-nominal-20261001",
+  "source_sha256": "effaea35616b629dd041f59ef28eebcd9b1bb018ac4e2a42dee71c91112ed83a"
+}

@@ -1,0 +1,18 @@
+{
+  "B0": "Actual native gate for Allegro; accumulated common-Q proxy on added tasks, with native results separate",
+  "B1": "Continuous common-Q",
+  "B2": "Continuous no generated environment-contact records",
+  "B3": "Positive geometric clearance and common-Q",
+  "B4": "Same full per-contact wrench/temporal/unknown logic as B5, without geometry",
+  "B4_normal": "Environment normal load, no torque, same passive meter",
+  "B5": "Common-Q, geometric guard, full wrench and metered passive load, unknowns and integrity",
+  "B6": "Eight-ray friction-cone static feasibility with bounded actuator balance, on fixed CF subset; not historical no-load truth",
+  "B7": "Six signed one-weight world-axis one-second force probes with gravity retained, on fixed CF subset; additional steps charged",
+  "ablations": [
+    "no geometry",
+    "no torque",
+    "net rather than per-contact aggregation",
+    "binary unknown failure",
+    "accumulated rather than contiguous"
+  ]
+}

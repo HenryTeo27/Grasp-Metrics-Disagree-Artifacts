@@ -1,0 +1,31 @@
+{
+  "n": 20,
+  "stable_cases": 20,
+  "by_variant": {
+    "nominal": {
+      "DEPENDENT": 17,
+      "BOTH_RETAIN": 3
+    },
+    "half_dt": {
+      "DEPENDENT": 17,
+      "BOTH_RETAIN": 3
+    },
+    "double_dt": {
+      "DEPENDENT": 17,
+      "BOTH_RETAIN": 3
+    },
+    "half_iterations": {
+      "DEPENDENT": 17,
+      "BOTH_RETAIN": 3
+    }
+  },
+  "B6_status": {
+    "NOT_APPLICABLE": 20
+  },
+  "B7_values": {
+    "False": 17,
+    "True": 3
+  },
+  "B7_physics_steps": 60000,
+  "interpretation": "Exclusion-selected development cases, not a natural prevalence estimate or unseen accuracy test"
+}

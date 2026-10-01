@@ -1,0 +1,11 @@
+{
+  "source_hashes": {
+    "calibration.py": "59b92f4d921e5adc219e8428efc580aa3e77779a141c6d49bcf86febbbae4904",
+    "controls.py": "f3656d3876f3afa1c2672c7ebe8df0c6e4f6bd451b5fb13280b75dd1811a60ae",
+    "control_reference.py": "212166d186c37fbe7ab796658d0eb4457f94f6a69d0f8d04bd2c72f947d3be42",
+    "counterfactual.py": "999c6ccafe16825e20f38f9fe8f734f25fe4c281844bdf697b3c2b5498a47475",
+    "contact_observer.py": "eedd1bdb56462b83457bf2abf0b984ff97e3a3c52f4b999a1acd04132b8529b8",
+    "contracts.py": "b74d821fd0b3a2d75aa49a5db46f67ceb722656f4c7047bdc3c3106948897515"
+  },
+  "design_sha256": "69da59eceb14e924eb7e44ce6612a90d36048da6e2023ee9301e7c996a2d0761"
+}

@@ -1,0 +1,12 @@
+source,role,assigned_units,independence_boundary,may_tune_now,may_claim_fresh
+V2 and V3,retrospective development,85 excluded scenes,same protected historical scenes,False,False
+V4 calibration,development qualification,80 controls,32 numerical variants and pilots are not new scenes,False,False
+Formal controls,locally frozen final,240,30 initializations within each of eight apparatus groups,False,True
+Representation properties,paired formal diagnostic,8,reruns of existing inactive-margin cases not extra independent scenes,False,False
+Allegro nominal,locally frozen final,120,720 executions clustered into six candidates per scene and six families,False,True
+Fetch nominal,locally frozen final,100,native-goal seeds under one expert and robot model,False,True
+DGB nominal,locally frozen final,100,25 library records in each of four held-out object identities,False,True
+Natural reference samples,probability subsamples,90,30 from each natural source no added N,False,False
+Counterfactual branches,preselected paired subsamples,108,48 plus 20 plus 20 plus 20 no added N,False,False
+U2 future,post-seal independent endpoint,720,same 120 scenes; 715 valid continuations and five invalid inputs,False,False
+Release dynamic checks,technical replication,4,fixed first source case in existing isolated runtime not new evidence,False,False
