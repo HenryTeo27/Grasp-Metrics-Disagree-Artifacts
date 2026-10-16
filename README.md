@@ -4,6 +4,8 @@
 
 **Teo Ee Hern · Tianjin University · Research artifact, V4.5**
 
+DOI : https://doi.org/10.5281/zenodo.23420415
+
 [Main paper](paper/main.pdf) | [Supplement](paper/supplement.pdf) | [LaTeX source](paper/latex_source.zip) | [Versioned downloads](https://github.com/HenryTeo27/Grasp-Metrics-Disagree-Artifacts/releases/tag/v4.5)
 
 Grasp contact, mechanical load support, and later task retention measure different
